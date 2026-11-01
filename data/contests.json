@@ -10,12 +10,12 @@
  "counts": {
   "total": 209,
   "verified": 8,
-  "partial": 11,
+  "partial": 12,
   "flagged": 9,
-  "unverified": 180,
-  "closed": 1,
-  "free": 19,
-  "cash": 15,
+  "unverified": 178,
+  "closed": 2,
+  "free": 21,
+  "cash": 17,
   "start": 7,
   "no_off": 12
  },
@@ -898,24 +898,39 @@
    "name": "BullRush Trading Competitions",
    "category": "market",
    "categoryName": "Market competitions",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
-   "prize": {},
+   "tier": "avoid",
+   "free": {
+    "status": "confirmed",
+    "text": "Only the hourly competitions and some weekend events are free; daily entry is $5, weekly $10 and the monthly main event $50. The ledger's 'free to enter' framing only holds for the free tier.",
+    "quote": "1 Free Hourly Competitions ... No entry fee, no re-buys ... 2 Daily Competitions - Free or $5 Entry ... 3 Weekly Competitions - Free to Enter or $10 Entry ... 4 Monthly Tournament - Free or $50 Entry",
+    "url": "https://bullrush.com/competition-types/"
+   },
+   "prize": {
+    "status": "confirmed",
+    "text": "Headline prize is a $101,000 pool made up mostly of simulated prop-firm accounts (50K/25K/15K/5K) plus a share of the entry-fee pool; only a minority is described as cash rewards.",
+    "quote": "$100,000+ Prize Pool. Prizes include BR Prop Accounts and cash rewards ... $50K Prop Account + 50% of Prize Pool",
+    "url": "https://bullrush.com/competition-types/"
+   },
    "deadline": {},
    "eligibility": {},
    "ai": {},
    "payout": {},
    "deadline_iso": null,
-   "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "prize_value": 101000,
+   "summary": "Prop-firm trading contest: free hourly rounds exist, but the $101K monthly event charges $50 to enter and pays mostly in simulated funded accounts, not cash.",
+   "flags": [
+    "Entry fee applies to the daily, weekly and monthly brackets, so it is not a free-to-enter cash competition.",
+    "Headline prize is largely prop-account credit tied to a funded-account programme, not withdrawable cash.",
+    "Prize pool is partly funded by other entrants' fees (-20% rake on Profit Rush)."
+   ],
    "sources": [
     {
-     "title": "BullRush — Competition types (official)",
+     "title": "BullRush competition types (official)",
      "url": "https://bullrush.com/competition-types/",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     },
     {
      "title": "BullRush — Terms of Use (official)",
@@ -924,7 +939,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$101,000 monthly tournament in prop accounts + prize pool; free hourly competitions",
     "status": "live",
@@ -1787,20 +1802,60 @@
    "name": "Environmental Photographer of the Year (EPOTY)",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "closed",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
-   "prize": {},
-   "deadline": {},
-   "eligibility": {},
-   "ai": {},
+   "tier": "avoid",
+   "free": {
+    "status": "confirmed",
+    "text": "Free to enter for professionals and amateurs worldwide, no fee stated anywhere in the rules.",
+    "quote": "The competition is free to enter for professional and amateur photographers of all ages, from all over the world.",
+    "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year"
+   },
+   "prize": {
+    "status": "confirmed",
+    "text": "GBP 1,000 for the overall title plus GBP 500 for each of the four category winners (about GBP 3,000 in cash total). The ledger's claim of a GBP 5,000 overall prize and GBP 1,000 per category is not what the 2025 official programme publishes.",
+    "quote": "Environmental Photographer of the Year (£1,000 cash prize) ... From source to sea - working at different scales (£500 cash prize) ... Inspired by nature (£500 cash prize) ... Deluge or drought (£500 cash prize) ... Models of stewardship (£500 cash prize)",
+    "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year"
+   },
+   "deadline": {
+    "status": "confirmed",
+    "text": "2025 edition closed 28 September 2025, 18:59 BST (the programme page shows 'The deadline has passed September 28, 2025'). No 2026 dates published at the time of checking.",
+    "quote": "The deadline has passed September 28, 2025 at 6:59 AM ... Submit before the deadline of 23:59 BST on Sunday 28 September.",
+    "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year"
+   },
+   "eligibility": {
+    "status": "confirmed",
+    "text": "Open worldwide, all ages and experience levels; photo must be taken on or after 1 January 2023; entrant must own the copyright; no children under 18 in the frame.",
+    "quote": "Your photograph must be taken on or after 1 January 2023. ... You must be the sole author and owner of the copyright ... You may not include children or young people under the age of 18 in your photo.",
+    "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year"
+   },
+   "ai": {
+    "status": "confirmed",
+    "text": "AI-generated or AI-edited imagery is banned.",
+    "quote": "You may not make any use of artificial intelligence (AI) to create or edit a photo.",
+    "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year"
+   },
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Free-to-enter UN-backed environmental photography prize, but the 2025 edition closed on 28 September 2025 and the official cash is far smaller than the ledger claims: GBP 1,000 overall plus GBP 500 per category, not GBP 5,000 plus GBP 1,000 per category.",
+   "flags": [
+    "Prize amount in the source ledger (GBP 5,000 overall, GBP 1,000 per category) is contradicted by the official 2025 programme page (GBP 1,000 overall, GBP 500 per category).",
+    "2025 edition is closed; no 2026 dates published yet, so the listing is not actionable today."
+   ],
    "sources": [
+    {
+     "title": "Environmental Photographer of the Year 2025 - programme page (official, CIWEM)",
+     "url": "https://www.epoty.org/programs/the-environmental-photographer-of-the-year",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "EPOTY home page (official)",
+     "url": "https://www.epoty.org/",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
     {
      "title": "EPOTY — official site",
      "url": "https://epoty.org/",
@@ -1808,7 +1863,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "£5,000 (EPOTY); £1,000 per category; Nikon gear for Young EPOTY",
     "status": "live",
@@ -9226,25 +9281,36 @@
    "name": "Zindi",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "flagged",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "avoid",
+   "tier": "reference",
    "free": {},
    "prize": {},
    "deadline": {},
-   "eligibility": {},
+   "eligibility": {
+    "status": "confirmed",
+    "text": "Open to the public except Zindi staff/family and host-company employees; teams of up to four; no AutoML.",
+    "quote": "All members of the public are permitted to participate in any Zindi competition, unless: They are a full-time or contracted employee of Zindi ... You may participate in competitions as an individual or in a team of up to four people.",
+    "url": "https://zindi.world/rules"
+   },
    "ai": {},
-   "payout": {},
+   "payout": {
+    "status": "confirmed",
+    "text": "Prizes exist on some challenges and are paid to the winner after code verification; the winner assigns copyright of the solution to Zindi.",
+    "quote": "In a prized competition, if your solution places 1st, 2nd, or 3rd on the final leaderboard, you will be required to submit your winning solution code to us for verification, and you thereby agree to assign all worldwide rights of copyright in and to such winning solution to Zindi",
+    "url": "https://zindi.world/rules"
+   },
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "The ledger's rules link returns a 404 error page. No replacement URL was guessed — the row stays unverified until someone finds the current rules page.",
+   "summary": "Legitimate data-science platform with real prize challenges, but the rules page never states that entry is free and the top solutions must hand over copyright; per-challenge prize amounts still need checking one by one.",
    "flags": [
-    "Cited rules URL returns '404 page not found'.",
-    "No replacement URL guessed."
+    "No official statement that entry is free of charge - left blank as unverified.",
+    "Winning solutions must assign worldwide copyright to Zindi, which matters for reuse.",
+    "Supersedes an earlier parallel pass that got '404 page not found' from the same URL: on 2026-11-01 the rules page returned full text, so the earlier 404 was a retrieval failure, not a dead link."
    ],
    "sources": [
     {
-     "title": "Inherited rules URL",
+     "title": "Zindi challenge rules (official)",
      "url": "https://zindi.world/rules",
      "tier": "official",
      "checked": "2026-11-01"

@@ -27,16 +27,18 @@ verbatim excerpts of the retrieved page, not paraphrases.
 | `nascar-fantasy-live` | NASCAR Fantasy Live | partial | confirmed | not stated | not stated | 2026-11-01 |
 | `tradingview-leap` | TradingView — The Leap | partial | confirmed | CONTRADICTED | confirmed | 2026-11-01 |
 | `vocal` | Vocal Challenges | partial | confirmed | not stated | not stated | 2026-11-01 |
+| `zindi` | Zindi | partial | - | - | - | 2026-11-01 |
 | `aicrowd` | AIcrowd Challenges | flagged | not stated | not found | confirmed | 2026-11-01 |
 | `andys-predictor` | Andy's Bet Club £1M Predictor | flagged | confirmed | confirmed | confirmed | 2026-11-01 |
+| `bullrush` | BullRush Trading Competitions | flagged | confirmed | confirmed | - | 2026-11-01 |
 | `dirty-dozen` | Dirty Dozen (Gambling.com) | flagged | not found | not found | not found | 2026-11-01 |
 | `espn-survivor` | ESPN NFL Survivor | flagged | confirmed | not stated | confirmed | 2026-11-01 |
 | `film-prize` | Louisiana Film Prize (Prize Fest) | flagged | not found | not found | not found | 2026-11-01 |
 | `herox` | HeroX / Challenge.gov | flagged | not stated | not found | not found | 2026-11-01 |
 | `tom-howard-poetry` | Tom Howard/Margaret Reid Poetry Contest | flagged | CONTRADICTED | confirmed | confirmed | 2026-11-01 |
 | `young-lions` | Young Lions Fiction Award (NYPL) | flagged | not stated | not stated | confirmed | 2026-11-01 |
-| `zindi` | Zindi | flagged | not found | not found | not found | 2026-11-01 |
 | `arcprize` | ARC Prize (via Kaggle) | closed | confirmed | confirmed | confirmed | 2026-11-01 |
+| `epoty` | Environmental Photographer of the Year (EPOTY) | closed | confirmed | confirmed | confirmed | 2026-11-01 |
 | `topcoder` | Topcoder | unverified | not stated | not stated | not stated | 2026-11-01 |
 
 ## What the quotes say, entry by entry
@@ -97,6 +99,17 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://arcprize.org/competitions/2026>
 
 *Flags:* Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.; Awards are discretionary, not a fixed prize table.; Submissions close within a day of this audit.; ARC-AGI-2 entry and team-merger deadline passed on 2026-10-26; only final submissions (2026-11-02) remain for teams already entered.; ARC-AGI-3's $850,000 figure was not re-read in either pass - unverified.
+
+### BullRush Trading Competitions (`bullrush`)
+
+*Assessment:* Prop-firm trading contest: free hourly rounds exist, but the $101K monthly event charges $50 to enter and pays mostly in simulated funded accounts, not cash.
+
+- **Free entry** — confirmed. > 1 Free Hourly Competitions ... No entry fee, no re-buys ... 2 Daily Competitions - Free or $5 Entry ... 3 Weekly Competitions - Free to Enter or $10 Entry ... 4 Monthly Tournament - Free or $50 Entry  
+  <https://bullrush.com/competition-types/>
+- **Cash prize** — confirmed. > $100,000+ Prize Pool. Prizes include BR Prop Accounts and cash rewards ... $50K Prop Account + 50% of Prize Pool  
+  <https://bullrush.com/competition-types/>
+
+*Flags:* Entry fee applies to the daily, weekly and monthly brackets, so it is not a free-to-enter cash competition.; Headline prize is largely prop-account credit tied to a funded-account programme, not withdrawable cash.; Prize pool is partly funded by other entrants' fees (-20% rake on Profit Rush).
 
 ### CBS Sports Pro Football Pick'em (`cbs-pro-pickem`)
 
@@ -211,6 +224,23 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://www.drivendata.org/competitions/>
 
 *Flags:* Free entry is not stated on the DrivenData directory.; The ledger's 'often $10,000-$200,000' range is stale: the one open prize competition is $300,000.
+
+### Environmental Photographer of the Year (EPOTY) (`epoty`)
+
+*Assessment:* Free-to-enter UN-backed environmental photography prize, but the 2025 edition closed on 28 September 2025 and the official cash is far smaller than the ledger claims: GBP 1,000 overall plus GBP 500 per category, not GBP 5,000 plus GBP 1,000 per category.
+
+- **Free entry** — confirmed. > The competition is free to enter for professional and amateur photographers of all ages, from all over the world.  
+  <https://www.epoty.org/programs/the-environmental-photographer-of-the-year>
+- **Cash prize** — confirmed. > Environmental Photographer of the Year (£1,000 cash prize) ... From source to sea - working at different scales (£500 cash prize) ... Inspired by nature (£500 cash prize) ... Deluge or drought (£500 cash prize) ... Models of stewardship (£500 cash prize)  
+  <https://www.epoty.org/programs/the-environmental-photographer-of-the-year>
+- **Deadline** — confirmed. > The deadline has passed September 28, 2025 at 6:59 AM ... Submit before the deadline of 23:59 BST on Sunday 28 September.  
+  <https://www.epoty.org/programs/the-environmental-photographer-of-the-year>
+- **Eligibility** — confirmed. > Your photograph must be taken on or after 1 January 2023. ... You must be the sole author and owner of the copyright ... You may not include children or young people under the age of 18 in your photo.  
+  <https://www.epoty.org/programs/the-environmental-photographer-of-the-year>
+- **AI rules** — confirmed. > You may not make any use of artificial intelligence (AI) to create or edit a photo.  
+  <https://www.epoty.org/programs/the-environmental-photographer-of-the-year>
+
+*Flags:* Prize amount in the source ledger (GBP 5,000 overall, GBP 1,000 per category) is contradicted by the official 2025 programme page (GBP 1,000 overall, GBP 500 per category).; 2025 edition is closed; no 2026 dates published yet, so the listing is not actionable today.
 
 ### ESPN NFL Pick'em (`espn-pickem`)
 
@@ -594,22 +624,14 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 ### Zindi (`zindi`)
 
-*Assessment:* The ledger's rules link returns a 404 error page. No replacement URL was guessed — the row stays unverified until someone finds the current rules page.
+*Assessment:* Legitimate data-science platform with real prize challenges, but the rules page never states that entry is free and the top solutions must hand over copyright; per-challenge prize amounts still need checking one by one.
 
-- **Free entry** — not found. > Retrieved page content reads '404 page not found'; no rules text was available.  
+- **Eligibility** — confirmed. > All members of the public are permitted to participate in any Zindi competition, unless: They are a full-time or contracted employee of Zindi ... You may participate in competitions as an individual or in a team of up to four people.  
   <https://zindi.world/rules>
-- **Cash prize** — not found. > Not available at the cited URL.  
-  <https://zindi.world/rules>
-- **Deadline** — not found. > Not available at the cited URL.  
-  <https://zindi.world/rules>
-- **Eligibility** — not found. > Not available at the cited URL.  
-  <https://zindi.world/rules>
-- **AI rules** — not found. > Not available at the cited URL.  
-  <https://zindi.world/rules>
-- **Payment** — not found. > Not available at the cited URL.  
+- **Payment** — confirmed. > In a prized competition, if your solution places 1st, 2nd, or 3rd on the final leaderboard, you will be required to submit your winning solution code to us for verification, and you thereby agree to assign all worldwide rights of copyright in and to such winning solution to Zindi  
   <https://zindi.world/rules>
 
-*Flags:* Cited rules URL returns '404 page not found'.; No replacement URL guessed.
+*Flags:* No official statement that entry is free of charge - left blank as unverified.; Winning solutions must assign worldwide copyright to Zindi, which matters for reuse.; Supersedes an earlier parallel pass that got '404 page not found' from the same URL: on 2026-11-01 the rules page returned full text, so the earlier 404 was a retrieval failure, not a dead link.
 
 ## Upstream provenance
 

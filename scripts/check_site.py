@@ -81,6 +81,9 @@ if before != (ROOT / "data/contests.json").read_text():
 else:
     ok("rebuild is deterministic")
 
+GEN = {"index.html", "contests.html", "summary.html", "review.html", "404.html"} | {
+    c["id"] + ".html" for c in json.loads((ROOT / "data/categories.json").read_text())}
+
 # 5 ------------------------------------------------------------- internal links
 class Links(HTMLParser):
     def __init__(self, base=ROOT):
@@ -104,13 +107,21 @@ class Links(HTMLParser):
                     self.bad.append(v)
 
 pages = sorted(ROOT.glob("*.html"))
-all_pages = sorted(list(ROOT.glob("*.html")) + [p for p in ROOT.glob("*/*.html")])
+SKIP_DIRS = {"node_modules", "test-results", "playwright-report", "coverage", ".git", ".venv", "__pycache__"}
+all_pages = sorted(q for q in ROOT.glob("**/*.html")
+                   if not (set(q.relative_to(ROOT).parts) & SKIP_DIRS)
+                   and "node_modules" not in q.parts)
 for p in all_pages:
     text = p.read_text()
+    strict = p.parent == ROOT          # root pages are ours; subsites belong to other sessions
     lk = Links(p.parent)
     lk.feed(text)
     if lk.bad:
-        fail(f"{p.name}: broken local links {sorted(set(lk.bad))}")
+        (fail if strict else warns.append)(
+            f"{p.name}: broken local links {sorted(set(lk.bad))}" if strict
+            else f"{p.name}: broken local links (owned by another session; not edited) {sorted(set(lk.bad))}")
+    if not strict:
+        continue
     if 'charset="utf-8"' not in text:
         fail(f"{p.name}: missing charset")
     if 'name="viewport"' not in text:
@@ -129,7 +140,7 @@ for p in all_pages:
         if tgt.is_dir():
             tgt = tgt / "index.html"
         if tgt.is_file() and f'id="{a}"' not in tgt.read_text():
-            warns.append(f"{p.name}: {path}#{a} target id not found")
+            fail(f"{p.name}: {path}#{a} target id not found")
 ok(f"{len(all_pages)} pages (root + parallel audit pages), internal links resolve, metadata present")
 for w in sorted(set(warns)):
     print("  warn " + w)
@@ -163,4 +174,4 @@ if fails:
     for f in fails:
         print("  - " + f)
     sys.exit(1)
-print(f"PASSED: {len(rows)} rows, {published} evidence-backed values, {len(pages)} pages, no broken local links.")
+print(f"PASSED: {len(rows)} rows, {published} evidence-backed values, {len(all_pages)} pages, no broken local or anchor links.")

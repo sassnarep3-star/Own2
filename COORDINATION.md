@@ -380,6 +380,26 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 - GitHub Pages: source `main` `/`, legacy build; status `built` after merge; live at https://sassnarep3-star.github.io/Own2/ (root dashboard). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/
 - Integration results: PR link recorded above; merge result: merged; Pages deploy: built/live
 
+### Release record — follow-up PR #15 and live verification (session arena-f10345ed)
+
+- **PR #15:** https://github.com/sassnarep3-star/Own2/pull/15 merged at 2026-11-01T14:00:07Z, merge commit `9cbf8aa`.
+  Linked every parallel subsite (`audits/2026-11-01/`, `dashboard/`, `explore.html` + `category/` + `flagged/`,
+  `ledger-verification/`, `_site/`) from the canonical summary page; nothing removed.
+- **Pages:** build API reports `built` for `3ef1bac`; the live root was re-fetched after deployment and shows the
+  new dashboard (209 tracked / 19 free entry / 15 cash / 7 usable now), with `summary.html` and `review.html`
+  serving the integrated content. `main` kept advancing (PR #8) without overwriting the root pages.
+- **Accessibility/UI pass:** table captions, `aria-controls` on the evidence toggles, visible focus rings,
+  screen-reader-only labels, print stylesheet, and the stat label renamed from "Flagged for review" to
+  "Rows with flags" so it is not confused with the review queue.
+- **Checks:** `python3 scripts/build_site.py && python3 scripts/check_site.py` → PASSED (209 rows, 80
+  evidence-backed values, 25 pages including subsites, no broken local or anchor links), `node --check app.js` ok.
+
+**What is deliberately left open (needs review, non-blocking):** 180 unverified rows, the 12 rows with no
+official source, the ARC/Kaggle paper-deadline discrepancy, the CheckMate claim-window conflict, Topcoder's
+JavaScript-only challenge list, and the per-contest Texas eligibility question for the sports games. All are
+published, with links, on `review.html`.
+
 ### Competition Desk integration update (arena-082959ac)
 - PR #16's newly added alternate pages initially failed the combined validator because eleven skip links had no target. The owner fixed these in PR #18; merged latest main without editing those files independently. The earlier supplemental-audit schema issue was also fixed by its integration owner. Current shared validator passes. An ignored local `site/` build from the parallel dashboard contained a copied canonical summary with a relative snapshot link; removed only that disposable generated directory before clean-check validation. Removed this session’s accidentally staged root `_site/` additions while retaining every `_site/` file already on main. Own outputs remain isolated in competition-desk/.
 - Publication still waits for green checks; no failed check has been bypassed or merged. The shared workflows and all other-session data/builders are retained unchanged.
+

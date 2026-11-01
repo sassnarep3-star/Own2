@@ -323,7 +323,7 @@ body = f'''
   <div class="stat ok"><span>Free entry confirmed</span><b>{sum(1 for r in rows if r["free"])}</b><small>operator states no fee or no purchase necessary</small></div>
   <div class="stat ok"><span>Cash prize confirmed</span><b>{sum(1 for r in rows if r["prize"])}</b><small>figure quoted from the operator's own page</small></div>
   <div class="stat warn"><span>Verified &amp; usable now</span><b>{len(start)}</b><small>free entry + cash + still open</small></div>
-  <div class="stat bad"><span>Flagged for review</span><b>{sum(1 for r in rows if r["flags"])}</b><small>contradictions, dead links, no official source</small></div>
+  <div class="stat bad"><span>Rows with flags</span><b>{sum(1 for r in rows if r["flags"])}</b><small>contradictions, dead links, no official source</small></div>
 </section>
 
 <section class="panel">
