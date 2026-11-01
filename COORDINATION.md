@@ -10,11 +10,11 @@ Shared task board for all agent sessions working on this repo. Read before start
 
 | Task | Status | Owner (session) | Files touched | Notes |
 |---|---|---|---|---|
-| T1 Repo review and irregularity log | in progress | 205d508d | `COORDINATION.md`, `data/review.json` | Repo review and source-repo review (see Log). |
-| T2 Snapshot and normalize source ledger | in progress | 205d508d | `data/source/*` | Snapshot of upstream `assets/data.js` (206 listings). |
-| T3 Line-by-line verification against official sources | in progress | 205d508d | `data/review.json` | Partial: 11 rows checked on official pages; the rest are unverified and flagged. |
-| T4 Site build (landing, category pages, table, flagged, executive summary) | in progress | 205d508d | `scripts/build.mjs`, `scripts/check.mjs`, `site/**` | Static site generated to `_site/`. |
-| T5 GitHub Pages deploy workflow | in progress | 205d508d | `.github/workflows/pages.yml`, `.gitignore`, `README.md` | |
+| T1 Repo review and irregularity log | done | 205d508d | `COORDINATION.md`, `data/review.json` | Repo review and source-repo review (see Log). |
+| T2 Snapshot and normalize source ledger | done | 205d508d | `data/source/*` | Snapshot of upstream `assets/data.js` (206 listings). |
+| T3 Line-by-line verification against official sources | needs review | 205d508d | `data/review.json` | 11 of 206 rows checked on official pages. The other 195 are unverified: prize blank, flagged on the Flagged for Review page. |
+| T4 Site build (landing, category pages, table, flagged, executive summary) | done | 205d508d | `scripts/build.mjs`, `scripts/check.mjs`, `site/**` | Static site generated to `_site/`. |
+| T5 GitHub Pages deploy workflow | done (pending deploy confirmation in T6) | 205d508d | `.github/workflows/pages.yml`, `.gitignore`, `README.md` | |
 | T6 Integration: combined verification, build, link check, PR to main, merge, Pages check | unclaimed → claimed by 205d508d | 205d508d | all | Final integration step. Only the integration session edits shared outputs (table data, index, nav). |
 
 Status values: `unclaimed` · `in progress` · `done` · `needs review` (published on the Flagged for Review page; does not block).
@@ -45,3 +45,19 @@ Status values: `unclaimed` · `in progress` · `done` · `needs review` (publish
 
 - Build: `node scripts/build.mjs` → `_site/`. Check: `node scripts/check.mjs` (row counts, internal links, unverified prize values blank, every row has an official-link field).
 - Deploy: `.github/workflows/pages.yml` (build → check → upload-pages-artifact → deploy-pages).
+
+### 2026-11-01 · session 205d508d · T4/T5 outputs
+
+- Pages built: index (dashboard), 9 category pages, all entries (206 rows, searchable), Flagged for review, Executive summary, Methodology, 404.
+- Checks in `scripts/check.mjs`: 206 rows in all entries and across category pages; every row has an official signup link; unverified prize cells are blank; checked rows have an evidence link; no broken internal links; no template leaks. Result: PASS.
+
+### 2026-11-01 · session 205d508d · T6 integration
+
+- Branch `arena/205d508d-own2` contains the integration. PR to `main`: see below. Merge only after the Pages workflow check passes.
+- Flagged irregularities and unverified items do not block the merge. They are published on the Flagged for Review page with source links.
+
+### Handoff and deviations
+
+- No other session has claimed or edited any task. No merge conflicts occurred. No handoffs.
+- Deviation: branch naming follows the Arena-fixed branch `arena/205d508d-own2` rather than `session-<id>/<task>`. All tasks share this one branch.
+- Deviation: this session did not check every row on an official page. Scope was 11 rows, with the rest flagged as unverified. The brief said to leave unconfirmed values blank and flag them; that rule is applied.
