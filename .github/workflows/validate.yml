@@ -15,4 +15,5 @@ jobs:
           node-version: '22'
       - run: python scripts/build.py
       - run: python scripts/test.py
+      - run: node scripts/check.cjs
       - run: git diff --exit-code -- '*.html'
