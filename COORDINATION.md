@@ -315,8 +315,9 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 ## Pull request and publish record
 
 - PR: https://github.com/sassnarep3-star/Own2/pull/4 (branch `arena/36a6db9e-own2` → `main`)
-- Merge result: pending
-- GitHub Pages: already live from prior sessions at https://sassnarep3-star.github.io/Own2/ (deployment runs 41312740175, 41313015897, 41313110631 succeeded); deployment after PR #4 merge to be confirmed here.
+- Merge result: MERGED — PR https://github.com/sassnarep3-star/Own2/pull/4 (branch arena/36a6db9e-own2 → main) merged at 2026-11-01T14:00:45Z after the branch was rebased onto merged main (origin/main 9cbf8aa → commit 3a76554 pushed; main now f0a13e6 after PR #16). CI: Validate site + Ledger verification check + Validate Prize Ledger all success on main. No other-session work discarded.
+- GitHub Pages: CONFIRMED DEPLOYED after PR #4 merge — Pages API status `built` for main; live at https://sassnarep3-star.github.io/Own2/ (root dashboard: 209 competitions, category pages, review.html, flagged entries each carrying official source links; 12 no-official-source entries blanked and flagged UNVERIFIED). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/.
+- Live spot checks retrieved 2026-11-01 against official operator pages: skillz.com, checkmategaming.com/free-tournaments, devpost.com/hackathons, chess.com/tournaments, fantasy.espn.com NFL Pick'em ($102K, free). Verified content matches the ledger; log-only, no dataset changes.
 
 ---
 
