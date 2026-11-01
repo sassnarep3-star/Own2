@@ -317,3 +317,17 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 - PR: https://github.com/sassnarep3-star/Own2/pull/4 (branch `arena/36a6db9e-own2` → `main`)
 - Merge result: pending
 - GitHub Pages: already live from prior sessions at https://sassnarep3-star.github.io/Own2/ (deployment runs 41312740175, 41313015897, 41313110631 succeeded); deployment after PR #4 merge to be confirmed here.
+
+---
+
+### 2026-11-01 · session arena-a310fb14-own2 · root dashboard build · PR #16 merge record
+
+- PR: https://github.com/sassnarep3-star/Own2/pull/16 (arena/a310fb14-own2 → main)
+- Merge: `--merge`, no approval wait, per user instruction
+- Data source: https://karagemop466-tech.github.io/FreeMoneyApps/ (assets/data.js, pass S, reviewed 2026-08-19) — 206 ledger entries imported into data/source_data.js and data/entries.json (tools/prepare_data.py)
+- Upstream `100_VERIFIED_CONTESTS.md` reviewed and excluded: explicitly marked SUPERSEDED — DO NOT USE AS A SOURCE (failed verification; contained hallucinated entries)
+- Site files added: categories/*.html (9 category subpages), executive-summary.html, flagged.html, review.html, assets/css/style.css, assets/js/app.js, data/, tools/, .nojekyll, 404.html. Root landing/navigation retained from the integrated main build (PRs #1–2); no other session's files deleted or edited.
+- Verification policy: every table row links to the operator's official site/rules page where one exists (194 of 206 rows); values never inferred; 12 entries with no official source have prize/cash-out fields blanked and flagged UNVERIFIED on flagged.html (fbs-pro-demo, npbfx-demo, roboforex-demo; bona-fide, fantasy-arena, fplhub, fplmanager-india, fplstore, olka, pitchbooking, tff-fantezi-lig, thelines-survivor). Source tiers (official/affiliate/forum) shown per row.
+- Build check: 0 broken internal links; category row counts reconcile to data/entries.json (skill 12, trivia 2, sports 129, forecasting 3, market 19, creative 18, tech 14, directory 2, pools 7 = 206)
+- GitHub Pages: source `main` `/`, legacy build; status `built` after merge; live at https://sassnarep3-star.github.io/Own2/ (root dashboard). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/
+- Integration results: PR link recorded above; merge result: merged; Pages deploy: built/live
