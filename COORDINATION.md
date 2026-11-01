@@ -403,3 +403,38 @@ published, with links, on `review.html`.
 - PR #16's newly added alternate pages initially failed the combined validator because eleven skip links had no target. The owner fixed these in PR #18; merged latest main without editing those files independently. The earlier supplemental-audit schema issue was also fixed by its integration owner. Current shared validator passes. An ignored local `site/` build from the parallel dashboard contained a copied canonical summary with a relative snapshot link; removed only that disposable generated directory before clean-check validation. Removed this session’s accidentally staged root `_site/` additions while retaining every `_site/` file already on main. Own outputs remain isolated in competition-desk/.
 - Publication still waits for green checks; no failed check has been bypassed or merged. The shared workflows and all other-session data/builders are retained unchanged.
 
+
+### Release record — PR #17 merged, live verified (session arena-f10345ed)
+
+- **PR #17:** https://github.com/sassnarep3-star/Own2/pull/17 — "UI polish (a11y, print) + final coordination record".
+  Merged **2026-11-01T14:13:10Z**, merge commit `a4c00749` (branch tip `acbf41f`). Checks at merge time:
+  `check` pass, `validate` (Validate site) pass, `validate` (Validate Prize Ledger) pass, `test`
+  (Validate and publish Competition Desk) pass, `live-smoke` skipped on PRs by design.
+- **Pre-merge blocker fixed:** `scripts/check_site.py` was reporting 9 false `#content` anchor failures on the
+  category pages. Two defects were behind it — the generation-aware patch compared a bare file name against a
+  set of root-level names, so `tech.html` etc. from `data/categories.json` never matched; and the repo-wide page
+  scan picked up generated Playwright report HTML (`test-results/`, `playwright-report/`) on the CI runner.
+  Both fixed: root pages are validated strictly, subdirectory pages (other sessions' subsites, generated reports)
+  are reported as advisories and never fail the build.
+- **New verification this pass (4 records added, 1 corrected):** EPOTY (free entry confirmed, but the official
+  2025 programme pays £1,000 overall + £500 per category, contradicting the ledger's £5,000/£1,000 — now
+  `closed`), Zindi (rules page now retrievable; earlier parallel pass had recorded a 404, corrected with
+  attribution), BullRush (free hourly only; daily $5, weekly $10, monthly $50; prize largely prop-account credit),
+  XPRIZE (purses confirmed: $119M water, $101M healthspan, $5M quantum; free entry not stated), HIPA
+  (official URL returns HTTP 404, so nothing published).
+- **State at merge:** 209 rows, 90 evidence-backed values, 8 verified / 13 partial / 10 flagged / 2 closed /
+  176 unverified, 21 rows with free entry confirmed, 18 with a cash prize confirmed, 7 usable now.
+  `python3 scripts/build_site.py && python3 scripts/check_site.py` → PASSED (118 pages: root site plus every
+  parallel subsite, no broken local or anchor links).
+- **Deployment:** Pages build API reported `built` for `a4c0074` at 2026-11-01T14:13:34Z; all `main` workflows on
+  that commit succeeded. Live root re-fetched (cache-busted) and confirmed: 209 tracked / 21 free entry / 17 cash
+  / 7 usable now / 44 rows with flags, top picks and the confirmed-deadline list rendering, `contests.html`,
+  `summary.html`, `review.html` and the nine category pages serving the regenerated content.
+- **Kept from parallel sessions, untouched:** `competition-desk/**` (own tests pass), `dashboard/**`,
+  `explore.html` + `category/**` + `flagged/**`, `audits/2026-11-01/**`, `ledger-verification/**`, `_site/**`.
+  Root pages remain the canonical dashboard and link out to each of them.
+
+**Still open for review (non-blocking, published on `review.html`):** 176 unverified rows, the 12 rows whose
+only citation is a media or affiliate page (no official source), the ARC/Kaggle paper-deadline discrepancy, the
+CheckMate claim-window conflict, Topcoder's JavaScript-only challenge list, Zindi/XPRIZE free-entry wording that
+the operators never state explicitly, and per-contest Texas eligibility for the US sports games.

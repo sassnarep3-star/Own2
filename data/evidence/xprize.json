@@ -1,0 +1,27 @@
+{
+ "id": "xprize",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "XPRIZE competitions listing (official)",
+   "url": "https://www.xprize.org/competitions",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "Active purses: Quantum Applications $5M, Water Scarcity $119M, Healthspan $101M; Wildfire in finals at $11M. Prize purses are the whole programme, not a single cash prize, and payment depends on hitting milestone targets over years.",
+   "quote": "$5 Million Active XPRIZE Quantum Applications ... $119 Million Active XPRIZE Water Scarcity ... $101 Million Active XPRIZE Healthspan ... $11 Million Finals XPRIZE Wildfire",
+   "url": "https://www.xprize.org/competitions"
+  }
+ },
+ "summary": "Real mega-purses, but these are multi-year team programmes (registration, milestones, site visits), not a weekend competition; the listing states no entry fee and no eligibility on its face.",
+ "flags": [
+  "Free entry is not stated on the competitions listing - left blank as unverified.",
+  "Time-to-prize is measured in years and requires an institutional team, so it is not an immediate opportunity."
+ ],
+ "attribution": "Verified by session arena-f10345ed against xprize.org on 2026-11-01."
+}

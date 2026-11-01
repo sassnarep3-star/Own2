@@ -10,12 +10,12 @@
  "counts": {
   "total": 209,
   "verified": 8,
-  "partial": 12,
-  "flagged": 9,
-  "unverified": 178,
+  "partial": 13,
+  "flagged": 10,
+  "unverified": 176,
   "closed": 2,
   "free": 21,
-  "cash": 17,
+  "cash": 18,
   "start": 7,
   "no_off": 12
  },
@@ -4088,9 +4088,9 @@
    "name": "Hamdan International Photography Award (HIPA)",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "avoid",
    "free": {},
    "prize": {},
    "deadline": {},
@@ -4099,17 +4099,21 @@
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "The hamdan bin Mohammed bin Rashid Al Maktoum International Photography Award's cited address returns a 404, so the ledger's '$200,000 grand prize; category prizes $20,000' cannot be confirmed in this pass.",
+   "flags": [
+    "Official URL is dead (404) - prize claim unverified and not published.",
+    "Award is a UAE-seasonal competition; no dates could be read, so the 2026 season status is unknown."
+   ],
    "sources": [
     {
-     "title": "HIPA — official site",
+     "title": "HIPA official site (returned HTTP 404 on 2026-11-01)",
      "url": "https://www.hipa.ae/",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$200,000 grand prize; category prizes $20,000–$50,000; total pool $1,000,000",
     "status": "live",
@@ -9057,20 +9061,34 @@
    "name": "XPRIZE",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "watch",
    "free": {},
-   "prize": {},
+   "prize": {
+    "status": "confirmed",
+    "text": "Active purses: Quantum Applications $5M, Water Scarcity $119M, Healthspan $101M; Wildfire in finals at $11M. Prize purses are the whole programme, not a single cash prize, and payment depends on hitting milestone targets over years.",
+    "quote": "$5 Million Active XPRIZE Quantum Applications ... $119 Million Active XPRIZE Water Scarcity ... $101 Million Active XPRIZE Healthspan ... $11 Million Finals XPRIZE Wildfire",
+    "url": "https://www.xprize.org/competitions"
+   },
    "deadline": {},
    "eligibility": {},
    "ai": {},
    "payout": {},
    "deadline_iso": null,
-   "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "prize_value": 119,
+   "summary": "Real mega-purses, but these are multi-year team programmes (registration, milestones, site visits), not a weekend competition; the listing states no entry fee and no eligibility on its face.",
+   "flags": [
+    "Free entry is not stated on the competitions listing - left blank as unverified.",
+    "Time-to-prize is measured in years and requires an institutional team, so it is not an immediate opportunity."
+   ],
    "sources": [
+    {
+     "title": "XPRIZE competitions listing (official)",
+     "url": "https://www.xprize.org/competitions",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
     {
      "title": "XPRIZE",
      "url": "https://www.xprize.org/",
@@ -9078,7 +9096,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "Flagship prizes in the millions; 2026 Google-backed hackathon advertised a $2M pool",
     "status": "live",
