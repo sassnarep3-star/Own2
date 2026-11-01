@@ -29,13 +29,14 @@ inconvenient, and nothing was upgraded on the strength of a third-party claim.
 
 - **209** competitions tracked: the 206 ledger rows plus 3 specific live events found during verification
   (GEMS Prize Challenge, PayPal AI Hackathon, NFL Big Data Bowl 2027).
-- **27** rows carry recorded evidence (19 verified in this pass, 8 imported from the parallel audit with attribution).
-- **9** fully verified: free entry **and** a cash prize both stated by the operator, window open.
-- **8** of those are usable right now and form the "where to spend your time" shortlist.
-- **17** have confirmed free entry; **15** have a confirmed cash prize.
-- **10** are partly verified: one side of the free-entry/cash-prize test is confirmed, the other is not.
-- **7** are flagged: the source contradicts the ledger, or the cited page no longer exists.
-- **183** remain unverified leads. They are published blank, with their link, so nothing is lost and
+- **30** rows carry recorded evidence (19 verified in this pass, 11 imported from two parallel verifications with attribution).
+- **8** fully verified: free entry **and** a cash prize both stated by the operator, window open.
+- **7** of those are usable right now and form the "where to spend your time" shortlist.
+- **19** have confirmed free entry; **15** have a confirmed cash prize.
+- **11** are partly verified: one side of the free-entry/cash-prize test is confirmed, the other is not.
+- **9** are flagged: the source contradicts the ledger, or the cited page no longer exists.
+- **1** is confirmed closed (ARC Prize entry closed 26 Oct 2026).
+- **180** remain unverified leads. They are published blank, with their link, so nothing is lost and
   nothing is invented.
 
 ## 3. Where the time should actually go
@@ -73,6 +74,9 @@ Ranked by verified free entry, verified cash, and whether an AI agent can do the
 - **Dead links presented as live contests.** The "Dirty Dozen £12,000 weekly" row points at a gambling-affiliate
   URL that now serves a generic casino lobby; Challenge.gov, cited as the official source for federal prizes,
   was sunset on 30 March 2026 (federal competitions now list at usa.gov).
+- **Entering late.** ARC Prize entry and team-merger closed on 26 Oct 2026 (final submissions 2 Nov); ESPN NFL
+  Survivor reports "Entry creation has closed"; AIcrowd's challenges are all marked completed. All three still
+  read "live" in the ledger.
 - **Reading "free to enter" off a marketing page.** Three ledger rows are actively wrong when checked:
   Tom Howard poetry charges $27 per submission and is closed until April 2027; NYPL Young Lions is
   publisher-nomination only with a 3 Sep 2026 deadline that contradicts its own "now open" label;
@@ -97,7 +101,7 @@ Enforced by `scripts/check_site.py` on every push:
 
 ## 6. Limits and irregularities (also on `review.html`)
 
-1. **183 of 209 rows are unverified.** That is the honest state of a 206-row ledger checked in one pass. They
+1. **180 of 209 rows are unverified.** That is the honest state of a 206-row ledger checked in one pass. They
    keep their links and their "unverified" label.
 2. **Free entry is not the same as free.** Kaggle, DrivenData, ARC and Topcoder publish no fee but never say
    entry is free — so they are *partly* verified, not verified.
@@ -117,6 +121,8 @@ Enforced by `scripts/check_site.py` on every push:
   review page and evidence file. Its findings are imported into this site's evidence records, attributed per row.
 - `explore.html`, `category/`, `flagged/`, `assets/` — the other integration session's shortlist site, kept live
   and unchanged.
+- `dashboard/` — a third session's standalone dashboard with its own live-verification file
+  (`dashboard/data/verification/verified.json`); its per-entry findings are imported here, and the site stays live at `/dashboard/`.
 - `audits/legacy-build/` — the first dashboard's builder, kept for traceability and not run by CI.
 
 ## 8. Sources used (all official operator pages unless noted)

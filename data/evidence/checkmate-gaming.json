@@ -53,8 +53,9 @@
   "Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.",
   "Region label (NA + EU) conflicts with US-default legal terms.",
   "Prize barred in AZ, HI, IA, MS, MT, NV, SD.",
-  "Not every listed event is free: the directory also shows paid 'Elite' events."
+  "Not every listed event is free: the directory also shows paid 'Elite' events.",
+  "The ledger's '$10-$180 cash per tournament' was not reproduced: free-entry prizes observed were $40, $120 and one $100 invite-only event; the $1,500 event is paid entry."
  ],
  "deadline_iso": null,
- "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01)."
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01). Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
 }

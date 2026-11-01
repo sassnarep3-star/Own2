@@ -8,7 +8,6 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 | id | Competition | Verdict | Free entry | Cash prize | Deadline | Read on |
 |---|---|---|---|---|---|---|
-| `arcprize` | ARC Prize (via Kaggle) | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `cbs-pro-pickem` | CBS Sports Pro Football Pick'em | verified | confirmed | not stated | confirmed | 2026-11-01 |
 | `checkmate-gaming` | Checkmate Gaming (CMG) Free Tournaments | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `devpost` | Devpost Hackathons | verified | confirmed | confirmed | confirmed | 2026-11-01 |
@@ -25,18 +24,41 @@ verbatim excerpts of the retrieved page, not paraphrases.
 | `kaggle-nfl-bdb-2027` | NFL Big Data Bowl 2027 (Kaggle) | partial | not stated | confirmed | confirmed | 2026-11-01 |
 | `kinolime` | Kinolime Script-to-Screen Competition | partial | confirmed | not stated | not found | 2026-11-01 |
 | `mlb-beat-the-streak` | MLB Beat the Streak | partial | confirmed | not stated | confirmed | 2026-11-01 |
+| `nascar-fantasy-live` | NASCAR Fantasy Live | partial | confirmed | not stated | not stated | 2026-11-01 |
 | `tradingview-leap` | TradingView — The Leap | partial | confirmed | CONTRADICTED | confirmed | 2026-11-01 |
 | `vocal` | Vocal Challenges | partial | confirmed | not stated | not stated | 2026-11-01 |
+| `aicrowd` | AIcrowd Challenges | flagged | not stated | not found | confirmed | 2026-11-01 |
 | `andys-predictor` | Andy's Bet Club £1M Predictor | flagged | confirmed | confirmed | confirmed | 2026-11-01 |
 | `dirty-dozen` | Dirty Dozen (Gambling.com) | flagged | not found | not found | not found | 2026-11-01 |
+| `espn-survivor` | ESPN NFL Survivor | flagged | confirmed | not stated | confirmed | 2026-11-01 |
 | `film-prize` | Louisiana Film Prize (Prize Fest) | flagged | not found | not found | not found | 2026-11-01 |
 | `herox` | HeroX / Challenge.gov | flagged | not stated | not found | not found | 2026-11-01 |
 | `tom-howard-poetry` | Tom Howard/Margaret Reid Poetry Contest | flagged | CONTRADICTED | confirmed | confirmed | 2026-11-01 |
 | `young-lions` | Young Lions Fiction Award (NYPL) | flagged | not stated | not stated | confirmed | 2026-11-01 |
 | `zindi` | Zindi | flagged | not found | not found | not found | 2026-11-01 |
+| `arcprize` | ARC Prize (via Kaggle) | closed | confirmed | confirmed | confirmed | 2026-11-01 |
 | `topcoder` | Topcoder | unverified | not stated | not stated | not stated | 2026-11-01 |
 
 ## What the quotes say, entry by entry
+
+### AIcrowd Challenges (`aicrowd`)
+
+*Assessment:* The ledger describes an ongoing AIcrowd challenge with a future phase. The official page shows every phase completed and submissions closed.
+
+- **Free entry** — not stated. > Not stated on the page read.  
+  <https://www.aicrowd.com/challenges>
+- **Cash prize** — not found. > All phases on the page read were completed; no open prize challenge was confirmed.  
+  <https://www.aicrowd.com/challenges>
+- **Deadline** — confirmed. > All phases completed and submissions closed.  
+  <https://www.aicrowd.com/challenges>
+- **Eligibility** — not stated. > Not stated.  
+  <https://www.aicrowd.com/challenges>
+- **AI rules** — not stated. > Not stated.  
+  <https://www.aicrowd.com/challenges>
+- **Payment** — not stated. > Not stated.  
+  <https://www.aicrowd.com/challenges>
+
+*Flags:* Ledger says 'Phase 1 complete, Phase 2 upcoming' and status live; the official page shows all phases completed.
 
 ### Andy's Bet Club £1M Predictor (`andys-predictor`)
 
@@ -65,8 +87,8 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules>
 - **Cash prize** — confirmed. > $2M in prizes. 3 tracks. Open source progress toward AGI.  
   <https://arcprize.org/competitions/2026>
-- **Deadline** — confirmed. > ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.  
-  <https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules>
+- **Deadline** — confirmed. > ARC-AGI-2 entry + team-merger deadline was 26 Oct 2026 (already passed).  
+  <https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview>
 - **Eligibility** — confirmed. > Prizes are awarded at the sole discretion of ARC Prize Inc. and are subject to review by our Technical Team. We may issue more or fewer awards based on the spirit of the prize and the received submissions.  
   <https://arcprize.org/competitions/2026>
 - **AI rules** — confirmed. > Internet access is not available during Kaggle evaluation (no API-based systems like GPT/Claude/etc.)  
@@ -74,7 +96,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Payment method is not described on the competition page.  
   <https://arcprize.org/competitions/2026>
 
-*Flags:* Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.; Awards are discretionary, not a fixed prize table.; Submissions close within a day of this audit.
+*Flags:* Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.; Awards are discretionary, not a fixed prize table.; Submissions close within a day of this audit.; ARC-AGI-2 entry and team-merger deadline passed on 2026-10-26; only final submissions (2026-11-02) remain for teams already entered.; ARC-AGI-3's $850,000 figure was not re-read in either pass - unverified.
 
 ### CBS Sports Pro Football Pick'em (`cbs-pro-pickem`)
 
@@ -112,7 +134,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Payout methods are not described on the free tournament page.  
   <https://www.checkmategaming.com/free-tournaments>
 
-*Flags:* Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.; Region label (NA + EU) conflicts with US-default legal terms.; Prize barred in AZ, HI, IA, MS, MT, NV, SD.; Not every listed event is free: the directory also shows paid 'Elite' events.
+*Flags:* Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.; Region label (NA + EU) conflicts with US-default legal terms.; Prize barred in AZ, HI, IA, MS, MT, NV, SD.; Not every listed event is free: the directory also shows paid 'Elite' events.; The ledger's '$10-$180 cash per tournament' was not reproduced: free-entry prizes observed were $40, $120 and one $100 invite-only event; the $1,500 event is paid entry.
 
 ### Devpost Hackathons (`devpost`)
 
@@ -131,7 +153,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Payment mechanics are not described on the listing or the rules sections read in this pass.  
   <https://devpost.com/hackathons>
 
-*Flags:* Prize amounts are per-hackathon; the listing page shows pool totals, not per-place awards.; Many listings are student or invite-only events; check the rules page for each.
+*Flags:* Prize amounts are per-hackathon; the listing page shows pool totals, not per-place awards.; Many listings are student or invite-only events; check the rules page for each.; The ledger's 'currently $10,000 to $685,000 per hackathon' range is stale: the largest pool listed on 2026-11-01 was $1,000,000.
 
 ### PayPal AI Hackathon (Devpost) (`devpost-paypal`)
 
@@ -188,7 +210,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Not published on the directory page.  
   <https://www.drivendata.org/competitions/>
 
-*Flags:* Free entry is not stated on the DrivenData directory.
+*Flags:* Free entry is not stated on the DrivenData directory.; The ledger's 'often $10,000-$200,000' range is stale: the one open prize competition is $300,000.
 
 ### ESPN NFL Pick'em (`espn-pickem`)
 
@@ -208,6 +230,25 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay#CompleteRules>
 
 *Flags:* Eligibility (age/residency) not yet read from the official rules.; AI/automation policy unverified.
+
+### ESPN NFL Survivor (`espn-survivor`)
+
+*Assessment:* Free to play, but the window is gone: the official page reports that entry creation has closed. The ledger still shows it as live.
+
+- **Free entry** — confirmed. > Free entry confirmed on the official game page.  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+- **Cash prize** — not stated. > Prize table not read in either pass.  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+- **Deadline** — confirmed. > Entry creation has closed  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+- **Eligibility** — not stated. > Not read.  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+- **AI rules** — not stated. > Not read.  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+- **Payment** — not stated. > Not read.  
+  <https://fantasy.espn.com/games/nfl-survivor-2026/make-picks>
+
+*Flags:* Entry creation closed - the ledger still lists this as live.
 
 ### Louisiana Film Prize (Prize Fest) (`film-prize`)
 
@@ -321,7 +362,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > The directory and documentation pages do not describe how prizes are paid.  
   <https://www.kaggle.com/docs/competitions>
 
-*Flags:* Free entry not stated on any Kaggle-owned page read in this pass.
+*Flags:* Free entry not stated on any Kaggle-owned page read in this pass.; The ledger's '$5,000-$100,000+; specials exceed $1M' range was not confirmed by the page read - only the three examples above were visible.
 
 ### NFL Big Data Bowl 2027 (Kaggle) (`kaggle-nfl-bdb-2027`)
 
@@ -378,7 +419,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Payment method and country restrictions are set per tournament by the sponsor; not published on the directory page.  
   <https://www.metaculus.com/tournaments/>
 
-*Flags:* Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.; Not every tournament pays; some are explicitly NO PRIZE POOL.
+*Flags:* Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.; Not every tournament pays; some are explicitly NO PRIZE POOL.; The ledger names the Summer 2026 FutureEval Bot ($50,000) as the live one; on 2026-11-01 that edition is pending winners and the open edition is Fall 2026 FutureEval Bot ($50,000).
 
 ### MLB Beat the Streak (`mlb-beat-the-streak`)
 
@@ -398,6 +439,25 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://www.mlb.com/apps/beat-the-streak/official-rules>
 
 *Flags:* Grand prize conditional on a 57-hit streak.; 2026 season window — not open on the audit date.; Prize amount not adopted.
+
+### NASCAR Fantasy Live (`nascar-fantasy-live`)
+
+*Assessment:* Free entry is confirmed; the prize table was not in the section read, so the ledger's $25,000/$10,000 figures stay unverified.
+
+- **Free entry** — confirmed. > Free entry confirmed in the official rules page read.  
+  <https://www.nascar.com/fantasy/official-rules/>
+- **Cash prize** — not stated. > The prize section was not in the part of the rules that was read, so no figure is published.  
+  <https://www.nascar.com/fantasy/official-rules/>
+- **Deadline** — not stated. > Not established in the sections read.  
+  <https://www.nascar.com/fantasy/official-rules/>
+- **Eligibility** — not stated. > Not established in the sections read.  
+  <https://www.nascar.com/fantasy/official-rules/>
+- **AI rules** — not stated. > Not established in the sections read.  
+  <https://www.nascar.com/fantasy/official-rules/>
+- **Payment** — not stated. > Not established in the sections read.  
+  <https://www.nascar.com/fantasy/official-rules/>
+
+*Flags:* Prize amounts not confirmed - the prize section was not read.; Ledger figures ($25,000 / $10,000 / $5,000) unverified.
 
 ### Sony World Photography Awards (`sony-world-photo`)
 

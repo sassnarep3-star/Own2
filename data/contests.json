@@ -9,14 +9,14 @@
  },
  "counts": {
   "total": 209,
-  "verified": 9,
-  "partial": 10,
-  "flagged": 7,
-  "unverified": 183,
-  "closed": 0,
-  "free": 17,
+  "verified": 8,
+  "partial": 11,
+  "flagged": 9,
+  "unverified": 180,
+  "closed": 1,
+  "free": 19,
   "cash": 15,
-  "start": 8,
+  "start": 7,
   "no_off": 12
  },
  "entries": [
@@ -320,24 +320,32 @@
    "name": "AIcrowd Challenges",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "avoid",
    "free": {},
    "prize": {},
-   "deadline": {},
+   "deadline": {
+    "status": "confirmed",
+    "text": "All phases completed and submissions closed as of 2026-11-01",
+    "quote": "All phases completed and submissions closed.",
+    "url": "https://www.aicrowd.com/challenges"
+   },
    "eligibility": {},
    "ai": {},
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "The ledger describes an ongoing AIcrowd challenge with a future phase. The official page shows every phase completed and submissions closed.",
+   "flags": [
+    "Ledger says 'Phase 1 complete, Phase 2 upcoming' and status live; the official page shows all phases completed."
+   ],
    "sources": [
     {
-     "title": "AIcrowd Challenges (official)",
+     "title": "AIcrowd challenges (official)",
      "url": "https://www.aicrowd.com/challenges",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     },
     {
      "title": "ARC White-Box Estimation Challenge 2026 — $150,000+ pool",
@@ -346,7 +354,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "Per challenge — currently up to $150,000+",
     "status": "live",
@@ -471,9 +479,9 @@
    "name": "ARC Prize (via Kaggle)",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "verified",
-   "state": "open",
-   "tier": "start",
+   "verdict": "closed",
+   "state": "closed",
+   "tier": "avoid",
    "free": {
     "status": "confirmed",
     "text": "No-purchase entry, confirmed in the Kaggle Paper Track rules",
@@ -488,9 +496,9 @@
    },
    "deadline": {
     "status": "confirmed",
-    "text": "ARC site: submissions 2026-11-02, papers 2026-11-08; the Kaggle Paper Track rules give a 2026-11-09 deadline. Both are recorded; the discrepancy is unresolved.",
-    "quote": "ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.",
-    "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
+    "text": "Entry and team-merger deadline 2026-10-26 (passed); final submissions 2026-11-02; papers 2026-11-08 per ARC site / 2026-11-09 per Kaggle rules; winners 2026-12-04",
+    "quote": "ARC-AGI-2 entry + team-merger deadline was 26 Oct 2026 (already passed).",
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview"
    },
    "eligibility": {
     "status": "confirmed",
@@ -505,13 +513,15 @@
     "url": "https://arcprize.org/competitions/2026"
    },
    "payout": {},
-   "deadline_iso": "2026-11-02",
+   "deadline_iso": "2026-10-26",
    "prize_value": 2000000,
    "summary": "Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.",
    "flags": [
     "Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.",
     "Awards are discretionary, not a fixed prize table.",
-    "Submissions close within a day of this audit."
+    "Submissions close within a day of this audit.",
+    "ARC-AGI-2 entry and team-merger deadline passed on 2026-10-26; only final submissions (2026-11-02) remain for teams already entered.",
+    "ARC-AGI-3's $850,000 figure was not re-read in either pass - unverified."
    ],
    "sources": [
     {
@@ -1278,7 +1288,8 @@
     "Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.",
     "Region label (NA + EU) conflicts with US-default legal terms.",
     "Prize barred in AZ, HI, IA, MS, MT, NV, SD.",
-    "Not every listed event is free: the directory also shows paid 'Elite' events."
+    "Not every listed event is free: the directory also shows paid 'Elite' events.",
+    "The ledger's '$10-$180 cash per tournament' was not reproduced: free-entry prizes observed were $40, $120 and one $100 invite-only event; the $1,500 event is paid entry."
    ],
    "sources": [
     {
@@ -1634,7 +1645,8 @@
    "summary": "Best verified source of large, genuinely free-to-enter cash prizes: 14,220 hackathons indexed with six-figure pools live on 2026-11-01. Prize money is real cash; effort is a working software project judged within days.",
    "flags": [
     "Prize amounts are per-hackathon; the listing page shows pool totals, not per-place awards.",
-    "Many listings are student or invite-only events; check the rules page for each."
+    "Many listings are student or invite-only events; check the rules page for each.",
+    "The ledger's 'currently $10,000 to $685,000 per hackathon' range is stale: the largest pool listed on 2026-11-01 was $1,000,000."
    ],
    "sources": [
     {
@@ -1738,7 +1750,8 @@
    "prize_value": 300000,
    "summary": "Only one live prize competition on the platform as of 2026-11-01: GEMS at $300,000, closing in about four weeks. Everything else listed is a practice or completed competition.",
    "flags": [
-    "Free entry is not stated on the DrivenData directory."
+    "Free entry is not stated on the DrivenData directory.",
+    "The ledger's 'often $10,000-$200,000' range is stale: the one open prize competition is $300,000."
    ],
    "sources": [
     {
@@ -2209,28 +2222,41 @@
    "name": "ESPN NFL Survivor",
    "category": "sports",
    "categoryName": "Fantasy & sports picks",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "avoid",
+   "free": {
+    "status": "confirmed",
+    "text": "Free to play (the game itself charges no entry fee)",
+    "quote": "Free entry confirmed on the official game page.",
+    "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+   },
    "prize": {},
-   "deadline": {},
+   "deadline": {
+    "status": "confirmed",
+    "text": "Entry creation has closed; new entries cannot be created",
+    "quote": "Entry creation has closed",
+    "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+   },
    "eligibility": {},
    "ai": {},
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Free to play, but the window is gone: the official page reports that entry creation has closed. The ledger still shows it as live.",
+   "flags": [
+    "Entry creation closed - the ledger still lists this as live."
+   ],
    "sources": [
     {
-     "title": "ESPN NFL Survivor",
+     "title": "ESPN NFL Survivor 2026 (official game page)",
      "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$25,000 grand prize",
     "status": "live",
@@ -4416,7 +4442,8 @@
    "prize_value": 450000,
    "summary": "Hosts live competitions with published prize pools in the $35,000-$450,000 range on 2026-11-01. Entry fee is nowhere stated; Kaggle's own docs are silent on free entry, so this row is partial, not verified-free.",
    "flags": [
-    "Free entry not stated on any Kaggle-owned page read in this pass."
+    "Free entry not stated on any Kaggle-owned page read in this pass.",
+    "The ledger's '$5,000-$100,000+; specials exceed $1M' range was not confirmed by the page read - only the three examples above were visible."
    ],
    "sources": [
     {
@@ -5016,7 +5043,8 @@
    "summary": "Strongest free, no-fee, skill-based cash path that does not require selling your time: 19 live tournaments, several six-figure-equivalent pools across a year, and a dedicated AI/bot track that suits an agent-assisted workflow.",
    "flags": [
     "Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.",
-    "Not every tournament pays; some are explicitly NO PRIZE POOL."
+    "Not every tournament pays; some are explicitly NO PRIZE POOL.",
+    "The ledger names the Summer 2026 FutureEval Bot ($50,000) as the live one; on 2026-11-01 that edition is pending winners and the open edition is Fall 2026 FutureEval Bot ($50,000)."
    ],
    "sources": [
     {
@@ -5449,10 +5477,15 @@
    "name": "NASCAR Fantasy Live",
    "category": "sports",
    "categoryName": "Fantasy & sports picks",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "watch",
+   "free": {
+    "status": "confirmed",
+    "text": "Free to play",
+    "quote": "Free entry confirmed in the official rules page read.",
+    "url": "https://www.nascar.com/fantasy/official-rules/"
+   },
    "prize": {},
    "deadline": {},
    "eligibility": {},
@@ -5460,9 +5493,18 @@
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Free entry is confirmed; the prize table was not in the section read, so the ledger's $25,000/$10,000 figures stay unverified.",
+   "flags": [
+    "Prize amounts not confirmed - the prize section was not read.",
+    "Ledger figures ($25,000 / $10,000 / $5,000) unverified."
+   ],
    "sources": [
+    {
+     "title": "NASCAR Fantasy Live official rules",
+     "url": "https://www.nascar.com/fantasy/official-rules/",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
     {
      "title": "NASCAR Fantasy Live 2026 Official Rules",
      "url": "https://fantasygames.nascar.com/live/page/rules",
@@ -5470,7 +5512,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$25,000 grand prize; $10,000 second; $5,000 third; $10,000 Daytona 500 champion",
     "status": "live",

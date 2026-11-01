@@ -56,7 +56,9 @@
  "summary": "Strongest free, no-fee, skill-based cash path that does not require selling your time: 19 live tournaments, several six-figure-equivalent pools across a year, and a dedicated AI/bot track that suits an agent-assisted workflow.",
  "flags": [
   "Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.",
-  "Not every tournament pays; some are explicitly NO PRIZE POOL."
+  "Not every tournament pays; some are explicitly NO PRIZE POOL.",
+  "The ledger names the Summer 2026 FutureEval Bot ($50,000) as the live one; on 2026-11-01 that edition is pending winners and the open edition is Fall 2026 FutureEval Bot ($50,000)."
  ],
- "deadline_iso": null
+ "deadline_iso": null,
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
 }

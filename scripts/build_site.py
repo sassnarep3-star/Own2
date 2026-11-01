@@ -38,7 +38,7 @@ for f in sorted((ROOT / "data/evidence").glob("*.json")):
     evidence[rec["id"]] = rec
 
 LEDGER = {l["id"]: l for l in up["listings"]}
-VERDICTS = {"verified", "partial", "flagged", "unverified"}
+VERDICTS = {"verified", "partial", "flagged", "unverified", "closed"}
 
 def money(text):
     """Largest dollar figure mentioned in an evidence string, for sorting only."""

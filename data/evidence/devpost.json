@@ -56,7 +56,9 @@
  "summary": "Best verified source of large, genuinely free-to-enter cash prizes: 14,220 hackathons indexed with six-figure pools live on 2026-11-01. Prize money is real cash; effort is a working software project judged within days.",
  "flags": [
   "Prize amounts are per-hackathon; the listing page shows pool totals, not per-place awards.",
-  "Many listings are student or invite-only events; check the rules page for each."
+  "Many listings are student or invite-only events; check the rules page for each.",
+  "The ledger's 'currently $10,000 to $685,000 per hackathon' range is stale: the largest pool listed on 2026-11-01 was $1,000,000."
  ],
- "deadline_iso": null
+ "deadline_iso": null,
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
 }

@@ -2,7 +2,7 @@
  "id": "arcprize",
  "checked": "2026-11-01",
  "category": "tech",
- "verdict": "verified",
+ "verdict": "closed",
  "sources": [
   {
    "title": "ARC Prize 2026 official competition page",
@@ -30,9 +30,9 @@
   },
   "deadline": {
    "status": "confirmed",
-   "text": "ARC site: submissions 2026-11-02, papers 2026-11-08; the Kaggle Paper Track rules give a 2026-11-09 deadline. Both are recorded; the discrepancy is unresolved.",
-   "quote": "ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.",
-   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
+   "text": "Entry and team-merger deadline 2026-10-26 (passed); final submissions 2026-11-02; papers 2026-11-08 per ARC site / 2026-11-09 per Kaggle rules; winners 2026-12-04",
+   "quote": "ARC-AGI-2 entry + team-merger deadline was 26 Oct 2026 (already passed).",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview"
   },
   "eligibility": {
    "status": "confirmed",
@@ -57,8 +57,10 @@
  "flags": [
   "Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.",
   "Awards are discretionary, not a fixed prize table.",
-  "Submissions close within a day of this audit."
+  "Submissions close within a day of this audit.",
+  "ARC-AGI-2 entry and team-merger deadline passed on 2026-10-26; only final submissions (2026-11-02) remain for teams already entered.",
+  "ARC-AGI-3's $850,000 figure was not re-read in either pass - unverified."
  ],
- "deadline_iso": "2026-11-02",
- "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01)."
+ "deadline_iso": "2026-10-26",
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01). Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
 }

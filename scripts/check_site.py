@@ -98,6 +98,8 @@ class Links(HTMLParser):
                 if v.startswith("#") or not u.path:
                     continue
                 target = (self.base / unquote(u.path)).resolve()
+                if target.is_dir():
+                    target = target / "index.html"   # directory links (e.g. ../flagged/)
                 if not target.is_file():
                     self.bad.append(v)
 
@@ -124,6 +126,8 @@ for p in all_pages:
         if path.startswith(("http", "mailto")):
             continue
         tgt = (p.parent / unquote(path)).resolve()
+        if tgt.is_dir():
+            tgt = tgt / "index.html"
         if tgt.is_file() and f'id="{a}"' not in tgt.read_text():
             warns.append(f"{p.name}: {path}#{a} target id not found")
 ok(f"{len(all_pages)} pages (root + parallel audit pages), internal links resolve, metadata present")

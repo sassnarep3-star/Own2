@@ -59,6 +59,22 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 
 - Final publication-record PR #7 encountered a concurrent append conflict after PR #6 merged. Paused, retained both sessions’ complete deployment logs, and rebased; no application files changed or other-session work discarded.
 
+## Session be1d2210 (independent "verified-or-blank" dashboard at `/dashboard/`)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Repo review of karagemop466-tech/FreeMoneyApps + offline audit (T1, T2) | done | be1d2210 | `dashboard/audit/**`, `dashboard/data/raw/**`, `dashboard/tools/{extract,audit}.js` |
+| Live verification of 13 entries against official pages (T3) | done for 13; remaining 191 → **needs review** (unclaimed follow-up T7) | be1d2210 | `dashboard/data/verification/**` |
+| Site, executive summary, flagged page (T4, T5) | done | be1d2210 | `dashboard/**` only |
+| Integration PR → main, merge, Pages check (T6) | in progress → see log | be1d2210 | `dashboard/**`, this file (append-only) |
+
+- 2026-11-01: **Overlap note.** This session started from the initial commit (empty repo; board did not exist on that snapshot) and worked in isolation. When opening the PR it found that sessions f72a1743, 582a1199 and 05a44eaa had already merged full sites (PRs #1–#7) at the repository root. Rather than overwrite them, this session moved its entire site into `dashboard/` (an independent site; the project brief expects multiple sites), merged `origin/main` into its branch (only conflict: `README.md` modify/delete → kept the other session's README; `COORDINATION.md` taken from main and appended here), and edited **no** file outside `dashboard/` except this append-only log.
+- Sources & verification (details: `dashboard/data/verification/verified.json`, `dashboard/audit/SOURCE_REPO_REVIEW.md`): source ledger at karagemop466-tech/FreeMoneyApps commit 466f7c1e7a14b52b4a0d36beb84a00d68fd409b7; official pages fetched live 2026-11-01 for arcprize.org, kaggle.com (competitions index + ARC-AGI-2), devpost.com/hackathons, drivendata.org/competitions, metaculus.com/tournaments, fantasy.espn.com (NFL Pick'em, Survivor), cbssports.com Pro Football Pick'em rules (chunks 0–1 of 5), checkmategaming.com/free-tournaments, aicrowd.com ARC White-Box, mlb.com Beat the Streak, fantasygames.nascar.com rules (chunk 0 of 5), tradingview.com/the-leap (chunk 0 of 3). Topcoder and Zindi returned no content (JS-only). 11 of 13 readable entries show a discrepancy or unconfirmable figure vs the old ledger.
+- Checks run after merging main: `python scripts/build.py`, `python scripts/test.py`, `node scripts/check.cjs` (other sessions' checks) all pass with no generated diff; `node dashboard/tools/build.js`, `linkcheck.js` (17 pages, 801 internal links, 412 rows each with an official link, 0 problems) and `check-consistency.js` (0 problems) pass. External link-rot not measurable here (network allow-list); `dashboard/tools/linkcheck-external.js` provided.
+- Cross-session findings: arcprize.org states Paper Track papers due 2026-11-08 while session 582a1199 reports 2026-11-09 from the Kaggle rules → logged as a discrepancy on `dashboard/flagged.html`. Our GEMS finding (free entry not confirmed) matches 582a1199's.
+- **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
+- Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
+
 
 ## Session arena-f10345ed — integration pass 2 (claim, work, conflict log)
 
@@ -119,3 +135,19 @@ the US-default legal terms. Challenge.gov: sunset 2026-03-30; USA.gov is the suc
 **Status of this task:** implementation and local validation done; verification coverage is deliberately partial
 (27 of 209 rows) and every remaining row is published as unverified on `review.html`. Pull request, merge and
 Pages deployment result recorded below.
+
+**Second main-advance (same session, shortly after):** while this branch was being pushed, `main` moved again
+from `dba55fd` to `4cba38d` (PR #9, session `arena-be1d2210`, which added a self-contained `dashboard/` build).
+`origin/main` was merged in; the only conflict was this board, resolved by keeping both logs verbatim.
+`dashboard/**` is retained untouched and remains a working standalone site at `/dashboard/`. Its live-verification
+findings for 15 entries (`dashboard/data/verification/verified.json`) were imported into `data/evidence/` with
+attribution: ARC-AGI-2 entry deadline already passed (2026-10-26), ESPN Survivor entry closed,
+AIcrowd submissions closed, NASCAR Fantasy Live free entry confirmed but prizes unread, plus stale-range
+corrections for Kaggle, Devpost and DrivenData.
+
+**Canonical site decision (logged for review):** three parallel dashboards now exist in this repository —
+the root site (this session's build), `explore.html` + `category/` + `flagged/` (session `582a1199-own2`),
+`audits/2026-11-01/` (session `arena-05a44eaa`) and `dashboard/` (session `arena-be1d2210`). None is deleted.
+The root site is presented as the canonical dashboard because it is the only one that (a) keeps all 206 ledger
+rows, (b) publishes values only with a per-field quote and URL, and (c) merges the other sessions' findings with
+attribution. Every other site remains reachable and reproducible; the root index links to all of them.

@@ -1,0 +1,57 @@
+{
+ "id": "espn-survivor",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "ESPN NFL Survivor 2026 (official game page)",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to play (the game itself charges no entry fee)",
+   "quote": "Free entry confirmed on the official game page.",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Prize table not read in either pass.",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Entry creation has closed; new entries cannot be created",
+   "quote": "Entry creation has closed",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not read.",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not read.",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not read.",
+   "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks"
+  }
+ },
+ "summary": "Free to play, but the window is gone: the official page reports that entry creation has closed. The ledger still shows it as live.",
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01).",
+ "flags": [
+  "Entry creation closed - the ledger still lists this as live."
+ ],
+ "deadline_iso": null
+}
