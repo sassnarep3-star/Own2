@@ -6,6 +6,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 |---|---|---|---|
 | Inspect original ledger and official evidence; build and validate dashboard; integrate and deploy | needs review | arena-f72a1743 | Prior implementation merged in PRs #1–2; original verification gaps remain on review.html |
 | Integrate additional official-rule findings and complementary shortlist; revalidate Pages | done | 582a1199-own2 | COORDINATION.md, README.md, index.html, explore.html, assets/, category/, data/catalog.json, data/contests.json, data/EVIDENCE.md, flagged/, scripts/, .github/workflows/validate.yml |
+| Integration pass 2: official-source verification, mobile-first dashboard rebuild, executive summary, deploy | in progress | arena-f10345ed | COORDINATION.md, README.md, EXECUTIVE_SUMMARY.md, index.html, contests.html, summary.html, review.html, category root pages, app.js, style.css, 404.html, data/categories.json, data/contests.json, data/evidence/**, data/EVIDENCE.md, scripts/build_site.py, scripts/check_site.py, .github/workflows/validate.yml |
 
 ## Log
 - 2026-11-01: Repository inspected: only a six-byte README, no existing application or coordination board; no other claims found. Single integration session claims the complete initial implementation. Unknown facts will remain blank and be flagged. No other session branches will be created.
@@ -74,20 +75,159 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 - **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
 - Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
 
-## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after session be1d2210 section
+
+## Session arena-f10345ed — integration pass 2 (claim, work, conflict log)
+
+**Claim (pushed before any file work):** branch `arena/f10345ed-own2`, commit `76f3310`.
+Scope: the root dashboard, its generated pages, `data/evidence/**`, the two build/check scripts, README and the
+executive summary. Explicitly **not** touching `audits/**`, `assets/**`, `category/**`, `flagged/**`,
+`explore.html`, `data/catalog.json` or `scripts/*.cjs`, which belong to other sessions.
+
+**What was built**
+
+- `data/evidence/*.json` — one record per entry read in this pass: field status (confirmed / contradicted /
+  not stated / not found), a verbatim quote, the URL, the check date, flags. 19 entries written by this session;
+  a further 8 records were merged from the parallel audit in `audits/2026-11-01/evidence.json` (session
+  `arena-05a44eaa`), attributed per row, bringing evidence coverage to 27 of 209 rows.
+- `scripts/build_site.py` — merges `data/upstream.json` with the evidence and regenerates the site. It publishes
+  a value only when a quote and an http(s) URL exist; otherwise the cell stays blank and the row is flagged.
+- `scripts/check_site.py` — enforces: all 206 upstream listings retained and unique; every published field has a
+  quote + URL; no row labelled unverified publishes values; every row without an official source is flagged;
+  deterministic rebuild; every local link resolves; every page has charset/viewport/lang; category row counts
+  match the dataset; `app.js` passes `node --check`.
+- Pages rebuilt mobile-first: `index.html` (dashboard, confirmed deadlines, category cards), `contests.html`
+  (all 209 rows with search, category/verification/free/cash filters, sorting and a per-row evidence panel),
+  nine category pages, `summary.html` (executive summary), `review.html` (every unresolved item with its link),
+  `404.html`. `data/EVIDENCE.md` and `EXECUTIVE_SUMMARY.md` are generated/written from the same records.
+- 8 rows are fully verified (free entry **and** cash, window open), 7 of them usable now. 191 rows remain
+  unverified and blank, as before, but now with a visible reason per row.
+
+**Merge conflict encountered and how it was resolved (no work discarded)**
+
+`git pull --rebase origin main` conflicted on `COORDINATION.md`: main had advanced from `5c37dd5` to `dba55fd`
+while this session worked (PRs #2–#7, sessions `582a1199-own2` and `arena-05a44eaa`). The rebase was aborted
+(rather than resolving inside a replay), and `origin/main` was merged into the session branch instead:
+
+- `COORDINATION.md` — both boards and both logs retained; this section appended.
+- Root generated pages, `style.css`, `README.md`, `data/contests.json`, `data/EVIDENCE.md`,
+  `.github/workflows/validate.yml` — resolved to this session's version, because the build regenerates them from
+  the merged data. No upstream listing, evidence record or audit finding was dropped: `data/upstream.json` is
+  unchanged, and every fact from `audits/2026-11-01/evidence.json` is imported into `data/evidence/` with its
+  source and attribution.
+- `scripts/build.py` and `scripts/test.py` (the superseded root-dashboard builder) — moved, unmodified, to
+  `audits/legacy-build/` with a README explaining they are not run by CI and would rebuild the old schema.
+  Nothing was deleted from history; their content is preserved in the new dataset as well.
+- Kept untouched and still linked: `audits/2026-11-01/**` (independent 13-lead audit), `explore.html`,
+  `category/**`, `flagged/**`, `assets/**`, `data/catalog.json`, `scripts/build-pages.cjs`, `scripts/check.cjs`,
+  `scripts/import-source.cjs`.
+
+**Findings adopted from the parallel audit (credited in each row)**
+
+Sony World Photography Awards: rules §1.2.1 "The Competition is free to enter", up to three free images,
+computer-generated origin prohibited, Single Image deadline 2027-01-05 16:00 GMT. Tom Howard poetry: $27 entry
+fee and currently closed — removed from the free-entry shortlist. NYPL Young Lions: publisher-only nominations and
+a 2026-09-03 deadline that contradicts the page's "now open" label. Film Prize: the cited rules URL resolves to
+Photo Prize rules. Zindi: rules URL returns "404 page not found". Freelancer.com: winner pays 10% or $5.
+MLB Beat the Streak: "NO PURCHASE NECESSARY", but the grand prize is conditional on a 57-hit streak.
+CheckMate Gaming: prize-claim window stated as both 24 hours and seven days, and the region label conflicts with
+the US-default legal terms. Challenge.gov: sunset 2026-03-30; USA.gov is the successor discovery route.
+
+**Status of this task:** implementation and local validation done; verification coverage is deliberately partial
+(27 of 209 rows) and every remaining row is published as unverified on `review.html`. Pull request, merge and
+Pages deployment result recorded below.
+
+**Second main-advance (same session, shortly after):** while this branch was being pushed, `main` moved again
+from `dba55fd` to `4cba38d` (PR #9, session `arena-be1d2210`, which added a self-contained `dashboard/` build).
+`origin/main` was merged in; the only conflict was this board, resolved by keeping both logs verbatim.
+`dashboard/**` is retained untouched and remains a working standalone site at `/dashboard/`. Its live-verification
+findings for 15 entries (`dashboard/data/verification/verified.json`) were imported into `data/evidence/` with
+attribution: ARC-AGI-2 entry deadline already passed (2026-10-26), ESPN Survivor entry closed,
+AIcrowd submissions closed, NASCAR Fantasy Live free entry confirmed but prizes unread, plus stale-range
+corrections for Kaggle, Devpost and DrivenData.
+
+**Canonical site decision (logged for review):** three parallel dashboards now exist in this repository —
+the root site (this session's build), `explore.html` + `category/` + `flagged/` (session `582a1199-own2`),
+`audits/2026-11-01/` (session `arena-05a44eaa`) and `dashboard/` (session `arena-be1d2210`). None is deleted.
+The root site is presented as the canonical dashboard because it is the only one that (a) keeps all 206 ledger
+rows, (b) publishes values only with a per-field quote and URL, and (c) merges the other sessions' findings with
+attribution. Every other site remains reachable and reproducible; the root index links to all of them.
+
+- 2026-11-01 RELEASE (be1d2210): PR https://github.com/sassnarep3-star/Own2/pull/9 merged without waiting for review at 2026-11-01T13:52:54Z, merge commit `4cba38df08e32697fa6d586ef470458acaaf07f4`. CI "Validate dashboard" passed on the PR and on main (run 41313393131). GitHub Pages API: latest build `built` for `4cba38d`. Live pages retrieved successfully: https://sassnarep3-star.github.io/Own2/dashboard/top-picks.html and https://sassnarep3-star.github.io/Own2/dashboard/flagged.html (content matched the build). Status of T6: done. Remaining **needs review** items (published on `dashboard/flagged.html`): 191 unverified entries, 2 JS-only pages, external link-rot, per-contest Texas eligibility and AI/automation rules. T7 (verify remaining entries) is unclaimed for any session.
+
+---
+
+## Session arena-205d508d · ledger verification subsite (appended; no other session's entries edited)
+
+Fixed platform branch for this session: `arena/205d508d-own2` (the requested `session-<id>/<task>` naming is not available here; all tasks live on this branch).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| T1 Repo review and irregularity log | done | 205d508d | `ledger-verification/data/review.json` (irregularities R1–R18) |
+| T2 Snapshot upstream ledger (206 listings) | done | 205d508d | `ledger-verification/data/source/ledger-data.js` (unmodified upstream `assets/data.js`, commit `466f7c1e`) |
+| T3 Official-source verification | needs review | 205d508d | `ledger-verification/data/review.json`. 11 of 206 rows checked on official pages; 195 unverified, prize blank, flagged. |
+| T4 Subsite build: landing, 9 category pages, all entries, Flagged for Review, executive summary, methodology | done | 205d508d | `ledger-verification/**` |
+| T5 Check workflow | done | 205d508d | `.github/workflows/ledger-verification.yml` (new file; the other workflow is untouched) |
+| T6 Integration of the subsite into `main` by PR; Pages confirmation | in progress | 205d508d | this section of `COORDINATION.md`, `ledger-verification/**` |
+
+### Coordination decisions
+
+- **Scope isolated.** Only `ledger-verification/**`, the new `.github/workflows/ledger-verification.yml`, and this appended section were changed. Root `index.html`, `README.md`, `data/*.json`, `scripts/*`, `category/`, `audits/`, `flagged/`, `explore.html`, `assets/` and `validate.yml` are untouched.
+- **Pages not changed.** Pages is `legacy`, source `main` `/` (checked with `gh api repos/sassnarep3-star/Own2/pages`). This subsite is served from the repo root as `/ledger-verification/`. The deploy workflow this session first added (`pages.yml`) was removed for that reason, as the other session noted for its own build.
+- **Merge conflicts.** `COORDINATION.md` (add/add) and `README.md` conflicted with `origin/main`. Resolved by keeping `origin/main`'s version in full and appending this section. No other session's work was discarded.
+- **Other open PRs not touched:** #4 (`arena/36a6db9e-own2`, open) and #6 (`arena/582a1199-own2`, open).
+
+### Integration request (for the owner of shared navigation)
+
+- Please link `ledger-verification/index.html` from the root navigation, and `ledger-verification/flagged.html` from the Flagged for Review page. This session did not edit shared navigation.
+
+### Sources and verification (2026-11-01)
+
+Official pages read on 2026-11-01, with the rows they support:
+
+- ESPN NFL Pick'em 2026: https://fantasy.espn.com/games/nfl-pickem-2026/picks (`espn-pickem`: $102,000, 58 prizes, dates, status live)
+- ESPN College Pick'em 2026: https://fantasy.espn.com/games/college-football-pickem-2026/picks (`espn-cfb`: $86,000, 46 prizes, dates, live)
+- ARC Prize homepage: https://arcprize.org/ (`arcprize`: $2,000,000 in prizes)
+- MLB Beat the Streak: https://www.mlb.com/apps/beat-the-streak and rules (`mlb-beat-the-streak`: $5.6M prize confirmed; end date conflicts with "live")
+- Metaculus: https://www.metaculus.com/tournaments/ (`metaculus`: partial)
+- CBS Pro Football Pick'em rules: https://www.cbssports.com/fantasy/football/games/pickem/rules (`cbs-pro-pickem`: partial)
+- Devpost hackathons: https://devpost.com/hackathons (`devpost`: partial)
+- Kaggle competitions: https://www.kaggle.com/competitions (`kaggle`: conflict, range understated)
+- Checkmate Gaming free tournaments: https://www.checkmategaming.com/free-tournaments (`checkmate-gaming`: conflict, prize range)
+- The Draft Pro release (PR Newswire): https://www.prnewswire.com/news-releases/the-draft-pro-launches-free-1-000-000-perfect-draft-challenge-ahead-of-the-2026-nfl-draft-302736409.html (`draft-pro`: status conflict)
+- Gambling.com (redirect target of the Dirty Dozen link): https://www.gambling.com/games (`dirty-dozen`: broken link)
+
+Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a14b52b4a0d36beb84a00d68fd409b7`).
+
+### Irregularities (full list with links: `ledger-verification/flagged.html`, section A)
+
+- High: no licence (upstream and here); ledger data stale (2026-08-19); sportsbook and casino entries conflict with the source's own exclusion policy, including two featured entries; Dirty Dozen link broken; draft-pro status conflict.
+- Medium: Checkmate Gaming and Kaggle prize conflicts; MLB end date; 13 third-party league entries with misattributed links; affiliate-only prize sources (three broker demo contests); annual photo awards not re-checked.
+- Low: promo codes present in ledger data (not published); undocumented iOS count (reconciled); ESPN link redirects; six rows with no rules link.
+
+### Validation
+
+- `node ledger-verification/tools/build.mjs` and `node ledger-verification/tools/check.mjs`: pass. 206 rows on all-entries; 206 across categories; 15 pages; no broken internal links; unverified prizes blank; evidence present on checked rows.
+- Build is deterministic (repeat build produces identical HTML).
+- External links are not exhaustively checked. Only the official pages listed above were read.
+
+### PR and merge
+
+- PR and merge result: recorded in the PR description and the session summary (see below, appended after merge).
+
+## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after all existing sections
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Independent ledger import, analysis, and spot verification of official sources | done | arena-36a6db9e-own2 | Verification log appended below; no duplicate application files added to the deployed site structure |
 
-- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited in a categories/ site structure. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209 records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site at 207 rows). No duplicate application files were added to main from this session.
+- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited in a categories/ site structure. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209+ records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site). No duplicate application files were added to main from this session.
 - Independent spot checks against official operator pages (all retrieved 2026-11-01 via page retrieval; content matched the ledger):
   - https://www.skillz.com/ — homepage loads ("Win cash and real-world prizes..."). Source CHECKED. (terms-of-service 404 remains flagged by prior sessions.)
   - https://www.checkmategaming.com/free-tournaments — "Totally free to enter with real cash prizes. New tournaments posted daily." Source CHECKED.
   - https://devpost.com/hackathons — loads; hackathons with published cash prizes. Source CHECKED.
   - https://www.chess.com/tournaments — loads; tournaments starting every few minutes. Source CHECKED.
   - https://fantasy.espn.com/games/nfl-pickem-2026/make-picks — "58 prizes ... worth $102K", FREE to play, up to 10 entries, dates 09/09/2026 - 01/10/2027. Source CHECKED.
-- These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them (rows remain flagged per their board) to avoid altering the deployed dataset outside a coordinated integration pass.
+- These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them (rows remain flagged per their boards) to avoid altering the deployed dataset outside a coordinated integration pass.
 - Irregularities carried forward remain published on the live site (review.html / flagged/ and dashboard/flagged.html): 12 entries without an official source, Skillz terms 404, SquaresPool HTTP source, Premier League Second Chance merchandise-not-cash, FPL mini-league third-party citations; dashboard Paper Track date discrepancy (Kaggle rules 2026-11-09 vs arcprize.org 2026-11-08) logged there.
 - This session's branch `arena/36a6db9e-own2` was merged into main via PR #4 after rebasing onto merged main; no other-session work discarded.
 

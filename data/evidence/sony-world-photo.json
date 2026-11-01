@@ -1,0 +1,58 @@
+{
+ "id": "sony-world-photo",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "Sony World Photography Awards (official)",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$25,000 for the Series competition (previously Professional) and $5,000 for the Single Image competition (previously Open), plus Sony equipment",
+   "quote": "you could win $25,000, a solo exhibition, a range of top Sony Digital Imaging equipment ... you could win $5,000, a range of top Sony Digital Imaging equipment",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to enter, confirmed by the rules themselves; up to three images free",
+   "quote": "1.2.1 The Competition is free to enter. ... 3.5 Each Entrant can submit up to three images for free.",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Single Image and Youth close 2027-01-05 16:00 GMT; Series closes 2027-01-12 16:00 GMT; Student closes 2026-11-27 16:00 GMT",
+   "quote": "5 January 2027 16:00 GMT Single Image and Youth competition close",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Open to members of the public; under-16s need guardian consent; images must be taken in 2026 and be the entrant's own work",
+   "quote": "Open to all members of the public. Under 16 requires guardian consent. Images taken in 2026; sole owner/author required.",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "Computer-generated images cannot be the origin of an entry; manipulation must be described",
+   "quote": "Computer generated content cannot be the origin of the Entry.",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method not described on the overview page.",
+   "url": "https://www.worldphoto.org/sony-world-photography-awards"
+  }
+ },
+ "summary": "Free to enter with cash prizes of $25,000 and $5,000 and deadlines in November 2026 and January 2027 - one of the few genuinely free, large, open-to-anyone cash prizes in the ledger.",
+ "flags": [
+  "Requires original photography: computer-generated content cannot be the origin of an entry.",
+  "Free image allowance is three images; extra image bundles are paid add-ons."
+ ],
+ "deadline_iso": "2027-01-05",
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01)."
+}

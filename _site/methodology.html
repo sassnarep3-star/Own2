@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · Free Cash-Prize Competitions Ledger</title>
+<meta name="description" content="Verification dashboard for free-to-enter competitions that can pay real money. Official sources only; unverified values left blank.">
+<link rel="stylesheet" href="assets/style.css?v=2026-11-01a">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="">Free Cash-Prize Ledger</a>
+    <nav class="nav" aria-label="Main"><a href="">Home</a><a href="all.html">All entries</a><a href="flagged.html">Flagged for review</a><a href="executive-summary.html">Executive summary</a><a href="methodology.html" class="active" aria-current="page">Methodology</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+
+<p class="crumbs"><a href="index.html">Home</a> / Methodology</p>
+<h1>Methodology and sources</h1>
+<h2>How the data is built</h2>
+<ol>
+  <li>The upstream ledger's <code>assets/data.js</code> was snapshotted unmodified (<code>data/source/ledger-data.js</code>, commit 466f7c1).</li>
+  <li>Each listing is loaded and checked against a verification record (<code>data/review.json</code>). Official pages were fetched on 2026-11-01.</li>
+  <li>A value is shown as <b>verified</b> only when an official page confirms it on that date. Otherwise the prize cell is left blank and the row is flagged.</li>
+  <li>Ledger values are kept, labelled "unverified", in expandable notes only. They never appear in a verified column.</li>
+  <li>Flags come from this review, plus automatic checks: missing official source, http links, missing rules link, and the presence of promo codes (codes are not published).</li>
+</ol>
+<h2>Verification status</h2>
+<table class="data simple"><thead><tr><th>Status</th><th>Meaning</th></tr></thead><tbody>
+<tr><td><span class="badge v-verified">Verified</span></td><td>An official page was fetched on 2026-11-01 and the stated value matched.</td></tr>
+<tr><td><span class="badge v-partial">Partially verified</span></td><td>An official page was fetched. Some fields matched; the rest were not confirmed.</td></tr>
+<tr><td><span class="badge v-conflict">Conflict with official page</span></td><td>An official page contradicts the ledger. The official value is shown.</td></tr>
+<tr><td><span class="badge v-broken">Broken link</span></td><td>The ledger link does not show the claimed contest.</td></tr>
+<tr><td><span class="badge v-unverified">Unverified</span></td><td>Not checked against an official page in this pass. Prize blank.</td></tr>
+</tbody></table>
+<h2>Limits of this pass</h2>
+<ul>
+  <li>11 of 206 rows were checked. The rest are unverified.</li>
+  <li>Official pages were read with a page fetcher. Logins, eligibility tests and account sign-ups were not done.</li>
+  <li>Pages were read as they stood on 2026-11-01. Contests can change.</li>
+  <li>Rules pages can run to several sections. Where a prize section was not read, the prize is blank.</li>
+</ul>
+<h2>Sources used in this pass</h2>
+<div class="table-wrap"><table class="data simple"><thead><tr><th>Source</th><th>Link</th><th>Use</th></tr></thead><tbody><tr><td>Upstream ledger (snapshot)</td><td><a href="https://github.com/karagemop466-tech/FreeMoneyApps" target="_blank" rel="noopener">https://github.com/karagemop466-tech/FreeMoneyApps</a></td><td>Used for the listing structure only. Its values are unverified until shown in a verified column.</td></tr><tr><td>Upstream live site</td><td><a href="https://karagemop466-tech.github.io/FreeMoneyApps/" target="_blank" rel="noopener">https://karagemop466-tech.github.io/FreeMoneyApps/</a></td><td>Counts reconciled: 206 listings, 189 free-path full, 62 iOS, 60 added.</td></tr><tr><td>ESPN NFL Pick&#39;em page</td><td><a href="https://fantasy.espn.com/games/nfl-pickem-2026/picks" target="_blank" rel="noopener">https://fantasy.espn.com/games/nfl-pickem-2026/picks</a></td><td>Prize and dates confirmed.</td></tr><tr><td>ESPN College Pick&#39;em page</td><td><a href="https://fantasy.espn.com/games/college-football-pickem-2026/picks" target="_blank" rel="noopener">https://fantasy.espn.com/games/college-football-pickem-2026/picks</a></td><td>Prize and dates confirmed.</td></tr><tr><td>ARC Prize homepage</td><td><a href="https://arcprize.org/" target="_blank" rel="noopener">https://arcprize.org/</a></td><td>Prize confirmed.</td></tr><tr><td>MLB Beat the Streak</td><td><a href="https://www.mlb.com/apps/beat-the-streak" target="_blank" rel="noopener">https://www.mlb.com/apps/beat-the-streak</a></td><td>Prize confirmed; end date conflicts.</td></tr><tr><td>MLB Beat the Streak official rules</td><td><a href="https://www.mlb.com/apps/beat-the-streak/official-rules" target="_blank" rel="noopener">https://www.mlb.com/apps/beat-the-streak/official-rules</a></td><td>Linked for review.</td></tr><tr><td>Metaculus tournaments</td><td><a href="https://www.metaculus.com/tournaments/" target="_blank" rel="noopener">https://www.metaculus.com/tournaments/</a></td><td>Prize pool sample.</td></tr><tr><td>CBS Sports Pro Football Pick&#39;em rules</td><td><a href="https://www.cbssports.com/fantasy/football/games/pickem/rules" target="_blank" rel="noopener">https://www.cbssports.com/fantasy/football/games/pickem/rules</a></td><td>Free entry and dates confirmed; prize sections not read.</td></tr><tr><td>Devpost hackathons</td><td><a href="https://devpost.com/hackathons" target="_blank" rel="noopener">https://devpost.com/hackathons</a></td><td>Prize sample.</td></tr><tr><td>Kaggle competitions</td><td><a href="https://www.kaggle.com/competitions" target="_blank" rel="noopener">https://www.kaggle.com/competitions</a></td><td>Prize pools; conflict with ledger range.</td></tr><tr><td>Checkmate Gaming free tournaments</td><td><a href="https://www.checkmategaming.com/free-tournaments" target="_blank" rel="noopener">https://www.checkmategaming.com/free-tournaments</a></td><td>Prize range; conflict with ledger.</td></tr><tr><td>The Draft Pro press release (PR Newswire)</td><td><a href="https://www.prnewswire.com/news-releases/the-draft-pro-launches-free-1-000-000-perfect-draft-challenge-ahead-of-the-2026-nfl-draft-302736409.html" target="_blank" rel="noopener">https://www.prnewswire.com/news-releases/the-draft-pro-launches-free-1-000-000-perfect-draft-challenge-ahead-of-the-2026-nfl-draft-302736409.html</a></td><td>Entries close before 23 April 2026; status conflict.</td></tr><tr><td>Gambling.com games page (redirect target)</td><td><a href="https://www.gambling.com/games" target="_blank" rel="noopener">https://www.gambling.com/games</a></td><td>Redirect target of the dirty-dozen link.</td></tr></tbody></table></div>
+<h2>Reproduce</h2>
+<p><code>node scripts/build.mjs</code> then <code>node scripts/check.mjs</code>. Output is written to <code>_site/</code>. The site is deployed by GitHub Pages from <code>.github/workflows/pages.yml</code>.</p>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Snapshot of upstream ledger from <a href="https://github.com/karagemop466-tech/FreeMoneyApps">github.com/karagemop466-tech/FreeMoneyApps</a> (commit <code>466f7c1</code>, 2026-08-19). Verification pass: 2026-11-01.</p>
+    <p>Not affiliated with any operator listed. Not legal, tax or gambling advice. Official rules always govern. Values marked blank are unverified.</p>
+  </div>
+</footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

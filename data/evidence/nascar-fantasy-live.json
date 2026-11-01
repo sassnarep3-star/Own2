@@ -1,0 +1,58 @@
+{
+ "id": "nascar-fantasy-live",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "NASCAR Fantasy Live official rules",
+   "url": "https://www.nascar.com/fantasy/official-rules/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to play",
+   "quote": "Free entry confirmed in the official rules page read.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The prize section was not in the part of the rules that was read, so no figure is published.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  },
+  "deadline": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not established in the sections read.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not established in the sections read.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not established in the sections read.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not established in the sections read.",
+   "url": "https://www.nascar.com/fantasy/official-rules/"
+  }
+ },
+ "summary": "Free entry is confirmed; the prize table was not in the section read, so the ledger's $25,000/$10,000 figures stay unverified.",
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01).",
+ "flags": [
+  "Prize amounts not confirmed - the prize section was not read.",
+  "Ledger figures ($25,000 / $10,000 / $5,000) unverified."
+ ],
+ "deadline_iso": null
+}

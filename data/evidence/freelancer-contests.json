@@ -1,0 +1,58 @@
+{
+ "id": "freelancer-contests",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "Freelancer.com payment FAQ",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to submit entries; the winner is charged a contest fee of 10% or $5, whichever is greater",
+   "quote": "Submitting entries to a contest is free ... The freelancer contest fee is 10% of the prize amount or $5.00 USD, whichever is greater.",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per contest; the FAQ only describes the platform fee.",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  },
+  "deadline": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per contest.",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per contest; platform-level eligibility not stated in the FAQ.",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed in the FAQ.",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  },
+  "payout": {
+   "status": "confirmed",
+   "text": "Prize released after handover; auto-release 14 days after both parties sign the IP transfer",
+   "quote": "Prize released after handover",
+   "url": "https://www.freelancer.com/faq/topic.php?id=33"
+  }
+ },
+ "summary": "Free to submit, but the winner pays a 10% or $5 contest fee — so a 'free' contest still takes a cut of the prize. Platform policy, not a specific competition.",
+ "flags": [
+  "Winner pays 10% or $5 (whichever is greater) of the prize.",
+  "Platform policy, not a verified individual contest."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

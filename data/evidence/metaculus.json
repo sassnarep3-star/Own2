@@ -1,0 +1,64 @@
+{
+ "id": "metaculus",
+ "checked": "2026-11-01",
+ "category": "forecasting",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "Metaculus live tournaments",
+   "url": "https://www.metaculus.com/tournaments/",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "Metaculus prize distribution FAQ",
+   "url": "https://www.metaculus.com/help/scores-faq/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "19 live tournaments on 2026-11-01, with published pools including $50,000 FutureEval Bot, $35,000 Labor Automation, $20,000 Our World in Data, $15,000 POTUS, $10,000 US Midterms 2026, $10,000 ACX 2026, $10,000 US Democracy Threat Index, $7,500 Market Pulse, $5,000 Metaculus Cup, $5,000 Sagan Space, $5,000 Climate Tipping Points, $5,000 AI Pathways, $3,400 Animal Futures. Several tournaments carry no prize pool.",
+   "quote": "$50,000 PRIZE POOL ... Fall 2026 FutureEval Bot Tournament | $35,000 PRIZE POOL ... Labor Automation Tournament | NO PRIZE POOL ... Global Health Monitor 2026/27",
+   "url": "https://www.metaculus.com/tournaments/"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to participate and win cash prizes; not a prediction market, nothing is staked.",
+   "quote": "We are not a prediction market. You can participate for free and win cash prizes for being accurate.",
+   "url": "https://www.metaculus.com/tournaments/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Varies by tournament: US Midterms 2026 ends in 3 days from 2026-11-01; Metaculus Cup Fall 2026 and Market Pulse 26Q4 end in about 2 months; POTUS Predictions runs about 2 years",
+   "quote": "US Midterms 2026 ... Ends 3 days from now | Metaculus Cup Fall 2026 ... Ends 2 months from now",
+   "url": "https://www.metaculus.com/tournaments/"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The tournaments directory does not publish a single eligibility rule; prize eligibility depends on the sponsoring organisation.",
+   "url": "https://www.metaculus.com/tournaments/"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "There is a dedicated bot/AI track (FutureEval Bot Tournament), so automated forecasting is allowed there and must be declared per tournament.",
+   "quote": "Fall 2026 FutureEval Bot Tournament ... $50,000 PRIZE POOL",
+   "url": "https://www.metaculus.com/tournaments/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method and country restrictions are set per tournament by the sponsor; not published on the directory page.",
+   "url": "https://www.metaculus.com/tournaments/"
+  }
+ },
+ "summary": "Strongest free, no-fee, skill-based cash path that does not require selling your time: 19 live tournaments, several six-figure-equivalent pools across a year, and a dedicated AI/bot track that suits an agent-assisted workflow.",
+ "flags": [
+  "Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.",
+  "Not every tournament pays; some are explicitly NO PRIZE POOL.",
+  "The ledger names the Summer 2026 FutureEval Bot ($50,000) as the live one; on 2026-11-01 that edition is pending winners and the open edition is Fall 2026 FutureEval Bot ($50,000)."
+ ],
+ "deadline_iso": null,
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
+}
