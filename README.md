@@ -40,11 +40,11 @@ The existing [PrizeDesk dashboard](index.html) is retained and now incorporates 
 
 ---
 
-## Third complementary view: Prize Ledger dashboard
+## Additional complementary view: Prize Ledger dashboard
 
-This additional [Prize Ledger dashboard](dashboard/index.html) retains the earlier root dashboard, [focused shortlist](explore.html) and [independent audit](audits/2026-11-01/index.html). Its counts and evidence scope are independent, not an aggregate of all views.
+This additional [Prize Ledger dashboard](ledger-ebd10b79/index.html) retains the earlier root dashboard, [focused shortlist](explore.html) and [independent audit](audits/2026-11-01/index.html). Its counts and evidence scope are independent, not an aggregate of all views.
 
-**Live:** https://sassnarep3-star.github.io/Own2/dashboard/
+**Live:** https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/
 
 - 216 records: all 206 source listings plus 10 event-level additions, in nine category subpages.
 - 31 official pages inspected; source excerpts and partial-reading disclosures in `data/findings.json` and the dashboard source notebook.
@@ -62,9 +62,9 @@ npm run test:browser
 npm run preview
 ```
 
-Preview listens on `0.0.0.0:4173`; this view is at `/dashboard/`. The browser suite starts/stops its own temporary test server; `BASE_URL` can point at an existing dashboard URL.
+Preview listens on `0.0.0.0:4173`; this view is at `/ledger-ebd10b79/`. The browser suite starts/stops its own temporary test server; `BASE_URL` can point at an existing dashboard URL.
 
-`npm run build` runs `scripts/build-dashboard.py`, not the earlier root generator. It refreshes committed `dashboard/` static pages and exports, `data/ledger.json`, and `research/AUDIT.md`. The preview-only combined `site/`, dependencies, runtime libraries and test screenshots are ignored. Dashboard static output must be committed because existing Pages publishes `main:/` and the settings API denied changes; no alternate branch or manual setting change is required.
+`npm run build` runs `scripts/build-dashboard.py`, not the earlier root generator. It refreshes committed `ledger-ebd10b79/` static pages and exports, `data/ledger.json`, and `research/AUDIT.md`. The preview-only combined `site/`, dependencies, runtime libraries and test screenshots are ignored. Dashboard static output must be committed because existing Pages publishes `main:/` and the settings API denied changes; no alternate branch or manual setting change is required.
 
 Earlier views remain reproducible using `python scripts/build.py`, `python scripts/test.py`, `node scripts/check.cjs`, and the independent audit build/tests. No existing source data, field evidence or audit history was replaced by this view.
 

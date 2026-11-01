@@ -4,7 +4,7 @@ from collections import Counter
 from pathlib import Path
 from prepare_data import prepare
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'site/dashboard'
+OUT=ROOT/'site/ledger-ebd10b79'
 D=prepare()
 (ROOT/'data/ledger.json').write_text(json.dumps(D,indent=2,ensure_ascii=False)+'\n')
 ROWS=D['rows']; SOURCES=D['sources']; CATS={c['id']:c['name'] for c in D['categories']}
@@ -28,7 +28,7 @@ def nav(prefix,current):
     main=link('index.html','Overview','⊞')+link('competitions.html','All competitions','▤',len(ROWS))+link('saved.html','Saved opportunities','☆')
     categories=''.join(link('categories/'+k+'.html',E(v.replace(' competitions','').replace(' tournaments','').replace('Free pool & league platforms','Pool & league tools').replace('Fantasy & sports picks','Sports & fantasy').replace('Directories & forums','Directories').replace('Tech & data','Tech & data')),ICONS[k],COUNTS[k]) for k,v in CATS.items())
     research=link('summary.html','Executive summary','▧')+link('review.html','Flagged for Review','⚐',sum(bool(r['flags']) for r in ROWS))+link('methodology.html','Verification method','✓')+link('sources.html','Source notebook','↗')
-    return f'''<aside class="sidebar" id="sidebar"><a class="brand" href="{prefix}index.html"><img src="{prefix}assets/icon.svg" width="38" height="38" alt=""><span>Prize Ledger<small>Free entry. Real opportunity.</small></span></a><p class="nav-label">Workspace</p><nav aria-label="Workspace">{main}</nav><p class="nav-label">Explore categories</p><nav aria-label="Categories">{categories}</nav><p class="nav-label">Research desk</p><nav aria-label="Research">{research}</nav><div class="sidebar-bottom"><div class="source-badge"><span class="dot"></span>Evidence over assumptions</div><p>Independent research. No sponsors.<br>Unknown values stay blank.<br>Snapshot · 1 November 2026</p><a class="small-link" href="https://github.com/sassnarep3-star/Own2">View on GitHub ↗</a><p><a href="{prefix}../index.html">Original dashboard ↗</a><br><a href="{prefix}../explore.html">Focused shortlist ↗</a><br><a href="{prefix}../audits/2026-11-01/index.html">Independent audit ↗</a></p></div></aside>'''
+    return f'''<aside class="sidebar" id="sidebar"><a class="brand" href="{prefix}index.html"><img src="{prefix}assets/icon.svg" width="38" height="38" alt=""><span>Prize Ledger<small>Free entry. Real opportunity.</small></span></a><p class="nav-label">Workspace</p><nav aria-label="Workspace">{main}</nav><p class="nav-label">Explore categories</p><nav aria-label="Categories">{categories}</nav><p class="nav-label">Research desk</p><nav aria-label="Research">{research}</nav><div class="sidebar-bottom"><div class="source-badge"><span class="dot"></span>Evidence over assumptions</div><p>Independent research. No sponsors.<br>Unknown values stay blank.<br>Snapshot · 1 November 2026</p><a class="small-link" href="https://github.com/sassnarep3-star/Own2">View on GitHub ↗</a><p><a href="{prefix}../index.html">Original dashboard ↗</a><br><a href="{prefix}../explore.html">Focused shortlist ↗</a><br><a href="{prefix}../dashboard/index.html">Verified-or-blank dashboard ↗</a><br><a href="{prefix}../audits/2026-11-01/index.html">Independent audit ↗</a></p></div></aside>'''
 def page(path,title,content,crumb='Workspace',desc='A source-linked research dashboard for free-to-enter cash prize competitions.'):
     prefix='../' if '/' in path else './'
     shell=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{E(desc)}"><meta name="theme-color" content="#165b45"><title>{E(title)} · Prize Ledger</title><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}assets/style.css"><script defer src="{prefix}assets/app.js"></script></head><body data-page="{E(path)}"><a class="skip" href="#main">Skip to content</a>{nav(prefix,path)}<div class="workspace"><header class="topbar"><button class="menu" aria-controls="sidebar" aria-expanded="false" id="menu">☰ <span class="sr-only">Toggle navigation</span></button><span class="crumb">{E(crumb)} <span aria-hidden="true">/</span> <strong>{E(title)}</strong></span><div class="right"><span class="date-pill">◷ &nbsp; Research snapshot · 01 Nov 2026</span><a href="{prefix}methodology.html">How we verify ↗</a></div></header><main id="main">{content}<footer class="footer"><span>© 2026 Prize Ledger · An independent competition research desk.</span><span>Prizes are not guaranteed. {a(prefix+'methodology.html','Official rules always take precedence.')} &nbsp; {a(prefix+'data/ledger.csv','Download data ↓')}</span></footer></main></div></body></html>'''
@@ -109,7 +109,7 @@ def build():
     OUT.mkdir(parents=True,exist_ok=True)
     for path in ['assets','data']:
         (OUT/path).mkdir(exist_ok=True)
-    for f in (ROOT/'dashboard/assets').iterdir():shutil.copy(f,OUT/'assets'/f.name)
+    for f in (ROOT/'ledger-ebd10b79/assets').iterdir():shutil.copy(f,OUT/'assets'/f.name)
     shutil.copy(ROOT/'data/ledger.json',OUT/'data/ledger.json')
     (OUT/'research').mkdir(exist_ok=True)
     shutil.copy(ROOT/'research/upstream.json',OUT/'research/upstream.json')
@@ -140,14 +140,14 @@ def build():
         # Existing Pages configuration is main:/ and its settings API is not writable.
         # Commit only the exact static pages/exports required by that publishing route.
         for generated in list(OUT.rglob('*.html'))+[OUT/'.nojekyll',OUT/'data/ledger.csv',OUT/'data/ledger.json',OUT/'research/upstream.json']:
-            target=ROOT/'dashboard'/generated.relative_to(OUT)
+            target=ROOT/'ledger-ebd10b79'/generated.relative_to(OUT)
             target.parent.mkdir(parents=True,exist_ok=True)
             shutil.copy(generated,target)
     # Preview the combined published views, with this dashboard namespaced.
     preview=OUT.parent
     for shared in list(ROOT.glob('*.html'))+[ROOT/'app.js',ROOT/'style.css',ROOT/'.nojekyll']:
         if shared.exists(): shutil.copy(shared,preview/shared.name)
-    for directory in ['assets','category','flagged','audits','data']:
+    for directory in ['assets','category','flagged','audits','data','dashboard']:
         if (ROOT/directory).exists(): shutil.copytree(ROOT/directory,preview/directory,dirs_exist_ok=True)
     print(f'Built {len(list(OUT.rglob("*.html")))} pages · {len(ROWS)} records · {len(SOURCES)} official sources · {sum(r["freeCash"] for r in ROWS)} free + cash sourced')
 if __name__=='__main__':build()
