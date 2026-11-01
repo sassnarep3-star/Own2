@@ -534,7 +534,8 @@ ${ledgerTable(list, `${list.length} listings · every row links to an official s
       linkFlags = `
 <div class="panel">
   <h2>Link check (automated, run ${esc(r.generatedAt || "unknown")})</h2>
-  <p class="muted">Checked ${r.results?.length ?? 0} unique URLs. ${bad.length} broken,
+  <p class="muted">Checked ${Object.values(r.counts || {}).reduce((a, b) => a + b, 0) || r.results?.length || 0} unique URLs
+  (${r.counts?.ok ?? 0} ok, ${r.counts?.redirect ?? 0} redirect). ${bad.length} broken,
   ${blocked.length} blocked (server refused the checker but may work in a browser).
   Source: GitHub Actions <code>linkcheck</code> workflow — full machine report in
   <code>reports/link-check.json</code>.</p>
