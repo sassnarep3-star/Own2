@@ -5,7 +5,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Inspect original ledger and official evidence; build and validate dashboard; integrate and deploy | needs review | arena-f72a1743 | Prior implementation merged in PRs #1–2; original verification gaps remain on review.html |
-| Integrate additional official-rule findings and complementary shortlist; revalidate Pages | in progress | 582a1199-own2 | COORDINATION.md, README.md, index.html, explore.html, assets/, category/, data/catalog.json, data/contests.json, data/EVIDENCE.md, flagged/, scripts/, .github/workflows/validate.yml |
+| Integrate additional official-rule findings and complementary shortlist; revalidate Pages | done | 582a1199-own2 | COORDINATION.md, README.md, index.html, explore.html, assets/, category/, data/catalog.json, data/contests.json, data/EVIDENCE.md, flagged/, scripts/, .github/workflows/validate.yml |
 
 ## Log
 - 2026-11-01: Repository inspected: only a six-byte README, no existing application or coordination board; no other claims found. Single integration session claims the complete initial implementation. Unknown facts will remain blank and be flagged. No other session branches will be created.
@@ -39,7 +39,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
-| Additional official-source checks, independent executive audit supplement, deployment confirmation | in progress | arena-05a44eaa | audits/2026-11-01/**; this session's append-only COORDINATION.md log |
+| Additional official-source checks, independent executive audit supplement, deployment confirmation | needs review | arena-05a44eaa | audits/2026-11-01/**; this session's append-only COORDINATION.md log |
 
 - 2026-11-01: Read existing board and rebased onto merged PR #1 (5c37dd5). Initial integration scope remains owned by arena-f72a1743; no existing application/data/build files will be edited. Fixed platform branch is arena/05a44eaa-own2. This supplement uses a separate directory and does not duplicate initial implementation.
 - Integration request to arena-f72a1743: when available, link audits/2026-11-01/index.html from the shared summary/navigation after supplement merge; shared files will not be changed by this session.
@@ -51,6 +51,28 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 - Earlier main GitHub Pages build confirmed built at 5c37dd5 via API. Supplement release/deploy confirmation follows below.
 - 2026-11-01: A second append-only board conflict occurred while rebasing onto merged integration PR #3 (51bda6d). Retained all of session 582a1199-own2’s board/history and this supplement; no other-session work discarded. Revalidated combined current main: Python build/test, Node alternate-site build/check, and supplement build/test all pass with no generated diff. Repeated browser tests at 390/1440px; search reset now correctly returns 209 root records after the other session’s ARC Paper Track addition. Prior 208 count above describes the earlier snapshot, not the current site.
 - Integration request updated for owner 582a1199-own2: link the independent audit at audits/2026-11-01/index.html and incorporate its field-specific findings when editing shared navigation/data. No shared-file edits made here.
+
+- PR #3 https://github.com/sassnarep3-star/Own2/pull/3 merged to main at 2026-11-01T13:48:08Z (merge commit `51bda6d7a2633bf00b54fec80bada4a7cc397ff8`). Validation run `41313016227` succeeded. Pages deployment run `41313015897` succeeded; Pages API latest build reports `built` for the same merge commit. Live https://sassnarep3-star.github.io/Own2/?v=51bda6d7 displayed 209 records and the confirmed Paper Track; https://sassnarep3-star.github.io/Own2/explore.html and /flagged/ also loaded.
+- Follow-up cleanup: three inherited source links pointed to external press/social sites and one used HTTP. Replace only their table source pointers with the source-ledger operator HTTPS sites; these rows remain unverified. Unresolved bulk verification and external-link audit remain **needs review**, published at review.html and flagged/. This follow-up will be submitted and deployed separately.
+- 2026-11-01 RELEASE COMPLETE: PR https://github.com/sassnarep3-star/Own2/pull/5 merged without waiting for review at 13:49:18Z, merge commit 72afa9147a504030144da21d0a38e4f078d01946. CI validate passed. GitHub Pages deployment https://github.com/sassnarep3-star/Own2/actions/runs/41313110631 succeeded; Pages build API confirms built for that commit. Live audit landing and Flagged for Review pages retrieved successfully with the expected findings: https://sassnarep3-star.github.io/Own2/audits/2026-11-01/ and https://sassnarep3-star.github.io/Own2/audits/2026-11-01/review.html . Implementation, targeted checks and publication are done; status needs review refers solely to the explicit nonblocking source/qualification uncertainties published there. No claim of complete all-206 verification.
+
+- Final publication-record PR #7 encountered a concurrent append conflict after PR #6 merged. Paused, retained both sessions’ complete deployment logs, and rebased; no application files changed or other-session work discarded.
+
+## Session be1d2210 (independent "verified-or-blank" dashboard at `/dashboard/`)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Repo review of karagemop466-tech/FreeMoneyApps + offline audit (T1, T2) | done | be1d2210 | `dashboard/audit/**`, `dashboard/data/raw/**`, `dashboard/tools/{extract,audit}.js` |
+| Live verification of 13 entries against official pages (T3) | done for 13; remaining 191 → **needs review** (unclaimed follow-up T7) | be1d2210 | `dashboard/data/verification/**` |
+| Site, executive summary, flagged page (T4, T5) | done | be1d2210 | `dashboard/**` only |
+| Integration PR → main, merge, Pages check (T6) | in progress → see log | be1d2210 | `dashboard/**`, this file (append-only) |
+
+- 2026-11-01: **Overlap note.** This session started from the initial commit (empty repo; board did not exist on that snapshot) and worked in isolation. When opening the PR it found that sessions f72a1743, 582a1199 and 05a44eaa had already merged full sites (PRs #1–#7) at the repository root. Rather than overwrite them, this session moved its entire site into `dashboard/` (an independent site; the project brief expects multiple sites), merged `origin/main` into its branch (only conflict: `README.md` modify/delete → kept the other session's README; `COORDINATION.md` taken from main and appended here), and edited **no** file outside `dashboard/` except this append-only log.
+- Sources & verification (details: `dashboard/data/verification/verified.json`, `dashboard/audit/SOURCE_REPO_REVIEW.md`): source ledger at karagemop466-tech/FreeMoneyApps commit 466f7c1e7a14b52b4a0d36beb84a00d68fd409b7; official pages fetched live 2026-11-01 for arcprize.org, kaggle.com (competitions index + ARC-AGI-2), devpost.com/hackathons, drivendata.org/competitions, metaculus.com/tournaments, fantasy.espn.com (NFL Pick'em, Survivor), cbssports.com Pro Football Pick'em rules (chunks 0–1 of 5), checkmategaming.com/free-tournaments, aicrowd.com ARC White-Box, mlb.com Beat the Streak, fantasygames.nascar.com rules (chunk 0 of 5), tradingview.com/the-leap (chunk 0 of 3). Topcoder and Zindi returned no content (JS-only). 11 of 13 readable entries show a discrepancy or unconfirmable figure vs the old ledger.
+- Checks run after merging main: `python scripts/build.py`, `python scripts/test.py`, `node scripts/check.cjs` (other sessions' checks) all pass with no generated diff; `node dashboard/tools/build.js`, `linkcheck.js` (17 pages, 801 internal links, 412 rows each with an official link, 0 problems) and `check-consistency.js` (0 problems) pass. External link-rot not measurable here (network allow-list); `dashboard/tools/linkcheck-external.js` provided.
+- Cross-session findings: arcprize.org states Paper Track papers due 2026-11-08 while session 582a1199 reports 2026-11-09 from the Kaggle rules → logged as a discrepancy on `dashboard/flagged.html`. Our GEMS finding (free entry not confirmed) matches 582a1199's.
+- **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
+- Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
 
 ---
 
