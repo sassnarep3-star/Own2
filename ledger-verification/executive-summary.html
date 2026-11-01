@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Executive summary · Free Cash-Prize Competitions Ledger</title>
+<meta name="description" content="Verification dashboard for free-to-enter competitions that can pay real money. Official sources only; unverified values left blank.">
+<link rel="stylesheet" href="assets/style.css?v=2026-11-01a">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="">Free Cash-Prize Ledger</a>
+    <nav class="nav" aria-label="Main"><a href="">Home</a><a href="all.html">All entries</a><a href="flagged.html">Flagged for review</a><a href="executive-summary.html" class="active" aria-current="page">Executive summary</a><a href="methodology.html">Methodology</a></nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+
+<p class="crumbs"><a href="index.html">Home</a> / Executive summary</p>
+<h1>Executive summary</h1>
+<p class="muted">Prepared 2026-11-01 from upstream ledger <a href="https://github.com/karagemop466-tech/FreeMoneyApps">github.com/karagemop466-tech/FreeMoneyApps</a> (commit 466f7c1, data as of 2026-08-19).</p>
+
+<section class="callout">
+  <h2>Bottom line</h2>
+  <p>This is a usable catalogue of 206 free-to-enter competitions with real prizes across 9 categories. It is not yet a verified list. Only 11 rows have been checked on an official page, and several important ledger claims are wrong or out of date. Use the shortlist as a starting point and check each official rule before you enter.</p>
+</section>
+
+<section>
+  <h2>Key numbers</h2>
+  <div class="kpis wide">
+    <div class="kpi "><div class="kpi-n">206</div><div class="kpi-l">Listings</div></div>
+    <div class="kpi "><div class="kpi-n">189</div><div class="kpi-l">Free path: full</div></div>
+    <div class="kpi "><div class="kpi-n">163</div><div class="kpi-l">Live (ledger)</div></div>
+    <div class="kpi ok"><div class="kpi-n">11</div><div class="kpi-l">Checked on official pages</div></div>
+    <div class="kpi bad"><div class="kpi-n">5</div><div class="kpi-l">High-severity rows</div></div>
+    <div class="kpi bad"><div class="kpi-n">5</div><div class="kpi-l">High-severity irregularities</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Findings</h2>
+  <ul><li>The source ledger (206 listings, last checked 2026-08-19) is internally consistent with its own totals: 189 entries are &quot;full free path&quot;, 163 are &quot;live&quot;, and the 62 iOS figure reconciles. But its data is 74 days old.</li><li>Only 11 of 206 rows (5.3%) were checked on an official page in this pass. The other 195 rows have blank prize values and are flagged as unverified.</li><li>Of the 11 rows checked: 3 verified, 3 partially verified, 4 in conflict with the official page, and 1 broken.</li><li>Policy conflict: the source excludes sportsbook, casino and real-money DFS contests. Fanatics Sportsbook, Andy&#39;s Bet Club and Gambling.com (casino games page) are still listed, and two of them are in the ledger&#39;s featured list.</li><li>Broken link: Dirty Dozen (gambling.com) redirects to a casino games page. No contest is shown.</li><li>Status conflicts: draft-pro is marked live, but its operator release says entries closed before 23 April 2026. The MLB Beat the Streak official rules end the contest with the 2026 regular season, which has passed.</li><li>Prize conflicts: Checkmate Gaming shows $40 to $1,500 per free tournament, not the ledger&#39;s $10 to $180. Kaggle live prize pools reach $450,000, not &quot;$5,000 to $100,000+&quot;.</li><li>13 third-party league entries carry links to another operator’s official site or to a third-party media site (R10). Those links are misleading until fixed.</li><li>No LICENSE exists in the upstream repo. Reuse rights for the listing data are unconfirmed.</li></ul>
+</section>
+
+<section>
+  <h2>What was checked, and what is confirmed</h2>
+  <ul class="plain"><li><span class="badge v-conflict">Conflict with official page</span> <a href="all.html#kaggle"><b>Kaggle Competitions</b></a> — Official page lists live prize pools of $35,000 to $450,000. The ledger says &#39;commonly $5,000 to $100,000+&#39;. The ledger range is understated. Official values shown instead.</li><li><span class="badge v-partial">Partially verified</span> <a href="all.html#devpost"><b>Devpost Hackathons</b></a> — Listing page shows live hackathons with prizes from $2,500 (Learn AR with SPECS) to $1,000,000 (Meta VR Start Developer Competition 2026). The ledger lower bound of $10,000 is not supported by this sample. The ledger&#39;s top value ($685,000) is not on this page. Prize blank for the ledger range.</li><li><span class="badge v-verified">Verified</span> <a href="all.html#arcprize"><b>ARC Prize (via Kaggle)</b></a> — Homepage states &#39;Now $2,000,000 in prizes!&#39; for ARC Prize 2026 and &#39;In partnership with Kaggle&#39;.</li><li><span class="badge v-verified">Verified</span> <a href="all.html#espn-pickem"><b>ESPN NFL Pick&#39;em</b></a> — Page states 58 prizes worth $102K, event dates 09/09/2026 to 01/10/2027, and status LIVE. Ledger link /make-picks returns the /picks page.</li><li><span class="badge v-verified">Verified</span> <a href="all.html#espn-cfb"><b>ESPN College Football Pick&#39;em</b></a> — Page states 46 prizes worth $86K, event dates 09/05/2026 to 12/06/2026, and status LIVE. Ledger link /make-picks returns the /picks page.</li><li><span class="badge v-partial">Partially verified</span> <a href="all.html#cbs-pro-pickem"><b>CBS Sports Pro Football Pick&#39;em</b></a> — Official rules (2026): free to play, no purchase or entry fee; sign-up from 20 Jul 2026; Challenge period 9 Sep 2026 to 10 Jan 2027; 18 weekly periods. Prize amounts are in later sections of the rules, which were not read, so the ledger prize figure ($1K/week, $5K season, $100K perfect) is unverified and left blank.</li><li><span class="badge v-conflict">Conflict with official page</span> <a href="all.html#draft-pro"><b>The Draft Pro — Perfect Draft Challenge</b></a> — Operator press release (PR Newswire, 8 Apr 2026): $1,000,000 Perfect Draft for the 2026 NFL Draft; entries close before the 23 Apr 2026 first round. The ledger lists status &#39;live&#39; and also says the $1M closed 23 Apr 2026. The current $10,000 NBA/NHL prize is not verified. Prize blank; status needs review.</li><li><span class="badge v-broken">Broken link</span> <a href="all.html#dirty-dozen"><b>Dirty Dozen (Gambling.com)</b></a> — Ledger link https://www.gambling.com/games/dirty-dozen redirects to https://www.gambling.com/games, a free online casino games page. No Dirty Dozen contest appears. The operator is a gambling site, which conflicts with the source&#39;s own exclusion of casino products. Also featured on the ledger homepage. Prize blank.</li><li><span class="badge v-conflict">Conflict with official page</span> <a href="all.html#mlb-beat-the-streak"><b>MLB Beat the Streak</b></a> — Prize confirmed. Official rules say the contest starts about 24 Mar 2026 and ends &#39;upon conclusion of the final game of the 2026 MLB regular season&#39;. The ledger still says live (checked 2026-08-19). The official end condition has passed as of 2026-11-01. Status needs review.</li><li><span class="badge v-partial">Partially verified</span> <a href="all.html#metaculus"><b>Metaculus Tournaments</b></a> — Page states &#39;You can participate for free and win cash prizes for being accurate&#39; and lists prize pools from $3,400 to $50,000. The ledger lower bound of $3,000 is not shown on the page sample. Prize blank for the ledger range.</li><li><span class="badge v-conflict">Conflict with official page</span> <a href="all.html#checkmate-gaming"><b>Checkmate Gaming (CMG) Free Tournaments</b></a> — Page states &#39;Totally free to enter with real cash prizes&#39;. The ledger range &#39;$10 to $180&#39; is contradicted by the page, which shows $40 to $1,500 on live listings. The ledger also says the platform runs paid-entry wager matches; those are not on this page.</li></ul>
+</section>
+
+<section>
+  <h2>Recommended next steps for review</h2>
+  <ol>
+    <li>Decide whether the listing data can be republished. The upstream repo has no license.</li>
+    <li>Remove or re-classify the sportsbook and casino rows: Fanatics Sportsbook, Andy's Bet Club, Oddspedia, Gambling.com, and the sportsbook-sponsored rows flagged on the Flagged page.</li>
+    <li>Fix the draft-pro and MLB Beat the Streak status rows, and the Checkmate Gaming and Kaggle prize rows, using their official pages.</li>
+    <li>Verify the remaining 195 rows against official pages, starting with live rows that carry the largest prizes. Fill blanks only from official pages.</li>
+    <li>Re-check annual photo awards and season contests before they are promoted.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Where to look next</h2>
+  <p><a href="flagged.html">Flagged for review</a> · <a href="all.html">All entries</a> · <a href="methodology.html">Methodology and sources</a></p>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Snapshot of upstream ledger from <a href="https://github.com/karagemop466-tech/FreeMoneyApps">github.com/karagemop466-tech/FreeMoneyApps</a> (commit <code>466f7c1</code>, 2026-08-19). Verification pass: 2026-11-01.</p>
+    <p>Not affiliated with any operator listed. Not legal, tax or gambling advice. Official rules always govern. Values marked blank are unverified.</p>
+  </div>
+</footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "sports",
+    "name": "Fantasy & sports picks",
+    "short": "Sports picks",
+    "blurb": "Free pick'em games, survivor pools, bracket challenges and fantasy leagues run by media companies and leagues. This is where free entry is most often written into official rules \u2014 and where the prize money is most often modest and shared.",
+    "read": "Highest volume of free-entry cash in the ledger. The winners are operator-run pick'em games (ESPN, CBS) because the rules explicitly say no purchase necessary and the prize tables are published. Treat fantasy mini-leagues and tipster contests as advertising, not prizes."
+  },
+  {
+    "id": "tech",
+    "name": "Tech & data competitions",
+    "short": "Tech & data",
+    "blurb": "Machine-learning competitions, hackathons and federal prize challenges with published cash pools. Free to enter on most platforms; the cost is your compute time and a working submission.",
+    "read": "Largest verified cash pools per event ($65k\u2013$2M) and the best fit for an AI-assisted workflow. The bottleneck is not entry, it is finishing a competitive submission before the deadline."
+  },
+  {
+    "id": "creative",
+    "name": "Creative contests",
+    "short": "Creative",
+    "blurb": "Photography, writing, design and humour prizes judged on a submission. Some are genuinely free to enter; many charge an entry fee or require a paid membership.",
+    "read": "Mixed. Photographic and literary awards are usually free to enter and pay real money, but they take months and usually require original work \u2014 several explicitly ban AI-generated entries."
+  },
+  {
+    "id": "forecasting",
+    "name": "Forecasting tournaments",
+    "short": "Forecasting",
+    "blurb": "Scored probability forecasts with sponsor-funded prize pools. Nothing is staked, and there is a dedicated track for automated/bot forecasters.",
+    "read": "The cleanest free path in the entire ledger: no fee, no stake, published pools, and an explicit bot track that suits an agent workflow."
+  },
+  {
+    "id": "skill",
+    "name": "Skill tournaments",
+    "short": "Skill",
+    "blurb": "Head-to-head and multiplayer skill games, from solitaire cash apps to esports ladders. Free rooms typically pay gems; cash rooms usually charge an entry fee.",
+    "read": "Mostly a trap. Free rooms pay non-withdrawable currencies, and the handful of real free-entry cash events are small and require genuine game skill."
+  },
+  {
+    "id": "market",
+    "name": "Market competitions",
+    "short": "Market",
+    "blurb": "Paper-trading and demo-account contests scored on simulated returns. Usually free, because brokers use them as marketing.",
+    "read": "Free to enter, but the prizes are frequently trading plans or gift cards rather than withdrawable cash, and many are lead-generation funnels for prop firms and brokers."
+  },
+  {
+    "id": "pools",
+    "name": "Free pool & league platforms",
+    "short": "Pool tools",
+    "blurb": "Tools that run office pools and survivor leagues. The platform does not fund a prize; your pool does.",
+    "read": "Not prize sources. Useful only if you are running a pool and want a free host."
+  },
+  {
+    "id": "trivia",
+    "name": "Trivia competitions",
+    "short": "Trivia",
+    "blurb": "Live or asynchronous quiz contests. Free daily plays exist; cash prizes usually require surviving a long elimination ladder.",
+    "read": "The thinnest category in the ledger \u2014 two entries, neither with a verified cash path at the time of audit."
+  },
+  {
+    "id": "directory",
+    "name": "Directories & listings",
+    "short": "Directories",
+    "blurb": "Places that list many competitions at once. Use them to discover events, then verify each event against its own official rules.",
+    "read": "Useful research hop, never a source of truth: a directory listing is not the operator's rules."
+  }
+]

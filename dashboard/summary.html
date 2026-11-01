@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Executive summary · Free Cash Contest Dashboard</title>
+<meta name="description" content="Executive summary of the free cash competition review.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f6f4a'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='white' font-family='sans-serif'%3E$%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/site.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html"><span class="mark">$</span><span>Free Cash Contest<br><small>Dashboard · checked 2026-11-01</small></span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="top-picks.html">Top picks</a><a href="categories.html">Categories</a><a href="all.html">All entries</a><a href="summary.html" aria-current="page">Executive summary</a><a href="flagged.html">Flagged for review</a><a href="methodology.html">Method</a></nav></div></header>
+<main id="main" class="wrap"><h1>Executive summary</h1>
+<p>Prepared 2026-11-01 (UTC) by session be1d2210 for the &quot;Free to enter cash prize competitions&quot; project. Live site: <a href="https://sassnarep3-star.github.io/Own2/dashboard/" target="_blank" rel="noopener noreferrer">sassnarep3-star.github.io/Own2/dashboard/</a> (an independent site alongside the other sessions' sites at the repository root, <a href="https://sassnarep3-star.github.io/Own2/" target="_blank" rel="noopener noreferrer">/</a>, <a href="https://sassnarep3-star.github.io/Own2/flagged/" target="_blank" rel="noopener noreferrer">/flagged/</a> and <a href="https://sassnarep3-star.github.io/Own2/audits/2026-11-01/" target="_blank" rel="noopener noreferrer">/audits/2026-11-01/</a>).</p>
+<h2>Bottom line</h2>
+<ul>
+<li>The source ledger (<a href="https://github.com/karagemop466-tech/FreeMoneyApps" target="_blank" rel="noopener noreferrer">karagemop466-tech/FreeMoneyApps</a>, commit 466f7c1) lists <b>206</b> competitions and <b>324 unique URLs</b>. Its data is <b>74 days old</b>: every entry carries the same check date, 2026-08-19.</li>
+<li>Only <b>13 of 206</b> entries could be re-read on their official pages in this review. <b>11 of those 13</b> showed a discrepancy or an unconfirmable figure against the old ledger, including entries that have since closed. Treat the other 191 as leads, not facts.</li>
+<li>For an AI-coding-agent strategy, the best-matched open opportunities confirmed today are forecasting tournaments (Metaculus), Kaggle paper tracks and hackathons, the DrivenData $300,000 GEMS challenge, and Devpost hackathons. Two free NFL pick'em games (ESPN, CBS) are open and fully sourced but are not code-driven.</li>
+<li>The new site follows one rule: <b>verified or blank</b>. Unconfirmed values are left empty and flagged, never filled in.</li>
+</ul>
+<h2>What was delivered</h2>
+<ul>
+<li>A mobile-first GitHub Pages dashboard: landing page, Top picks, nine category subpages, an all-entries table with search and filters, this summary, a method page, and a <b>Flagged for Review</b> page with source links.</li>
+<li>Machine-readable data: <code>data/ledger.json</code>, <code>data/ledger.csv</code>, the unmodified source extract, and the verification record <code>data/verification/verified.json</code>.</li>
+<li>Tooling: <code>tools/extract.js</code>, <code>tools/audit.js</code>, <code>tools/build.js</code>, <code>tools/linkcheck.js</code> (internal links) and <code>tools/linkcheck-external.js</code> (for use on a machine with open internet).</li>
+<li><code>COORDINATION.md</code>: the task board with claims, sources, verification performed and irregularities.</li>
+</ul>
+<h2>Key numbers</h2>
+<div class="tablewrap"><table class="t simple"><thead><tr><th>Measure</th><th>Value</th></tr></thead><tbody>
+<tr><td>Entries in source ledger</td><td>206 (9 categories)</td></tr>
+<tr><td>Re-read on official page, 2026-11-01</td><td>13</td></tr>
+<tr><td>Official page unreadable (JavaScript-only)</td><td>2 (Topcoder, Zindi)</td></tr>
+<tr><td>Not verified (blank values, flagged)</td><td>191</td></tr>
+<tr><td>Verified entries with a discrepancy or unconfirmable figure</td><td>11 of 13</td></tr>
+<tr><td>Entries with no source tagged official in the old ledger</td><td>12</td></tr>
+<tr><td>Old headline &quot;true free paths&quot;</td><td>189, of which 26 are marked ended</td></tr>
+</tbody></table></div>
+<h2>Best opportunities confirmed on official pages (2026-11-01)</h2>
+<div class="tablewrap"><table class="t simple"><thead><tr><th>Contest</th><th>Confirmed on the official page</th><th>Free entry</th><th>Dates</th></tr></thead><tbody>
+<tr><td><a href="https://www.metaculus.com/tournaments/" target="_blank" rel="noopener noreferrer">Metaculus tournaments</a></td><td>Fall 2026 FutureEval Bot Tournament $50,000; Labor Automation $35,000; others $5,000-$15,000</td><td>Yes (page says free)</td><td>Fall bot tournament &quot;ends 2 months from now&quot;</td></tr>
+<tr><td><a href="https://www.kaggle.com/competitions" target="_blank" rel="noopener noreferrer">Kaggle competitions</a></td><td>ARC Prize Paper Track $450,000; Gemma 4 Developer Agent Paper Track $35,000; NFL Big Data Bowl 2027 $100,000</td><td>Not stated on page read</td><td>8 days, 11 days, 2 months to go</td></tr>
+<tr><td><a href="https://www.drivendata.org/competitions/" target="_blank" rel="noopener noreferrer">DrivenData GEMS Prize Challenge</a></td><td>$300,000</td><td>Not stated on page read</td><td>&quot;4 weeks left&quot;</td></tr>
+<tr><td><a href="https://devpost.com/hackathons" target="_blank" rel="noopener noreferrer">Devpost hackathons</a></td><td>Meta VR $1,000,000; Codegeist $120,000; Kiroween $100,000; PayPal AI $67,500</td><td>Not stated on page read</td><td>Various, Nov-Dec 2026</td></tr>
+<tr><td><a href="https://fantasy.espn.com/games/nfl-pickem-2026/make-picks" target="_blank" rel="noopener noreferrer">ESPN NFL Pick'em</a></td><td>58 prizes, $102,000 total; $1,500 guaranteed weekly</td><td>Yes</td><td>to 10 Jan 2027</td></tr>
+<tr><td><a href="https://www.cbssports.com/fantasy/football/games/pickem/rules" target="_blank" rel="noopener noreferrer">CBS Pro Football Pick'em rules</a></td><td>18 x $1,000 weekly, $5,000 season, $100,000 contingency</td><td>Yes</td><td>to 10 Jan 2027</td></tr>
+</tbody></table></div>
+<p>The ranking, and the notes on fit for an AI coding agent, are analysis rather than confirmed fact; see <a href="top-picks.html">Top picks</a>.</p>
+<h2>Time-critical</h2>
+<ul>
+<li>ARC Prize 2026: final submissions due <b>2 Nov 2026 (11:59 PM UTC)</b>; the ARC-AGI-2 entry deadline (26 Oct) has already passed. Paper Track papers are due 8 Nov.</li>
+<li>Metaculus &quot;US Midterms 2026&quot; ($10,000) ends in 3 days.</li>
+<li>NASCAR Fantasy Live registration ends 8 Nov 2026 (prize amounts not confirmed).</li>
+</ul>
+<h2>Main irregularities (full list on the Flagged for Review page)</h2>
+<ul>
+<li><b>Stale statuses.</b> ESPN Survivor shows &quot;Entry creation has closed&quot;; the AIcrowd ARC White-Box challenge shows &quot;Submissions closed&quot;; the TradingView Leap edition cited is completed; Metaculus' named Summer pool is pending winners.</li>
+<li><b>Over-broad &quot;free USD&quot; tag.</b> 26 ended entries and 47 entries with gift-card, merchandise or trip prizes are counted as free USD paths.</li>
+<li><b>Policy contradiction.</b> The ledger excludes sportsbook accounts, yet lists Fanatics Survivor with a sportsbook signup domain and a third-party article as its rules link.</li>
+<li><b>Weak sourcing.</b> 19 cited sources are affiliate/forum pages; 12 entries have no official-tagged source; some &quot;official&quot; links are generic platform pages (e.g. the FPL home page for third-party leagues).</li>
+<li><b>Version drift.</b> The live site header says &quot;Pass C · 17 Aug 2026&quot; and the review page says 119 listings, but the data is pass S with 206.</li>
+<li><b>Site usability.</b> One long page of 206 cards, no search or filters, third-party fonts, relative og:image. Not device-tested; structural observation only.</li>
+</ul>
+<h2>Risks and limits</h2>
+<ul>
+<li><b>Coverage.</b> 191 entries remain unverified. Verification used live page fetches; JavaScript-only pages could not be read.</li>
+<li><b>Link rot.</b> The review environment could not reach most hosts, so none of the 324 external URLs was bulk link-checked. The reported broken links are not individually confirmed. The source repo has no broken internal links.</li>
+<li><b>Eligibility.</b> Texas eligibility was not confirmed per contest. Only the CBS and NASCAR rules state 50-state eligibility.</li>
+<li><b>Automation and AI use.</b> Contest rules on automated entries or AI assistance were not read. Read them before using an agent in any contest. ARC Prize forbids internet/API access during Kaggle evaluation and requires open-sourcing.</li>
+<li><b>Prize reality.</b> Headline pools are split across placings; confirmed prize totals are not expected returns.</li>
+</ul>
+<h2>Recommended next steps</h2>
+<p>1. Run <code>tools/linkcheck-external.js</code> on an unrestricted machine and attach the report.</p>
+<p>2. Verify the remaining 191 entries in priority order: ML/data (Codabench, Grand-Challenge, CrunchDAO, HeroX, XPRIZE), then US pick'em (Fox Super 6, NBA, NHL), then market contests.</p>
+<p>3. Read the rules pages (not only landing pages) for the six top picks, with attention to AI/automation clauses and Texas residency.</p>
+<p>4. Use <code>data/ledger.json</code> as the shared feed for the additional sites planned in the project.</p>
+<h2>Sources</h2>
+<p>Official pages read on 2026-11-01 are listed per entry in <a href="data/verification/verified.json">verified.json</a> and on the <a href="flagged.html">Flagged for Review</a> page. Original data: <a href="https://github.com/karagemop466-tech/FreeMoneyApps/tree/466f7c1e7a14b52b4a0d36beb84a00d68fd409b7" target="_blank" rel="noopener noreferrer">FreeMoneyApps @ 466f7c1</a>.</p></main>
+<footer class="wrap foot"><p>Independent research compilation — not affiliated with any listed operator. Official rules always govern; confirm every figure on the linked official page before entering. Values not confirmed from an official source are blank and marked <b>Unverified</b>. Data: <a href="data/ledger.json">ledger.json</a> · <a href="data/ledger.csv">ledger.csv</a> · <a href="https://github.com/sassnarep3-star/Own2">Repository</a>.<br>Other sites in this repository (built by other sessions): <a href="../index.html">main dashboard</a> · <a href="../flagged/">its flagged page</a> · <a href="../audits/2026-11-01/">independent audit supplement</a>.</p></footer>
+</body></html>

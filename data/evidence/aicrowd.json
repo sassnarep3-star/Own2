@@ -1,0 +1,57 @@
+{
+ "id": "aicrowd",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "AIcrowd challenges (official)",
+   "url": "https://www.aicrowd.com/challenges",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the page read.",
+   "url": "https://www.aicrowd.com/challenges"
+  },
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "All phases on the page read were completed; no open prize challenge was confirmed.",
+   "url": "https://www.aicrowd.com/challenges"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "All phases completed and submissions closed as of 2026-11-01",
+   "quote": "All phases completed and submissions closed.",
+   "url": "https://www.aicrowd.com/challenges"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.aicrowd.com/challenges"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.aicrowd.com/challenges"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.aicrowd.com/challenges"
+  }
+ },
+ "summary": "The ledger describes an ongoing AIcrowd challenge with a future phase. The official page shows every phase completed and submissions closed.",
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01).",
+ "flags": [
+  "Ledger says 'Phase 1 complete, Phase 2 upcoming' and status live; the official page shows all phases completed."
+ ],
+ "deadline_iso": null
+}
