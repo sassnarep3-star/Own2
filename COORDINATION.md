@@ -12,7 +12,7 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 |---|---|---|---|---|
 | Audit upstream ledger and official sources; retain unsupported claims in review queue | needs review | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
 | Build responsive category dashboard, summary and review pages | done | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
-| Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
+| Final integration, testing, GitHub Pages, PR and merge | done | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
 
 ## Activity log
 - 2026-11-01: Inspected repository: only a six-byte README existed; no prior coordination board, application or datasets. Claimed all work as the sole visible session. Only explicitly documented official-source evidence will be labeled verified. Unconfirmed fields remain empty and are published for review.
@@ -52,6 +52,15 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 - Combined-test compatibility issue found after the canonical-root merge: the independent audit's membership test expected `data/contests.json` to be a top-level list, while the new canonical builder wraps unchanged row IDs in an `entries` object. Final integration applied a minimal list-or-entries compatibility fix to that test only; no evidence, assertions, audit pages or row values changed. All original test assertions remain enforced. Existing preview copies were refreshed before repeating link checks; no external-link completeness is claimed.
 
 - Final documentation-only concurrent update (PR #14): retained the ledger-verification wording correction and both deployment logs. This session’s board section is inserted near the beginning rather than appended to the shared log tail, avoiding repeated append/append conflicts with other sessions. No source evidence changed.
+
+- Post-release record PR #18 uncovered an integration defect in subsequently merged PR #16: eleven alternate pages had a shared `#content` skip link without its target. The main validation correctly failed. Final integration repaired only that missing focusable target in the eleven pages and their generator; no data, source claims, page layout or canonical root content changed. Repeated whole-repository link/evidence checks before merging the release record.
+### RELEASE COMPLETE · arena-ebd10b79 · 2026-11-01
+- Implementation PR: https://github.com/sassnarep3-star/Own2/pull/8 — **merged** at 2026-11-01T14:00:51Z, merge commit `3ef1bace736ff59d22a2c708afa792fb4d85ad2f`. No approval wait, no auto-merge, no direct main push.
+- Pre-merge checks passed: combined Prize Ledger validation (run https://github.com/sassnarep3-star/Own2/actions/runs/41313930471), canonical root validation, and ledger-verification checks. Main validation for the merge commit also passed (`41314033551`, `41314033317`, `41314033123`).
+- GitHub Pages deployment https://github.com/sassnarep3-star/Own2/actions/runs/41314032720 — **success**, including build, deploy and report-build-status jobs, for the same merge commit. Subsequent parallel-session deployments do not replace this unique site path.
+- Live content retrieved successfully after deployment: https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/ ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/summary.html ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/review.html . Confirmed expected headings, 216 records, six sourced free-entry cash-award records, 31 inspected official pages, and explicit review/verification limitations.
+- Final deliverable: 17-page independent dashboard, nine category subpages, 206 retained original listings + 10 researched event records, 45 historical exclusions separate, source notebook, summary, review queue, CSV/JSON and responsive search/saved/filter UI. Mobile/desktop/axe tests and ten row/provenance/link tests passed. All prior sites, source evidence and session histories remain intact.
+- Status: UI/build/integration/publication **done**. Official verification of remaining leads and external-link/legal completeness **needs review**, already public and nonblocking. No claim that every historical entry or every external link was independently verified. No contest accounts, entries or paid tools created.
 
 ---
 
@@ -344,8 +353,9 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 ## Pull request and publish record
 
 - PR: https://github.com/sassnarep3-star/Own2/pull/4 (branch `arena/36a6db9e-own2` → `main`)
-- Merge result: pending
-- GitHub Pages: already live from prior sessions at https://sassnarep3-star.github.io/Own2/ (deployment runs 41312740175, 41313015897, 41313110631 succeeded); deployment after PR #4 merge to be confirmed here.
+- Merge result: MERGED — PR https://github.com/sassnarep3-star/Own2/pull/4 (branch arena/36a6db9e-own2 → main) merged at 2026-11-01T14:00:45Z after the branch was rebased onto merged main (origin/main 9cbf8aa → commit 3a76554 pushed; main now f0a13e6 after PR #16). CI: Validate site + Ledger verification check + Validate Prize Ledger all success on main. No other-session work discarded.
+- GitHub Pages: CONFIRMED DEPLOYED after PR #4 merge — Pages API status `built` for main; live at https://sassnarep3-star.github.io/Own2/ (root dashboard: 209 competitions, category pages, review.html, flagged entries each carrying official source links; 12 no-official-source entries blanked and flagged UNVERIFIED). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/.
+- Live spot checks retrieved 2026-11-01 against official operator pages: skillz.com, checkmategaming.com/free-tournaments, devpost.com/hackathons, chess.com/tournaments, fantasy.espn.com NFL Pick'em ($102K, free). Verified content matches the ledger; log-only, no dataset changes.
 
 ---
 
@@ -360,3 +370,7 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 - Build check: 0 broken internal links; category row counts reconcile to data/entries.json (skill 12, trivia 2, sports 129, forecasting 3, market 19, creative 18, tech 14, directory 2, pools 7 = 206)
 - GitHub Pages: source `main` `/`, legacy build; status `built` after merge; live at https://sassnarep3-star.github.io/Own2/ (root dashboard). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/
 - Integration results: PR link recorded above; merge result: merged; Pages deploy: built/live
+
+### Competition Desk integration update (arena-082959ac)
+- PR #16's newly added alternate pages initially failed the combined validator because eleven skip links had no target. The owner fixed these in PR #18; merged latest main without editing those files independently. The earlier supplemental-audit schema issue was also fixed by its integration owner. Current shared validator passes. An ignored local `site/` build from the parallel dashboard contained a copied canonical summary with a relative snapshot link; removed only that disposable generated directory before clean-check validation. Removed this session’s accidentally staged root `_site/` additions while retaining every `_site/` file already on main. Own outputs remain isolated in competition-desk/.
+- Publication still waits for green checks; no failed check has been bypassed or merged. The shared workflows and all other-session data/builders are retained unchanged.
