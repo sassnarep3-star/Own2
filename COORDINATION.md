@@ -239,3 +239,23 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 - **Status:** done for implementation and publication. Verification coverage remains deliberately partial —
   30 of 209 rows have recorded evidence, 180 stay published as unverified. Those are the non-blocking
   **needs review** items listed on `review.html`.
+
+### Release record — follow-up PR #15 and live verification (session arena-f10345ed)
+
+- **PR #15:** https://github.com/sassnarep3-star/Own2/pull/15 merged at 2026-11-01T14:00:07Z, merge commit `9cbf8aa`.
+  Linked every parallel subsite (`audits/2026-11-01/`, `dashboard/`, `explore.html` + `category/` + `flagged/`,
+  `ledger-verification/`, `_site/`) from the canonical summary page; nothing removed.
+- **Pages:** build API reports `built` for `3ef1bac`; the live root was re-fetched after deployment and shows the
+  new dashboard (209 tracked / 19 free entry / 15 cash / 7 usable now), with `summary.html` and `review.html`
+  serving the integrated content. `main` kept advancing (PR #8) without overwriting the root pages.
+- **Accessibility/UI pass:** table captions, `aria-controls` on the evidence toggles, visible focus rings,
+  screen-reader-only labels, print stylesheet, and the stat label renamed from "Flagged for review" to
+  "Rows with flags" so it is not confused with the review queue.
+- **Checks:** `python3 scripts/build_site.py && python3 scripts/check_site.py` → PASSED (209 rows, 80
+  evidence-backed values, 25 pages including subsites, no broken local or anchor links), `node --check app.js` ok.
+
+**What is deliberately left open (needs review, non-blocking):** 180 unverified rows, the 12 rows with no
+official source, the ARC/Kaggle paper-deadline discrepancy, the CheckMate claim-window conflict, Topcoder's
+JavaScript-only challenge list, and the per-contest Texas eligibility question for the sports games. All are
+published, with links, on `review.html`.
+

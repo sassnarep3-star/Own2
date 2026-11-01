@@ -185,3 +185,7 @@ footer a{color:var(--ink2)}
 }
 
 .pick .money.muted{color:#94a3b8;font-weight:600}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+button.more:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+@media print{.top,nav,.controls,.chips,button,.go{display:none}body{background:#fff}table.grid{min-width:0}}
