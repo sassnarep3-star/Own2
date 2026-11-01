@@ -27,6 +27,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 | `nascar-fantasy-live` | NASCAR Fantasy Live | partial | confirmed | not stated | not stated | 2026-11-01 |
 | `tradingview-leap` | TradingView — The Leap | partial | confirmed | CONTRADICTED | confirmed | 2026-11-01 |
 | `vocal` | Vocal Challenges | partial | confirmed | not stated | not stated | 2026-11-01 |
+| `xprize` | XPRIZE | partial | - | confirmed | - | 2026-11-01 |
 | `zindi` | Zindi | partial | - | - | - | 2026-11-01 |
 | `aicrowd` | AIcrowd Challenges | flagged | not stated | not found | confirmed | 2026-11-01 |
 | `andys-predictor` | Andy's Bet Club £1M Predictor | flagged | confirmed | confirmed | confirmed | 2026-11-01 |
@@ -35,6 +36,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 | `espn-survivor` | ESPN NFL Survivor | flagged | confirmed | not stated | confirmed | 2026-11-01 |
 | `film-prize` | Louisiana Film Prize (Prize Fest) | flagged | not found | not found | not found | 2026-11-01 |
 | `herox` | HeroX / Challenge.gov | flagged | not stated | not found | not found | 2026-11-01 |
+| `hipa` | Hamdan International Photography Award (HIPA) | flagged | - | not found | - | 2026-11-01 |
 | `tom-howard-poetry` | Tom Howard/Margaret Reid Poetry Contest | flagged | CONTRADICTED | confirmed | confirmed | 2026-11-01 |
 | `young-lions` | Young Lions Fiction Award (NYPL) | flagged | not stated | not stated | confirmed | 2026-11-01 |
 | `arcprize` | ARC Prize (via Kaggle) | closed | confirmed | confirmed | confirmed | 2026-11-01 |
@@ -375,6 +377,15 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Flags:* Official source is a retired platform: Challenge.gov was sunset on 2026-03-30.; Replacement listing is https://www.usa.gov/find-active-challenge.; No prize figure could be verified.
 
+### Hamdan International Photography Award (HIPA) (`hipa`)
+
+*Assessment:* The hamdan bin Mohammed bin Rashid Al Maktoum International Photography Award's cited address returns a 404, so the ledger's '$200,000 grand prize; category prizes $20,000' cannot be confirmed in this pass.
+
+- **Cash prize** — not found. > Retrieved content: 'The resource cannot be found. ... Requested URL: /en/ ... HTTP 404.'  
+  <https://www.hipa.ae/en/>
+
+*Flags:* Official URL is dead (404) - prize claim unverified and not published.; Award is a UAE-seasonal competition; no dates could be read, so the 2026 season status is unknown.
+
 ### Kaggle Competitions (`kaggle`)
 
 *Assessment:* Hosts live competitions with published prize pools in the $35,000-$450,000 range on 2026-11-01. Entry fee is nowhere stated; Kaggle's own docs are silent on free entry, so this row is partial, not verified-free.
@@ -602,6 +613,15 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free>
 
 *Flags:* Official rules prohibit AI-generated entries; the agent can only assist with editing.
+
+### XPRIZE (`xprize`)
+
+*Assessment:* Real mega-purses, but these are multi-year team programmes (registration, milestones, site visits), not a weekend competition; the listing states no entry fee and no eligibility on its face.
+
+- **Cash prize** — confirmed. > $5 Million Active XPRIZE Quantum Applications ... $119 Million Active XPRIZE Water Scarcity ... $101 Million Active XPRIZE Healthspan ... $11 Million Finals XPRIZE Wildfire  
+  <https://www.xprize.org/competitions>
+
+*Flags:* Free entry is not stated on the competitions listing - left blank as unverified.; Time-to-prize is measured in years and requires an institutional team, so it is not an immediate opportunity.
 
 ### Young Lions Fiction Award (NYPL) (`young-lions`)
 
