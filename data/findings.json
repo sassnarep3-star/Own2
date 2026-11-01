@@ -1,0 +1,1132 @@
+{
+  "sources": {
+    "meta-rules": {
+      "url": "https://www.metaculus.com/tournament-rules/",
+      "title": "Metaculus tournament rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "No purchase, fee, or payment is required to participate.",
+        "Competitions on Metaculus are generally open to participants worldwide, ages 13 or older",
+        "human participants are allowed to use AI tools or systems to assist in their forecasting, as long as the final submissions reflect their own decisions and understanding.",
+        "Unless otherwise specifically permitted in the Competition-specific rules, automated systems, bots, artificial intelligence, or user accounts which are officially registered as bot accounts, are ineligible for tournament prizes.",
+        "Monetary payouts may be paid in the form of cash or a cash equivalent, which may include but is not limited to prepaid virtual cards, gift cards, or similar methods, at the discretion of Metaculus."
+      ],
+      "notes": "Both chunks inspected. Cash-equivalent substitution means cash withdrawal is NOT guaranteed."
+    },
+    "meta-index": {
+      "url": "https://www.metaculus.com/tournaments/",
+      "title": "Metaculus tournament directory",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "You can participate for free and win cash prizes for being accurate."
+      ],
+      "notes": ""
+    },
+    "futureeval": {
+      "url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+      "title": "Fall 2026 FutureEval Bot Tournament",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Sep 28 2026",
+        "Jan 06 2027",
+        "$50,000Prize Pool",
+        "This is a bot-only competition where bot-makers attempt to push AI to its limits in predicting future events."
+      ],
+      "notes": ""
+    },
+    "bot-resources": {
+      "url": "https://www.metaculus.com/notebooks/38928/ai-benchmark-resources/",
+      "title": "Official FutureEval bot resources",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Bot makers should only submit one forecast per question in these bot-only tournaments",
+        "Metaculus Cup is a great way to test your bot and compare yourself against human participants.",
+        "though bots are not eligible for prizes"
+      ],
+      "notes": "Chunk 0 of 19 inspected; later onboarding details not fully verified."
+    },
+    "cup": {
+      "url": "https://www.metaculus.com/tournament/metaculus-cup-fall-2026/",
+      "title": "Metaculus Cup Fall 2026",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Jan 01 2027",
+        "$5,000Prize Pool",
+        "If the Community Prediction beats him by season's end, the prize pool grows by an additional $2,500."
+      ],
+      "notes": ""
+    },
+    "midterms": {
+      "url": "https://www.metaculus.com/tournament/midterms-2026/",
+      "title": "US Midterms 2026",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Nov 04",
+        "$10,000Prize Pool"
+      ],
+      "notes": "Displayed close date lacks a year in extracted header. Deadline cell retains the exact displayed date; no inferred timestamp."
+    },
+    "arc": {
+      "url": "https://arcprize.org/competitions/2026",
+      "title": "ARC Prize 2026",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "$2M in prizes. 3 tracks. Open source progress toward AGI.",
+        "November 2, 2026 - Submissions due",
+        "November 8, 2026 - Papers due",
+        "All prizes require reproducible, open-source submissions",
+        "Internet access is not available during Kaggle evaluation (no API-based systems like GPT/Claude/etc.)"
+      ],
+      "notes": ""
+    },
+    "arc2": {
+      "url": "https://arcprize.org/competitions/2026/arc-agi-2",
+      "title": "ARC-AGI-2 track",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "TOTAL PRIZES AVAILABLE: $700,000",
+        "No internet access during evaluation",
+        "All code and methods must be open sourced to be eligible for prizes"
+      ],
+      "notes": ""
+    },
+    "gems": {
+      "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+      "title": "GEMS Prize challenge",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Dec. 3, 2026, 11:59 p.m. UTC",
+        "Total Prize Pool: $300,000",
+        "Create and train your own model."
+      ],
+      "notes": ""
+    },
+    "gems-rules": {
+      "url": "https://docs.nlr.gov/docs/fy26osti/96647.pdf",
+      "title": "GEMS official rules (September 2026)",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "This prize competition offers a total pool of $300,000 in cash prizes.",
+        "An individual prize competitor (who is not competing as a member of a group) must be a U.S. citizen or permanent resident.",
+        "Each competitor must sign and return to the prize administrator within 30 days of the date on the notice a completed NLR Request for ACH Banking Information form and a completed IRS W-9 form."
+      ],
+      "notes": "PDF chunks 0, 1 and 4 inspected via DrivenData → HeroX official rules → laboratory PDF. No explicit entry-fee statement transcribed; entry left blank."
+    },
+    "sony": {
+      "url": "https://www.worldphoto.org/sony-world-photography-awards",
+      "title": "Sony World Photography Awards",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "the Awards have championed inclusivity and access by being free to enter.",
+        "Single Image and Youth competition close",
+        "Series competition closes"
+      ],
+      "notes": "Chunk 0 of 3 inspected. Event-wide amounts are track-specific, not a single guaranteed award."
+    },
+    "sony-single": {
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+      "title": "Sony Single Image competition rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Enter up to three single images for free",
+        "Win $5,000 (USD)",
+        "Deadline is 5 January, 2027 at 16.00 GMT",
+        "The Single Image competition is open to all members of the public.",
+        "Computer generated content cannot be the origin of the Entry."
+      ],
+      "notes": "Old /open URL redirected to /single-image. Rules in chunk 0 inspected; full terms extend beyond this excerpt."
+    },
+    "sony-series": {
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+      "title": "Sony Series competition rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Free to enter",
+        "Win $25,000 (USD)",
+        "All Entrants must be over 18.",
+        "Entries must be submitted by 12 January, 2027 at 16.00 GMT",
+        "Computer generated content cannot be the origin of the Entry."
+      ],
+      "notes": "Old /professional URL redirected to /series. Rules chunk 0 inspected; full terms extend beyond this excerpt."
+    },
+    "wergle": {
+      "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+      "title": "Wergle Flomp Humor Poetry Contest",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "No fee to enter. Submit published or unpublished work. $5,100 in prizes.",
+        "August 15, 2026-April 1, 2027",
+        "First Prize: $2,000",
+        "No restriction on age of author.",
+        "Authors from all countries eligible except Iran, North Korea, Crimea, Russia, and Belarus",
+        "may not contain any AI-generated text",
+        "Any use of AI in the creation of your entry must be specifically described at the time of submission."
+      ],
+      "notes": "Chunk 0 of 2 inspected. Cash total distinguished from subscription benefits."
+    },
+    "papaya": {
+      "url": "https://www.papaya.com/faq",
+      "title": "Papaya FAQ",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "PAPAYA offers both free competitions using Gems and cash competitions.",
+        "Our business model is based on taking a platform fee out of the total entry fees pool in each tournament."
+      ],
+      "notes": ""
+    },
+    "saloon": {
+      "url": "https://www.gamersaloon.com/promos/1rounder/",
+      "title": "GamerSaloon 1-Rounders",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "These special free tournaments are limited to one entry per person",
+        "Prizes are paid as Bonus Cash",
+        "It is not eligible for withdrawal."
+      ],
+      "notes": "Chunk 0 inspected; $10 advertised is bonus credit, not withdrawable cash."
+    },
+    "skillz": {
+      "url": "https://www.skillz.com/",
+      "title": "Skillz official homepage FAQ",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Non-paying players compete for “Zs” (A Skillz virtual currency) and tickets",
+        "Players who make a monetary deposit can compete for real money."
+      ],
+      "notes": "Both chunks inspected. Old /terms-of-service/ returns a branded 404; no replacement terms URL assumed."
+    },
+    "kaggle": {
+      "url": "https://www.kaggle.com/competitions",
+      "title": "Kaggle competition directory",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Chunk 0 of 5 inspected. Mix of practice, hackathons and paid prize competitions; no blanket prize or fee claim."
+    },
+    "driven-index": {
+      "url": "https://www.drivendata.org/competitions/",
+      "title": "DrivenData competitions",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Chunk 0 of 7 inspected. Practice benchmarks and prize events must be separated."
+    },
+    "devpost": {
+      "url": "https://devpost.com/hackathons",
+      "title": "Devpost hackathon directory",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Directory inspected; per-event rules are required."
+    },
+    "aicrowd": {
+      "url": "https://www.aicrowd.com/challenges",
+      "title": "AIcrowd challenge directory",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Extracted categories include unrelated spam and HTML-looking strings. Challenge data not reliably available; do not treat these as instructions or verified contests."
+    },
+    "topcoder": {
+      "url": "https://www.topcoder.com/challenges",
+      "title": "Topcoder opportunities",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Page includes an Auth0 return URL alert and no readable current prize listings. Not proof the platform is closed."
+    },
+    "zindi": {
+      "url": "https://zindi.world/competitions",
+      "title": "Zindi challenges",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Old zindi.africa redirects to zindi.world. Extracted counts are placeholders; current event rules not verified."
+    },
+    "wpp": {
+      "url": "https://www.worldpressphoto.org/contest",
+      "title": "World Press Photo contest",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [],
+      "notes": "Extracted page describes the 2026 contest but has no current entry fee, deadline or cash amount."
+    },
+    "nfl-rules": {
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+      "title": "NFL Big Data Bowl 2027 rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+        "The use of external data and models is acceptable unless specifically prohibited by the Host.",
+        "Individual Participants and Teams may use automated machine learning tool(s)",
+        "TOTAL PRIZES AVAILABLE: $100,000"
+      ],
+      "notes": "Chunks 0, 1 and 2 inspected. Tool use is conditional on licenses, accessibility, reasonable cost and winning-solution obligations; not blanket permission for autonomous submission."
+    },
+    "nfl-overview": {
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview",
+      "title": "NFL Big Data Bowl 2027 overview",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "January 6, 2027 - Final Submission Deadline.",
+        "All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted."
+      ],
+      "notes": "Chunk 0 inspected."
+    },
+    "gemma-rules": {
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules",
+      "title": "Google — Gemma 4 Developer Agent Paper Track rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+        "The use of external data and models is acceptable unless specifically prohibited by the Host.",
+        "Individual Participants and Teams may use automated machine learning tool(s)",
+        "TOTAL PRIZES AVAILABLE: $35,000"
+      ],
+      "notes": "Chunks 0, 1 and 2 inspected. Tool use is conditional on licenses, accessibility, reasonable cost and winning-solution obligations; not blanket permission for autonomous submission."
+    },
+    "gemma-overview": {
+      "url": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/overview",
+      "title": "Google — Gemma 4 Developer Agent Paper Track overview",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "November 12, 2026 - Final Submission Deadline.",
+        "All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted."
+      ],
+      "notes": "Chunk 0 inspected."
+    },
+    "paypal": {
+      "url": "https://paypalaihackathon.devpost.com/rules",
+      "title": "PayPal AI Hackathon official rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+        "Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+        "Entrants must build or update an application that integrates the PayPal developer platform (using the free sandbox environment) along with an AI tool, model, or platform of their choice",
+        "1st Place | $12,000 USD",
+        "A monetary Prize will be mailed to the winning Entrant’s address",
+        "Prizes will be delivered within 60 days"
+      ],
+      "notes": "Chunks 0 and 2 inspected. Directory total includes mixed sponsor rewards; display only the explicitly listed $12,000 first-place cash award."
+    },
+    "kiro": {
+      "url": "https://kiroween.devpost.com/rules",
+      "title": "Kiroween 2026 official rules",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+        "December 4, 2026 (2:00 pm Pacific Time)",
+        "Entrants must build a working software application using Kiro",
+        "maximum 3 participants per team",
+        "The repository must contain all necessary source code, assets, and instructions",
+        "Your repo must contain the /.kiro directory at the root of the project"
+      ],
+      "notes": "Chunks 0, 1 and 2 inspected. Prize section not transcribed; prize left blank rather than adopting the directory headline."
+    },
+    "squares": {
+      "url": "https://www.squarespool.com/",
+      "title": "SquaresPool official homepage",
+      "checked": "2026-11-01",
+      "result": "content inspected",
+      "excerpts": [
+        "Get your own pool page in minutes — completely free."
+      ],
+      "notes": "Inherited HTTP URL redirects to HTTPS. Pool tool, not verified operator-funded cash prize; no payout inferred."
+    }
+  },
+  "updates": {
+    "metaculus": {
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase, fee or payment",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "ai": {
+          "value": "Human AI assistance allowed; bots need explicit event permission",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "payout": {
+          "value": "Cash or cash equivalents at operator discretion; no guaranteed cash withdrawal",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "eligibility": {
+          "value": "Generally 13+ worldwide; sanctioned locations cannot receive prizes; event and conflict-of-interest exclusions apply",
+          "sources": [
+            "meta-rules"
+          ]
+        }
+      },
+      "flags": [
+        "Platform directory, not a single prize opportunity. Cash-equivalent substitution is explicitly allowed."
+      ],
+      "checkedSource": "meta-index"
+    },
+    "arcprize": {
+      "fields": {
+        "prize": {
+          "value": "$2,000,000 total across 3 tracks",
+          "sources": [
+            "arc"
+          ],
+          "cash": true,
+          "amount": 2000000,
+          "kind": "multi-track pool"
+        },
+        "deadline": {
+          "value": "Submissions: 2 Nov 2026; papers: 8 Nov 2026",
+          "sources": [
+            "arc"
+          ],
+          "date": "2026-11-02"
+        },
+        "ai": {
+          "value": "AI systems are the task; no internet or external model APIs during Kaggle evaluation",
+          "sources": [
+            "arc"
+          ]
+        },
+        "requirements": {
+          "value": "Reproducible open-source solution; submit via the designated Kaggle track",
+          "sources": [
+            "arc"
+          ]
+        }
+      },
+      "flags": [
+        "Urgent deadline. Track pools overlap with the headline total; never add them together. Entry fee and full personal eligibility unconfirmed."
+      ],
+      "checkedSource": "arc"
+    },
+    "sony-world-photo": {
+      "fields": {
+        "entry": {
+          "value": "Free to enter; track limits apply",
+          "sources": [
+            "sony"
+          ]
+        }
+      },
+      "flags": [
+        "Umbrella listing; use the separately researched Series and Single Image rows. Student and Youth prizes shown on the official page are equipment, not the cash awards of the other tracks."
+      ],
+      "checkedSource": "sony"
+    },
+    "wergle-flomp": {
+      "fields": {
+        "entry": {
+          "value": "Free; one humor poem",
+          "sources": [
+            "wergle"
+          ]
+        },
+        "prize": {
+          "value": "$2,000 first prize; $5,100 total cash",
+          "sources": [
+            "wergle"
+          ],
+          "cash": true,
+          "amount": 5100,
+          "kind": "cash pool"
+        },
+        "deadline": {
+          "value": "1 Apr 2027",
+          "sources": [
+            "wergle"
+          ],
+          "date": "2027-04-01"
+        },
+        "eligibility": {
+          "value": "All ages; English; excludes Iran, North Korea, Crimea, Russia and Belarus",
+          "sources": [
+            "wergle"
+          ]
+        },
+        "ai": {
+          "value": "No AI-generated text; limited error feedback only, with AI use disclosed",
+          "sources": [
+            "wergle"
+          ]
+        },
+        "requirements": {
+          "value": "One original humor poem, maximum 250 lines; omit identifying information",
+          "sources": [
+            "wergle"
+          ]
+        }
+      },
+      "flags": [
+        "Not suitable for an agent-written entry. Subscription benefits are separate from cash."
+      ],
+      "checkedSource": "wergle"
+    },
+    "solitaire-cash": {
+      "fields": {
+        "entry": {
+          "value": "Free Gems competitions; separate cash competitions use entry-fee pools",
+          "sources": [
+            "papaya"
+          ]
+        }
+      },
+      "flags": [
+        "Free Gems are not verified as withdrawable cash. Excluded from the confirmed free-cash filter."
+      ],
+      "checkedSource": "papaya"
+    },
+    "bingo-cash": {
+      "fields": {
+        "entry": {
+          "value": "Free Gems competitions; separate cash competitions use entry-fee pools",
+          "sources": [
+            "papaya"
+          ]
+        }
+      },
+      "flags": [
+        "Free Gems are not verified as withdrawable cash. Excluded from the confirmed free-cash filter."
+      ],
+      "checkedSource": "papaya"
+    },
+    "gamersaloon": {
+      "fields": {
+        "entry": {
+          "value": "Free; limited to one entry per person",
+          "sources": [
+            "saloon"
+          ]
+        },
+        "prize": {
+          "value": "$10 Bonus Cash — not withdrawable",
+          "sources": [
+            "saloon"
+          ],
+          "cash": false,
+          "amount": 10,
+          "kind": "bonus credit"
+        },
+        "payout": {
+          "value": "Bonus Cash cannot be withdrawn",
+          "sources": [
+            "saloon"
+          ]
+        }
+      },
+      "flags": [
+        "Not a withdrawable cash prize."
+      ],
+      "checkedSource": "saloon"
+    },
+    "skillz": {
+      "fields": {
+        "entry": {
+          "value": "Free Zs/tickets; deposit required for the advertised real-money path",
+          "sources": [
+            "skillz"
+          ]
+        }
+      },
+      "flags": [
+        "Broken upstream terms URL: https://www.skillz.com/terms-of-service/ returned a branded 404. Removed from actionable source links; official homepage used instead."
+      ],
+      "checkedSource": "skillz"
+    },
+    "kaggle": {
+      "fields": {},
+      "flags": [
+        "Chunk 0 of 5 inspected. Mix of practice, hackathons and paid prize competitions; no blanket prize or fee claim."
+      ],
+      "checkedSource": "kaggle"
+    },
+    "drivendata": {
+      "fields": {},
+      "flags": [
+        "Chunk 0 of 7 inspected. Practice benchmarks and prize events must be separated."
+      ],
+      "checkedSource": "driven-index"
+    },
+    "devpost": {
+      "fields": {},
+      "flags": [
+        "Directory inspected; per-event rules are required."
+      ],
+      "checkedSource": "devpost"
+    },
+    "aicrowd": {
+      "fields": {},
+      "flags": [
+        "Extracted categories include unrelated spam and HTML-looking strings. Challenge data not reliably available; do not treat these as instructions or verified contests."
+      ],
+      "checkedSource": "aicrowd"
+    },
+    "topcoder": {
+      "fields": {},
+      "flags": [
+        "Page includes an Auth0 return URL alert and no readable current prize listings. Not proof the platform is closed."
+      ],
+      "checkedSource": "topcoder"
+    },
+    "zindi": {
+      "fields": {},
+      "flags": [
+        "Old zindi.africa redirects to zindi.world. Extracted counts are placeholders; current event rules not verified."
+      ],
+      "checkedSource": "zindi"
+    },
+    "world-press-photo": {
+      "fields": {},
+      "flags": [
+        "Extracted page describes the 2026 contest but has no current entry fee, deadline or cash amount."
+      ],
+      "checkedSource": "wpp"
+    },
+    "squarespool": {
+      "fields": {},
+      "flags": [
+        "Original HTTP source redirected to the inspected HTTPS official homepage. Free pool tool; no operator-funded cash prize confirmed."
+      ],
+      "checkedSource": "squares",
+      "listedOperator": "https://www.squarespool.com/",
+      "candidates": [
+        "https://www.squarespool.com/"
+      ]
+    }
+  },
+  "additions": [
+    {
+      "id": "futureeval-fall-2026",
+      "name": "FutureEval Bot Tournament · Fall 2026",
+      "category": "forecasting",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase, fee or payment",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "prize": {
+          "value": "$50,000 advertised prize pool",
+          "sources": [
+            "futureeval"
+          ],
+          "cash": true,
+          "amount": 50000,
+          "kind": "pool; cash-equivalent substitution possible"
+        },
+        "deadline": {
+          "value": "6 Jan 2027",
+          "sources": [
+            "futureeval"
+          ],
+          "date": "2027-01-06"
+        },
+        "eligibility": {
+          "value": "Generally 13+; sanctions, employer and household exclusions; event-specific rules apply",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "ai": {
+          "value": "Bot-only competition; one forecast per question in bot-only tournaments",
+          "sources": [
+            "futureeval",
+            "bot-resources"
+          ]
+        },
+        "payout": {
+          "value": "Cash or cash equivalents, including gift cards, at operator discretion; identity and tax documents required",
+          "sources": [
+            "meta-rules"
+          ]
+        }
+      },
+      "checkedSource": "futureeval",
+      "flags": [
+        "Cash-equivalent substitution is permitted: this is not guaranteed withdrawable cash."
+      ]
+    },
+    {
+      "id": "metaculus-cup-fall-2026",
+      "name": "Metaculus Cup · Fall 2026",
+      "category": "forecasting",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase, fee or payment",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "prize": {
+          "value": "$5,000 advertised prize pool",
+          "sources": [
+            "cup"
+          ],
+          "cash": true,
+          "amount": 5000,
+          "kind": "pool; cash-equivalent substitution possible"
+        },
+        "deadline": {
+          "value": "1 Jan 2027",
+          "sources": [
+            "cup"
+          ],
+          "date": "2027-01-01"
+        },
+        "eligibility": {
+          "value": "Generally 13+; sanctions, employer and household exclusions; event-specific rules apply",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "ai": {
+          "value": "Human AI assistance allowed; bots not eligible for Cup prizes",
+          "sources": [
+            "meta-rules",
+            "bot-resources"
+          ]
+        },
+        "payout": {
+          "value": "Cash or cash equivalents, including gift cards, at operator discretion; identity and tax documents required",
+          "sources": [
+            "meta-rules"
+          ]
+        }
+      },
+      "checkedSource": "cup",
+      "flags": [
+        "Cash-equivalent substitution is permitted: this is not guaranteed withdrawable cash.",
+        "An extra $2,500 is conditional; not included in the base pool."
+      ]
+    },
+    {
+      "id": "midterms-2026",
+      "name": "US Midterms 2026",
+      "category": "forecasting",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase, fee or payment",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "prize": {
+          "value": "$10,000 advertised prize pool",
+          "sources": [
+            "midterms"
+          ],
+          "cash": true,
+          "amount": 10000,
+          "kind": "pool; cash-equivalent substitution possible"
+        },
+        "deadline": {
+          "value": "Nov 04 (as displayed)",
+          "sources": [
+            "midterms"
+          ]
+        },
+        "eligibility": {
+          "value": "Generally 13+; sanctions, employer and household exclusions; event-specific rules apply",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "ai": {
+          "value": "Human AI assistance allowed; bots not eligible by default",
+          "sources": [
+            "meta-rules"
+          ]
+        },
+        "payout": {
+          "value": "Cash or cash equivalents, including gift cards, at operator discretion; identity and tax documents required",
+          "sources": [
+            "meta-rules"
+          ]
+        }
+      },
+      "checkedSource": "midterms",
+      "flags": [
+        "Cash-equivalent substitution is permitted: this is not guaranteed withdrawable cash.",
+        "Header omits deadline year and timezone; neither inferred."
+      ]
+    },
+    {
+      "id": "gems-2026",
+      "name": "GEMS Prize · Geologic Enhanced Mapping",
+      "category": "tech",
+      "fields": {
+        "prize": {
+          "value": "$300,000 cash pool; final-round first prize $100,000",
+          "sources": [
+            "gems",
+            "gems-rules"
+          ],
+          "cash": true,
+          "amount": 300000,
+          "kind": "two-round pool"
+        },
+        "deadline": {
+          "value": "3 Dec 2026 · 23:59 UTC",
+          "sources": [
+            "gems"
+          ],
+          "date": "2026-12-03"
+        },
+        "eligibility": {
+          "value": "Individuals: U.S. citizen/permanent resident, 18+ and age of majority; separate team/entity rules and exclusions",
+          "sources": [
+            "gems-rules"
+          ]
+        },
+        "payout": {
+          "value": "ACH banking form + W-9 due within 30 days of notice; identity/role verified",
+          "sources": [
+            "gems-rules"
+          ]
+        },
+        "requirements": {
+          "value": "Train a model and submit fault predictions; licensed external data must be shareable for verification",
+          "sources": [
+            "gems"
+          ]
+        }
+      },
+      "checkedSource": "gems",
+      "flags": [
+        "Explicit no-fee language and generative-AI policy not confirmed in inspected excerpts. Not included in the confirmed free-cash filter."
+      ]
+    },
+    {
+      "id": "sony-single-2027",
+      "name": "Sony Awards 2027 · Single Image",
+      "category": "creative",
+      "fields": {
+        "entry": {
+          "value": "Free; up to 3 single images",
+          "sources": [
+            "sony-single"
+          ]
+        },
+        "prize": {
+          "value": "$5,000 USD overall winner",
+          "sources": [
+            "sony-single"
+          ],
+          "cash": true,
+          "amount": 5000,
+          "kind": "individual award"
+        },
+        "deadline": {
+          "value": "5 Jan 2027 · 16:00 GMT",
+          "sources": [
+            "sony-single"
+          ],
+          "date": "2027-01-05"
+        },
+        "eligibility": {
+          "value": "All members of the public; entry photograph must be taken in 2026",
+          "sources": [
+            "sony-single"
+          ]
+        },
+        "ai": {
+          "value": "Photograph-origin entries only; computer-generated origin prohibited; disclose manipulation",
+          "sources": [
+            "sony-single"
+          ]
+        },
+        "requirements": {
+          "value": "Up to 3 images free; JPEG, 1–5 MB, sRGB",
+          "sources": [
+            "sony-single"
+          ]
+        }
+      },
+      "checkedSource": "sony-single",
+      "flags": [
+        "Cash is for the overall winner, not every category winner. Full payout method unconfirmed."
+      ]
+    },
+    {
+      "id": "sony-series-2027",
+      "name": "Sony Awards 2027 · Series",
+      "category": "creative",
+      "fields": {
+        "entry": {
+          "value": "Free to enter",
+          "sources": [
+            "sony-series"
+          ]
+        },
+        "prize": {
+          "value": "$25,000 USD overall winner",
+          "sources": [
+            "sony-series"
+          ],
+          "cash": true,
+          "amount": 25000,
+          "kind": "individual award"
+        },
+        "deadline": {
+          "value": "12 Jan 2027 · 16:00 GMT",
+          "sources": [
+            "sony-series"
+          ],
+          "date": "2027-01-12"
+        },
+        "eligibility": {
+          "value": "Over 18; image publication/unpublished-work criteria apply",
+          "sources": [
+            "sony-series"
+          ]
+        },
+        "ai": {
+          "value": "Photograph-origin entries only; computer-generated origin prohibited; disclose manipulation",
+          "sources": [
+            "sony-series"
+          ]
+        },
+        "requirements": {
+          "value": "5–10 images per category with a series description; JPEG, 1–5 MB, sRGB",
+          "sources": [
+            "sony-series"
+          ]
+        }
+      },
+      "checkedSource": "sony-series",
+      "flags": [
+        "Cash is for the overall winner, not every category winner. Full payout method unconfirmed."
+      ]
+    },
+    {
+      "id": "nfl-big-data-bowl-2027",
+      "name": "NFL Big Data Bowl 2027",
+      "category": "tech",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase necessary to enter or win",
+          "sources": [
+            "nfl-rules"
+          ]
+        },
+        "prize": {
+          "value": "$100,000 total prize pool",
+          "sources": [
+            "nfl-rules"
+          ],
+          "cash": true,
+          "amount": 100000,
+          "kind": "pool"
+        },
+        "deadline": {
+          "value": "6 Jan 2027 · 23:59 UTC",
+          "sources": [
+            "nfl-overview"
+          ],
+          "date": "2027-01-06"
+        },
+        "eligibility": {
+          "value": "Kaggle account; prize eligibility generally 18+/age of majority; sanctions and sponsor-affiliation exclusions; maximum team of 5",
+          "sources": [
+            "nfl-rules"
+          ]
+        },
+        "ai": {
+          "value": "External models and AutoML permitted conditionally: licenses, reasonable access/cost, winner obligations",
+          "sources": [
+            "nfl-rules"
+          ]
+        },
+        "requirements": {
+          "value": "Use tracking data; ≤2,000 words, fewer than 10 figures/tables; public notebook; open-source winner license",
+          "sources": [
+            "nfl-rules",
+            "nfl-overview"
+          ]
+        }
+      },
+      "checkedSource": "nfl-rules",
+      "flags": [
+        "Generic submission limits and hackathon-specific limits both appear in rules; apply the specific hackathon rule and recheck before submitting."
+      ]
+    },
+    {
+      "id": "gemma-paper-2026",
+      "name": "Gemma 4 Developer Agent · Paper Track",
+      "category": "tech",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase necessary to enter or win",
+          "sources": [
+            "gemma-rules"
+          ]
+        },
+        "prize": {
+          "value": "$35,000 total prize pool",
+          "sources": [
+            "gemma-rules"
+          ],
+          "cash": true,
+          "amount": 35000,
+          "kind": "pool"
+        },
+        "deadline": {
+          "value": "12 Nov 2026 · 23:59 UTC",
+          "sources": [
+            "gemma-overview"
+          ],
+          "date": "2026-11-12"
+        },
+        "eligibility": {
+          "value": "Kaggle account; prize eligibility generally 18+/age of majority; sanctions and sponsor-affiliation exclusions; maximum team of 5",
+          "sources": [
+            "gemma-rules"
+          ]
+        },
+        "ai": {
+          "value": "External models and AutoML permitted conditionally: licenses, reasonable access/cost, winner obligations",
+          "sources": [
+            "gemma-rules"
+          ]
+        },
+        "requirements": {
+          "value": "Original unpublished research; ≤3,000 words; Kaggle Writeup; Apache 2.0 winner license",
+          "sources": [
+            "gemma-rules",
+            "gemma-overview"
+          ]
+        }
+      },
+      "checkedSource": "gemma-rules",
+      "flags": [
+        "Generic submission limits and hackathon-specific limits both appear in rules; apply the specific hackathon rule and recheck before submitting."
+      ]
+    },
+    {
+      "id": "paypal-ai-2026",
+      "name": "PayPal AI Hackathon",
+      "category": "tech",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase or payment required",
+          "sources": [
+            "paypal"
+          ]
+        },
+        "prize": {
+          "value": "$12,000 USD first place",
+          "sources": [
+            "paypal"
+          ],
+          "cash": true,
+          "amount": 12000,
+          "kind": "individual award"
+        },
+        "deadline": {
+          "value": "12 Nov 2026 · 12:00 Pacific Time",
+          "sources": [
+            "paypal"
+          ],
+          "date": "2026-11-12"
+        },
+        "ai": {
+          "value": "Must integrate PayPal sandbox and an AI tool/model/platform of your choice",
+          "sources": [
+            "paypal"
+          ]
+        },
+        "eligibility": {
+          "value": "Age of majority; conflict-of-interest exclusions; geographic exclusions include Brazil, Quebec, Russia, Crimea, Cuba, Iran and North Korea",
+          "sources": [
+            "paypal"
+          ]
+        },
+        "payout": {
+          "value": "Mailed monetary prize or electronic bank payment; required forms within 10 business days; delivery within 60 days of completed forms",
+          "sources": [
+            "paypal"
+          ]
+        },
+        "requirements": {
+          "value": "Working PayPal + AI application, description and functional demo; required developer accounts; third-party licenses apply",
+          "sources": [
+            "paypal"
+          ]
+        }
+      },
+      "checkedSource": "paypal",
+      "flags": [
+        "Prize shown is first place, not the directory headline total. AI integration is required; do not interpret this as blanket permission to submit fully autonomous work."
+      ]
+    },
+    {
+      "id": "kiroween-2026",
+      "name": "Kiroween 2026",
+      "category": "tech",
+      "fields": {
+        "entry": {
+          "value": "Free; no purchase or payment required",
+          "sources": [
+            "kiro"
+          ]
+        },
+        "deadline": {
+          "value": "4 Dec 2026 · 14:00 Pacific Time",
+          "sources": [
+            "kiro"
+          ],
+          "date": "2026-12-04"
+        },
+        "ai": {
+          "value": "Must build using Kiro; document tool usage; insufficient use can disqualify",
+          "sources": [
+            "kiro"
+          ]
+        },
+        "eligibility": {
+          "value": "Age of majority; teams ≤3; extensive country and conflict-of-interest exclusions—see official rules §3",
+          "sources": [
+            "kiro"
+          ]
+        },
+        "requirements": {
+          "value": "New working app; public open-source GitHub repo including /.kiro; demo video under 3 minutes; tool-usage writeup",
+          "sources": [
+            "kiro"
+          ]
+        }
+      },
+      "checkedSource": "kiro",
+      "flags": [
+        "Cash prize section not confirmed in the inspected rules excerpts. Do not infer the cash amount from a directory headline. Region-specific Kiro features and potential tool costs require review."
+      ]
+    }
+  ]
+}
