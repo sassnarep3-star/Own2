@@ -12,6 +12,9 @@ permissions:
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ledger-4c1d6bb4
     steps:
       - uses: actions/checkout@v4
 
@@ -40,12 +43,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: link-check-report
-          path: reports/
+          path: ledger-4c1d6bb4/reports/
           retention-days: 30
 
-      # Site must build; broken links are surfaced, not fatal (they are
-      # published on /flagged.html). Structure failures ARE fatal.
-      - name: Fail on structural problems
+      - name: Print counts
         run: |
           node -e "
             const r = require('./reports/link-check.json');
