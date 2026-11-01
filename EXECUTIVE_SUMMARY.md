@@ -52,7 +52,7 @@ The upstream category blurb for "Fantasy & sports picks" also mentions "sweepsta
 ## Other irregularities
 
 - **No license** in the upstream repo. Reuse rights for the listing data are unconfirmed. (This repo had no license or content before this session.)
-- **Misattributed links:** 13 third-party league entries link to another operator's site (nine to the official Fantasy Premier League site; four to Fantasy Football Scout's own or other official pages).
+- **Misattributed links:** 13 third-party league entries carry links that do not point to their operator. Ten point to the official Fantasy Premier League site, one to UEFA's Champions League Fantasy page, one to the EFL fantasy page, and one to the third-party Fantasy Football Scout site (labelled official in the ledger).
 - **Affiliate-only prize sources:** three forex broker demo contests (RoboForex, FBS, NPBFX) cite affiliate sites only.
 - **Stale data:** every row is dated 2026-08-19. Seven annual photo awards are listed as live with deadlines not checked.
 - **Promo or join codes** appear in 12 entries' ledger data. They are not published here and are unverified.

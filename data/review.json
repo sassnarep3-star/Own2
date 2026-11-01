@@ -493,7 +493,7 @@
       "id": "R10",
       "severity": "medium",
       "title": "Misattributed links: 9 third-party FPL leagues point to the official Fantasy Premier League site",
-      "detail": "football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore and pitchbooking all use fantasy.premierleague.com as their signup link. These are third-party leagues. The same applies to the Fantasy Football Scout entries (ffs-*), which use the FPL and UEFA pages.",
+      "detail": "football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore and pitchbooking are third-party leagues whose signup link is the official Fantasy Premier League site. Fantasy Football Scout entries: ffs-fpl links to the official FPL site, ffs-ucl to UEFA's Champions League Fantasy page, ffs-efl to the EFL fantasy page, and ffs-tattico to the third-party Fantasy Football Scout site (labelled official).",
       "links": [
         {
           "label": "Official FPL",
