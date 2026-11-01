@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "python3 scripts/build.py --publish-root",
+    "build": "python3 scripts/build-dashboard.py --publish-root",
     "test": "python3 -m unittest discover -s tests -v",
     "test:browser": "node tests/browser.cjs",
     "preview": "python3 -m http.server 4173 --bind 0.0.0.0 --directory site"

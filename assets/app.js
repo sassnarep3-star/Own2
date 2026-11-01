@@ -1,137 +1,42 @@
 'use strict';
-(() => {
-  document.body.classList.add('js');
-  const menu = document.querySelector('#menu');
-  const sidebar = document.querySelector('#sidebar');
-  const closeMenu = () => { sidebar?.classList.remove('open'); menu?.setAttribute('aria-expanded', 'false'); };
-  menu?.addEventListener('click', () => {
-    const open = sidebar.classList.toggle('open');
-    menu.setAttribute('aria-expanded', String(open));
-  });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeMenu(); menu?.focus(); } });
-  document.addEventListener('click', e => { if (sidebar?.classList.contains('open') && !sidebar.contains(e.target) && !menu?.contains(e.target)) closeMenu(); });
-
-  const panel = document.querySelector('#explorer');
-  if (!panel) return;
-  const rows = [...panel.querySelectorAll('tbody > tr')];
-  rows.forEach((row, index) => { row.dataset.order = index; });
-  const search = panel.querySelector('#search');
-  const category = panel.querySelector('#category');
-  const evidence = panel.querySelector('#evidence-filter');
-  const sort = panel.querySelector('#sort');
-  const tabs = [...panel.querySelectorAll('[data-view]')];
-  const storageKey = 'prize-ledger-saved-v1';
-  let saved = new Set();
-  let memoryOnly = false;
-  try {
-    const parsed = JSON.parse(localStorage.getItem(storageKey) || '[]');
-    saved = new Set(Array.isArray(parsed) ? parsed.filter(x => typeof x === 'string') : []);
-  } catch { memoryOnly = true; }
-  let view = panel.dataset.mode === 'saved' ? 'saved' : 'all';
-  let page = 1;
-  const perPage = 20;
-  const locked = panel.dataset.categoryLock;
-  const params = new URLSearchParams(location.search);
-  search.value = params.get('q') || '';
-  if (params.get('view') === 'free') view = 'free';
-  if (params.get('view') === 'saved') view = 'saved';
-  if (locked) { category.value = locked; category.disabled = true; }
-  else if ([...category.options].some(o => o.value === params.get('category'))) category.value = params.get('category');
-  if ([...evidence.options].some(o => o.value === params.get('evidence'))) evidence.value = params.get('evidence');
-  if ([...sort.options].some(o => o.value === params.get('sort'))) sort.value = params.get('sort');
-
-  function synchronizeSaved() {
-    panel.querySelectorAll('[data-save]').forEach(button => {
-      const active = saved.has(button.dataset.save);
-      button.hidden = false;
-      button.setAttribute('aria-pressed', String(active));
-      button.textContent = active ? '★' : '☆';
-      const name = button.closest('tr').querySelector('.row-name').textContent;
-      button.setAttribute('aria-label', (active ? 'Unsave ' : 'Save ') + name);
-    });
-    panel.querySelector('[data-count="saved"]').textContent = rows.filter(r => saved.has(r.dataset.id)).length;
+const dataUrl = new URL('../data/catalog.json', document.currentScript.src);
+const mode = document.body.dataset.view || 'home';
+const cat = document.body.dataset.category || '';
+const el = (tag, cls, text) => { const n = document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n; };
+function link(text, url) { const a=el('a','',text); a.href=url; if(/^https?:/.test(url)){a.target='_blank';a.rel='noopener noreferrer';} return a; }
+function cell(label, content) { const td=el('td');td.dataset.label=label; if(content instanceof Node)td.append(content);else if(content)td.textContent=content;else td.append(el('span','empty','—'));return td; }
+function row(item, kind) {
+  const tr=el('tr');
+  if(kind==='opportunity'){
+    const name=el('span');name.append(link(item.name,item.operatorUrl),el('span','minor',item.fit));
+    const evidence=el('span'); evidence.append(link('Rules ↗',item.rulesUrl),el('span','minor',item.evidence));
+    tr.append(cell('Opportunity',name),cell('Entry',item.entry),cell('Prize',item.prize),cell('Deadline',item.deadline),cell('Eligibility',item.eligibility),cell('Official evidence',evidence));
+  }else{
+    const name=el('span');name.append(el('strong','',item.name),el('span','minor',item.id));
+    const official=el('span'); if(item.claimedRulesUrl)official.append(link('Source-cited page ↗',item.claimedRulesUrl));
+    else if(item.operatorUrl)official.append(link('Operator site ↗',item.operatorUrl));
+    else official.append(el('span','empty','—'));
+    if(item.operatorUrl && item.claimedRulesUrl && item.operatorUrl!==item.claimedRulesUrl) official.append(el('span','minor','Listed operator: '),link('Open ↗',item.operatorUrl));
+    official.append(el('span','minor','Link carried over from source; not independently validated.'));
+    tr.append(cell('Listing',name),cell('Prize',item.prize),cell('Free entry',item.entry),cell('Status',el('span','tag warn','Unverified')),cell('Issue',item.issue),cell('Official link',official),cell('Original record',link('Ledger ↗',item.provenance)));
   }
-  function updateURL() {
-    const p = new URLSearchParams();
-    if (search.value) p.set('q', search.value);
-    if (category.value && !locked) p.set('category', category.value);
-    if (evidence.value !== 'all') p.set('evidence', evidence.value);
-    if (sort.value !== 'research') p.set('sort', sort.value);
-    if (view !== 'all') p.set('view', view);
-    // Preserve an evidence deep link while its row is explicitly targeted.
-    const entry = new URLSearchParams(location.search).get('entry');
-    if (entry) p.set('entry', entry);
-    try { history.replaceState(null, '', location.pathname + (p.size ? '?' + p.toString() : '') + location.hash); } catch { /* file:// preview */ }
-  }
-  function render() {
-    const query = search.value.trim().toLocaleLowerCase();
-    let matches = rows.filter(row => {
-      const d = row.dataset;
-      return (!query || d.search.includes(query)) &&
-        (!category.value || d.category === category.value) &&
-        (view !== 'free' || d.free === 'true') &&
-        (view !== 'saved' || saved.has(d.id)) &&
-        (evidence.value !== 'checked' || d.checked === 'true') &&
-        (evidence.value !== 'unverified' || d.checked === 'false') &&
-        (evidence.value !== 'ai' || d.ai === 'true');
-    });
-    matches.sort((a,b) => {
-      if (sort.value === 'name') return a.querySelector('.row-name').textContent.localeCompare(b.querySelector('.row-name').textContent);
-      if (sort.value === 'deadline') return (a.dataset.date || '9999').localeCompare(b.dataset.date || '9999');
-      return Number(a.dataset.order) - Number(b.dataset.order);
-    });
-    const pages = Math.max(1, Math.ceil(matches.length / perPage));
-    page = Math.min(Math.max(1, page), pages);
-    const shown = new Set(matches.slice((page - 1) * perPage, page * perPage));
-    // Maintain the chosen order in the actual DOM for keyboard and screen-reader users.
-    const body = panel.querySelector('tbody');
-    matches.forEach(row => body.append(row));
-    rows.forEach(row => { row.hidden = !shown.has(row); });
-    panel.querySelector('#empty').hidden = matches.length > 0;
-    const start = matches.length ? (page - 1) * perPage + 1 : 0;
-    const end = Math.min(page * perPage, matches.length);
-    panel.querySelector('#result-count').textContent = `Showing ${start}–${end} of ${matches.length} opportunities${memoryOnly ? ' · saves are temporary in this browser' : ''}`;
-    panel.querySelector('#page-number').textContent = `${page} / ${pages}`;
-    panel.querySelector('#prev').disabled = page <= 1;
-    panel.querySelector('#next').disabled = page >= pages;
-    tabs.forEach(tab => tab.setAttribute('aria-pressed', String(tab.dataset.view === view)));
-    updateURL();
-  }
-  tabs.forEach(tab => tab.addEventListener('click', () => { view = tab.dataset.view; page = 1; render(); }));
-  [category, evidence, sort].forEach(control => control.addEventListener('change', () => { page = 1; render(); }));
-  search.addEventListener('input', () => { page = 1; render(); });
-  panel.querySelector('#reset').addEventListener('click', () => {
-    search.value = ''; category.value = locked || ''; evidence.value = 'all'; sort.value = 'research'; view = panel.dataset.mode === 'saved' ? 'saved' : 'all'; page = 1;
-    try { history.replaceState(null, '', location.pathname); } catch {}
-    render();
-  });
-  panel.querySelector('#prev').addEventListener('click', () => { page--; render(); panel.querySelector('h2').scrollIntoView({block:'start'}); });
-  panel.querySelector('#next').addEventListener('click', () => { page++; render(); panel.querySelector('h2').scrollIntoView({block:'start'}); });
-  panel.addEventListener('click', e => {
-    const button = e.target.closest('[data-save]');
-    if (!button) return;
-    const id = button.dataset.save;
-    if (saved.has(id)) saved.delete(id); else saved.add(id);
-    try { localStorage.setItem(storageKey, JSON.stringify([...saved])); } catch { memoryOnly = true; }
-    synchronizeSaved(); render();
-  });
-  window.addEventListener('storage', e => {
-    if (e.key !== storageKey) return;
-    try { const value = JSON.parse(e.newValue || '[]'); saved = new Set(Array.isArray(value) ? value.filter(x => typeof x === 'string') : []); } catch { saved = new Set(); }
-    synchronizeSaved(); render();
-  });
-  panel.querySelector('.interactive').hidden = false;
-  panel.querySelector('.pagination').hidden = false;
-  synchronizeSaved();
-  const target = params.get('entry');
-  const targetRow = rows.find(r => r.dataset.id === target);
-  if (targetRow) {
-    search.value = ''; category.value = locked || ''; evidence.value = 'all'; sort.value = 'research'; view = 'all';
-    // Research-order deep links reach their page without trusting input as a selector or HTML.
-    const idx = rows.indexOf(targetRow);
-    page = Math.floor(idx / perPage) + 1;
-    targetRow.querySelector('details').open = true;
-  }
-  render();
-  if (targetRow && !targetRow.hidden) targetRow.scrollIntoView({block:'center'});
-})();
+  return tr;
+}
+function buildTable(items,kind,container){
+  const headings=kind==='opportunity'?['Opportunity','Entry','Prize','Deadline','Eligibility','Official evidence']:['Listing','Prize','Free entry','Status','Issue','Operator / source','Original record'];
+  const wrap=el('div','table-scroll'),table=el('table'),thead=el('thead'),hrow=el('tr'),tbody=el('tbody');
+  headings.forEach(h=>hrow.append(el('th','',h)));thead.append(hrow);items.forEach(x=>tbody.append(row(x,kind)));table.append(thead,tbody);wrap.append(table);container.append(wrap);return tbody;
+}
+fetch(dataUrl).then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(data=>{
+  const count=id=>data.listings.filter(x=>x.category===id).length;
+  document.querySelectorAll('[data-stat="catalog"]').forEach(n=>n.textContent=data.listings.length);
+  document.querySelectorAll('[data-stat="confirmed"]').forEach(n=>n.textContent=data.opportunities.filter(x=>x.verification==='confirmed').length);
+  document.querySelectorAll('[data-stat="partial"]').forEach(n=>n.textContent=data.opportunities.filter(x=>x.verification==='partial').length);
+  const cards=document.querySelector('#category-cards'); if(cards)data.categories.forEach(c=>{const a=el('a','cat-card');a.href=`category/${c.id}.html`;a.append(el('span','count',`${count(c.id)} source listings →`),el('h3','',c.name),el('small','', 'Explore & review'));cards.append(a);});
+  const active=cat?data.categories.find(c=>c.id===cat):null;
+  if(cat&&!active)throw Error('Unknown category');
+  if(active){document.querySelectorAll('[data-category-name]').forEach(n=>n.textContent=active.name);document.querySelectorAll('[data-category-count]').forEach(n=>n.textContent=count(cat));}
+  const opportunities=document.querySelector('#opportunities');if(opportunities){const rows=mode==='home'?data.opportunities:data.opportunities.filter(x=>x.category===cat);buildTable(rows,'opportunity',opportunities);}
+  const backlog=document.querySelector('#backlog');if(backlog){const items=mode==='flagged'?data.listings:data.listings.filter(x=>x.category===cat);const tbody=buildTable(items,'backlog',backlog);const input=document.querySelector('#search');const result=document.querySelector('#result-count');if(result)result.textContent=`${items.length} records`;
+    if(input)input.addEventListener('input',()=>{const q=input.value.trim().toLocaleLowerCase();let visible=0;Array.from(tbody.children).forEach((tr,i)=>{const match=!q||`${items[i].name} ${items[i].id} ${items[i].issue}`.toLocaleLowerCase().includes(q);tr.hidden=!match;if(match)visible++;});if(result)result.textContent=`${visible} of ${items.length} records`;});}
+}).catch(e=>{const target=document.querySelector('main');target.prepend(el('p','notice',`Catalog could not load: ${e.message}. Try refreshing the page.`));});

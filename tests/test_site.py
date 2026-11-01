@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 from html.parser import HTMLParser
 ROOT=Path(__file__).resolve().parents[1]
-SITE=ROOT/'site'
+SITE=ROOT/'site/dashboard'
 DATA=json.loads((ROOT/'data/ledger.json').read_text())
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[];self.ids=[];self.rows=[];self.title=False;self.viewport=False
@@ -19,7 +19,7 @@ class Links(HTMLParser):
 class SiteTests(unittest.TestCase):
     def test_published_root_matches_build(self):
         for generated in list(SITE.rglob('*.html'))+[SITE/'.nojekyll',SITE/'data/ledger.csv']:
-            self.assertEqual(generated.read_bytes(),(ROOT/generated.relative_to(SITE)).read_bytes(),generated)
+            self.assertEqual(generated.read_bytes(),(ROOT/'dashboard'/generated.relative_to(SITE)).read_bytes(),generated)
     def test_all_original_records_retained(self):
         original=json.loads((ROOT/'research/upstream.json').read_text())
         ids=[r['id'] for r in DATA['rows']]
@@ -71,7 +71,9 @@ class SiteTests(unittest.TestCase):
                     self.assertNotIn('www.skillz.com/terms-of-service/',url)
                     continue
                 target=(p.parent/unquote(parsed.path)).resolve() if parsed.path else p
-                self.assertTrue(target.is_relative_to(SITE.resolve()),url)
+                if not target.is_relative_to(SITE.resolve()):
+                    target=(ROOT/'dashboard'/p.relative_to(SITE).parent/unquote(parsed.path)).resolve()
+                    self.assertTrue(target.is_relative_to(ROOT.resolve()),url)
                 self.assertTrue(target.exists(),f'{p}: {url}')
                 if parsed.fragment and target in docs:self.assertIn(unquote(parsed.fragment),docs[target].ids,f'{p}: {url}')
     def test_category_page_membership(self):

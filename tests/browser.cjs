@@ -7,7 +7,7 @@ const { spawn, spawnSync } = require('node:child_process');
 const path = require('node:path');
 const os = require('node:os');
 const zlib = require('node:zlib');
-const base = process.env.BASE_URL || 'http://127.0.0.1:4180';
+const base = process.env.BASE_URL || 'http://127.0.0.1:4180/dashboard';
 let server;
 async function run() {
   if (!process.env.BASE_URL) {
