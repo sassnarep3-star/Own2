@@ -1,0 +1,56 @@
+{
+ "id": "topcoder",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "unverified",
+ "sources": [
+  {
+   "title": "Topcoder challenge listings",
+   "url": "https://www.topcoder.com/challenges",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The challenge listing page is rendered client-side; the fetched document exposed filters and headings but no challenge titles or prize amounts.",
+   "url": "https://www.topcoder.com/challenges"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the listing shell.",
+   "url": "https://www.topcoder.com/challenges"
+  },
+  "deadline": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not retrievable without client-side rendering.",
+   "url": "https://www.topcoder.com/challenges"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the listing shell.",
+   "url": "https://www.topcoder.com/challenges"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the listing shell.",
+   "url": "https://www.topcoder.com/challenges"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the listing shell.",
+   "url": "https://www.topcoder.com/challenges"
+  }
+ },
+ "summary": "Could not be verified in this pass: the page requires JavaScript to render challenges, so nothing about prizes, entry or deadlines could be confirmed. Left as an unverified lead.",
+ "flags": [
+  "Page not readable without JavaScript; verification blocked, not disproved."
+ ],
+ "deadline_iso": null
+}

@@ -1,0 +1,1601 @@
+{
+ "generated": "2026-11-01",
+ "uniqueUrls": 324,
+ "summary": {
+  "VAGUE_VALUE": 9,
+  "OFFICIAL_TIER_DOMAIN_MISMATCH": 12,
+  "PRIZE_NOT_QUANTIFIED": 15,
+  "NON_OFFICIAL_SOURCE": 19,
+  "DATE_IN_PAST_REVIEW": 26,
+  "ENDED_BUT_COUNTED_FREE": 26,
+  "NON_CASH_PRIZE_TAGGED_FREE_USD": 47,
+  "NO_OFFICIAL_SOURCE": 12,
+  "CAUTION_BUT_FREE": 10,
+  "URL_NOT_HTTPS": 3,
+  "FEE_MENTION_ON_FREE": 18,
+  "NO_RULES_URL": 6,
+  "POSSIBLE_NON_US_ONLY": 8,
+  "VIRTUAL_CURRENCY_TAGGED_FREE_USD": 3,
+  "SHARED_SIGNUP_DOMAIN": 49
+ },
+ "findings": [
+  {
+   "id": "solitaire-cash",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash rooms advertise prizes up to tens of dollars per event\" minCashout=\"PayPal withdrawal; $1 processing fee reported. Bonus Cash cannot be withdrawn.\""
+  },
+  {
+   "id": "bingo-cash",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash-room prize tables vary\" minCashout=\"About $5 via PayPal / Apple Pay (reviews)\""
+  },
+  {
+   "id": "skillz",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash match prizes vary by entry; platform has paid out large historical totals\" minCashout=\"Varies by title; PayPal / Apple Pay / bank\""
+  },
+  {
+   "id": "pocket7",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash tournament prize pools\" minCashout=\"PayPal / Venmo / Visa as offered\""
+  },
+  {
+   "id": "givling",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"TINA.org Givling investigation\" tier=official but domain truthinadvertising.org differs from signup/rules domains (givling.com, apple.com)"
+  },
+  {
+   "id": "givling",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Trivia removed — no longer a trivia contest\""
+  },
+  {
+   "id": "reedsy-dir",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Listed per contest (hundreds to tens of thousands)\""
+  },
+  {
+   "id": "herox",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "source \"HeroX challenges\" tier=forum (https://www.herox.com/challenges)"
+  },
+  {
+   "id": "topcoder",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Per challenge — hundreds to tens of thousands; TCO finals add extra purses\""
+  },
+  {
+   "id": "espn-pigskin",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 8 Feb 2026 (before 2026-11-01): \" prize. | $50,000 | Playoff bracket. Ran 10 Jan – 8 Feb 2026; ESPN page reads \"The NFL Playoffs have ended.\" R\""
+  },
+  {
+   "id": "espn-pigskin",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "fox-super6",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "fox-super6",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Not currently published — confirm on the live game page\""
+  },
+  {
+   "id": "fanatics-survivor",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Legal Sports Report — contest explainer\" tier=affiliate (https://www.legalsportsreport.com/240860/fanatics-nfl-survivor-league/)"
+  },
+  {
+   "id": "yahoo-survival",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Historically $6,000 total — $5,000 in MGM resort credits plus $1,000 cash\""
+  },
+  {
+   "id": "pickwatch",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "beat-the-geek",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"NFL trip for 2 + $500/wk gift card + $2,500 season gift card\""
+  },
+  {
+   "id": "tsg-playoff",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$500 Amazon gift card\""
+  },
+  {
+   "id": "favorites-pickem",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Action Network — contest FAQ\" tier=affiliate (https://www.actionnetwork.com/nfl/the-favorites-podcast-free-100k-pro-football-pick-em-contest)"
+  },
+  {
+   "id": "thelines-survivor",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"TheLines Free NFL Survivor\" tier=affiliate (https://www.thelines.com/free-nfl-contest-pools-games-week-1-2024/)"
+  },
+  {
+   "id": "thelines-survivor",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "thelines-survivor",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "rams-pickem",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Pechanga resort stay + $250 credit; weekly tickets and signed merchandise\""
+  },
+  {
+   "id": "draft-pro",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"The Draft Pro (official)\" tier=official but domain thedraftpro.com differs from signup/rules domains (prnewswire.com)"
+  },
+  {
+   "id": "draft-pro",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 23 Apr 2026 (before 2026-11-01): \"raft was a one-off for the 2026 NFL Draft (closed 23 Apr 2026). thedraftpro.com now runs NBA and NHL draft con\""
+  },
+  {
+   "id": "splash-mock",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "splash-mock",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Not verified outside the entry window\""
+  },
+  {
+   "id": "fftoday-draft",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 23 Apr 2026 (before 2026-11-01): \"izes | NFL Draft contest. 2026 entry deadline was 23 Apr 2026; returns for the 2027 draft. | Winner claim only\""
+  },
+  {
+   "id": "fftoday-draft",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "fpl-official",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"VIP trip + Surface Laptop + Puma gear\""
+  },
+  {
+   "id": "fpl-official",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"VIP trip + Surface Laptop + Puma gear\""
+  },
+  {
+   "id": "fpl-second-chance",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 6 Jan 2026 (before 2026-11-01): \"cond Chance league, which began at Gameweek 21 on 6 Jan 2026. A 2026/27 edition is expected mid-season. | Winn\""
+  },
+  {
+   "id": "fpl-second-chance",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "fpl-second-chance",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Puma gear + EA FC 26 + FPL bundle\""
+  },
+  {
+   "id": "ucl-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"UCL Final trip + PS5\""
+  },
+  {
+   "id": "pooltracker-epl",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Pools with friends\""
+  },
+  {
+   "id": "ffs-efl",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Mega Bundle\""
+  },
+  {
+   "id": "football-mad",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"Football Mad — host’s own league announcement (2025/26)\" tier=official but domain co.uk differs from signup/rules domains (premierleague.com, fpltips.com)"
+  },
+  {
+   "id": "football-mad",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 31 Aug 2025 (before 2026-11-01): \"p season prize) with an overall-prize deadline of 31 Aug 2025. No 2026/27 announcement found. Code u7vy7w is t\""
+  },
+  {
+   "id": "football-mad",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "fantasy-arena",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Free-to-join FPL prize leagues\" tier=affiliate (https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/)"
+  },
+  {
+   "id": "fantasy-arena",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "fantasy-arena",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "lazyfpl",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"FPLTips league round-up\" tier=affiliate (https://fpltips.com/fpl-leagues-with-prizes/)"
+  },
+  {
+   "id": "fplhub",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"FPL leagues with prizes\" tier=affiliate (https://fpltips.com/fpl-leagues-with-prizes/)"
+  },
+  {
+   "id": "fplhub",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "fplhub",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "bona-fide",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "source \"r/FantasyPL minileagues thread\" tier=forum (https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/)"
+  },
+  {
+   "id": "bona-fide",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "bona-fide",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "olka",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "source \"r/FantasyPL league codes megathread\" tier=forum (https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/)"
+  },
+  {
+   "id": "olka",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "olka",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "fplmanager-india",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Free-to-join FPL prize leagues\" tier=affiliate (https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/)"
+  },
+  {
+   "id": "fplmanager-india",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "fplmanager-india",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "fplstore",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"FPL leagues with prizes\" tier=affiliate (https://fpltips.com/fpl-leagues-with-prizes/)"
+  },
+  {
+   "id": "fplstore",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "fplstore",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "pitchbooking",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "source \"Free FPL leagues with prizes\" tier=forum (https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/)"
+  },
+  {
+   "id": "pitchbooking",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "pitchbooking",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "the-special-one",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "the-special-one",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Paused\""
+  },
+  {
+   "id": "sports-predictor",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash via PayPal\" minCashout=\"Confirm in-app\""
+  },
+  {
+   "id": "goaloracle",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "goaloracle",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Contest complete\""
+  },
+  {
+   "id": "goaloracle",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Contest complete\" minCashout=\"Confirm on site\""
+  },
+  {
+   "id": "oddspedia",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 20 Jul 2026 (before 2026-11-01): \"2,000 prize pool | World Cup contest ran 20 May – 20 Jul 2026; final ranking confirmed and paid. Oddspedia run\""
+  },
+  {
+   "id": "oddspedia",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "streak-for-cash",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Unverified\""
+  },
+  {
+   "id": "playerslounge",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash\" minCashout=\"Confirm in-app\""
+  },
+  {
+   "id": "squarespool",
+   "code": "URL_NOT_HTTPS",
+   "severity": "medium",
+   "detail": "signupUrl: http://www.squarespool.com/"
+  },
+  {
+   "id": "squarespool",
+   "code": "URL_NOT_HTTPS",
+   "severity": "medium",
+   "detail": "rulesUrl: http://www.squarespool.com/"
+  },
+  {
+   "id": "squarespool",
+   "code": "URL_NOT_HTTPS",
+   "severity": "medium",
+   "detail": "sources[0]: http://www.squarespool.com/"
+  },
+  {
+   "id": "trofeo",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Pools with friends\""
+  },
+  {
+   "id": "mlb-beat-the-streak",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 12 Mar 2026 (before 2026-11-01): \"e, which MLB states equals about $3,000,000 as of 12 Mar 2026. If nobody reaches 57, the longest streak of at \""
+  },
+  {
+   "id": "metaculus",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: | Winner claim only | Free account, worldwide. No deposit, no KYC to participate. | Prize eligibility and p"
+  },
+  {
+   "id": "aicrowd",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "codabench",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "grand-challenge",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "crunchdao",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "crunchdao",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 6 May 2026 (before 2026-11-01): \"ak Challenge: Real-Time Edition is live — started 6 May 2026, closes 17 September 2026, final evaluation end o\""
+  },
+  {
+   "id": "crunchdao",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 17 September 2026 (before 2026-11-01): \"Time Edition is live — started 6 May 2026, closes 17 September 2026, final evaluation end of October, winners \""
+  },
+  {
+   "id": "crunchdao",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 28 Oct 2026 (before 2026-11-01): \"r, winners announced at the ADIA Lab Symposium 26–28 Oct 2026. ML Contests lists the pool at $100,000, but tha\""
+  },
+  {
+   "id": "mlcontests",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "mlcontests",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"n/a — directory\""
+  },
+  {
+   "id": "mlcontests",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"n/a — directory\" minCashout=\"n/a — directory\""
+  },
+  {
+   "id": "espn-tourney-challenge",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 6 Apr 2026 (before 2026-11-01): \"prizes. | $125,000 (men’s bracket) | Ran 19 Mar – 6 Apr 2026; the page now reads \"Thank you for playing!\". Ret\""
+  },
+  {
+   "id": "espn-tourney-challenge",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "espn-tc-eliminator",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 6 Apr 2026 (before 2026-11-01): \"grand prize. | $10,000 grand prize | Ran 19 Mar – 6 Apr 2026; page now reads \"Congrats to everyone who survive\""
+  },
+  {
+   "id": "espn-tc-eliminator",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "pga-fantasy-golf",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$5,000 total ARV in gift cards + single-tournament trip prizes\""
+  },
+  {
+   "id": "nhl-bracket-challenge",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "nhl-bracket-challenge",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"50 US/DC and Canada (excluding Quebec), age of majority, free NHL account.\" restricted=\"A skill test applies to Canadian-resident winners. No purchase necessary.\""
+  },
+  {
+   "id": "espn-nba-playoff",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Jun 2026 (before 2026-11-01): \"es $50,000, max two entries, event dates 18 Apr – 19 Jun 2026. Pick every playoff series winner. Ran to the 20\""
+  },
+  {
+   "id": "espn-nba-playoff",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "nba-pickem",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "nba-pickem",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$1,000,000 perfect bracket; trips, signed memorabilia, $100–$500 NBA Store credits\""
+  },
+  {
+   "id": "nba-pickem",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"US & Canada residents, free NBA ID / NBA.com account.\" restricted=\"Winners notified by email and must respond within two days. Perfect bracket required for the $1M.\""
+  },
+  {
+   "id": "bundesliga-fantasy",
+   "code": "NO_RULES_URL",
+   "severity": "medium",
+   "detail": "No rulesUrl on listing"
+  },
+  {
+   "id": "bundesliga-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Trips, signed jerseys, DERBYSTAR balls, VIP Supercup access, 50× EA SPORTS FC 27 codes (non-cash)\""
+  },
+  {
+   "id": "laliga-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Merchandise and experiences — official terms state no cash prizes\""
+  },
+  {
+   "id": "swagbucks-trivia",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"SB points redeemable for PayPal cash / gift cards\""
+  },
+  {
+   "id": "swagbucks-trivia",
+   "code": "VIRTUAL_CURRENCY_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions virtual currency: \"SB points redeemable for PayPal cash / gift cards\""
+  },
+  {
+   "id": "atp-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"ATP merchandise and 2027 tickets (no cash)\""
+  },
+  {
+   "id": "f1-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"2027 F1 tickets + VIP grid walk (1st); grandstand tickets (2nd); £500 F1 Store voucher (3rd)\""
+  },
+  {
+   "id": "ewc-play",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 23 Aug 2026 (before 2026-11-01): \"bility checks on claim. | The 2026 edition closes 23 Aug 2026. Prizes for on-site quests are physical (claimed\""
+  },
+  {
+   "id": "ewc-play",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: he official EWC free fantasy and pick'em game. No entry fee or wager of any kind; cash prizes for top finishe"
+  },
+  {
+   "id": "espn-hockey-playoff",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 21 Jun 2026 (before 2026-11-01): \"es $10,000, max two entries, event dates 18 Apr – 21 Jun 2026. Distinct from the NHL's own Bracket Challenge. \""
+  },
+  {
+   "id": "espn-hockey-playoff",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "espn-cfp-bracket",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Dec 2025 (before 2026-11-01): \": $50,000 in prizes, max two entries, event dates 19 Dec 2025 – 19 Jan 2026 (the 2025-26 College Football Play\""
+  },
+  {
+   "id": "espn-cfp-bracket",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Jan 2026 (before 2026-11-01): \"rizes, max two entries, event dates 19 Dec 2025 – 19 Jan 2026 (the 2025-26 College Football Playoff). ESPN's '\""
+  },
+  {
+   "id": "espn-cfp-bracket",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "espn-knockout-bracket",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Jul 2026 (before 2026-11-01): \"n prizes, up to 25 brackets, event dates 28 Jun – 19 Jul 2026 (the FIFA World Cup 2026 knockout stage). Return\""
+  },
+  {
+   "id": "espn-knockout-bracket",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "mlb-hr-derby-pickem",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 15 Jul 2024 (before 2026-11-01): \"rently reflects the 2024 edition (entry period 10–15 Jul 2024). The contest runs annually around the July Home\""
+  },
+  {
+   "id": "mlb-hr-derby-pickem",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "mlb-hr-derby-pickem",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$100,000 grand prize; $6,500 World Series trip (first prize)\""
+  },
+  {
+   "id": "wall-street-survivor",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$500 in Amazon gift cards per monthly contest (e.g. $300 / $150 / $50)\""
+  },
+  {
+   "id": "start-gg",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"Per tournament — set and paid by the organizer\""
+  },
+  {
+   "id": "espn-womens-tourney",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 5 Apr 2026 (before 2026-11-01): \"$125,000, up to 25 brackets, event dates 20 Mar – 5 Apr 2026. Companion to the men's game (already listed); ES\""
+  },
+  {
+   "id": "espn-womens-tourney",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "yahoo-bracket-mayhem",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Mar 2026 (before 2026-11-01): \" app. Ran for the 2026 tournaments (brackets lock 19 Mar 2026); returns March 2027. | Winner claim only | US, \""
+  },
+  {
+   "id": "yahoo-bracket-mayhem",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "signate",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"Signate — official announcements (X)\" tier=official but domain x.com differs from signup/rules domains (signate.jp)"
+  },
+  {
+   "id": "hypermind",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Contest rewards in USD/EUR (24,573€ at stake at review); paid as Amazon gift certificates\""
+  },
+  {
+   "id": "moomoo-paper-trading",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"Nasdaq — moomoo paper trading competition press release (official)\" tier=official but domain nasdaq.com differs from signup/rules domains (moomoo.com)"
+  },
+  {
+   "id": "superbru",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Sponsor-funded prizes per game (tickets, vouchers, experiences)\""
+  },
+  {
+   "id": "superbru",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: 8+. Not a betting product — you play free with no deposit. | Winner claim only | Free account, open worldwi"
+  },
+  {
+   "id": "superbru",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"Free account, open worldwide; prize eligibility varies per game (often UK/IE 18+).\" restricted=\"Many prizes are UK/Ireland-only and non-cash. Check each game's own prize page before entering.\""
+  },
+  {
+   "id": "afl-fantasy",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"AFL Fantasy — official announcement (X)\" tier=official but domain x.com differs from signup/rules domains (com.au)"
+  },
+  {
+   "id": "nrl-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"1st overall: trip + $2,000; monthly 1st: $1,000; vouchers for placings\""
+  },
+  {
+   "id": "espn-bowl-mania",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 13 Dec 2025 (before 2026-11-01): \"ode wins up to $1,000,000. Max three entries. Ran 13 Dec 2025 – 19 Jan 2026 (the 2025-26 bowl season); returns\""
+  },
+  {
+   "id": "espn-bowl-mania",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 19 Jan 2026 (before 2026-11-01): \" $1,000,000. Max three entries. Ran 13 Dec 2025 – 19 Jan 2026 (the 2025-26 bowl season); returns December 2026\""
+  },
+  {
+   "id": "espn-bowl-mania",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "six-nations-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"2x tickets + flights/accommodation (overall); signed ball (top 5); £100 Fanatics gift card (round)\""
+  },
+  {
+   "id": "tattico-serie-a",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"FFScout — Tattico Serie A league (official)\" tier=official but domain co.uk differs from signup/rules domains (tattico.com)"
+  },
+  {
+   "id": "supercoach-bbl",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Cricket Australia — SuperCoach named official BBL fantasy game\" tier=affiliate (https://www.mediaweek.com.au/supercoach-fantasy-game-kfc-big-bash-league/)"
+  },
+  {
+   "id": "supercoach-bbl",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Weekly cash prizes + vouchers (seasonal)\""
+  },
+  {
+   "id": "fundednext",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing:  Trading Competition is 'completely free' with no entry fee. Each trader gets a $100,000 simulated account fo"
+  },
+  {
+   "id": "for-traders",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"For Traders — official announcement (X)\" tier=official but domain x.com differs from signup/rules domains (fortraders.com)"
+  },
+  {
+   "id": "for-traders",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: nthly competitions — all 'completely free with no deposit required.' The official account advertised a Wedn"
+  },
+  {
+   "id": "ninjatrader-arena",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Cash prizes or account credits per competition\""
+  },
+  {
+   "id": "ninjatrader-arena",
+   "code": "VAGUE_VALUE",
+   "severity": "low",
+   "detail": "prizeUsd=\"Cash prizes or account credits per competition\" minCashout=\"Winner claim only\""
+  },
+  {
+   "id": "yahoo-daily-draw",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$500 daily / $1,000 weekly prize pools (bank eGift cards)\""
+  },
+  {
+   "id": "the-open-fantasy",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "sun-dream-team",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Midnite extends Sun Dream Team sponsorship into 2026/27\" tier=affiliate (https://hipther.com/gaming-and-entertainment-europe/2026/07/30/115929/midnite-extends-sun-dream-team-fantasy-football-sponsorship-into-2026-27/)"
+  },
+  {
+   "id": "cricket-draft",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"£500 cricket kit bundle (1st); signed England bat; £50 gameweek vouchers (non-cash)\""
+  },
+  {
+   "id": "icc-t20-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Signed merchandise, T20 Shop vouchers (non-cash)\""
+  },
+  {
+   "id": "tim-hortons-hockey",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Hyundai TUCSON grand prize; $5,000 cash; gift cards; free coffee; Tims Rewards points\""
+  },
+  {
+   "id": "tim-hortons-hockey",
+   "code": "VIRTUAL_CURRENCY_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions virtual currency: \"Hyundai TUCSON grand prize; $5,000 cash; gift cards; free coffee; Tims Rewards points\""
+  },
+  {
+   "id": "tim-hortons-hockey",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"Canada, 13+ (14 in Quebec), free Tims Rewards membership.\" restricted=\"Canada-only. Requires the Tim Hortons app and a (free) Tims Rewards account. Daily entry limit.\""
+  },
+  {
+   "id": "darts-corner-predictor",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "darts-corner-predictor",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"£1,000 cash per week (perfect score); £250 voucher weekly; £25 vouchers\""
+  },
+  {
+   "id": "euroleague-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Game tickets, jerseys, basketballs and EuroLeague TV subscriptions (non-cash)\""
+  },
+  {
+   "id": "valorant-pickem",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"Valorant Esports — Champions Pick'Ems (official Riot)\" tier=official but domain x.com differs from signup/rules domains (valorantesports.com)"
+  },
+  {
+   "id": "deriv-tournaments",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: emo trading tournaments with real cash prizes, no deposit required. | 1st $1,000; 2nd $600; 3rd $400 (typic"
+  },
+  {
+   "id": "multibank-demo",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: s a demo account (free). | Broker funnel — but no deposit is required to enter or win the demo prize."
+  },
+  {
+   "id": "xm-demo",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"XM — Demo Competitions announcement (official)\" tier=official but domain myfxbook.com differs from signup/rules domains (xm.com)"
+  },
+  {
+   "id": "xm-demo",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: he XM Demo Weekly tournament is free to enter (no entry fee, no deposit) — trade virtual funds and 100 winner"
+  },
+  {
+   "id": "hfm-demo",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"1st $2,000, 2nd $1,000, 3rd $500 (trading bonuses, credited to a live account)\""
+  },
+  {
+   "id": "tradingcom-paper",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: h 'real withdrawable funds' for the top three. No deposit required; a verified account is needed to enter a"
+  },
+  {
+   "id": "tickmill-nfp",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: l account is required to enter, but no trading or deposit is needed to participate. | Cash credited to the "
+  },
+  {
+   "id": "roboforex-demo",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"RoboForex Demo Contest (review)\" tier=affiliate (https://tradingbrokers.com/roboforex-demo-contest/)"
+  },
+  {
+   "id": "roboforex-demo",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "fbs-pro-demo",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"FBS Pro Demo Contest (review)\" tier=affiliate (https://fofan.org/contest/fbs-pro-demo-trading-contest/)"
+  },
+  {
+   "id": "fbs-pro-demo",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "npbfx-demo",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"NPBFX Trading Battle Demo Contest (review)\" tier=affiliate (https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html)"
+  },
+  {
+   "id": "npbfx-demo",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "cev-volley-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Final 2026 tickets (season winner); jerseys + match balls (2nd–3rd); match ball + EuroVolley.TV (4th–5th)\""
+  },
+  {
+   "id": "vnl-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Global winner: 1 year VBTV + $100 shop credit; runner-up $50; top-3 matchday get 1 month VBTV\""
+  },
+  {
+   "id": "cev-predictor",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Tickets to the Final Four 2027 (non-cash)\""
+  },
+  {
+   "id": "super-league-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Monthly: PS5/Xbox + £600 games; season: hospitality tickets + SuperLeague+ pass + signed shirt\""
+  },
+  {
+   "id": "super-league-predictor",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Season winner: launch invite + 4 event tickets + SuperLeague+ pass; monthly/weekly tickets; streak prizes\""
+  },
+  {
+   "id": "motogp-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"1st signed Marquez helmet; 2nd PS5 + MotoGP26; 3rd signed knee slider; weekly GP tickets\""
+  },
+  {
+   "id": "the-hundred-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"1st signed bat; 2nd Citizen watch + tickets; 3rd; block winners get Final tickets (non-cash)\""
+  },
+  {
+   "id": "the-hundred-fantasy",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"Free account, UK residents eligible for prizes (13+, parental consent under 18).\" restricted=\"Prizes UK-residents only. Non-cash.\""
+  },
+  {
+   "id": "fantasy-gaa",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"Fantasy Gaelic — 2026 champion announcement (official account)\" tier=official but domain x.com differs from signup/rules domains (fantasygaelicfootball.com)"
+  },
+  {
+   "id": "film-prize",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing:  cash prize for a short film — $50,000, with a $0 entry fee (film must be shot in Louisiana). | $50,000 cash "
+  },
+  {
+   "id": "young-lions",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: ovel by a US author aged 35 or under. There is no entry fee, but submissions must be made by the publisher (a"
+  },
+  {
+   "id": "supercoach-nrl",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"Sporting News — NRL SuperCoach 2026 guide\" tier=affiliate (https://www.sportingnews.com/au/rugby-league/news/nrl-supercoach-2025-guide-how-play-score-points-strategies/87c62d83397e74b165721ea0)"
+  },
+  {
+   "id": "ti-compendium",
+   "code": "VIRTUAL_CURRENCY_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions virtual currency: \"In-game rewards: Dota Plus subscriptions, Terrain Token, Aegis replica, Immortal Treasures (non-cash)\""
+  },
+  {
+   "id": "ibu-ecup",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"2x VIP tickets to the BMW IBU World Cup for monthly winners (non-cash)\""
+  },
+  {
+   "id": "tom-howard-poetry",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: ng/traditional), and ten $500 honorable mentions. Entry fee: free. Submission period April 15–October 1 (2026"
+  },
+  {
+   "id": "aflw-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Toyota Corolla Ascent Sport Hybrid (value $37,000) + AFL Store vouchers; Sherrin football\""
+  },
+  {
+   "id": "tff-fantezi-lig",
+   "code": "NON_OFFICIAL_SOURCE",
+   "severity": "medium",
+   "detail": "source \"TFF launches official Fantasy League (secondary news)\" tier=affiliate (https://en.shiftdelete.net/tff-launches-official-fantasy-league-mobile-game-for-super-lig/)"
+  },
+  {
+   "id": "tff-fantezi-lig",
+   "code": "NO_OFFICIAL_SOURCE",
+   "severity": "high",
+   "detail": "No source with tier=official"
+  },
+  {
+   "id": "tff-fantezi-lig",
+   "code": "PRIZE_NOT_QUANTIFIED",
+   "severity": "low",
+   "detail": "prizeUsd: \"An automobile for the overall season champion + weekly/monthly rewards\""
+  },
+  {
+   "id": "mxa-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$15,000 Stark Varg 1.2 (season); weekly gear/sprees (FXR $500, helmets, FMF exhausts)\""
+  },
+  {
+   "id": "bridgewater-forecast",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 1 Aug 2026 (before 2026-11-01): \"iew). The 2026 edition's submission window closed 1 Aug 2026; returns periodically. | Winner claim only | Anyo\""
+  },
+  {
+   "id": "bridgewater-forecast",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 1 Aug 2026 (before 2026-11-01): \"; returns periodically. | The 2026 edition closed 1 Aug 2026. Judged essay-style forecast challenge, not a liv\""
+  },
+  {
+   "id": "bridgewater-forecast",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "streak-contest",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing:  — pick winners to build a streak; no purchase or deposit required. The prize ladder is $5 for 5 correct pi"
+  },
+  {
+   "id": "premiership-rugby-fantasy",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "premiership-rugby-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Overall winner: VIP Final package; runner-up: signed shirt + 4 tickets; per-round: 2 tickets\""
+  },
+  {
+   "id": "aleague-fantasy",
+   "code": "ENDED_BUT_COUNTED_FREE",
+   "severity": "medium",
+   "detail": "status=ended but freePath=full (counted in \"True free paths\" headline)"
+  },
+  {
+   "id": "aleague-fantasy",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$4,000 major prize; $600 2nd; $400 3rd; weekly double-pass tickets\""
+  },
+  {
+   "id": "aleague-fantasy",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"Free registration; prizes for Australia/New Zealand residents only.\" restricted=\"Reported not running for 2025/26 — treat as ended until confirmed.\""
+  },
+  {
+   "id": "agentmma",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing:  a live leaderboard for prizes. Free to enter, no deposit. The specific prize amounts are not itemised on t"
+  },
+  {
+   "id": "formula-e-predictor",
+   "code": "CAUTION_BUT_FREE",
+   "severity": "low",
+   "detail": "status=caution with freePath=full"
+  },
+  {
+   "id": "formula-e-predictor",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Signed shirt + cap (top scorer); merchandise discount codes (non-cash)\""
+  },
+  {
+   "id": "stable-stars",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"£500 voucher (1st), £300 (2nd), £200 (3rd) each day\""
+  },
+  {
+   "id": "stable-stars",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"UK/Ireland residents, 18+, free entry.\" restricted=\"Non-cash (vouchers). Seasonal (Cheltenham Festival).\""
+  },
+  {
+   "id": "stablestakes",
+   "code": "OFFICIAL_TIER_DOMAIN_MISMATCH",
+   "severity": "low",
+   "detail": "source \"America's Best Racing — StableStakes launch (official partner)\" tier=official but domain americasbestracing.net differs from signup/rules domains (stablestakes.com)"
+  },
+  {
+   "id": "ultimate-fantasy-tennis",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: e Fantasy Tennis is 'completely free to play' (no entry fees, no subscriptions). Draft 3–7 ATP players on a $"
+  },
+  {
+   "id": "ncga-majors-challenge",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"Amazon gift cards: $300 1st, $200 2nd, $150 3rd … $10 16th–20th; season prize a free foursome\""
+  },
+  {
+   "id": "majors-challenge",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$250,000 grand prize for a perfect 12-player team; Shot Scope gift cards for top five\""
+  },
+  {
+   "id": "teepster",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: ster is a free-to-play fantasy golf platform ('no entry fees, no gambling') covering PGA Tour, DP World Tour "
+  },
+  {
+   "id": "teepster",
+   "code": "POSSIBLE_NON_US_ONLY",
+   "severity": "info",
+   "detail": "eligibility=\"Free account; the Motocaddy contest is Australia-residents only.\" restricted=\"Non-cash prize (buggy); Australia-only for the Motocaddy contest.\""
+  },
+  {
+   "id": "buzz-fantasy-golf",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"$10 Amazon GC weekly; $25/$10 segment; $50/$25/$10 season (gift cards)\""
+  },
+  {
+   "id": "fundedfast-open",
+   "code": "FEE_MENTION_ON_FREE",
+   "severity": "low",
+   "detail": "Text mentions fee/deposit on a \"full\" free listing: h (paid via crypto, PayPal or bank transfer). 'No entry fee, no payment details, no card on file.' Winners co"
+  },
+  {
+   "id": "epoty",
+   "code": "NON_CASH_PRIZE_TAGGED_FREE_USD",
+   "severity": "medium",
+   "detail": "prizeUsd mentions non-cash item but freePath=\"Free USD path\": \"£5,000 (EPOTY); £1,000 per category; Nikon gear for Young EPOTY\""
+  },
+  {
+   "id": "spie-light",
+   "code": "DATE_IN_PAST_REVIEW",
+   "severity": "low",
+   "detail": "text mentions 16 September 2026 (before 2026-11-01): \"echnology/science award. Judged contest. Deadline 16 September 2026. | Winner claim only | Adults 18+, free en\""
+  },
+  {
+   "id": "solitaire-cash",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "papaya.com shared by: solitaire-cash, bingo-cash"
+  },
+  {
+   "id": "bingo-cash",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "papaya.com shared by: solitaire-cash, bingo-cash"
+  },
+  {
+   "id": "espn-pickem",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-survivor",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-wintotals",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-playoff",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-pigskin",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-cfb",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-tourney-challenge",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-tc-eliminator",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-nba-playoff",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-hockey-playoff",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-cfp-bracket",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-knockout-bracket",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-womens-tourney",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "espn-bowl-mania",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.espn.com shared by: espn-pickem, espn-survivor, espn-wintotals, espn-playoff, espn-pigskin, espn-cfb, espn-tourney-challenge, espn-tc-eliminator, espn-nba-playoff, espn-hockey-playoff, espn-cfp-bracket, espn-knockout-bracket, espn-womens-tourney, espn-bowl-mania"
+  },
+  {
+   "id": "cbs-pro-pickem",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "cbssports.com shared by: cbs-pro-pickem, cbs-cfb-pickem"
+  },
+  {
+   "id": "cbs-cfb-pickem",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "cbssports.com shared by: cbs-pro-pickem, cbs-cfb-pickem"
+  },
+  {
+   "id": "beat-the-geek",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "thesportsgeek.com shared by: beat-the-geek, tsg-playoff"
+  },
+  {
+   "id": "tsg-playoff",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "thesportsgeek.com shared by: beat-the-geek, tsg-playoff"
+  },
+  {
+   "id": "fpl-official",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "ffs-fpl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "football-mad",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "fantasy-arena",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "lazyfpl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "fplhub",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "bona-fide",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "olka",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "fplmanager-india",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "fplstore",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "pitchbooking",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.premierleague.com shared by: fpl-official, ffs-fpl, football-mad, fantasy-arena, lazyfpl, fplhub, bona-fide, olka, fplmanager-india, fplstore, pitchbooking"
+  },
+  {
+   "id": "fantasy-efl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.efl.com shared by: fantasy-efl, ffs-efl"
+  },
+  {
+   "id": "ffs-efl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "fantasy.efl.com shared by: fantasy-efl, ffs-efl"
+  },
+  {
+   "id": "ucl-fantasy",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "gaming.uefa.com shared by: ucl-fantasy, ffs-ucl"
+  },
+  {
+   "id": "ffs-ucl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "gaming.uefa.com shared by: ucl-fantasy, ffs-ucl"
+  },
+  {
+   "id": "pickem-sports",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "apps.apple.com shared by: pickem-sports, sports-predictor, streak-contest"
+  },
+  {
+   "id": "sports-predictor",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "apps.apple.com shared by: pickem-sports, sports-predictor, streak-contest"
+  },
+  {
+   "id": "streak-contest",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "apps.apple.com shared by: pickem-sports, sports-predictor, streak-contest"
+  },
+  {
+   "id": "mlb-beat-the-streak",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "mlb.com shared by: mlb-beat-the-streak, mlb-hr-derby-pickem"
+  },
+  {
+   "id": "mlb-hr-derby-pickem",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "mlb.com shared by: mlb-beat-the-streak, mlb-hr-derby-pickem"
+  },
+  {
+   "id": "cev-volley-fantasy",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "championsleague.cev.eu shared by: cev-volley-fantasy, cev-predictor"
+  },
+  {
+   "id": "cev-predictor",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "championsleague.cev.eu shared by: cev-volley-fantasy, cev-predictor"
+  },
+  {
+   "id": "afl-tipping",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "tipping.afl.com.au shared by: afl-tipping, aflw-tipping"
+  },
+  {
+   "id": "aflw-tipping",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "tipping.afl.com.au shared by: afl-tipping, aflw-tipping"
+  },
+  {
+   "id": "supercoach-afl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "supercoach.com.au shared by: supercoach-afl, supercoach-nrl, supercoach-nbl"
+  },
+  {
+   "id": "supercoach-nrl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "supercoach.com.au shared by: supercoach-afl, supercoach-nrl, supercoach-nbl"
+  },
+  {
+   "id": "supercoach-nbl",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "supercoach.com.au shared by: supercoach-afl, supercoach-nrl, supercoach-nbl"
+  },
+  {
+   "id": "tom-howard-poetry",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "winningwriters.com shared by: tom-howard-poetry, wergle-flomp"
+  },
+  {
+   "id": "wergle-flomp",
+   "code": "SHARED_SIGNUP_DOMAIN",
+   "severity": "info",
+   "detail": "winningwriters.com shared by: tom-howard-poetry, wergle-flomp"
+  }
+ ]
+}

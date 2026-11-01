@@ -1,0 +1,21 @@
+name: Validate site
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild the site from data + evidence
+        run: python scripts/build_site.py
+      - name: Fail if generated pages are out of date
+        run: git diff --exit-code -- '*.html' 'data/contests.json'
+      - name: Validate evidence rules, links and metadata
+        run: python scripts/check_site.py

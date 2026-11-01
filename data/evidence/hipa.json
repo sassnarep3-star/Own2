@@ -1,0 +1,27 @@
+{
+ "id": "hipa",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "HIPA official site (returned HTTP 404 on 2026-11-01)",
+   "url": "https://www.hipa.ae/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Retrieved content: 'The resource cannot be found. ... Requested URL: /en/ ... HTTP 404.'",
+   "url": "https://www.hipa.ae/en/"
+  }
+ },
+ "summary": "The hamdan bin Mohammed bin Rashid Al Maktoum International Photography Award's cited address returns a 404, so the ledger's '$200,000 grand prize; category prizes $20,000' cannot be confirmed in this pass.",
+ "flags": [
+  "Official URL is dead (404) - prize claim unverified and not published.",
+  "Award is a UAE-seasonal competition; no dates could be read, so the 2026 season status is unknown."
+ ],
+ "attribution": "Checked by session arena-f10345ed on 2026-11-01; nothing published because the source failed."
+}

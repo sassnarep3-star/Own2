@@ -1,2 +1,8 @@
+node_modules/
+.cache/
+__pycache__/
+site/
+test-results/
+playwright-report/
 ledger-4c1d6bb4/reports/link-check.json
 ledger-4c1d6bb4/reports/link-check.md

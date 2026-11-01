@@ -1,0 +1,63 @@
+{
+ "id": "film-prize",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "Requested Film Prize rules URL",
+   "url": "https://www.prizefest.com/film/rules/",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "What that URL actually resolved to",
+   "url": "https://prizefest.com/photo/rules/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "not_found",
+   "text": "",
+   "quote": "The film rules page could not be read: the requested URL served Photo Prize rules instead.",
+   "url": "https://prizefest.com/photo/rules/"
+  },
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "No film prize figure could be verified from the page read.",
+   "url": "https://prizefest.com/photo/rules/"
+  },
+  "deadline": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not verifiable from the page read.",
+   "url": "https://prizefest.com/photo/rules/"
+  },
+  "eligibility": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not verifiable from the page read.",
+   "url": "https://prizefest.com/photo/rules/"
+  },
+  "aiPolicy": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not verifiable from the page read.",
+   "url": "https://prizefest.com/photo/rules/"
+  },
+  "payout": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not verifiable from the page read.",
+   "url": "https://prizefest.com/photo/rules/"
+  }
+ },
+ "summary": "Source mismatch. The ledger cites Film Prize rules, but that URL serves 'Photo Prize 2026 Official Rules and Regulations'. No film-specific condition is adopted, and the ledger's $50,000 figure is unverified.",
+ "flags": [
+  "Rules URL resolves to Photo Prize rules, not Film Prize.",
+  "No film eligibility, fee or prize could be verified."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

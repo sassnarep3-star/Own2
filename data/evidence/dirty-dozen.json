@@ -1,0 +1,58 @@
+{
+ "id": "dirty-dozen",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "URL cited by the upstream ledger",
+   "url": "https://www.gambling.com/games/dirty-dozen",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "The cited URL served Gambling.com's generic 'Free Online Casino Games' page; no Dirty Dozen contest, prize table or £12,000 figure appeared.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  },
+  "freeEntry": {
+   "status": "not_found",
+   "text": "",
+   "quote": "No contest entry page was reachable at the cited URL on 2026-11-01.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  },
+  "deadline": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not published at the cited URL.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  },
+  "eligibility": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not published at the cited URL.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  },
+  "aiPolicy": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not applicable.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  },
+  "payout": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not published at the cited URL.",
+   "url": "https://www.gambling.com/games/dirty-dozen"
+  }
+ },
+ "summary": "Broken lead. The only 'source' is a gambling-affiliate page that no longer serves a Dirty Dozen contest, and the upstream £12,000 weekly claim could not be located. Excluded from recommendations; kept visible and flagged.",
+ "flags": [
+  "Link appears broken: cited URL returns a generic casino-games page.",
+  "Prize claim unlocatable.",
+  "Gambling-affiliate domain; the upstream ledger's own policy excluded gambling/casino products."
+ ],
+ "deadline_iso": null
+}

@@ -1,0 +1,34 @@
+{
+ "id": "zindi",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "Zindi challenge rules (official)",
+   "url": "https://zindi.world/rules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Open to the public except Zindi staff/family and host-company employees; teams of up to four; no AutoML.",
+   "quote": "All members of the public are permitted to participate in any Zindi competition, unless: They are a full-time or contracted employee of Zindi ... You may participate in competitions as an individual or in a team of up to four people.",
+   "url": "https://zindi.world/rules"
+  },
+  "payout": {
+   "status": "confirmed",
+   "text": "Prizes exist on some challenges and are paid to the winner after code verification; the winner assigns copyright of the solution to Zindi.",
+   "quote": "In a prized competition, if your solution places 1st, 2nd, or 3rd on the final leaderboard, you will be required to submit your winning solution code to us for verification, and you thereby agree to assign all worldwide rights of copyright in and to such winning solution to Zindi",
+   "url": "https://zindi.world/rules"
+  }
+ },
+ "summary": "Legitimate data-science platform with real prize challenges, but the rules page never states that entry is free and the top solutions must hand over copyright; per-challenge prize amounts still need checking one by one.",
+ "flags": [
+  "No official statement that entry is free of charge - left blank as unverified.",
+  "Winning solutions must assign worldwide copyright to Zindi, which matters for reuse.",
+  "Supersedes an earlier parallel pass that got '404 page not found' from the same URL: on 2026-11-01 the rules page returned full text, so the earlier 404 was a retrieval failure, not a dead link."
+ ],
+ "attribution": "Re-checked by session arena-f10345ed on 2026-11-01 (the URL now serves full rules); an earlier cross-check by a parallel session recorded a 404 from the same address."
+}
