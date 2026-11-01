@@ -73,6 +73,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 - Cross-session findings: arcprize.org states Paper Track papers due 2026-11-08 while session 582a1199 reports 2026-11-09 from the Kaggle rules → logged as a discrepancy on `dashboard/flagged.html`. Our GEMS finding (free entry not confirmed) matches 582a1199's.
 - **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
 - Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
+- 2026-11-01 RELEASE (be1d2210): PR https://github.com/sassnarep3-star/Own2/pull/9 merged without waiting for review at 2026-11-01T13:52:54Z, merge commit `4cba38df08e32697fa6d586ef470458acaaf07f4`. CI "Validate dashboard" passed on the PR and on main (run 41313393131). GitHub Pages API: latest build `built` for `4cba38d`. Live pages retrieved successfully: https://sassnarep3-star.github.io/Own2/dashboard/top-picks.html and https://sassnarep3-star.github.io/Own2/dashboard/flagged.html (content matched the build). Status of T6: done. Remaining **needs review** items (published on `dashboard/flagged.html`): 191 unverified entries, 2 JS-only pages, external link-rot, per-contest Texas eligibility and AI/automation rules. T7 (verify remaining entries) is unclaimed for any session.
 
 ---
 
