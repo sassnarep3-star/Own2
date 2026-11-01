@@ -1,0 +1,58 @@
+name: Validate and publish Competition Desk
+on:
+  push:
+    branches: [main, arena/082959ac-own2]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: competition-desk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: competition-desk/package-lock.json
+      - name: Combined validator diagnostics
+        run: |
+          python - <<'PYTHON'
+          import pathlib, subprocess
+          root=pathlib.Path.cwd().parent
+          result=subprocess.run(['python',str(root/'scripts/check_site.py')],cwd=root,text=True,capture_output=True)
+          for line in (result.stdout+result.stderr).splitlines():
+              safe=line.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+              print('::notice::'+safe)
+          raise SystemExit(result.returncode)
+          PYTHON
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm test
+      - run: python scripts/snapshot.py --check
+  live-smoke:
+    if: github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: competition-desk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify existing main/root GitHub Pages publication
+        run: python scripts/live_smoke.py
