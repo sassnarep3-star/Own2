@@ -235,7 +235,7 @@ const kpi = (n, label, cls = '') => `<div class="kpi ${cls}"><div class="kpi-n">
 
 // ---------- analysis per category ----------
 const CATEGORY_NOTES = {
-  skill: 'Four rows are cash-only (the free rooms pay gems, not dollars). Two Papaya titles share one signup link. On official-page checks in this pass, Checkmate Gaming is in conflict on its prize range.',
+  skill: 'Four rows have free play that pays gems, not dollars; cash play needs an entry fee (ledger). Two Papaya titles share one signup link. On official-page checks in this pass, Checkmate Gaming is in conflict on its prize range.',
   trivia: 'Only two rows. One (Givling) is marked ended, and the ledger says trivia was removed from it.',
   creative: 'Mostly photo and writing contests. The photo awards are annual; their current deadlines are not verified (see flags).',
   tech: 'ARC Prize is verified. Kaggle conflicts with the ledger: its prize range is understated against the official page. Devpost is partially verified.',
@@ -392,7 +392,7 @@ ${rows.map((r) => rowHtml(r, { showCategory: true })).join('\n')}
     )
     .join('\n');
   const body = `
-<div class="banner warn-banner"><b>FLAGGED FOR REVIEW.</b> Publishing this page is part of the brief. Items here are not verified, may be wrong, or may conflict with the source's own policy. Nothing on this page is a recommendation. Unverified ledger prize claims appear below only so you can check them; they are labelled UNVERIFIED and are never shown elsewhere on the site.</div>
+<div class="banner warn-banner"><b>FLAGGED FOR REVIEW.</b> Items here are not verified, may be wrong, or may conflict with the source's own policy. Nothing on this page is a recommendation. Unverified ledger prize claims appear below only so you can check them; they are labelled UNVERIFIED and are never shown elsewhere on the site.</div>
 <h1>Flagged for review</h1>
 <p class="muted">Checked ${CHECKED_ON}. Counts: ${STATS.high} high-severity rows, ${STATS.medium} medium, ${STATS.low} low; ${STATS.highIrregularities} high-severity repo or source irregularities. Issues are grouped below: repo and source irregularities, then row-level flags, then the unverified prize claims.</p>
 

@@ -380,7 +380,7 @@
     {
       "id": "R1",
       "severity": "low",
-      "title": "Repo has no README content, data, site, or license",
+      "title": "Repo was a placeholder (README only), with no data, site or license",
       "detail": "Before this session, the repo contained only README.md ('# Own2'). No LICENSE file exists here or in the upstream source (karagemop466-tech/FreeMoneyApps). Reuse rights for the upstream listing data are unconfirmed. Recommend a license decision before public reuse.",
       "links": [
         {
