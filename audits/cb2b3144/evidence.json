@@ -1,0 +1,332 @@
+{
+  "audit_id": "cb2b3144",
+  "reviewed_utc": "2026-11-01",
+  "scope": "Event-level official-source verification supplement for research/AI leads not already covered by the 13-entry audits. Unknown fields are intentionally blank.",
+  "method": "Each populated factual field is tied to a retrieved organizer/administrator source. Editorial fit and recommendation are labeled separately. Link retrieval is not a continuous availability monitor.",
+  "records": [
+    {
+      "id": "codex-twitchcon-2026",
+      "name": "Codex x TwitchCon Hackathon",
+      "category": "tech",
+      "organizer": "Amazon Advertising LLC / Devpost",
+      "url": "https://twitchcon-codex.devpost.com/",
+      "rules_url": "https://twitchcon-codex.devpost.com/rules",
+      "status": "Open per published submission window as of 2026-11-01",
+      "entry": "No purchase or payment necessary; free Devpost account",
+      "prize": "$25,000 USD total cash; $10,000 first place",
+      "cash_total_usd": 25000,
+      "prize_basis": "Official prize table: $10,000 + $6,000 + $4,000 + 2 x $2,500",
+      "deadline": "2026-11-02 14:00 Pacific Time",
+      "eligibility": "Individuals 18+ or age of majority, whichever is older; teams of eligible individuals; organizations excluded; prohibited-jurisdiction and conflict-of-interest exclusions apply",
+      "ai": "OpenAI Codex required; AI coding assistants explicitly permitted; Codex session ID required",
+      "payout": "Monetary prize mailed or sent electronically to bank account after required forms; forms due within 10 business days; delivery within 60 days of receipt of completed forms",
+      "fit": "Very high AI-agent fit: build an interactive Twitch experience with Codex and document the Codex session.",
+      "recommendation": "Prioritize only if a working demo, public YouTube video, and repository can be completed before the next-day deadline.",
+      "flags": [
+        "Deadline is 2026-11-02; verify the live submission form before investing time.",
+        "Travel to TwitchCon is optional for the monetary prize; travel costs are the winner's responsibility."
+      ],
+      "evidence": [
+        {"fields": ["entry"], "locator": "Official Rules, opening clause and §4", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."},
+        {"fields": ["status", "deadline"], "locator": "Official Rules §1", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Submission Period: October 23, 2026 (10:00 am Pacific Time) – November 2, 2026 (2:00 pm Pacific Time)"},
+        {"fields": ["eligibility"], "locator": "Official Rules §3", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Individuals who are at least eighteen (18) years old or the age of majority where they reside as of the time of entry, whichever is older"},
+        {"fields": ["ai"], "locator": "Official Rules §4 Project Requirements and Submission Requirements", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Participants may use standard development tools, including frameworks, libraries, starter templates, and AI coding assistants."},
+        {"fields": ["ai"], "locator": "Official Rules §4 Submission Requirements", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Provide the Codex session ID for the Codex thread where the Project was built."},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §8", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "1st Place | $10,000 USD and stage time at TwitchCon"},
+        {"fields": ["payout"], "locator": "Official Rules §8 Prize Delivery", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost's receipt of the completed Required Forms."},
+        {"fields": ["flags"], "locator": "Official Rules §8 Prize Delivery", "url": "https://twitchcon-codex.devpost.com/rules", "quote": "Declining or failing to appear in-person at TwitchCon will not cause a winner to forfeit the monetary portion of the Prize."}
+      ]
+    },
+    {
+      "id": "kiroween-2026",
+      "name": "Kiroween 2026",
+      "category": "tech",
+      "organizer": "Amazon Web Services / Devpost",
+      "url": "https://kiroween.devpost.com/",
+      "rules_url": "https://kiroween.devpost.com/rules",
+      "status": "Open per published submission window as of 2026-11-01",
+      "entry": "No purchase or payment necessary; free Devpost account; Kiro credits may be requested",
+      "prize": "$100,000 USD total cash; $30,000 first place; non-cash Kiro credits/subscriptions separate",
+      "cash_total_usd": 100000,
+      "prize_basis": "Sum of USD rows in Official Rules §8: 30,000 + 20,000 + 10,000 + 4 x 5,000 + 10,000 + 2,000 + 1,000 + 4 x 1,500 + 1,000",
+      "deadline": "2026-12-04 14:00 Pacific Time",
+      "eligibility": "Individuals at age of majority; teams up to 3; organizations; broad country exclusions and conflict-of-interest rules apply",
+      "ai": "Kiro required (IDE, CLI, Web, and/or Kiro Crew); insufficient Kiro use can disqualify; public GitHub repo with /.kiro directory required",
+      "payout": "Monetary prize mailed or sent electronically to bank account after required forms; forms due within 10 business days; delivery within 60 days of receipt of completed forms",
+      "fit": "Very high AI-agent fit: the contest explicitly evaluates how Kiro agents, hooks, specs, steering, MCP, and testing were used.",
+      "recommendation": "Strong primary target if the team can commit to Kiro and open-source the repository; longer runway than the November events.",
+      "flags": [
+        "Repository must be public and open source; do not enter with code that must remain private.",
+        "Kiro feature/model availability varies by region; entrant is responsible for regional restrictions.",
+        "Cash total excludes Kiro credits and subscription prizes."
+      ],
+      "evidence": [
+        {"fields": ["entry"], "locator": "Official Rules, opening clause and §4", "url": "https://kiroween.devpost.com/rules", "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."},
+        {"fields": ["status", "deadline"], "locator": "Official Rules §1", "url": "https://kiroween.devpost.com/rules", "quote": "Submission Period: October 30, 2026 (9:00 am Pacific Time) – December 4, 2026 (2:00 pm Pacific Time)"},
+        {"fields": ["eligibility"], "locator": "Official Rules §3", "url": "https://kiroween.devpost.com/rules", "quote": "Teams of Eligible Individuals, maximum 3 participants per team"},
+        {"fields": ["ai"], "locator": "Official Rules §4 Project Requirements", "url": "https://kiroween.devpost.com/rules", "quote": "Entrants must build a working software application using Kiro (IDE, CLI, Web, and/or Kiro Crew)"},
+        {"fields": ["ai", "flags"], "locator": "Official Rules §4 Submission Requirements", "url": "https://kiroween.devpost.com/rules", "quote": "Your repo must contain the /.kiro directory at the root of the project to show usage of Kiro such as specs, hooks, and steering."},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §8", "url": "https://kiroween.devpost.com/rules", "quote": "1st Place | $30,000 USD | 1 | All Eligible Submissions"},
+        {"fields": ["payout"], "locator": "Official Rules §8 Prize Delivery", "url": "https://kiroween.devpost.com/rules", "quote": "Prizes will be delivered within 60 days of the Administrator’s receipt of the completed Required Forms."},
+        {"fields": ["flags"], "locator": "Official Rules §4", "url": "https://kiroween.devpost.com/rules", "quote": "Entrants are solely responsible for reviewing and complying with all applicable regional restrictions"}
+      ]
+    },
+    {
+      "id": "paypal-ai-hackathon-2026",
+      "name": "PayPal AI Hackathon",
+      "category": "tech",
+      "organizer": "PayPal Inc. / Devpost",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "rules_url": "https://paypalaihackathon.devpost.com/rules",
+      "status": "Open per published submission window as of 2026-11-01",
+      "entry": "No purchase or payment necessary; free Devpost account and free PayPal sandbox account",
+      "prize": "$67,500 USD total cash; $12,000 first place; $2,250 Render credits separate non-cash",
+      "cash_total_usd": 67500,
+      "prize_basis": "Sum of USD rows in Official Rules §8; excludes Render credits",
+      "deadline": "2026-11-12 12:00 Pacific Time",
+      "eligibility": "Individuals at age of majority; teams; organizations; prohibited-jurisdiction and conflict-of-interest exclusions apply",
+      "ai": "AI tool, model, or platform required; any AI tool works if PayPal integration is central; specific coding-agent permission not separately stated",
+      "payout": "Monetary prize mailed or sent electronically to bank account after required forms; forms due within 10 business days; delivery within 60 days of receipt of completed forms",
+      "fit": "High AI fit: build a working PayPal-integrated application with an AI component; public open-source repository and demo video required.",
+      "recommendation": "Good short sprint if a PayPal sandbox integration and credible demo can be shipped in about eleven days.",
+      "flags": [
+        "Public open-source repository required.",
+        "Judges must be able to run or interact with a working build; static mockups do not qualify.",
+        "Cash total excludes Render credits."
+      ],
+      "evidence": [
+        {"fields": ["entry"], "locator": "Official Rules, opening clause and §4", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."},
+        {"fields": ["entry"], "locator": "Official Rules §4", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "To access the PayPal sandbox environment, use your existing PayPal account or create a free account"},
+        {"fields": ["status", "deadline"], "locator": "Official Rules §1", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time)"},
+        {"fields": ["eligibility"], "locator": "Official Rules §3", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "Individuals who are at least the age of majority where they reside as of the time of entry"},
+        {"fields": ["ai"], "locator": "Official Rules §4 Project Requirements", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "Any AI tool works, as long as PayPal integration is central to the project."},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §8", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "1st Place | $12,000 USD | 1 | All Eligible Submissions"},
+        {"fields": ["payout"], "locator": "Official Rules §8 Prize Delivery", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms."},
+        {"fields": ["flags"], "locator": "Official Rules §4 Submission Requirements", "url": "https://paypalaihackathon.devpost.com/rules", "quote": "The repository must be public and open source by including an open source license file."}
+      ]
+    },
+    {
+      "id": "ugreen-ai-nas-2026",
+      "name": "UGREEN Hackathon 2026 on AI NAS",
+      "category": "tech",
+      "organizer": "AMERICA UGREEN LIMITED",
+      "url": "https://ugreenhackathon.devpost.com/",
+      "rules_url": "https://ugreenhackathon.devpost.com/rules",
+      "status": "Open per published Round 1 window as of 2026-11-01",
+      "entry": "No purchase or payment necessary; no NAS purchase required; finalists receive one day of free remote NAS access",
+      "prize": "$46,000 USD total cash; $20,000 Gold Award",
+      "cash_total_usd": 46000,
+      "prize_basis": "Official Rules §8: 20,000 + 10,000 + 6,000 + 2 x 5,000",
+      "deadline": "2026-11-15 23:45 Pacific Time (Round 1)",
+      "eligibility": "Individuals at age of majority; teams up to 3; organizations excluded; United States included; long country-exclusion list applies",
+      "ai": "AI NAS Skill using UGOS Skill Creation Tool; local or authorized third-party AI models may be used; custom executable scripts and general-purpose runtimes are not supported in the submitted Skill",
+      "payout": "Monetary prize mailed or sent electronically to bank account after required forms; forms due within 10 business days; delivery within 60 days of receipt of completed forms",
+      "fit": "High agent-workflow fit, but constrained: build a SKILL.md-based workflow using supported UGOS CLI capabilities and expert agents, not arbitrary executables.",
+      "recommendation": "Good targeted sprint if the idea fits NAS file/media/knowledge workflows; Round 1 does not require NAS runtime evidence.",
+      "flags": [
+        "Only up to 30 finalists receive remote NAS testing access.",
+        "Submitted Skill may not include separate manifests, scripts, executables, or binaries.",
+        "Round 2 must build on the same project submitted in Round 1."
+      ],
+      "evidence": [
+        {"fields": ["entry"], "locator": "Official Rules, opening clause", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."},
+        {"fields": ["entry"], "locator": "Official Rules §4 Special Notes", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "No NAS purchase, separate access application, payment, or credit redemption is required."},
+        {"fields": ["status", "deadline"], "locator": "Official Rules §1", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "Round 1 Submission Period: October 22, 2026 (9:00 am Pacific Time) – November 15, 2026 (11:45 pm Pacific Time)"},
+        {"fields": ["eligibility"], "locator": "Official Rules §3", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "The Hackathon is open to individuals residing in the following countries and territories"},
+        {"fields": ["ai", "flags"], "locator": "Official Rules §4 Project Requirements", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "Custom executable scripts, general-purpose programming runtimes, and unauthorized direct access to NAS resources are not supported."},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §8", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "Gold Award | $20,000 USD in cash | 1"},
+        {"fields": ["payout"], "locator": "Official Rules §8 Prize Delivery", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms."},
+        {"fields": ["flags"], "locator": "Official Rules §4 Special Notes", "url": "https://ugreenhackathon.devpost.com/rules", "quote": "UGREEN will select up to 30 Finalist Projects. NAS access is limited to these Finalists."}
+      ]
+    },
+    {
+      "id": "codegeist-2026",
+      "name": "Codegeist 2026: Build with context. Ship with confidence.",
+      "category": "tech",
+      "organizer": "Atlassian Pty Ltd / Devpost",
+      "url": "https://codegeist2026.devpost.com/",
+      "rules_url": "https://codegeist2026.devpost.com/rules",
+      "status": "Open per published submission window as of 2026-11-01",
+      "entry": "No purchase or payment necessary; free Devpost account and free Atlassian Cloud Developer License",
+      "prize": "$120,000 USD total cash; $15,000 first place per category; non-cash tickets/swag separate",
+      "cash_total_usd": 120000,
+      "prize_basis": "Official Rules §8: 3 x (15,000 + 8,000 + 5,000) + 4 x 6 x 1,500",
+      "deadline": "2026-12-22 12:00 Pacific Time",
+      "eligibility": "Individuals at age of majority; teams; organizations; prohibited-jurisdiction, denied-party, and conflict-of-interest exclusions apply",
+      "ai": "Forge app required; bonus tracks for Rovo agents, Atlassian MCP, Teamwork Graph, and Marketplace publishing; coding-agent assistance permission not separately confirmed",
+      "payout": "Monetary prize mailed or sent electronically to bank account after required forms; forms due within 10 business days; delivery within 60 days of receipt of completed forms",
+      "fit": "High fit for agent/MCP tooling if the team can build an Atlassian Forge app; longest runway among the verified Devpost events.",
+      "recommendation": "Strong secondary target for a reusable Forge app; confirm coding-assistant rules with the organizer before relying on an autonomous agent.",
+      "flags": [
+        "Must run on Atlassian Forge and integrate at least one Atlassian product or platform capability.",
+        "Coding-agent assistance permission is not explicitly established in the retrieved rules; agent-related prize tracks are not the same as permission to use any coding agent.",
+        "Non-cash Team 2027 tickets and swag are excluded from the cash total."
+      ],
+      "evidence": [
+        {"fields": ["entry"], "locator": "Official Rules, opening clause and §4", "url": "https://codegeist2026.devpost.com/rules", "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."},
+        {"fields": ["entry"], "locator": "Official Rules §4", "url": "https://codegeist2026.devpost.com/rules", "quote": "Sign up for a free Atlassian Cloud Developer License"},
+        {"fields": ["status", "deadline"], "locator": "Official Rules §1", "url": "https://codegeist2026.devpost.com/rules", "quote": "Submission Period: Tuesday, October 27, 2026 (9:00 am Pacific Time) – Tuesday, December 22, 2026 (12:00 pm Pacific Time)"},
+        {"fields": ["eligibility"], "locator": "Official Rules §3", "url": "https://codegeist2026.devpost.com/rules", "quote": "Individuals who are at least the age of majority where they reside as of the time of entry"},
+        {"fields": ["ai", "flags"], "locator": "Official Rules §4 Categories and Bonus Prizes", "url": "https://codegeist2026.devpost.com/rules", "quote": "Best app with Atlassian MCP: All Eligible Submissions that’s a Forge app that exposes tools via the Atlassian MCP server using the rovo:mcp module."},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §8", "url": "https://codegeist2026.devpost.com/rules", "quote": "First Place | - $15,000 USD"},
+        {"fields": ["payout"], "locator": "Official Rules §8 Prize Delivery", "url": "https://codegeist2026.devpost.com/rules", "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms."}
+      ]
+    },
+    {
+      "id": "meta-vr-start-2026",
+      "name": "Meta VR Start Developer Competition 2026",
+      "category": "tech",
+      "organizer": "Meta Platforms, Inc.",
+      "url": "https://start-developer-competition-26.devpost.com/",
+      "rules_url": "https://start-developer-competition-26.devpost.com/rules",
+      "status": "Open per published window, but restricted to Meta VR Start members",
+      "entry": "No purchase necessary; Meta VR Start membership, Meta account with Developer Access, and internet access required",
+      "prize": "Up to $1,000,000 USD total; top track awards $100,000",
+      "cash_total_usd": 1000000,
+      "prize_basis": "Official Rules §7: Total ARV of all prizes: Up to $1,000,000 U.S. Dollars (USD)",
+      "deadline": "2026-11-18 12:00 Pacific Time",
+      "eligibility": "18+ and age of majority; active Meta account with Developer Access; submitting representative must be a Meta VR Start member; country and conflict exclusions apply",
+      "ai": "AI tooling encouraged in overview; Best Agentic Interaction award; coding-agent assistance permission not separately confirmed in retrieved rules",
+      "payout": "Bank account may be required for prizes of $1,000 or more; payment after winner documents; exact delivery timing not confirmed",
+      "fit": "Conditional high-value VR target; requires hands-first Meta VR experience and Start membership.",
+      "recommendation": "Only prioritize if already Start-eligible or able to join quickly; otherwise treat the large headline prize as gated.",
+      "flags": [
+        "Start membership cost, approval time, and hardware requirements were not fully verified; do not assume the path is cost-free in practice.",
+        "Publicity/IP license is broad: irrevocable, transferable, sublicensable promotional use in perpetuity.",
+        "One entry per individual; team representative rules restrict multiple submissions."
+      ],
+      "evidence": [
+        {"fields": ["entry", "status", "eligibility"], "locator": "Official Rules, opening clauses and §2", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "THIS CONTEST IS OPEN ONLY TO MEMBERS OF THE META VR START PROGRAM"},
+        {"fields": ["entry"], "locator": "Official Rules, opening clauses", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "NO PURCHASE NECESSARY. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING."},
+        {"fields": ["deadline", "status"], "locator": "Official Rules, Important Dates", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "Entry period: September 24, 2026 at 10:00:00 AM PT | November 18, 2026 at 12:00:00 PM PT"},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Official Rules §7", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "Total ARV of all prizes: Up to $1,000,000 U.S. Dollars (USD)"},
+        {"fields": ["ai"], "locator": "Event overview, Getting Started", "url": "https://start-developer-competition-26.devpost.com/", "quote": "accelerate your development with AI tooling, including Meta VR CLI"},
+        {"fields": ["payout"], "locator": "Official Rules §7", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "A valid bank account may be required for the winner(s) of Prizes valued at one thousand ($1,000) USD or more"},
+        {"fields": ["flags"], "locator": "Official Rules §9", "url": "https://start-developer-competition-26.devpost.com/rules", "quote": "irrevocable, transferable, sublicensable, absolute right and permission to use, edit, modify, copy, reproduce, and distribute the Entry"}
+      ]
+    },
+    {
+      "id": "kidney-ai-discovery-2026",
+      "name": "Kidney AI Discovery Challenge: From Nebulae to Nephrons",
+      "category": "research",
+      "organizer": "NIDDK / NIH, hosted by NASA Tournament Lab on HeroX",
+      "url": "https://www.herox.com/KidneyAI",
+      "rules_url": "https://www.herox.com/KidneyAI",
+      "status": "Pre-registration; submissions open 2026-11-05",
+      "entry": "",
+      "prize": "$100,000 USD total cash; $50,000 / $30,000 / $20,000",
+      "cash_total_usd": 100000,
+      "prize_basis": "Official challenge PRIZES section",
+      "deadline": "2027-04-29 (submission end; time not stated)",
+      "eligibility": "18+; U.S. citizen or permanent resident to receive cash prize individually or as team captain; U.S.-incorporated entities with primary U.S. place of business; federal-funding restrictions apply",
+      "ai": "AI/ML/computer vision anomaly detection on KPMP kidney data is the challenge subject; runnable solution required; specific coding-agent permission not stated",
+      "payout": "Electronic funds transfer; winner verification/payment documents due within 10–20 business days of notification",
+      "fit": "High technical/domain fit for biomedical AI, but not a quick hackathon; requires novel discovery evidence and expert interpretability.",
+      "recommendation": "Watchlist: wait for final submission requirements and confirm no-fee entry before committing significant compute time.",
+      "flags": [
+        "Free entry is not explicitly confirmed in the retrieved announcement.",
+        "Submission requirements are being finalized and will be published before the submission window opens.",
+        "Only public/open KPMP data may be used; controlled data under a data use agreement is excluded.",
+        "NIH also lists the challenge on its official challenges page."
+      ],
+      "evidence": [
+        {"fields": ["status", "deadline"], "locator": "Guidelines, Dates", "url": "https://www.herox.com/KidneyAI", "quote": "Submission Start/End: November 5, 2026 through April 29, 2027"},
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "PRIZES", "url": "https://www.herox.com/KidneyAI", "quote": "The total prize purse for this challenge is $100,000 in cash prizes."},
+        {"fields": ["eligibility"], "locator": "Rules, Eligibility Rules", "url": "https://www.herox.com/KidneyAI", "quote": "Shall be 18 years of age or older at the time of submission."},
+        {"fields": ["eligibility"], "locator": "Registration Process", "url": "https://www.herox.com/KidneyAI", "quote": "Each individual participating on behalf of themselves must be a citizen or permanent resident of the United States to be eligible to receive a cash prize."},
+        {"fields": ["ai"], "locator": "Overview", "url": "https://www.herox.com/KidneyAI", "quote": "The subject of this challenge is the application of artificial intelligence, machine learning, computer vision, and related computational methods"},
+        {"fields": ["payout"], "locator": "Payment of the Prize", "url": "https://www.herox.com/KidneyAI", "quote": "Prizes awarded under this challenge will be paid by electronic funds transfer"},
+        {"fields": ["flags"], "locator": "Submission Requirements", "url": "https://www.herox.com/KidneyAI", "quote": "Submission requirements are being finalized as part of challenge design and will be published in full on the HeroX challenge page before the submission window opens."},
+        {"fields": ["flags"], "locator": "NIH Challenges and Prize Competitions", "url": "https://www.nih.gov/challenges", "quote": "Kidney Artificial Intelligence Discovery Challenge: From Nebulae to Nephrons"}
+      ]
+    },
+    {
+      "id": "blaise-xtech-phase1-2026",
+      "name": "Blaise xTech Competition — Phase I: AI-Powered Raman App Ideas",
+      "category": "research",
+      "organizer": "Forward Edge-AI, Inc. / HeroX",
+      "url": "https://www.herox.com/xTechIdeaCompetition",
+      "rules_url": "https://www.herox.com/xTechIdeaCompetition/legal-agreement-view",
+      "status": "Organizer update says submissions accepted and deadline extended; page stage label says Registration Opens",
+      "entry": "",
+      "prize": "Phase I: top 10 ideas each receive $5,000 cash plus a free developer kit; $50,000 cash total",
+      "cash_total_usd": 50000,
+      "prize_basis": "Official overview: top 10 best ideas each receive $5,000 cash prize",
+      "deadline": "2026-12-14 (extended deadline; time not stated)",
+      "eligibility": "Worldwide except listed Restricted Jurisdictions; entries must propose a Blaise Raman spectrometer application and submit valid Blaise-generated Raman spectra",
+      "ai": "AI-powered mobile app ideas for Raman spectroscopy; specific coding-agent permission not stated",
+      "payout": "",
+      "fit": "Domain-specific idea competition; hardware/spectra requirement makes it a poor generic coding-agent sprint unless Blaise access already exists.",
+      "recommendation": "Do not treat as a confirmed free cash path until Phase I fee and spectra-access requirements are clarified; later phases explicitly introduce costs.",
+      "flags": [
+        "Phase I entry fee is not explicitly confirmed.",
+        "Remaining 90 Phase II invitees are responsible for a registration fee and shipping costs for the developer kit.",
+        "Entry requires valid Raman spectra generated by the Blaise spectrometer.",
+        "Stage label and organizer update are inconsistent; verify the live submission form."
+      ],
+      "evidence": [
+        {"fields": ["prize", "cash_total_usd", "prize_basis"], "locator": "Overview", "url": "https://www.herox.com/xTechIdeaCompetition", "quote": "the top 10 best ideas will each receive a $5,000 cash prize plus a free developer kit (device + SDK)"},
+        {"fields": ["deadline", "status", "flags"], "locator": "Challenge update, Oct. 27, 2026", "url": "https://www.herox.com/xTechIdeaCompetition", "quote": "we are extending the competition deadline by six weeks to December 14, 2026."},
+        {"fields": ["eligibility", "flags"], "locator": "Entry Requirements", "url": "https://www.herox.com/xTechIdeaCompetition", "quote": "submit valid Raman spectra generated by the Blaise spectrometer"},
+        {"fields": ["flags"], "locator": "Overview", "url": "https://www.herox.com/xTechIdeaCompetition", "quote": "the remaining 90 selected teams will receive an invitation to Phase II and will be responsible for a registration fee and shipping costs to receive their developer kit."},
+        {"fields": ["ai", "eligibility"], "locator": "Overview", "url": "https://www.herox.com/xTechIdeaCompetition", "quote": "The Blaise® xTech Competition invites creative thinkers worldwide to submit innovative ideas for AI-powered mobile apps that use Blaise, our cutting-edge handheld Raman spectrometer."}
+      ]
+    },
+    {
+      "id": "xprize-quantum-applications",
+      "name": "XPRIZE Quantum Applications",
+      "category": "research",
+      "organizer": "XPRIZE Foundation",
+      "url": "https://www.xprize.org/competitions/qc-apps",
+      "rules_url": "",
+      "status": "Active competition; finalist teams already selected; new entry availability not confirmed",
+      "entry": "",
+      "prize": "$5,000,000 prize purse (cash form not confirmed on retrieved page)",
+      "cash_total_usd": null,
+      "prize_basis": "Official competition page, Prize Purse",
+      "deadline": "",
+      "eligibility": "",
+      "ai": "",
+      "payout": "",
+      "fit": "Long-horizon quantum algorithm research; not a current open-entry cash target based on retrieved page.",
+      "recommendation": "Exclude from active shortlist until the organizer confirms a new registration window and current rules.",
+      "flags": [
+        "Active label does not mean open registration; page lists seven finalist teams moving to Phase II.",
+        "Free entry, current deadline, eligibility, and payout mechanics were not confirmed from the retrieved page.",
+        "Do not confuse the $5M purse with an available first-place prize for a new entrant."
+      ],
+      "evidence": [
+        {"fields": ["prize", "prize_basis"], "locator": "Prize Purse", "url": "https://www.xprize.org/competitions/qc-apps", "quote": "$5 Million"},
+        {"fields": ["status", "flags"], "locator": "Finalist Teams", "url": "https://www.xprize.org/competitions/qc-apps", "quote": "XPRIZE’s independent judging panel has selected 7 teams as Finalists in the XPRIZE Quantum Applications competition."}
+      ]
+    },
+    {
+      "id": "herox-directory-link",
+      "name": "HeroX challenge directory",
+      "category": "directory",
+      "organizer": "HeroX",
+      "url": "https://www.herox.com/crowdsourcing-projects",
+      "rules_url": "",
+      "status": "Link issue: legacy /crowdsolve path returned page-not-found content; working directory retrieved",
+      "entry": "",
+      "prize": "",
+      "cash_total_usd": null,
+      "prize_basis": "",
+      "deadline": "",
+      "eligibility": "",
+      "ai": "",
+      "payout": "",
+      "fit": "Discovery source only; not itself a cash competition.",
+      "recommendation": "Use the working directory link, then verify each individual challenge's rules before entry.",
+      "flags": [
+        "https://www.herox.com/crowdsolve returned a page titled 'Page not found' when retrieved on 2026-11-01.",
+        "The working directory is https://www.herox.com/crowdsourcing-projects.",
+        "Directory listings are leads, not verification of free entry or cash prizes."
+      ],
+      "evidence": [
+        {"fields": ["status", "flags"], "locator": "Retrieved page title", "url": "https://www.herox.com/crowdsolve", "quote": "Page not found"},
+        {"fields": ["status", "flags"], "locator": "Retrieved working directory heading", "url": "https://www.herox.com/crowdsourcing-projects", "quote": "Explore Challenges"}
+      ]
+    }
+  ]
+}
