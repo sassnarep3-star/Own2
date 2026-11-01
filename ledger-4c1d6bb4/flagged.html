@@ -31,8 +31,68 @@
   </div>
 </section>
 
-<div class="panel"><h2>Link check</h2><p class="muted">No <code>reports/link-check.json</code> yet — run
-    <code>node scripts/check-links.mjs</code> (or the <em>linkcheck</em> GitHub Actions workflow) and rebuild.</p></div>
+
+<div class="panel">
+  <h2>Link check (automated, run 2026-11-01T14:35:22.785Z)</h2>
+  <p class="muted">Checked 66 unique URLs. 26 broken,
+  40 blocked (server refused the checker but may work in a browser).
+  Source: GitHub Actions <code>linkcheck</code> workflow — full machine report in
+  <code>reports/link-check.json</code>.</p>
+  <h3>Broken (26)</h3><ul><li><code>https://aleagues.com.au/fantasy</code> → 404
+              · signupUrl, page:sports.html · listing: <code>aleague-fantasy</code>
+              (<a href="https://aleagues.com.au/fantasy">try anyway</a>)</li><li><code>https://apps.apple.com/us/app/bingo-cash-win-real-money/id1263102011</code> → 404
+              · iosUrl, page:skill.html · listing: <code>bingo-cash</code>
+              (<a href="https://apps.apple.com/us/app/bingo-cash-win-real-money/id1263102011">try anyway</a>)</li><li><code>https://apps.apple.com/us/app/bundesliga-fantasy-manager/id1236154617</code> → 404
+              · iosUrl, page:sports.html · listing: <code>bundesliga-fantasy</code>
+              (<a href="https://apps.apple.com/us/app/bundesliga-fantasy-manager/id1236154617">try anyway</a>)</li><li><code>https://apps.apple.com/us/app/givling/id966107040</code> → 404
+              · iosUrl, page:trivia.html · listing: <code>givling</code>
+              (<a href="https://apps.apple.com/us/app/givling/id966107040">try anyway</a>)</li><li><code>https://apps.apple.com/us/app/pocket7games-win-money/id1076225744</code> → 404
+              · iosUrl, page:skill.html · listing: <code>pocket7</code>
+              (<a href="https://apps.apple.com/us/app/pocket7games-win-money/id1076225744">try anyway</a>)</li><li><code>https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1252281551</code> → 404
+              · iosUrl, page:skill.html · listing: <code>solitaire-cash</code>
+              (<a href="https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1252281551">try anyway</a>)</li><li><code>https://bracketchallenge.nhl.com/en/home</code> → 404
+              · signupUrl, rulesUrl, page:sports.html · listing: <code>nhl-bracket-challenge</code>
+              (<a href="https://bracketchallenge.nhl.com/en/home">try anyway</a>)</li><li><code>https://bracketchallenge.nhl.com/en/how-to-play</code> → 404
+              · source(official), page:sports.html · listing: <code>nhl-bracket-challenge</code>
+              (<a href="https://bracketchallenge.nhl.com/en/how-to-play">try anyway</a>)</li><li><code>https://dash.hypermind.com/hypermind/app.html</code> → 503
+              · signupUrl, rulesUrl, source(official), page:forecasting.html · listing: <code>hypermind</code>
+              (<a href="https://dash.hypermind.com/hypermind/app.html">try anyway</a>)</li><li><code>https://fantasy.europeantour.com/</code> → ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE: C02C2F195B7F0000:error:0A000410:SSL routines:ssl3_read_bytes:ssl/tls alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert nu
+              · signupUrl, page:sports.html · listing: <code>dp-world-tour-fantasy</code>
+              (<a href="https://fantasy.europeantour.com/">try anyway</a>)</li><li><code>https://fantasy.football.scot/</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantasy.football.scot
+              · signupUrl, rulesUrl, source(official), page:sports.html · listing: <code>spfl-fantasy</code>
+              (<a href="https://fantasy.football.scot/">try anyway</a>)</li><li><code>https://fantasy.premiershiprugby.com/</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantasy.premiershiprugby.com
+              · signupUrl, page:sports.html · listing: <code>premiership-rugby-fantasy</code>
+              (<a href="https://fantasy.premiershiprugby.com/">try anyway</a>)</li><li><code>https://fantasyfootball.skysports.com/</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantasyfootball.skysports.com
+              · signupUrl, page:sports.html · listing: <code>sky-sports-ff</code>
+              (<a href="https://fantasyfootball.skysports.com/">try anyway</a>)</li><li><code>https://fantasygaelicfootball.com/</code> → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: fantasygaelicfootball.com:443, timeout: 10000ms)
+              · signupUrl, rulesUrl, source(official), page:sports.html · listing: <code>fantasy-gaa</code>
+              (<a href="https://fantasygaelicfootball.com/">try anyway</a>)</li><li><code>https://fantasyracing.telegraph.co.uk/</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantasyracing.telegraph.co.uk
+              · signupUrl, page:sports.html · listing: <code>telegraph-fantasy-racing</code>
+              (<a href="https://fantasyracing.telegraph.co.uk/">try anyway</a>)</li><li><code>https://fantasyracing.telegraph.co.uk/cheltenham/how-to-play</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantasyracing.telegraph.co.uk
+              · rulesUrl, source(official), page:sports.html · listing: <code>telegraph-fantasy-racing</code>
+              (<a href="https://fantasyracing.telegraph.co.uk/cheltenham/how-to-play">try anyway</a>)</li><li><code>https://fantazilig.tff.org/</code> → ENOTFOUND: getaddrinfo ENOTFOUND fantazilig.tff.org
+              · signupUrl · listing: <code>tff-fantezi-lig</code>
+              (<a href="https://fantazilig.tff.org/">try anyway</a>)</li><li><code>https://favorites.actionnetwork.com/games/the-favorites</code> → ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: favorites.actionnetwork.com. is not in the cert's altnames: DNS:*.chalklinegames.com
+              · source(official), page:sports.html · listing: <code>favorites-pickem</code>
+              (<a href="https://favorites.actionnetwork.com/games/the-favorites">try anyway</a>)</li><li><code>https://gaming.uefa.com/en/uclfantasy</code> → AbortError: AbortError: This operation was aborted
+              · signupUrl, rulesUrl, source(official), page:sports.html · listing: <code>ucl-fantasy</code>
+              (<a href="https://gaming.uefa.com/en/uclfantasy">try anyway</a>)</li><li><code>https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/</code> → CERT_HAS_EXPIRED: certificate has expired
+              · signupUrl, rulesUrl, source(official), page:creative.html · listing: <code>pensacola-songwriting</code>
+              (<a href="https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/">try anyway</a>)</li><li><code>https://reedsy.com/privacy</code> → 404
+              · tosUrl, page:directory.html · listing: <code>reedsy-dir</code>
+              (<a href="https://reedsy.com/privacy">try anyway</a>)</li><li><code>https://supercoach.news.com.au/bbl/</code> → ENOTFOUND: getaddrinfo ENOTFOUND supercoach.news.com.au
+              · signupUrl, rulesUrl, source(official), page:sports.html · listing: <code>supercoach-bbl</code>
+              (<a href="https://supercoach.news.com.au/bbl/">try anyway</a>)</li><li><code>https://wslfantasy.com/</code> → UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: wslfantasy.com:443, timeout: 10000ms)
+              · signupUrl, page:sports.html · listing: <code>wsl-fantasy</code>
+              (<a href="https://wslfantasy.com/">try anyway</a>)</li><li><code>https://www.ohha.com/fantasy-stable</code> → 404
+              · signupUrl, page:sports.html · listing: <code>ohha-harness</code>
+              (<a href="https://www.ohha.com/fantasy-stable">try anyway</a>)</li><li><code>https://www.topcoder.com/challenges</code> → 404
+              · signupUrl, rulesUrl, source(official), page:tech.html · listing: <code>topcoder</code>
+              (<a href="https://www.topcoder.com/challenges">try anyway</a>)</li><li><code>https://www.topcoder.com/policy</code> → 404
+              · tosUrl, page:tech.html · listing: <code>topcoder</code>
+              (<a href="https://www.topcoder.com/policy">try anyway</a>)</li></ul>
+  <h3>Blocked — checker refused, may work in a browser (40)</h3><ul><li><code>https://agentmma.com/contests/next</code> → HTTP 403</li><li><code>https://cevmatchpredictor.zendesk.com/hc/en-us/articles/12463995830941-CEV-Champions-League-Fantasy-Terms-Conditions</code> → HTTP 403</li><li><code>https://devpost.com/hackathons</code> → HTTP 403</li><li><code>https://esportsworldcup.com/en/news/play-fantasy-at-EWC</code> → HTTP 403</li><li><code>https://esportsworldcup.com/en/play/fantasy</code> → HTTP 403</li><li><code>https://esportsworldcup.com/en/play/fantasy/league-of-legends</code> → HTTP 403</li><li><code>https://fbs.com/</code> → HTTP 403</li><li><code>https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia</code> → HTTP 403</li><li><code>https://hipther.com/gaming-and-entertainment-europe/2026/07/30/115929/midnite-extends-sun-dream-team-fantasy-football-sponsorship-into-2026-27/</code> → HTTP 403</li><li><code>https://hw.online/</code> → HTTP 403</li><li><code>https://nrlfantasy.zendesk.com/hc/en-us/articles/15492067192861-Prizes</code> → HTTP 403</li><li><code>https://oddspedia.com/us/picks/capper-contests/wc2026-competition</code> → HTTP 403</li><li><code>https://supercoach.com.au/</code> → HTTP 403</li><li><code>https://supercoach.com.au/nbl</code> → HTTP 403</li><li><code>https://supercoach.com.au/nrl</code> → HTTP 403</li><li><code>https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest</code> → HTTP 403</li><li><code>https://support.pokemon.com/hc/en-us/articles/40087224703508-Prizing-and-Fees</code> → HTTP 403</li><li><code>https://tradfi.multibankgroup.com/en/lp-n/demo-competition</code> → HTTP 403</li><li><code>https://www.atptour.com/en/news/atp-launches-official-fantasy-game-2026</code> → HTTP 403</li><li><code>https://www.euroleaguebasketball.net/euroleague/fantasy/prizes-and-rules/</code> → HTTP 429</li><li><code>https://www.europeantour.com/dpworld-tour/news/articles/detail/fantasy-dp-world-tour-is-back/</code> → HTTP 403</li><li><code>https://www.fftoday.com/contests/draftcontest.php?o=3</code> → HTTP 403</li><li><code>https://www.hfm.com/int/en/promotions/demo-contest</code> → HTTP 403</li><li><code>https://www.legalsportsreport.com/240860/fanatics-nfl-survivor-league/</code> → HTTP 403</li><li><code>https://www.leicestertigers.com/news/fantasy-premiership-2223-launch</code> → HTTP 403</li><li><code>https://www.metaculus.com/help/scores-faq/</code> → HTTP 403</li><li><code>https://www.metaculus.com/tournaments/</code> → HTTP 403</li><li><code>https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776</code> → HTTP 403</li><li><code>https://www.myfxbook.com/press-release/xmrsquos-anniversary-demo-competitions-now-live-ndash-join-the-celebration-with-a-100000-prize-pool-/33454</code> → HTTP 403</li><li><code>https://www.nba.com/</code> → HTTP 403</li><li><code>https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html</code> → HTTP 429</li><li><code>https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/</code> → HTTP 403</li><li><code>https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/</code> → HTTP 403</li><li><code>https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/</code> → HTTP 403</li><li><code>https://www.skillz.com/</code> → HTTP 403</li><li><code>https://www.skillz.com/terms-of-service/</code> → HTTP 403</li><li><code>https://www.xm.com/</code> → HTTP 403</li><li><code>https://x.com/AFLFantasy</code> → HTTP 403</li><li><code>https://x.com/fantasygaelicfb</code> → HTTP 403</li><li><code>https://x.com/signatelab</code> → HTTP 403</li></ul>
+</div>
 
 <div class="panel">
   <h2>Ended / out-of-season entries (27)</h2>

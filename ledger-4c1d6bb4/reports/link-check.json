@@ -1,0 +1,527 @@
+{
+  "generatedAt": "2026-11-01T14:35:22.785Z",
+  "source": "GitHub Actions linkcheck run 41316899973 (commit 1fa406e), transcribed from check-run API (check 124878890719); full artifact also uploaded by CI",
+  "counts": {
+    "ok": 258,
+    "redirect": 2,
+    "blocked": 40,
+    "broken": 26
+  },
+  "results": [
+    {
+      "url": "https://aleagues.com.au/fantasy",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "aleague-fantasy"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/bingo-cash-win-real-money/id1263102011",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "iosUrl",
+        "page:skill.html"
+      ],
+      "listingId": "bingo-cash"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/bundesliga-fantasy-manager/id1236154617",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "iosUrl",
+        "page:sports.html"
+      ],
+      "listingId": "bundesliga-fantasy"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/givling/id966107040",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "iosUrl",
+        "page:trivia.html"
+      ],
+      "listingId": "givling"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/pocket7games-win-money/id1076225744",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "iosUrl",
+        "page:skill.html"
+      ],
+      "listingId": "pocket7"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1252281551",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "iosUrl",
+        "page:skill.html"
+      ],
+      "listingId": "solitaire-cash"
+    },
+    {
+      "url": "https://bracketchallenge.nhl.com/en/home",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "page:sports.html"
+      ],
+      "listingId": "nhl-bracket-challenge"
+    },
+    {
+      "url": "https://bracketchallenge.nhl.com/en/how-to-play",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "nhl-bracket-challenge"
+    },
+    {
+      "url": "https://dash.hypermind.com/hypermind/app.html",
+      "status": "broken",
+      "code": 503,
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:forecasting.html"
+      ],
+      "listingId": "hypermind"
+    },
+    {
+      "url": "https://fantasy.europeantour.com/",
+      "status": "broken",
+      "error": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE: C02C2F195B7F0000:error:0A000410:SSL routines:ssl3_read_bytes:ssl/tls alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert nu",
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "dp-world-tour-fantasy"
+    },
+    {
+      "url": "https://fantasy.football.scot/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantasy.football.scot",
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "spfl-fantasy"
+    },
+    {
+      "url": "https://fantasy.premiershiprugby.com/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantasy.premiershiprugby.com",
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "premiership-rugby-fantasy"
+    },
+    {
+      "url": "https://fantasyfootball.skysports.com/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantasyfootball.skysports.com",
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "sky-sports-ff"
+    },
+    {
+      "url": "https://fantasygaelicfootball.com/",
+      "status": "broken",
+      "error": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: fantasygaelicfootball.com:443, timeout: 10000ms)",
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "fantasy-gaa"
+    },
+    {
+      "url": "https://fantasyracing.telegraph.co.uk/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantasyracing.telegraph.co.uk",
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "telegraph-fantasy-racing"
+    },
+    {
+      "url": "https://fantasyracing.telegraph.co.uk/cheltenham/how-to-play",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantasyracing.telegraph.co.uk",
+      "what": [
+        "rulesUrl",
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "telegraph-fantasy-racing"
+    },
+    {
+      "url": "https://fantazilig.tff.org/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND fantazilig.tff.org",
+      "what": [
+        "signupUrl"
+      ],
+      "listingId": "tff-fantezi-lig"
+    },
+    {
+      "url": "https://favorites.actionnetwork.com/games/the-favorites",
+      "status": "broken",
+      "error": "ERR_TLS_CERT_ALTNAME_INVALID: Hostname/IP does not match certificate's altnames: Host: favorites.actionnetwork.com. is not in the cert's altnames: DNS:*.chalklinegames.com",
+      "what": [
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "favorites-pickem"
+    },
+    {
+      "url": "https://gaming.uefa.com/en/uclfantasy",
+      "status": "broken",
+      "error": "AbortError: AbortError: This operation was aborted",
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "ucl-fantasy"
+    },
+    {
+      "url": "https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/",
+      "status": "broken",
+      "error": "CERT_HAS_EXPIRED: certificate has expired",
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:creative.html"
+      ],
+      "listingId": "pensacola-songwriting"
+    },
+    {
+      "url": "https://reedsy.com/privacy",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "tosUrl",
+        "page:directory.html"
+      ],
+      "listingId": "reedsy-dir"
+    },
+    {
+      "url": "https://supercoach.news.com.au/bbl/",
+      "status": "broken",
+      "error": "ENOTFOUND: getaddrinfo ENOTFOUND supercoach.news.com.au",
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:sports.html"
+      ],
+      "listingId": "supercoach-bbl"
+    },
+    {
+      "url": "https://wslfantasy.com/",
+      "status": "broken",
+      "error": "UND_ERR_CONNECT_TIMEOUT: Connect Timeout Error (attempted address: wslfantasy.com:443, timeout: 10000ms)",
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "wsl-fantasy"
+    },
+    {
+      "url": "https://www.ohha.com/fantasy-stable",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "signupUrl",
+        "page:sports.html"
+      ],
+      "listingId": "ohha-harness"
+    },
+    {
+      "url": "https://www.topcoder.com/challenges",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "signupUrl",
+        "rulesUrl",
+        "source(official)",
+        "page:tech.html"
+      ],
+      "listingId": "topcoder"
+    },
+    {
+      "url": "https://www.topcoder.com/policy",
+      "status": "broken",
+      "code": 404,
+      "what": [
+        "tosUrl",
+        "page:tech.html"
+      ],
+      "listingId": "topcoder"
+    },
+    {
+      "url": "https://agentmma.com/contests/next",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://cevmatchpredictor.zendesk.com/hc/en-us/articles/12463995830941-CEV-Champions-League-Fantasy-Terms-Conditions",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://devpost.com/hackathons",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://esportsworldcup.com/en/news/play-fantasy-at-EWC",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://esportsworldcup.com/en/play/fantasy",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://esportsworldcup.com/en/play/fantasy/league-of-legends",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://fbs.com/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://hipther.com/gaming-and-entertainment-europe/2026/07/30/115929/midnite-extends-sun-dream-team-fantasy-football-sponsorship-into-2026-27/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://hw.online/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://nrlfantasy.zendesk.com/hc/en-us/articles/15492067192861-Prizes",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://oddspedia.com/us/picks/capper-contests/wc2026-competition",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://supercoach.com.au/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://supercoach.com.au/nbl",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://supercoach.com.au/nrl",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://support.pokemon.com/hc/en-us/articles/40087224703508-Prizing-and-Fees",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://tradfi.multibankgroup.com/en/lp-n/demo-competition",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.atptour.com/en/news/atp-launches-official-fantasy-game-2026",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/euroleague/fantasy/prizes-and-rules/",
+      "status": "blocked",
+      "code": 429,
+      "what": []
+    },
+    {
+      "url": "https://www.europeantour.com/dpworld-tour/news/articles/detail/fantasy-dp-world-tour-is-back/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.fftoday.com/contests/draftcontest.php?o=3",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.hfm.com/int/en/promotions/demo-contest",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.legalsportsreport.com/240860/fanatics-nfl-survivor-league/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.leicestertigers.com/news/fantasy-premiership-2223-launch",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.metaculus.com/help/scores-faq/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.metaculus.com/tournaments/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.myfxbook.com/press-release/xmrsquos-anniversary-demo-competitions-now-live-ndash-join-the-celebration-with-a-100000-prize-pool-/33454",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.nba.com/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html",
+      "status": "blocked",
+      "code": 429,
+      "what": []
+    },
+    {
+      "url": "https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.skillz.com/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.skillz.com/terms-of-service/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://www.xm.com/",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://x.com/AFLFantasy",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://x.com/fantasygaelicfb",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    },
+    {
+      "url": "https://x.com/signatelab",
+      "status": "blocked",
+      "code": 403,
+      "what": []
+    }
+  ]
+}

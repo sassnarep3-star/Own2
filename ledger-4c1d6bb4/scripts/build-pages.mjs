@@ -536,19 +536,31 @@ ${ledgerTable(list, `${list.length} listings · every row links to an official s
   <h2>Link check (automated, run ${esc(r.generatedAt || "unknown")})</h2>
   <p class="muted">Checked ${r.results?.length ?? 0} unique URLs. ${bad.length} broken,
   ${blocked.length} blocked (server refused the checker but may work in a browser).
-  Broken links are flagged below; blocked links are listed in
-  <code>reports/link-check.json</code> for manual review.</p>
+  Source: GitHub Actions <code>linkcheck</code> workflow — full machine report in
+  <code>reports/link-check.json</code>.</p>
   ${
     bad.length
-      ? `<ul>${bad
+      ? `<h3>Broken (${bad.length})</h3><ul>${bad
           .map(
             (b) =>
-              `<li><strong>${esc(b.what)}</strong> — <code>${esc(b.url)}</code> → ${esc(String(b.code || b.error || ""))}
-              (<a href="${esc(b.url)}">open</a>) · listing: <code>${esc(b.listingId || "site-wide")}</code></li>`
+              `<li><code>${esc(b.url)}</code> → ${esc(String(b.code || b.error || ""))}
+              · ${(b.what || []).map(esc).join(", ")} · listing: <code>${esc(b.listingId || "site-wide")}</code>
+              (<a href="${esc(b.url)}">try anyway</a>)</li>`
           )
-          .join("")}</ul>
-  <p class="muted">Each broken link is also attached to its listing flag below when a listing id is known.</p>`
+          .join("")}</ul>`
       : `<p>✅ No broken links found in this run.</p>`
+  }
+  ${
+    blocked.length
+      ? `<h3>Blocked — checker refused, may work in a browser (${blocked.length})</h3><ul>${blocked
+          .map(
+            (b) =>
+              `<li><code>${esc(b.url)}</code> → HTTP ${esc(String(b.code || ""))}${
+                (b.what || []).length ? ` · ${(b.what || []).map(esc).join(", ")}` : ""
+              }</li>`
+          )
+          .join("")}</ul>`
+      : ""
   }
 </div>`;
     } catch {
