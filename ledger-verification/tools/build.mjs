@@ -284,7 +284,7 @@ const pages = {};
     </a>`;
   }).join('');
   const shortlistRows = SHORTLIST.map(
-    (r) => `<li><a href="${esc(r.links[0].url)}" target="_blank" rel="noopener"><b>${esc(r.name)}</b></a> — ${verifBadge(r.verification)} <span class="muted small">${esc(r.typeName)} · ${esc(r.verificationFinding.split('. ')[0])}.</span> <a href="all.html#${esc(r.id)}">Row</a></li>`,
+    (r) => `<li><a href="${esc(r.links[0].url)}" target="_blank" rel="noopener"><b>${esc(r.name)}</b></a> — ${verifBadge(r.verification)} <span class="muted small">${esc(r.typeName)} · ${esc(r.verificationFinding.split('. ')[0].replace(/[.]+$/,''))}.</span> <a href="all.html#${esc(r.id)}">Row</a></li>`,
   ).join('');
   const body = `
 <section class="hero">

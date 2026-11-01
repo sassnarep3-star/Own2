@@ -496,16 +496,21 @@ summary_body = f'''
 <tr><td>Rows with no official source supplied</td><td>{S["no_off"]}</td></tr>
 </tbody></table>
 
-<h2>Parallel audits in this repository</h2>
-<p>Two independent sessions audited the same ledger on the same day. Their material is preserved and linked rather than replaced:</p>
+<h2>Parallel work preserved in this repository</h2>
+<p>This repository was worked on by several agent sessions on the same day. Each one built its own view of the
+same ledger. None of them was deleted; the root site is the integrated dashboard, and the rest stay live:</p>
 <ul>
-<li><a href="audits/2026-11-01/index.html">Independent 13-lead official-source audit</a> — a separate report with its own
-<a href="audits/2026-11-01/review.html">review page</a>; its field-level findings (Sony free-entry rule, Tom Howard fee,
+<li><a href="audits/2026-11-01/index.html">Independent 13-lead official-source audit</a> with its own
+<a href="audits/2026-11-01/review.html">review page</a> — its field-level findings (Sony free-entry rule, Tom Howard fee,
 NYPL nomination terms, CheckMate claim-window conflict, Zindi 404, Film Prize rules mismatch, MLB conditional prize,
-Vocal and Freelancer terms) are imported into this site's evidence records with attribution.</li>
-<li><a href="explore.html">Mobile shortlist (parallel build)</a> and <a href="flagged/index.html">its flagged page</a> —
-the other integration session's dashboard, kept live and unchanged.</li>
-<li>Legacy builder for the first dashboard: <code>audits/legacy-build/</code>.</li>
+Vocal and Freelancer terms) are imported into this site's evidence records, attributed per row.</li>
+<li><a href="dashboard/top-picks.html">dashboard/</a> — a standalone site with its own live-verification file; its findings
+(ARC entry closed, ESPN Survivor closed, AIcrowd closed, NASCAR free entry) are imported here.</li>
+<li><a href="explore.html">explore.html</a> + <a href="category/tech.html">category/</a> +
+<a href="flagged/index.html">flagged/</a> — the first integration session's mobile shortlist.</li>
+<li><a href="ledger-verification/index.html">ledger-verification/</a> — a per-row verification report subsite.</li>
+<li><a href="_site/index.html">_site/</a> — a built copy of an earlier dashboard.</li>
+<li><code>audits/legacy-build/</code> — the first dashboard's builder, kept for traceability and not run by CI.</li>
 </ul>
 
 <h2>Files and provenance</h2>
