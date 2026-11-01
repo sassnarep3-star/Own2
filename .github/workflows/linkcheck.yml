@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  checks: write
 
 jobs:
   linkcheck:
@@ -46,9 +47,8 @@ jobs:
           path: ledger-4c1d6bb4/reports/
           retention-days: 30
 
-      - name: Print counts
-        run: |
-          node -e "
-            const r = require('./reports/link-check.json');
-            console.log('counts:', JSON.stringify(r.counts));
-          "
+      - name: Publish results as check-run summary
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish-check.mjs
