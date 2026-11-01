@@ -1,0 +1,190 @@
+{
+  "_readme": "Live verification performed 2026-11-01 (UTC) by session be1d2210 using live page fetches of the official pages listed per entry. Only values that were read on those pages are recorded under 'confirmed'. Anything not read is null (blank on the site) and flagged unverified. 'quote' fields are verbatim text from the fetched page.",
+  "checkedOn": "2026-11-01",
+  "entries": {
+    "arcprize": {
+      "pages": [
+        {"url": "https://arcprize.org/competitions/2026", "result": "read"},
+        {"url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview", "result": "read (first of 2 chunks; rules/eligibility chunk not read)"},
+        {"url": "https://www.kaggle.com/competitions", "result": "read (first of 5 chunks)"}
+      ],
+      "confirmed": {
+        "prize": "ARC Prize 2026: \"$2M in prizes. 3 tracks.\" ARC-AGI-2 track (Kaggle): $700,000 total = Progress Prizes $275,000 (1st $75,000, 2nd $50,000, 3rd $40,000 ...) + Grand Prize $275,000 + Bonus Prize $150,000 (unlocks only if a team reaches 85% accuracy). Paper Track (Kaggle list): $450,000.",
+        "freeEntry": null,
+        "eligibility": "All prizes require reproducible, open-source submissions. No internet during Kaggle evaluation (arcprize.org: \"no API-based systems like GPT/Claude/etc.\"). Age/residency rules not read.",
+        "deadline": "Final submissions due 2 Nov 2026 (11:59 PM UTC, Kaggle). Papers due 8 Nov 2026 (arcprize.org). Winners 4 Dec 2026. ARC-AGI-2 entry + team-merger deadline was 26 Oct 2026 (already passed).",
+        "state": "closing"
+      },
+      "discrepancies": [
+        "Ledger lists status 'live' without noting that the ARC-AGI-2 entry deadline (26 Oct 2026) has passed and final submissions are due 2 Nov 2026 (one day from the review date).",
+        "Ledger's ARC-AGI-3 $850,000 figure was NOT re-read this session (unverified)."
+      ]
+    },
+    "kaggle": {
+      "pages": [{"url": "https://www.kaggle.com/competitions", "result": "read (first of 5 chunks)"}],
+      "confirmed": {
+        "prize": "Examples on the competitions index on 2026-11-01: ARC Prize 2026 Paper Track $450,000 (8 days to go); NFL Big Data Bowl 2027 $100,000 (2 months to go); Google - The Gemma 4 Developer Agent Paper Track $35,000 (11 days to go).",
+        "freeEntry": null,
+        "eligibility": null,
+        "deadline": "Per competition.",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Ledger range '$5,000–$100,000+; specials exceed $1M' is not confirmed by the part of the page that was read (only the three examples above)."
+      ]
+    },
+    "devpost": {
+      "pages": [{"url": "https://devpost.com/hackathons", "result": "read"}],
+      "confirmed": {
+        "prize": "Open examples on 2026-11-01: Meta VR Start Developer Competition 2026 $1,000,000 (Sep 24 - Nov 18, 2026); Codegeist 2026 (Atlassian) $120,000 (Oct 27 - Dec 22, 2026); Kiroween 2026 $100,000 (Oct 30 - Dec 04, 2026); PayPal AI Hackathon $67,500 (Oct 01 - Nov 12, 2026); UGREEN Hackathon 2026 on AI NAS $46,000 (Oct 22 - Nov 16, 2026); Codex x TwitchCon Hackathon $25,000 (Oct 23 - Nov 02, 2026, 1 day left). Page states 'Showing 14220 hackathons'.",
+        "freeEntry": null,
+        "eligibility": "Set per hackathon; not read.",
+        "deadline": "Per hackathon.",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Ledger text 'currently $10,000 to $685,000 per hackathon' and its RevenueCat $685,000 example do not match the live index (largest listed on first page: $1,000,000)."
+      ]
+    },
+    "drivendata": {
+      "pages": [{"url": "https://www.drivendata.org/competitions/", "result": "read (first of 7 chunks)"}],
+      "confirmed": {
+        "prize": "Open prize competition: The Geologic Enhanced Mapping System (GEMS) Prize Challenge (hosted by DOE) $300,000, '4 weeks left'. Recently completed: DaT Parkinson's Challenge EUR 25,000 (Sep 2026); On Top of Pasketti Children's Speech Recognition $120,000 (Apr 2026).",
+        "freeEntry": null,
+        "eligibility": null,
+        "deadline": "'4 weeks left' as of 2026-11-01 (exact date not on index page).",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Ledger range 'often $10,000-$200,000' is stale for the one open prize competition ($300,000)."
+      ]
+    },
+    "metaculus": {
+      "pages": [{"url": "https://www.metaculus.com/tournaments/", "result": "read"}],
+      "confirmed": {
+        "prize": "Quote: \"You can participate for free and win cash prizes for being accurate.\" Live pools on 2026-11-01: Fall 2026 FutureEval Bot Tournament $50,000 (ends in 2 months); Labor Automation Tournament $35,000; Forecasting Our World in Data $20,000 (pending resolutions); POTUS Predictions $15,000; US Midterms 2026 $10,000 (ends in 3 days); ACX 2026 Prediction Contest $10,000 (ends in 2 months); U.S. Democracy Threat Index $10,000; Market Pulse Challenge 26Q4 $7,500; Metaculus Cup Fall 2026 $5,000. 'Summer 2026 FutureEval Bot Tournament' $50,000 shows 'Pending winners announcement'.",
+        "freeEntry": true,
+        "eligibility": "Not read (see Metaculus FAQ / tournament rules).",
+        "deadline": "Per tournament (see list).",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Ledger names 'Summer 2026 FutureEval Bot $50,000' as live; on 2026-11-01 it is pending winners and the open one is 'Fall 2026 FutureEval Bot Tournament' ($50,000)."
+      ]
+    },
+    "espn-pickem": {
+      "pages": [{"url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks", "result": "read (redirected to /picks)"}],
+      "confirmed": {
+        "prize": "\"58 prizes to be won this year worth $102K across four game modes\" (Total Prizes $102,000). \"$1,500 in guaranteed prizes available EVERY WEEK\"; full picks in all 4 game modes every week for an additional $5K bonus prize.",
+        "freeEntry": true,
+        "eligibility": "Residency/age rules are in the Official Rules link (not read).",
+        "deadline": "Event dates 09/09/2026 - 01/10/2027; rolling game locks; max 10 entries. Week 9 runs Nov 5 - 9.",
+        "state": "open"
+      },
+      "discrepancies": []
+    },
+    "espn-survivor": {
+      "pages": [{"url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks", "result": "read"}],
+      "confirmed": {
+        "prize": "\"Survive the entire season and you could win $25,000!\" (Total Prizes $25,000); up to 25 free entries.",
+        "freeEntry": true,
+        "eligibility": "Not read (Official Rules link).",
+        "deadline": "Event dates 09/09/2026 - 01/10/2027.",
+        "state": "closed",
+        "quote": "Entry creation has closed, but check out these other free games for more chances to win prizes"
+      },
+      "discrepancies": [
+        "Ledger status 'live' (and 'True free path'); the official page shows 'Entry creation has closed' (new entries cannot be created). Page text was shown to a logged-out visitor; confirm after login."
+      ]
+    },
+    "cbs-pro-pickem": {
+      "pages": [
+        {"url": "https://www.cbssports.com/fantasy/football/games/pickem/rules", "result": "read chunks 0-1 of 5"}
+      ],
+      "confirmed": {
+        "prize": "Official Rules: 18 Weekly Prizes of US$1,000.00 each (check); Season Long Prize US$5,000.00; Contingency Prize US$100,000.00 shared among anyone who picks every game correctly AND predicts exact scores of both tiebreaker games.",
+        "freeEntry": true,
+        "eligibility": "Registered CBSI users; legal residents of the 50 US states + DC; 18 or age of majority in state of residence. One entry per person.",
+        "deadline": "Challenge Period 9 Sep 2026 - 10 Jan 2027; sign-up allowed any time during the period; weekly contest ends Monday 11:59pm ET.",
+        "state": "open"
+      },
+      "discrepancies": []
+    },
+    "checkmate-gaming": {
+      "pages": [{"url": "https://www.checkmategaming.com/free-tournaments", "result": "read"}],
+      "confirmed": {
+        "prize": "Quote: \"Totally free to enter with real cash prizes.\" Listings on 2026-11-01 (Call of Duty Modern Warfare 4, 4v4 SND): FREE ENTRY prizes of $40 and $120; a '$100 *INVITE ONLY*' 1v1 also labelled FREE ENTRY; a '$1500 ELITE 3v3' is labelled ELITE ENTRY (not free-entry).",
+        "freeEntry": true,
+        "eligibility": "Regions shown on listings: US, CA, EU. Age/ID rules not read.",
+        "deadline": "Daily tournaments (e.g. Nov 1 2026 01:30 PM EST).",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Ledger's '$10-$180 cash per tournament' not reproduced: free-entry prizes seen were $40, $100 (invite only) and $120; the $1,500 event is not labelled free."
+      ]
+    },
+    "aicrowd": {
+      "pages": [{"url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026", "result": "read chunk 0 of 5"}],
+      "confirmed": {
+        "prize": "ARC White-Box Estimation Challenge 2026: \"$150,000+ Prize pool\".",
+        "freeEntry": null,
+        "eligibility": "Binding terms are in the Official Rules (not read).",
+        "deadline": "Page shows 'Submissions closed'; timeline shows Phase 2 deadline Oct 21; 'Phase 2 · completed'.",
+        "state": "closed"
+      },
+      "discrepancies": [
+        "Ledger says 'Phase 1 complete, Phase 2 upcoming' and status 'live'; the official page shows all phases completed and submissions closed."
+      ]
+    },
+    "mlb-beat-the-streak": {
+      "pages": [{"url": "https://www.mlb.com/apps/beat-the-streak", "result": "read"}],
+      "confirmed": {
+        "prize": "US$5,600,000 prize (30-yr annuity of US$186,667/yr or lump sum of est. present value US$3,000,000 as of March 12, 2026), awarded only if a participant achieves a 57-game hitting streak; if none does, 'the US$5,600,000 prize will not be awarded'.",
+        "freeEntry": true,
+        "eligibility": "Legal residents of the United States and Canada (excluding Quebec), registered MLB.com users, 21+. One registration per person.",
+        "deadline": "'Starts on or about 12:00 p.m. ET on March 24, 2026, and ends upon conclusion of the final game of the 2026 MLB regular season.' No 2027 dates on the page.",
+        "state": "unknown"
+      },
+      "discrepancies": [
+        "Ledger status 'live'; the 2026 contest period is defined by the official page as ending with the 2026 regular season. Whether a 2027 edition is open was not confirmed.",
+        "Ledger's '$10,000 Top Streak prize' was not found on the page that was read (unverified)."
+      ]
+    },
+    "nascar-fantasy-live": {
+      "pages": [{"url": "https://fantasygames.nascar.com/live/page/rules", "result": "read chunk 0 of 5"}],
+      "confirmed": {
+        "prize": null,
+        "freeEntry": true,
+        "eligibility": "Legal residents of the 50 United States and DC; 18+ at registration; up to 5 entries per person. 'There is no purchase necessary and no fee to register.'",
+        "deadline": "36-race season; 'through the conclusion of the season on or about November 8, 2026'; registration ends five minutes before the last race (Nov 8, 2026).",
+        "state": "open"
+      },
+      "discrepancies": [
+        "Prize figures ($25,000 / $10,000 / $5,000 ...) were NOT confirmed: the prize section was not in the part of the rules that was read."
+      ]
+    },
+    "tradingview-leap": {
+      "pages": [{"url": "https://www.tradingview.com/the-leap/", "result": "read chunk 0 of 3"}],
+      "confirmed": {
+        "prize": "Landing page: \"Risk-free trading competitions with real-money prizes\". Most recent listed contest, The Leap - Commodities (Oct 7 - 20, 2026), is marked Completed and its prize is shown as '250 TradingView plans'.",
+        "freeEntry": null,
+        "eligibility": null,
+        "deadline": "No open contest was visible in the part of the page that was read.",
+        "state": "closed"
+      },
+      "discrepancies": [
+        "Ledger cites the July 2026 TradeStation edition ($50,000 pool); that edition is completed, and the $50,000 figure was not re-read."
+      ]
+    },
+    "topcoder": {
+      "pages": [{"url": "https://www.topcoder.com/challenges", "result": "empty (JavaScript-rendered; returned only an Auth0 login-redirect alert)"}],
+      "confirmed": {"prize": null, "freeEntry": null, "eligibility": null, "deadline": null, "state": "unknown"},
+      "discrepancies": ["Could not be verified: listing page returned no content to a non-browser fetch."]
+    },
+    "zindi": {
+      "pages": [{"url": "https://zindi.world/competitions", "result": "empty (JavaScript-rendered; open-challenge counts shown as an em dash)"}],
+      "confirmed": {"prize": null, "freeEntry": null, "eligibility": null, "deadline": null, "state": "unknown"},
+      "discrepancies": ["Could not be verified: listing page returned no content to a non-browser fetch."]
+    }
+  }
+}
