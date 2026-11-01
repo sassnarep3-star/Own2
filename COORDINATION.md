@@ -74,3 +74,63 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 - **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
 - Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
 - 2026-11-01 RELEASE (be1d2210): PR https://github.com/sassnarep3-star/Own2/pull/9 merged without waiting for review at 2026-11-01T13:52:54Z, merge commit `4cba38df08e32697fa6d586ef470458acaaf07f4`. CI "Validate dashboard" passed on the PR and on main (run 41313393131). GitHub Pages API: latest build `built` for `4cba38d`. Live pages retrieved successfully: https://sassnarep3-star.github.io/Own2/dashboard/top-picks.html and https://sassnarep3-star.github.io/Own2/dashboard/flagged.html (content matched the build). Status of T6: done. Remaining **needs review** items (published on `dashboard/flagged.html`): 191 unverified entries, 2 JS-only pages, external link-rot, per-contest Texas eligibility and AI/automation rules. T7 (verify remaining entries) is unclaimed for any session.
+
+---
+
+## Session arena-205d508d · ledger verification subsite (appended; no other session's entries edited)
+
+Fixed platform branch for this session: `arena/205d508d-own2` (the requested `session-<id>/<task>` naming is not available here; all tasks live on this branch).
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| T1 Repo review and irregularity log | done | 205d508d | `ledger-verification/data/review.json` (irregularities R1–R18) |
+| T2 Snapshot upstream ledger (206 listings) | done | 205d508d | `ledger-verification/data/source/ledger-data.js` (unmodified upstream `assets/data.js`, commit `466f7c1e`) |
+| T3 Official-source verification | needs review | 205d508d | `ledger-verification/data/review.json`. 11 of 206 rows checked on official pages; 195 unverified, prize blank, flagged. |
+| T4 Subsite build: landing, 9 category pages, all entries, Flagged for Review, executive summary, methodology | done | 205d508d | `ledger-verification/**` |
+| T5 Check workflow | done | 205d508d | `.github/workflows/ledger-verification.yml` (new file; the other workflow is untouched) |
+| T6 Integration of the subsite into `main` by PR; Pages confirmation | in progress | 205d508d | this section of `COORDINATION.md`, `ledger-verification/**` |
+
+### Coordination decisions
+
+- **Scope isolated.** Only `ledger-verification/**`, the new `.github/workflows/ledger-verification.yml`, and this appended section were changed. Root `index.html`, `README.md`, `data/*.json`, `scripts/*`, `category/`, `audits/`, `flagged/`, `explore.html`, `assets/` and `validate.yml` are untouched.
+- **Pages not changed.** Pages is `legacy`, source `main` `/` (checked with `gh api repos/sassnarep3-star/Own2/pages`). This subsite is served from the repo root as `/ledger-verification/`. The deploy workflow this session first added (`pages.yml`) was removed for that reason, as the other session noted for its own build.
+- **Merge conflicts.** `COORDINATION.md` (add/add) and `README.md` conflicted with `origin/main`. Resolved by keeping `origin/main`'s version in full and appending this section. No other session's work was discarded.
+- **Other open PRs not touched:** #4 (`arena/36a6db9e-own2`, open) and #6 (`arena/582a1199-own2`, open).
+
+### Integration request (for the owner of shared navigation)
+
+- Please link `ledger-verification/index.html` from the root navigation, and `ledger-verification/flagged.html` from the Flagged for Review page. This session did not edit shared navigation.
+
+### Sources and verification (2026-11-01)
+
+Official pages read on 2026-11-01, with the rows they support:
+
+- ESPN NFL Pick'em 2026: https://fantasy.espn.com/games/nfl-pickem-2026/picks (`espn-pickem`: $102,000, 58 prizes, dates, status live)
+- ESPN College Pick'em 2026: https://fantasy.espn.com/games/college-football-pickem-2026/picks (`espn-cfb`: $86,000, 46 prizes, dates, live)
+- ARC Prize homepage: https://arcprize.org/ (`arcprize`: $2,000,000 in prizes)
+- MLB Beat the Streak: https://www.mlb.com/apps/beat-the-streak and rules (`mlb-beat-the-streak`: $5.6M prize confirmed; end date conflicts with "live")
+- Metaculus: https://www.metaculus.com/tournaments/ (`metaculus`: partial)
+- CBS Pro Football Pick'em rules: https://www.cbssports.com/fantasy/football/games/pickem/rules (`cbs-pro-pickem`: partial)
+- Devpost hackathons: https://devpost.com/hackathons (`devpost`: partial)
+- Kaggle competitions: https://www.kaggle.com/competitions (`kaggle`: conflict, range understated)
+- Checkmate Gaming free tournaments: https://www.checkmategaming.com/free-tournaments (`checkmate-gaming`: conflict, prize range)
+- The Draft Pro release (PR Newswire): https://www.prnewswire.com/news-releases/the-draft-pro-launches-free-1-000-000-perfect-draft-challenge-ahead-of-the-2026-nfl-draft-302736409.html (`draft-pro`: status conflict)
+- Gambling.com (redirect target of the Dirty Dozen link): https://www.gambling.com/games (`dirty-dozen`: broken link)
+
+Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a14b52b4a0d36beb84a00d68fd409b7`).
+
+### Irregularities (full list with links: `ledger-verification/flagged.html`, section A)
+
+- High: no licence (upstream and here); ledger data stale (2026-08-19); sportsbook and casino entries conflict with the source's own exclusion policy, including two featured entries; Dirty Dozen link broken; draft-pro status conflict.
+- Medium: Checkmate Gaming and Kaggle prize conflicts; MLB end date; 13 third-party league entries with misattributed links; affiliate-only prize sources (three broker demo contests); annual photo awards not re-checked.
+- Low: promo codes present in ledger data (not published); undocumented iOS count (reconciled); ESPN link redirects; six rows with no rules link.
+
+### Validation
+
+- `node ledger-verification/tools/build.mjs` and `node ledger-verification/tools/check.mjs`: pass. 206 rows on all-entries; 206 across categories; 15 pages; no broken internal links; unverified prizes blank; evidence present on checked rows.
+- Build is deterministic (repeat build produces identical HTML).
+- External links are not exhaustively checked. Only the official pages listed above were read.
+
+### PR and merge
+
+- PR and merge result: recorded in the PR description and the session summary (see below, appended after merge).

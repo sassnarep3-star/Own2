@@ -1,0 +1,21 @@
+name: Ledger verification check
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild ledger-verification pages
+        run: node ledger-verification/tools/build.mjs
+      - name: Check rules (row coverage, prize rule, internal links)
+        run: node ledger-verification/tools/check.mjs
+      - name: Committed pages must match a fresh build
+        run: git diff --exit-code -- ledger-verification
