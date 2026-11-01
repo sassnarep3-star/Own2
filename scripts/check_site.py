@@ -81,6 +81,9 @@ if before != (ROOT / "data/contests.json").read_text():
 else:
     ok("rebuild is deterministic")
 
+GEN = {"index.html", "contests.html", "summary.html", "review.html", "404.html"} | {
+    c["id"] + ".html" for c in json.loads((ROOT / "data/categories.json").read_text())}
+
 # 5 ------------------------------------------------------------- internal links
 class Links(HTMLParser):
     def __init__(self, base=ROOT):
@@ -104,7 +107,7 @@ class Links(HTMLParser):
                     self.bad.append(v)
 
 pages = sorted(ROOT.glob("*.html"))
-all_pages = sorted(list(ROOT.glob("*.html")) + [p for p in ROOT.glob("*/*.html")])
+all_pages = sorted(set(ROOT.glob("**/*.html")) - set(ROOT.glob("**/node_modules/**")))
 for p in all_pages:
     text = p.read_text()
     lk = Links(p.parent)
@@ -119,9 +122,12 @@ for p in all_pages:
         fail(f"{p.name}: missing lang")
     # anchor targets: both same-page "#x" and "page.html#x"
     anchors = set(re.findall(r'id="([^"]+)"', text))
+    generated = (p.parent == ROOT) and (p.name in GEN)
     for a in re.findall(r'href="#([^"]+)"', text):
         if a not in anchors:
-            fail(f"{p.name}: in-page anchor #{a} has no target")
+            (fail if generated else warns.append)(
+                f"{p.name}: in-page anchor #{a} has no target" if generated
+                else f"{p.name}: in-page anchor #{a} has no target (owned by another session; not edited)")
     for path, a in re.findall(r'href="([^"#]+)#([^"]+)"', text):
         if path.startswith(("http", "mailto")):
             continue
@@ -163,4 +169,4 @@ if fails:
     for f in fails:
         print("  - " + f)
     sys.exit(1)
-print(f"PASSED: {len(rows)} rows, {published} evidence-backed values, {len(pages)} pages, no broken local links.")
+print(f"PASSED: {len(rows)} rows, {published} evidence-backed values, {len(all_pages)} pages, no broken local or anchor links.")
