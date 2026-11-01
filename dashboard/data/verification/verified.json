@@ -17,7 +17,8 @@
       },
       "discrepancies": [
         "Ledger lists status 'live' without noting that the ARC-AGI-2 entry deadline (26 Oct 2026) has passed and final submissions are due 2 Nov 2026 (one day from the review date).",
-        "Ledger's ARC-AGI-3 $850,000 figure was NOT re-read this session (unverified)."
+        "Ledger's ARC-AGI-3 $850,000 figure was NOT re-read this session (unverified).",
+        "Paper Track due date differs between official pages: arcprize.org says 'November 8, 2026 - Papers due'; the Kaggle Paper Track rules, as reported by another session on this repo, state 2026-11-09, and Kaggle listed '8 days to go' on 2026-11-01. Confirm on https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules."
       ]
     },
     "kaggle": {

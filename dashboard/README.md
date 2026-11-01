@@ -2,7 +2,9 @@
 
 Mobile-friendly GitHub Pages dashboard of free-to-enter cash prize competitions.
 
-**Live site:** https://sassnarep3-star.github.io/Own2/
+**Live site:** https://sassnarep3-star.github.io/Own2/dashboard/
+
+This folder is one of several independent sites in this repository (the other sessions' dashboards live at the repository root, `/flagged/` and `/audits/2026-11-01/`). Nothing outside `dashboard/` is modified by this site. All commands below run from this folder.
 
 Rule: **verified or blank.** Every table row links to an official source. A prize, eligibility, entry-type, date or status value appears only if it was read on an official page on 2026-11-01; otherwise it is blank and marked *Unverified*. Nothing is inferred.
 

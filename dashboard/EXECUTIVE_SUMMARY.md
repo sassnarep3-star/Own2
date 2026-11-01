@@ -1,6 +1,6 @@
 # Executive summary
 
-Prepared 2026-11-01 (UTC) by session be1d2210 for the "Free to enter cash prize competitions" project. Live site: [sassnarep3-star.github.io/Own2](https://sassnarep3-star.github.io/Own2/).
+Prepared 2026-11-01 (UTC) by session be1d2210 for the "Free to enter cash prize competitions" project. Live site: [sassnarep3-star.github.io/Own2/dashboard/](https://sassnarep3-star.github.io/Own2/dashboard/) (an independent site alongside the other sessions' sites at the repository root, [/](https://sassnarep3-star.github.io/Own2/), [/flagged/](https://sassnarep3-star.github.io/Own2/flagged/) and [/audits/2026-11-01/](https://sassnarep3-star.github.io/Own2/audits/2026-11-01/)).
 
 ## Bottom line
 
