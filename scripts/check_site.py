@@ -83,8 +83,9 @@ else:
 
 # 5 ------------------------------------------------------------- internal links
 class Links(HTMLParser):
-    def __init__(self):
+    def __init__(self, base=ROOT):
         super().__init__()
+        self.base = base
         self.bad = []
         self.hrefs = 0
     def handle_starttag(self, tag, attrs):
@@ -94,18 +95,17 @@ class Links(HTMLParser):
                 u = urlsplit(v)
                 if u.scheme in ("http", "https", "mailto", "data"):
                     continue
-                if v.startswith("#"):
+                if v.startswith("#") or not u.path:
                     continue
-                if not u.path:
-                    continue
-                p = ROOT / unquote(u.path)
-                if not p.is_file():
+                target = (self.base / unquote(u.path)).resolve()
+                if not target.is_file():
                     self.bad.append(v)
 
 pages = sorted(ROOT.glob("*.html"))
-for p in pages:
+all_pages = sorted(list(ROOT.glob("*.html")) + [p for p in ROOT.glob("*/*.html")])
+for p in all_pages:
     text = p.read_text()
-    lk = Links()
+    lk = Links(p.parent)
     lk.feed(text)
     if lk.bad:
         fail(f"{p.name}: broken local links {sorted(set(lk.bad))}")
@@ -115,11 +115,18 @@ for p in pages:
         fail(f"{p.name}: missing viewport")
     if '<html lang="en">' not in text:
         fail(f"{p.name}: missing lang")
+    # anchor targets: both same-page "#x" and "page.html#x"
     anchors = set(re.findall(r'id="([^"]+)"', text))
     for a in re.findall(r'href="#([^"]+)"', text):
-        if a not in anchors and p.name in ("index.html",):
-            warns.append(f"{p.name}: in-page anchor #{a} has no target (row lives on another page)")
-ok(f"{len(pages)} pages, internal links resolve, metadata present")
+        if a not in anchors:
+            fail(f"{p.name}: in-page anchor #{a} has no target")
+    for path, a in re.findall(r'href="([^"#]+)#([^"]+)"', text):
+        if path.startswith(("http", "mailto")):
+            continue
+        tgt = (p.parent / unquote(path)).resolve()
+        if tgt.is_file() and f'id="{a}"' not in tgt.read_text():
+            warns.append(f"{p.name}: {path}#{a} target id not found")
+ok(f"{len(all_pages)} pages (root + parallel audit pages), internal links resolve, metadata present")
 for w in sorted(set(warns)):
     print("  warn " + w)
 

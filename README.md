@@ -18,6 +18,10 @@ quoted from the operator's own page; everything else is blank and flagged.
 | `summary.html` | Executive summary and method |
 | `review.html` | Every unresolved, contradicted or unsourced item, with links |
 
+Parallel sessions' material is preserved, not replaced: the independent 13-lead audit lives at
+`audits/2026-11-01/`, the alternate shortlist at `explore.html` + `category/` + `flagged/`, and the first
+dashboard's builder at `audits/legacy-build/`.
+
 Mobile-first: below 820px the tables become cards, with the same evidence available per row.
 Content is fully rendered in the HTML, so the site works without JavaScript; `app.js` only adds
 filtering, sorting and the evidence toggle.
@@ -57,8 +61,8 @@ the checks.
 
 ## Honest limits
 
-- 191 of 209 rows are inherited leads that could not be verified in this pass. They keep their link and are
-  labelled unverified; no value from them is published.
+- 183 of 209 rows are inherited leads that could not be verified in this pass. They keep their link and are
+  labelled unverified; no value from them is published. 27 rows carry recorded evidence.
 - "Free entry confirmed" means the operator states no fee is required. It does not mean the competition is
   free to *win* — your time, compute and travel are real costs.
 - Prize pools are not expected value. No win probability, hourly rate or earnings ranking is asserted.

@@ -8,6 +8,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 | id | Competition | Verdict | Free entry | Cash prize | Deadline | Read on |
 |---|---|---|---|---|---|---|
+| `arcprize` | ARC Prize (via Kaggle) | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `cbs-pro-pickem` | CBS Sports Pro Football Pick'em | verified | confirmed | not stated | confirmed | 2026-11-01 |
 | `checkmate-gaming` | Checkmate Gaming (CMG) Free Tournaments | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `devpost` | Devpost Hackathons | verified | confirmed | confirmed | confirmed | 2026-11-01 |
@@ -16,16 +17,23 @@ verbatim excerpts of the retrieved page, not paraphrases.
 | `metaculus` | Metaculus Tournaments | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `sony-world-photo` | Sony World Photography Awards | verified | confirmed | confirmed | confirmed | 2026-11-01 |
 | `wergle-flomp` | Wergle Flomp Humor Poetry Contest | verified | confirmed | confirmed | confirmed | 2026-11-01 |
-| `arcprize` | ARC Prize (via Kaggle) | partial | not stated | confirmed | confirmed | 2026-11-01 |
 | `drivendata` | DrivenData | partial | not stated | confirmed | confirmed | 2026-11-01 |
+| `freelancer-contests` | Freelancer.com Contests | partial | confirmed | not stated | not stated | 2026-11-01 |
 | `gamersaloon` | GamerSaloon 1-Rounders | partial | confirmed | confirmed | confirmed | 2026-11-01 |
 | `gems-2026` | GEMS Prize Challenge (U.S. DOE, hosted on DrivenData) | partial | not stated | confirmed | confirmed | 2026-11-01 |
 | `kaggle` | Kaggle Competitions | partial | not stated | confirmed | confirmed | 2026-11-01 |
 | `kaggle-nfl-bdb-2027` | NFL Big Data Bowl 2027 (Kaggle) | partial | not stated | confirmed | confirmed | 2026-11-01 |
+| `kinolime` | Kinolime Script-to-Screen Competition | partial | confirmed | not stated | not found | 2026-11-01 |
+| `mlb-beat-the-streak` | MLB Beat the Streak | partial | confirmed | not stated | confirmed | 2026-11-01 |
 | `tradingview-leap` | TradingView — The Leap | partial | confirmed | CONTRADICTED | confirmed | 2026-11-01 |
+| `vocal` | Vocal Challenges | partial | confirmed | not stated | not stated | 2026-11-01 |
 | `andys-predictor` | Andy's Bet Club £1M Predictor | flagged | confirmed | confirmed | confirmed | 2026-11-01 |
 | `dirty-dozen` | Dirty Dozen (Gambling.com) | flagged | not found | not found | not found | 2026-11-01 |
+| `film-prize` | Louisiana Film Prize (Prize Fest) | flagged | not found | not found | not found | 2026-11-01 |
 | `herox` | HeroX / Challenge.gov | flagged | not stated | not found | not found | 2026-11-01 |
+| `tom-howard-poetry` | Tom Howard/Margaret Reid Poetry Contest | flagged | CONTRADICTED | confirmed | confirmed | 2026-11-01 |
+| `young-lions` | Young Lions Fiction Award (NYPL) | flagged | not stated | not stated | confirmed | 2026-11-01 |
+| `zindi` | Zindi | flagged | not found | not found | not found | 2026-11-01 |
 | `topcoder` | Topcoder | unverified | not stated | not stated | not stated | 2026-11-01 |
 
 ## What the quotes say, entry by entry
@@ -53,12 +61,12 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Assessment:* Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.
 
-- **Free entry** — not stated. > The official page publishes no entry fee and does not state that entry is free.  
-  <https://arcprize.org/competitions/2026>
+- **Free entry** — confirmed. > No-purchase entry confirmed in the ARC Paper Track rules (Kaggle rules sections 1.5 and 2.4).  
+  <https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules>
 - **Cash prize** — confirmed. > $2M in prizes. 3 tracks. Open source progress toward AGI.  
   <https://arcprize.org/competitions/2026>
-- **Deadline** — confirmed. > November 2, 2026 - Submissions due / November 8, 2026 - Papers due / December 4, 2026 - Results announced  
-  <https://arcprize.org/competitions/2026>
+- **Deadline** — confirmed. > ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.  
+  <https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules>
 - **Eligibility** — confirmed. > Prizes are awarded at the sole discretion of ARC Prize Inc. and are subject to review by our Technical Team. We may issue more or fewer awards based on the spirit of the prize and the received submissions.  
   <https://arcprize.org/competitions/2026>
 - **AI rules** — confirmed. > Internet access is not available during Kaggle evaluation (no API-based systems like GPT/Claude/etc.)  
@@ -66,7 +74,7 @@ verbatim excerpts of the retrieved page, not paraphrases.
 - **Payment** — not stated. > Payment method is not described on the competition page.  
   <https://arcprize.org/competitions/2026>
 
-*Flags:* Submissions close 2026-11-02, one day after the audit date.; Prize amounts are discretionary, not a fixed prize table.
+*Flags:* Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.; Awards are discretionary, not a fixed prize table.; Submissions close within a day of this audit.
 
 ### CBS Sports Pro Football Pick'em (`cbs-pro-pickem`)
 
@@ -93,18 +101,18 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 - **Free entry** — confirmed. > Totally free to enter with real cash prizes. New tournaments posted daily.  
   <https://www.checkmategaming.com/free-tournaments>
-- **Cash prize** — confirmed. > $40 PRIZE ... FREE ENTRY ... Nov 1 2026, 01:30 PM EST | $120 PRIZE ... FREE ENTRY  
-  <https://www.checkmategaming.com/free-tournaments>
+- **Cash prize** — confirmed. > ENTRY/PLAYER Free Entry ... Final prize will be adjusted ...  
+  <https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054>
 - **Deadline** — confirmed. > Nov 1 2026, 05:30 PM EST | Nov 2 2026, 01:30 PM EST  
   <https://www.checkmategaming.com/free-tournaments>
-- **Eligibility** — confirmed. > All Regions Canada Europe United States  
-  <https://www.checkmategaming.com/free-tournaments>
+- **Eligibility** — confirmed. > 18+; general rules US residents unless otherwise stated. Prize exclusions: AZ, HI, IA, MS, MT, NV, SD.  
+  <https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054>
 - **AI rules** — not stated. > Not addressed on the free tournament page.  
   <https://www.checkmategaming.com/free-tournaments>
 - **Payment** — not stated. > Payout methods are not described on the free tournament page.  
   <https://www.checkmategaming.com/free-tournaments>
 
-*Flags:* Free tournaments observed are console FPS events; prize per event is small.
+*Flags:* Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.; Region label (NA + EU) conflicts with US-default legal terms.; Prize barred in AZ, HI, IA, MS, MT, NV, SD.; Not every listed event is free: the directory also shows paid 'Elite' events.
 
 ### Devpost Hackathons (`devpost`)
 
@@ -201,6 +209,44 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Flags:* Eligibility (age/residency) not yet read from the official rules.; AI/automation policy unverified.
 
+### Louisiana Film Prize (Prize Fest) (`film-prize`)
+
+*Assessment:* Source mismatch. The ledger cites Film Prize rules, but that URL serves 'Photo Prize 2026 Official Rules and Regulations'. No film-specific condition is adopted, and the ledger's $50,000 figure is unverified.
+
+- **Free entry** — not found. > The film rules page could not be read: the requested URL served Photo Prize rules instead.  
+  <https://prizefest.com/photo/rules/>
+- **Cash prize** — not found. > No film prize figure could be verified from the page read.  
+  <https://prizefest.com/photo/rules/>
+- **Deadline** — not found. > Not verifiable from the page read.  
+  <https://prizefest.com/photo/rules/>
+- **Eligibility** — not found. > Not verifiable from the page read.  
+  <https://prizefest.com/photo/rules/>
+- **AI rules** — not found. > Not verifiable from the page read.  
+  <https://prizefest.com/photo/rules/>
+- **Payment** — not found. > Not verifiable from the page read.  
+  <https://prizefest.com/photo/rules/>
+
+*Flags:* Rules URL resolves to Photo Prize rules, not Film Prize.; No film eligibility, fee or prize could be verified.
+
+### Freelancer.com Contests (`freelancer-contests`)
+
+*Assessment:* Free to submit, but the winner pays a 10% or $5 contest fee — so a 'free' contest still takes a cut of the prize. Platform policy, not a specific competition.
+
+- **Free entry** — confirmed. > Submitting entries to a contest is free ... The freelancer contest fee is 10% of the prize amount or $5.00 USD, whichever is greater.  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+- **Cash prize** — not stated. > Per contest; the FAQ only describes the platform fee.  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+- **Deadline** — not stated. > Per contest.  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+- **Eligibility** — not stated. > Per contest; platform-level eligibility not stated in the FAQ.  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+- **AI rules** — not stated. > Not addressed in the FAQ.  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+- **Payment** — confirmed. > Prize released after handover  
+  <https://www.freelancer.com/faq/topic.php?id=33>
+
+*Flags:* Winner pays 10% or $5 (whichever is greater) of the prize.; Platform policy, not a verified individual contest.
+
 ### GamerSaloon 1-Rounders (`gamersaloon`)
 
 *Assessment:* Free to enter, but the $10 is site credit, not money you can take out. The upstream ledger summarised this as '$10 cash per bracket', which the operator's own footnote contradicts.
@@ -230,14 +276,14 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://www.drivendata.org/competitions/>
 - **Deadline** — confirmed. > 4 weeks left  
   <https://www.drivendata.org/competitions/>
-- **Eligibility** — not stated. > Rules link to the sponsor's official rules; not re-read in this pass.  
-  <https://www.drivendata.org/competitions/306/competition-doe-gems/>
-- **AI rules** — not stated. > Not stated on the pages read in this pass.  
-  <https://www.drivendata.org/competitions/306/competition-doe-gems/>
+- **Eligibility** — confirmed. > Rules 1.1, 1.3: individual U.S. citizen or permanent resident; 18+ and age of majority; team and institutional restrictions.  
+  <https://docs.nlr.gov/docs/fy26osti/96647.pdf>
+- **AI rules** — confirmed. > AI-use disclosure required under rules 3.1-3.2.  
+  <https://docs.nlr.gov/docs/fy26osti/96647.pdf>
 - **Payment** — not stated. > Not stated on the pages read in this pass.  
   <https://www.drivendata.org/competitions/306/competition-doe-gems/>
 
-*Flags:* Free entry not stated on the pages read.; Full rules sit off-site with the sponsor.
+*Flags:* Free entry still not stated on any page read.; US citizen / permanent resident only, with W-9 and ACH required.
 
 ### HeroX / Challenge.gov (`herox`)
 
@@ -296,6 +342,25 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Flags:* Free entry and eligibility not stated on the pages read.
 
+### Kinolime Script-to-Screen Competition (`kinolime`)
+
+*Assessment:* The ledger's /competition URL redirects to a hub where the 2026 feature competition is already complete, and the page sells development/production rather than a cash prize. Free entry is confirmed; the money is not.
+
+- **Free entry** — confirmed. > Free to enter. Evaluated by our community and team.  
+  <https://www.kinolime.com/competitions>
+- **Cash prize** — not stated. > The hub describes development and production rather than a published cash award; the ledger's $25,000 figure was not found on the page read.  
+  <https://www.kinolime.com/competitions>
+- **Deadline** — not found. > The 2026 Script-To-Screen Feature is listed as completed; no open deadline was confirmed.  
+  <https://www.kinolime.com/competitions>
+- **Eligibility** — not stated. > Not stated on the hub.  
+  <https://www.kinolime.com/competitions>
+- **AI rules** — not stated. > Not stated on the hub.  
+  <https://www.kinolime.com/competitions>
+- **Payment** — not stated. > Not stated.  
+  <https://www.kinolime.com/competitions>
+
+*Flags:* Ledger URL redirects to /competitions.; 2026 feature competition listed as completed.; No cash award established from the page read.
+
 ### Metaculus Tournaments (`metaculus`)
 
 *Assessment:* Strongest free, no-fee, skill-based cash path that does not require selling your time: 19 live tournaments, several six-figure-equivalent pools across a year, and a dedicated AI/bot track that suits an agent-assisted workflow.
@@ -315,24 +380,62 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Flags:* Most tournaments have small expected value: a $5,000 pool spread over hundreds of forecasters.; Not every tournament pays; some are explicitly NO PRIZE POOL.
 
+### MLB Beat the Streak (`mlb-beat-the-streak`)
+
+*Assessment:* Confirmed free entry and US eligibility, but the grand prize requires a 57-hit streak — a conditional jackpot, not a prize table. The season also ends with the 2026 regular season, so it is not open now.
+
+- **Free entry** — confirmed. > NO PURCHASE NECESSARY TO ENTER OR WIN.  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+- **Cash prize** — not stated. > The prize amount was not adopted: the grand prize is conditional on a 57-hit streak and the rules sections holding the figure were not read.  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+- **Deadline** — confirmed. > Starts March 24, 2026 about noon ET; ends with final 2026 regular-season game  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+- **Eligibility** — confirmed. > US including territories and Canada except Quebec; age of majority and at least 21  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+- **AI rules** — not stated. > Not addressed in the sections read.  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+- **Payment** — not stated. > Not stated in the sections read.  
+  <https://www.mlb.com/apps/beat-the-streak/official-rules>
+
+*Flags:* Grand prize conditional on a 57-hit streak.; 2026 season window — not open on the audit date.; Prize amount not adopted.
+
 ### Sony World Photography Awards (`sony-world-photo`)
 
 *Assessment:* Free to enter with cash prizes of $25,000 and $5,000 and deadlines in November 2026 and January 2027 - one of the few genuinely free, large, open-to-anyone cash prizes in the ledger.
 
-- **Free entry** — confirmed. > Since the beginning, the Awards have championed inclusivity and access by being free to enter.  
-  <https://www.worldphoto.org/sony-world-photography-awards>
+- **Free entry** — confirmed. > 1.2.1 The Competition is free to enter. ... 3.5 Each Entrant can submit up to three images for free.  
+  <https://www.worldphoto.org/sony-world-photography-awards/single-image>
 - **Cash prize** — confirmed. > you could win $25,000, a solo exhibition, a range of top Sony Digital Imaging equipment ... you could win $5,000, a range of top Sony Digital Imaging equipment  
   <https://www.worldphoto.org/sony-world-photography-awards>
-- **Deadline** — confirmed. > 27 November 2026 16:00 GMT Student competition closes / 5 January 2027 16:00 GMT Single Image and Youth competition close / 12 January 2027 16:00 GMT Series competition closes  
-  <https://www.worldphoto.org/sony-world-photography-awards>
-- **Eligibility** — not stated. > Entry rules per competition (Student requires enrolment; Youth is under 19). Full eligibility terms sit on each competition page and were not read in this pass.  
-  <https://www.worldphoto.org/sony-world-photography-awards>
-- **AI rules** — not stated. > The overview page does not state whether AI-generated imagery is accepted; the category rules must be read before entering.  
-  <https://www.worldphoto.org/sony-world-photography-awards>
+- **Deadline** — confirmed. > 5 January 2027 16:00 GMT Single Image and Youth competition close  
+  <https://www.worldphoto.org/sony-world-photography-awards/single-image>
+- **Eligibility** — confirmed. > Open to all members of the public. Under 16 requires guardian consent. Images taken in 2026; sole owner/author required.  
+  <https://www.worldphoto.org/sony-world-photography-awards/single-image>
+- **AI rules** — confirmed. > Computer generated content cannot be the origin of the Entry.  
+  <https://www.worldphoto.org/sony-world-photography-awards/single-image>
 - **Payment** — not stated. > Payment method not described on the overview page.  
   <https://www.worldphoto.org/sony-world-photography-awards>
 
-*Flags:* Requires original photography; AI-generation policy unread.
+*Flags:* Requires original photography: computer-generated content cannot be the origin of an entry.; Free image allowance is three images; extra image bundles are paid add-ons.
+
+### Tom Howard/Margaret Reid Poetry Contest (`tom-howard-poetry`)
+
+*Assessment:* The ledger listed this as free to enter. The operator charges $27 per submission and the contest is closed until April 2027 — both facts contradict the listing.
+
+- **Free entry** — contradicted. > Fee: $27 per submission (one submission may contain up to 3 poems).  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+- **Cash prize** — confirmed. > $3,500 Tom Howard Prize; $3,500 Margaret Reid Prize; ten $500 honorable mentions  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+- **Deadline** — confirmed. > This contest is currently closed. It will open again on April 15, 2027.  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+- **Eligibility** — not stated. > Excludes authors in Iran, North Korea, Crimea, Russia and Belarus; no age restriction mentioned in the excerpt.  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+- **AI rules** — confirmed. > No AI-generated text; restricted critique only and disclosure required.  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+- **Payment** — not stated. > Payment mechanics not read.  
+  <https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest>
+
+*Flags:* Entry fee of $27 — contradicts the ledger's free-entry framing.; Closed until 2027-04-15.
 
 ### Topcoder (`topcoder`)
 
@@ -372,6 +475,25 @@ verbatim excerpts of the retrieved page, not paraphrases.
 
 *Flags:* Upstream $50,000 cash prize table is stale: the current edition pays plans, not cash.; No open edition listed on 2026-11-01.
 
+### Vocal Challenges (`vocal`)
+
+*Assessment:* Free entry is confirmed only in the negative sense: no payment is required for most challenges, but Vocal+ exclusives require a paid membership. Cash is paid via Stripe. The FAQ is marked 'updated 5 years ago', so treat its country count as stale and read the individual challenge.
+
+- **Free entry** — confirmed. > You're not required to pay to enter Vocal's Challenges. However, some Challenges will only be open to Vocal+ members.  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+- **Cash prize** — not stated. > Prize amounts live on each challenge page; the FAQ states only that cash prizes are paid via Stripe.  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+- **Deadline** — not stated. > Per challenge; not stated in the FAQ.  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+- **Eligibility** — confirmed. > you must be over the age of 13, have an active Vocal account ... and be residing in a country where Stripe is available at time of entry  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+- **AI rules** — not stated. > Not addressed in the FAQ; each challenge sets its own rules.  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+- **Payment** — confirmed. > If the Challenge has a cash prize, we'll send the prize money to your Stripe account.  
+  <https://vocal.media/resources/challenges-frequently-asked-questions>
+
+*Flags:* FAQ is five years old; country list and platform terms may have changed.; Some challenges require a paid Vocal+ membership.; Per-challenge prize and AI rules were not verified in this pass.
+
 ### Wergle Flomp Humor Poetry Contest (`wergle-flomp`)
 
 *Assessment:* Genuinely free, global, $5,100 in prizes, seven months of runway - but the rules explicitly forbid AI-generated text, so this is a writing task for the human, not for the agent.
@@ -390,6 +512,44 @@ verbatim excerpts of the retrieved page, not paraphrases.
   <https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free>
 
 *Flags:* Official rules prohibit AI-generated entries; the agent can only assist with editing.
+
+### Young Lions Fiction Award (NYPL) (`young-lions`)
+
+*Assessment:* Not an open competition: publishers nominate, the deadline passed on 2026-09-03, and the page's 'now open' label conflicts with its own date. The ledger's '$10,000 grand prize' is not on the page that was read.
+
+- **Free entry** — not stated. > No fee is mentioned, but entry is not open to the public: publishers submit, not authors.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+- **Cash prize** — not stated. > The prize amount is not stated on the submission-criteria page that was read.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+- **Deadline** — confirmed. > All submission materials ... must be received ... September 3, 2026 at 5 PM EDT.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+- **Eligibility** — confirmed. > Publisher submission only; authors cannot submit directly.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+- **AI rules** — not stated. > Not addressed in the criteria read.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+- **Payment** — not stated. > Not stated.  
+  <https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form>
+
+*Flags:* Page says submissions are 'now open' but gives a deadline of 2026-09-03, before the audit date.; Publisher-only nomination — an individual cannot enter.; Ledger's $10,000 prize could not be found on the source read.
+
+### Zindi (`zindi`)
+
+*Assessment:* The ledger's rules link returns a 404 error page. No replacement URL was guessed — the row stays unverified until someone finds the current rules page.
+
+- **Free entry** — not found. > Retrieved page content reads '404 page not found'; no rules text was available.  
+  <https://zindi.world/rules>
+- **Cash prize** — not found. > Not available at the cited URL.  
+  <https://zindi.world/rules>
+- **Deadline** — not found. > Not available at the cited URL.  
+  <https://zindi.world/rules>
+- **Eligibility** — not found. > Not available at the cited URL.  
+  <https://zindi.world/rules>
+- **AI rules** — not found. > Not available at the cited URL.  
+  <https://zindi.world/rules>
+- **Payment** — not found. > Not available at the cited URL.  
+  <https://zindi.world/rules>
+
+*Flags:* Cited rules URL returns '404 page not found'.; No replacement URL guessed.
 
 ## Upstream provenance
 

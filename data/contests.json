@@ -9,14 +9,14 @@
  },
  "counts": {
   "total": 209,
-  "verified": 8,
-  "partial": 7,
-  "flagged": 3,
-  "unverified": 191,
+  "verified": 9,
+  "partial": 10,
+  "flagged": 7,
+  "unverified": 183,
   "closed": 0,
-  "free": 11,
-  "cash": 14,
-  "start": 7,
+  "free": 17,
+  "cash": 15,
+  "start": 8,
   "no_off": 12
  },
  "entries": [
@@ -471,10 +471,15 @@
    "name": "ARC Prize (via Kaggle)",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "partial",
+   "verdict": "verified",
    "state": "open",
-   "tier": "watch",
-   "free": {},
+   "tier": "start",
+   "free": {
+    "status": "confirmed",
+    "text": "No-purchase entry, confirmed in the Kaggle Paper Track rules",
+    "quote": "No-purchase entry confirmed in the ARC Paper Track rules (Kaggle rules sections 1.5 and 2.4).",
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
+   },
    "prize": {
     "status": "confirmed",
     "text": "$2,000,000 across three tracks (ARC-AGI-3, ARC-AGI-2, Paper Prize)",
@@ -483,9 +488,9 @@
    },
    "deadline": {
     "status": "confirmed",
-    "text": "Submissions 2026-11-02; papers 2026-11-08; results 2026-12-04",
-    "quote": "November 2, 2026 - Submissions due / November 8, 2026 - Papers due / December 4, 2026 - Results announced",
-    "url": "https://arcprize.org/competitions/2026"
+    "text": "ARC site: submissions 2026-11-02, papers 2026-11-08; the Kaggle Paper Track rules give a 2026-11-09 deadline. Both are recorded; the discrepancy is unresolved.",
+    "quote": "ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.",
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
    },
    "eligibility": {
     "status": "confirmed",
@@ -504,8 +509,9 @@
    "prize_value": 2000000,
    "summary": "Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.",
    "flags": [
-    "Submissions close 2026-11-02, one day after the audit date.",
-    "Prize amounts are discretionary, not a fixed prize table."
+    "Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.",
+    "Awards are discretionary, not a fixed prize table.",
+    "Submissions close within a day of this audit."
    ],
    "sources": [
     {
@@ -1247,9 +1253,9 @@
    },
    "prize": {
     "status": "confirmed",
-    "text": "Free-entry tournaments posted on 2026-11-01 paid $40, $120 and similar per event; paid 'Elite' events pay more ($1,500) but require an entry fee",
-    "quote": "$40 PRIZE ... FREE ENTRY ... Nov 1 2026, 01:30 PM EST | $120 PRIZE ... FREE ENTRY",
-    "url": "https://www.checkmategaming.com/free-tournaments"
+    "text": "Free-entry events show published pools of $40 (split $32/$8) and $120; pools are adjusted by eligible teams. Paid 'Elite' events pay more ($1,500) but charge an entry fee.",
+    "quote": "ENTRY/PLAYER Free Entry ... Final prize will be adjusted ...",
+    "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054"
    },
    "deadline": {
     "status": "confirmed",
@@ -1259,9 +1265,9 @@
    },
    "eligibility": {
     "status": "confirmed",
-    "text": "Regions shown per tournament: US, CA and EU",
-    "quote": "All Regions Canada Europe United States",
-    "url": "https://www.checkmategaming.com/free-tournaments"
+    "text": "4v4, up to 256 teams, 18+; US residents unless stated; prize claims barred in AZ, HI, IA, MS, MT, NV and SD. The event header also lists NA + EU, which conflicts with the US-default legal terms.",
+    "quote": "18+; general rules US residents unless otherwise stated. Prize exclusions: AZ, HI, IA, MS, MT, NV, SD.",
+    "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054"
    },
    "ai": {},
    "payout": {},
@@ -1269,7 +1275,10 @@
    "prize_value": 1500,
    "summary": "Genuine free-entry cash tournaments, refreshed daily, mostly Call of Duty 4v4 SnD. Small prizes ($40-$120) and you must actually be good at the game; free cash entry is confirmed by the operator.",
    "flags": [
-    "Free tournaments observed are console FPS events; prize per event is small."
+    "Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.",
+    "Region label (NA + EU) conflicts with US-default legal terms.",
+    "Prize barred in AZ, HI, IA, MS, MT, NV, SD.",
+    "Not every listed event is free: the directory also shows paid 'Elite' events."
    ],
    "sources": [
     {
@@ -3531,28 +3540,42 @@
    "name": "Freelancer.com Contests",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "watch",
+   "free": {
+    "status": "confirmed",
+    "text": "Free to submit entries; the winner is charged a contest fee of 10% or $5, whichever is greater",
+    "quote": "Submitting entries to a contest is free ... The freelancer contest fee is 10% of the prize amount or $5.00 USD, whichever is greater.",
+    "url": "https://www.freelancer.com/faq/topic.php?id=33"
+   },
    "prize": {},
    "deadline": {},
    "eligibility": {},
    "ai": {},
-   "payout": {},
+   "payout": {
+    "status": "confirmed",
+    "text": "Prize released after handover; auto-release 14 days after both parties sign the IP transfer",
+    "quote": "Prize released after handover",
+    "url": "https://www.freelancer.com/faq/topic.php?id=33"
+   },
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Free to submit, but the winner pays a 10% or $5 contest fee — so a 'free' contest still takes a cut of the prize. Platform policy, not a specific competition.",
+   "flags": [
+    "Winner pays 10% or $5 (whichever is greater) of the prize.",
+    "Platform policy, not a verified individual contest."
+   ],
    "sources": [
     {
-     "title": "Freelancer.com — Contest Payment FAQ (official)",
+     "title": "Freelancer.com payment FAQ",
      "url": "https://www.freelancer.com/faq/topic.php?id=33",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "Client-funded prize per contest (from ~$10 up)",
     "status": "live",
@@ -3775,15 +3798,25 @@
     "quote": "4 weeks left",
     "url": "https://www.drivendata.org/competitions/"
    },
-   "eligibility": {},
-   "ai": {},
+   "eligibility": {
+    "status": "confirmed",
+    "text": "Individuals must be US citizens or permanent residents, 18+; team and institutional restrictions apply (rules 1.1, 1.3); ACH banking details and an IRS W-9 required within 30 days of notice",
+    "quote": "Rules 1.1, 1.3: individual U.S. citizen or permanent resident; 18+ and age of majority; team and institutional restrictions.",
+    "url": "https://docs.nlr.gov/docs/fy26osti/96647.pdf"
+   },
+   "ai": {
+    "status": "confirmed",
+    "text": "AI use must be disclosed to the sponsor (rules 3.1-3.2)",
+    "quote": "AI-use disclosure required under rules 3.1-3.2.",
+    "url": "https://docs.nlr.gov/docs/fy26osti/96647.pdf"
+   },
    "payout": {},
    "deadline_iso": null,
    "prize_value": 300000,
    "summary": "A live $300,000 US Department of Energy data competition with roughly four weeks remaining. Free entry and full eligibility still need the sponsor's rules page; treated as a research candidate, not a confirmed free entry.",
    "flags": [
-    "Free entry not stated on the pages read.",
-    "Full rules sit off-site with the sponsor."
+    "Free entry still not stated on any page read.",
+    "US citizen / permanent resident only, with W-9 and ACH required."
    ],
    "sources": [
     {
@@ -4555,10 +4588,15 @@
    "name": "Kinolime Script-to-Screen Competition",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "watch",
+   "free": {
+    "status": "confirmed",
+    "text": "Free to enter, per the hub",
+    "quote": "Free to enter. Evaluated by our community and team.",
+    "url": "https://www.kinolime.com/competitions"
+   },
    "prize": {},
    "deadline": {},
    "eligibility": {},
@@ -4566,9 +4604,19 @@
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "The ledger's /competition URL redirects to a hub where the 2026 feature competition is already complete, and the page sells development/production rather than a cash prize. Free entry is confirmed; the money is not.",
+   "flags": [
+    "Ledger URL redirects to /competitions.",
+    "2026 feature competition listed as completed.",
+    "No cash award established from the page read."
+   ],
    "sources": [
+    {
+     "title": "Kinolime competition hub (after redirect)",
+     "url": "https://www.kinolime.com/competitions",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
     {
      "title": "Kinolime — Script-to-Screen Competition (official)",
      "url": "https://www.kinolime.com/competition",
@@ -4576,7 +4624,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$25,000 cash production award + up to $15M production financing",
     "status": "live",
@@ -4844,9 +4892,9 @@
    "name": "Louisiana Film Prize (Prize Fest)",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "avoid",
    "free": {},
    "prize": {},
    "deadline": {},
@@ -4855,17 +4903,27 @@
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Source mismatch. The ledger cites Film Prize rules, but that URL serves 'Photo Prize 2026 Official Rules and Regulations'. No film-specific condition is adopted, and the ledger's $50,000 figure is unverified.",
+   "flags": [
+    "Rules URL resolves to Photo Prize rules, not Film Prize.",
+    "No film eligibility, fee or prize could be verified."
+   ],
    "sources": [
     {
-     "title": "Film Prize 2026 — Official Rules (Prize Fest)",
+     "title": "Requested Film Prize rules URL",
      "url": "https://www.prizefest.com/film/rules/",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
+    {
+     "title": "What that URL actually resolved to",
+     "url": "https://prizefest.com/photo/rules/",
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$50,000 cash (Caddo/Bossier Parish); $25,000 (elsewhere in Louisiana); $250 per finalist",
     "status": "live",
@@ -5034,24 +5092,44 @@
    "name": "MLB Beat the Streak",
    "category": "sports",
    "categoryName": "Fantasy & sports picks",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "watch",
+   "free": {
+    "status": "confirmed",
+    "text": "No purchase necessary to enter or win",
+    "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+    "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+   },
    "prize": {},
-   "deadline": {},
-   "eligibility": {},
+   "deadline": {
+    "status": "confirmed",
+    "text": "Starts 2026-03-24 about noon ET and ends with the final 2026 regular-season game",
+    "quote": "Starts March 24, 2026 about noon ET; ends with final 2026 regular-season game",
+    "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+   },
+   "eligibility": {
+    "status": "confirmed",
+    "text": "US (including territories) and Canada except Quebec; age of majority and at least 21; MLB.com registration required",
+    "quote": "US including territories and Canada except Quebec; age of majority and at least 21",
+    "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+   },
    "ai": {},
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Confirmed free entry and US eligibility, but the grand prize requires a 57-hit streak — a conditional jackpot, not a prize table. The season also ends with the 2026 regular season, so it is not open now.",
+   "flags": [
+    "Grand prize conditional on a 57-hit streak.",
+    "2026 season window — not open on the audit date.",
+    "Prize amount not adopted."
+   ],
    "sources": [
     {
-     "title": "Beat the Streak 2026 Official Rules (MLB)",
+     "title": "MLB Beat the Streak official rules",
      "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     },
     {
      "title": "Beat the Streak hub — abbreviated rules and payout terms (MLB)",
@@ -5060,7 +5138,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$5,600,000 headline (≈$3,000,000 lump sum); $10,000 Top Streak prize",
     "status": "live",
@@ -6775,9 +6853,9 @@
    "tier": "start",
    "free": {
     "status": "confirmed",
-    "text": "Free to enter, by the organiser's own statement",
-    "quote": "Since the beginning, the Awards have championed inclusivity and access by being free to enter.",
-    "url": "https://www.worldphoto.org/sony-world-photography-awards"
+    "text": "Free to enter, confirmed by the rules themselves; up to three images free",
+    "quote": "1.2.1 The Competition is free to enter. ... 3.5 Each Entrant can submit up to three images for free.",
+    "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
    },
    "prize": {
     "status": "confirmed",
@@ -6787,18 +6865,29 @@
    },
    "deadline": {
     "status": "confirmed",
-    "text": "2027 awards: Student closes 2026-11-27 16:00 GMT; Single Image and Youth close 2027-01-05 16:00 GMT; Series closes 2027-01-12 16:00 GMT",
-    "quote": "27 November 2026 16:00 GMT Student competition closes / 5 January 2027 16:00 GMT Single Image and Youth competition close / 12 January 2027 16:00 GMT Series competition closes",
-    "url": "https://www.worldphoto.org/sony-world-photography-awards"
+    "text": "Single Image and Youth close 2027-01-05 16:00 GMT; Series closes 2027-01-12 16:00 GMT; Student closes 2026-11-27 16:00 GMT",
+    "quote": "5 January 2027 16:00 GMT Single Image and Youth competition close",
+    "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
    },
-   "eligibility": {},
-   "ai": {},
+   "eligibility": {
+    "status": "confirmed",
+    "text": "Open to members of the public; under-16s need guardian consent; images must be taken in 2026 and be the entrant's own work",
+    "quote": "Open to all members of the public. Under 16 requires guardian consent. Images taken in 2026; sole owner/author required.",
+    "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+   },
+   "ai": {
+    "status": "confirmed",
+    "text": "Computer-generated images cannot be the origin of an entry; manipulation must be described",
+    "quote": "Computer generated content cannot be the origin of the Entry.",
+    "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+   },
    "payout": {},
-   "deadline_iso": "2027-01-12",
+   "deadline_iso": "2027-01-05",
    "prize_value": 25000,
    "summary": "Free to enter with cash prizes of $25,000 and $5,000 and deadlines in November 2026 and January 2027 - one of the few genuinely free, large, open-to-anyone cash prizes in the ledger.",
    "flags": [
-    "Requires original photography; AI-generation policy unread."
+    "Requires original photography: computer-generated content cannot be the origin of an entry.",
+    "Free image allowance is three images; extra image bundles are paid add-ons."
    ],
    "sources": [
     {
@@ -8086,28 +8175,52 @@
    "name": "Tom Howard/Margaret Reid Poetry Contest",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
-   "prize": {},
-   "deadline": {},
+   "tier": "avoid",
+   "free": {
+    "status": "contradicted",
+    "text": "Charges a $27 entry fee per submission — not free to enter",
+    "quote": "Fee: $27 per submission (one submission may contain up to 3 poems).",
+    "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+   },
+   "prize": {
+    "status": "confirmed",
+    "text": "$3,500 Tom Howard Prize, $3,500 Margaret Reid Prize, ten $500 honorable mentions",
+    "quote": "$3,500 Tom Howard Prize; $3,500 Margaret Reid Prize; ten $500 honorable mentions",
+    "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+   },
+   "deadline": {
+    "status": "confirmed",
+    "text": "Currently closed; next window 15 April - 1 October 2027",
+    "quote": "This contest is currently closed. It will open again on April 15, 2027.",
+    "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+   },
    "eligibility": {},
-   "ai": {},
+   "ai": {
+    "status": "confirmed",
+    "text": "AI-generated text prohibited; limited critique with disclosure",
+    "quote": "No AI-generated text; restricted critique only and disclosure required.",
+    "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+   },
    "payout": {},
    "deadline_iso": null,
-   "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "prize_value": 3500,
+   "summary": "The ledger listed this as free to enter. The operator charges $27 per submission and the contest is closed until April 2027 — both facts contradict the listing.",
+   "flags": [
+    "Entry fee of $27 — contradicts the ledger's free-entry framing.",
+    "Closed until 2027-04-15."
+   ],
    "sources": [
     {
-     "title": "Winning Writers — Tom Howard/Margaret Reid Poetry Contest (official)",
+     "title": "Tom Howard/Margaret Reid Poetry Contest (official)",
      "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$12,000 total: two $3,500 prizes + ten $500 honorable mentions",
     "status": "live",
@@ -8470,24 +8583,44 @@
    "name": "Vocal Challenges",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "partial",
    "state": "unknown",
-   "tier": "reference",
-   "free": {},
+   "tier": "watch",
+   "free": {
+    "status": "confirmed",
+    "text": "Entry not required to be paid, but some challenges are Vocal+ members only (a paid subscription)",
+    "quote": "You're not required to pay to enter Vocal's Challenges. However, some Challenges will only be open to Vocal+ members.",
+    "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+   },
    "prize": {},
    "deadline": {},
-   "eligibility": {},
+   "eligibility": {
+    "status": "confirmed",
+    "text": "13+, active account, resident in a country where Stripe is available (FAQ says 32 countries)",
+    "quote": "you must be over the age of 13, have an active Vocal account ... and be residing in a country where Stripe is available at time of entry",
+    "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+   },
    "ai": {},
-   "payout": {},
+   "payout": {
+    "status": "confirmed",
+    "text": "Cash prizes paid to a Stripe account",
+    "quote": "If the Challenge has a cash prize, we'll send the prize money to your Stripe account.",
+    "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+   },
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Free entry is confirmed only in the negative sense: no payment is required for most challenges, but Vocal+ exclusives require a paid membership. Cash is paid via Stripe. The FAQ is marked 'updated 5 years ago', so treat its country count as stale and read the individual challenge.",
+   "flags": [
+    "FAQ is five years old; country list and platform terms may have changed.",
+    "Some challenges require a paid Vocal+ membership.",
+    "Per-challenge prize and AI rules were not verified in this pass."
+   ],
    "sources": [
     {
-     "title": "Vocal Challenges FAQ",
+     "title": "Vocal Challenges FAQ (official)",
      "url": "https://vocal.media/resources/challenges-frequently-asked-questions",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     },
     {
      "title": "Vocal Challenges board",
@@ -8496,7 +8629,7 @@
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "Open challenges often $200; specials have gone to $5,000–$20,000",
     "status": "mixed",
@@ -8996,28 +9129,43 @@
    "name": "Young Lions Fiction Award (NYPL)",
    "category": "creative",
    "categoryName": "Creative contests",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "avoid",
    "free": {},
    "prize": {},
-   "deadline": {},
-   "eligibility": {},
+   "deadline": {
+    "status": "confirmed",
+    "text": "Submission materials due 2026-09-03 5 PM EDT — already past on the audit date",
+    "quote": "All submission materials ... must be received ... September 3, 2026 at 5 PM EDT.",
+    "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+   },
+   "eligibility": {
+    "status": "confirmed",
+    "text": "US citizen, 35 or younger at publication; adult novel, graphic novel or short-story collection published in 2026; publisher submission only",
+    "quote": "Publisher submission only; authors cannot submit directly.",
+    "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+   },
    "ai": {},
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "Not an open competition: publishers nominate, the deadline passed on 2026-09-03, and the page's 'now open' label conflicts with its own date. The ledger's '$10,000 grand prize' is not on the page that was read.",
+   "flags": [
+    "Page says submissions are 'now open' but gives a deadline of 2026-09-03, before the audit date.",
+    "Publisher-only nomination — an individual cannot enter.",
+    "Ledger's $10,000 prize could not be found on the source read."
+   ],
    "sources": [
     {
-     "title": "NYPL — Young Lions Fiction Award submission form (official)",
+     "title": "NYPL Young Lions Fiction Award — submission criteria",
      "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form",
-     "tier": "official"
+     "tier": "official",
+     "checked": "2026-11-01"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "$10,000 grand prize",
     "status": "live",
@@ -9036,9 +9184,9 @@
    "name": "Zindi",
    "category": "tech",
    "categoryName": "Tech & data competitions",
-   "verdict": "unverified",
+   "verdict": "flagged",
    "state": "unknown",
-   "tier": "reference",
+   "tier": "avoid",
    "free": {},
    "prize": {},
    "deadline": {},
@@ -9047,22 +9195,26 @@
    "payout": {},
    "deadline_iso": null,
    "prize_value": 0,
-   "summary": "",
-   "flags": [],
+   "summary": "The ledger's rules link returns a 404 error page. No replacement URL was guessed — the row stays unverified until someone finds the current rules page.",
+   "flags": [
+    "Cited rules URL returns '404 page not found'.",
+    "No replacement URL guessed."
+   ],
    "sources": [
+    {
+     "title": "Inherited rules URL",
+     "url": "https://zindi.world/rules",
+     "tier": "official",
+     "checked": "2026-11-01"
+    },
     {
      "title": "Zindi Challenges (official)",
      "url": "https://zindi.world/competitions",
      "tier": "official"
-    },
-    {
-     "title": "Zindi competition rules (official)",
-     "url": "https://zindi.world/rules",
-     "tier": "official"
     }
    ],
    "official": true,
-   "checked": "",
+   "checked": "2026-11-01",
    "ledger": {
     "claim": "Per challenge — typically $1,500 to $25,000",
     "status": "live",

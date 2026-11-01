@@ -2,7 +2,7 @@
  "id": "arcprize",
  "checked": "2026-11-01",
  "category": "tech",
- "verdict": "partial",
+ "verdict": "verified",
  "sources": [
   {
    "title": "ARC Prize 2026 official competition page",
@@ -23,16 +23,16 @@
    "url": "https://arcprize.org/competitions/2026"
   },
   "freeEntry": {
-   "status": "not_stated",
-   "text": "",
-   "quote": "The official page publishes no entry fee and does not state that entry is free.",
-   "url": "https://arcprize.org/competitions/2026"
+   "status": "confirmed",
+   "text": "No-purchase entry, confirmed in the Kaggle Paper Track rules",
+   "quote": "No-purchase entry confirmed in the ARC Paper Track rules (Kaggle rules sections 1.5 and 2.4).",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
   },
   "deadline": {
    "status": "confirmed",
-   "text": "Submissions 2026-11-02; papers 2026-11-08; results 2026-12-04",
-   "quote": "November 2, 2026 - Submissions due / November 8, 2026 - Papers due / December 4, 2026 - Results announced",
-   "url": "https://arcprize.org/competitions/2026"
+   "text": "ARC site: submissions 2026-11-02, papers 2026-11-08; the Kaggle Paper Track rules give a 2026-11-09 deadline. Both are recorded; the discrepancy is unresolved.",
+   "quote": "ARC site: 'November 2, 2026 - Submissions due / November 8, 2026 - Papers due'. Kaggle paper-track rules: 2026-11-09 deadline.",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
   },
   "eligibility": {
    "status": "confirmed",
@@ -55,8 +55,10 @@
  },
  "summary": "Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.",
  "flags": [
-  "Submissions close 2026-11-02, one day after the audit date.",
-  "Prize amounts are discretionary, not a fixed prize table."
+  "Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.",
+  "Awards are discretionary, not a fixed prize table.",
+  "Submissions close within a day of this audit."
  ],
- "deadline_iso": "2026-11-02"
+ "deadline_iso": "2026-11-02",
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01)."
 }

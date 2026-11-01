@@ -29,12 +29,13 @@ inconvenient, and nothing was upgraded on the strength of a third-party claim.
 
 - **209** competitions tracked: the 206 ledger rows plus 3 specific live events found during verification
   (GEMS Prize Challenge, PayPal AI Hackathon, NFL Big Data Bowl 2027).
-- **8** fully verified: free entry **and** a cash prize both stated by the operator, window open.
-- **7** of those are usable right now and form the "where to spend your time" shortlist.
-- **11** have confirmed free entry; **14** have a confirmed cash prize.
-- **7** are partly verified: one side of the free-entry/cash-prize test is confirmed, the other is not.
-- **3** are flagged: the source contradicts the ledger, or the cited page no longer exists.
-- **191** remain unverified leads. They are published blank, with their link, so nothing is lost and
+- **27** rows carry recorded evidence (19 verified in this pass, 8 imported from the parallel audit with attribution).
+- **9** fully verified: free entry **and** a cash prize both stated by the operator, window open.
+- **8** of those are usable right now and form the "where to spend your time" shortlist.
+- **17** have confirmed free entry; **15** have a confirmed cash prize.
+- **10** are partly verified: one side of the free-entry/cash-prize test is confirmed, the other is not.
+- **7** are flagged: the source contradicts the ledger, or the cited page no longer exists.
+- **183** remain unverified leads. They are published blank, with their link, so nothing is lost and
   nothing is invented.
 
 ## 3. Where the time should actually go
@@ -72,8 +73,11 @@ Ranked by verified free entry, verified cash, and whether an AI agent can do the
 - **Dead links presented as live contests.** The "Dirty Dozen £12,000 weekly" row points at a gambling-affiliate
   URL that now serves a generic casino lobby; Challenge.gov, cited as the official source for federal prizes,
   was sunset on 30 March 2026 (federal competitions now list at usa.gov).
-- **Optional:** the "£2M ARC Prize" style headlines. ARC's $2M is discretionary and its submissions closed one
-  day after this audit.
+- **Reading "free to enter" off a marketing page.** Three ledger rows are actively wrong when checked:
+  Tom Howard poetry charges $27 per submission and is closed until April 2027; NYPL Young Lions is
+  publisher-nomination only with a 3 Sep 2026 deadline that contradicts its own "now open" label;
+  and the Film Prize rules URL serves Photo Prize rules instead of film rules.
+- **"£2M ARC Prize"-style headlines.** ARC's $2M is discretionary and its submissions closed one day after this audit.
 
 ## 5. Verification method (what "verified" means here)
 
@@ -93,7 +97,7 @@ Enforced by `scripts/check_site.py` on every push:
 
 ## 6. Limits and irregularities (also on `review.html`)
 
-1. **191 of 209 rows are unverified.** That is the honest state of a 206-row ledger checked in one pass. They
+1. **183 of 209 rows are unverified.** That is the honest state of a 206-row ledger checked in one pass. They
    keep their links and their "unverified" label.
 2. **Free entry is not the same as free.** Kaggle, DrivenData, ARC and Topcoder publish no fee but never say
    entry is free — so they are *partly* verified, not verified.
@@ -107,7 +111,15 @@ Enforced by `scripts/check_site.py` on every push:
 7. **Prize pools are not expected value.** No win probability, hourly rate or earnings ranking is asserted anywhere.
 8. **Link health is partial by definition:** only pages actually opened were checked; unopened links may be broken.
 
-## 7. Sources used (all official operator pages unless noted)
+## 7. Parallel audits preserved in this repository
+
+- `audits/2026-11-01/` — an independent 13-lead official-source audit by a separate session, with its own report,
+  review page and evidence file. Its findings are imported into this site's evidence records, attributed per row.
+- `explore.html`, `category/`, `flagged/`, `assets/` — the other integration session's shortlist site, kept live
+  and unchanged.
+- `audits/legacy-build/` — the first dashboard's builder, kept for traceability and not run by CI.
+
+## 8. Sources used (all official operator pages unless noted)
 
 | Entry | Source |
 |---|---|
@@ -127,9 +139,16 @@ Enforced by `scripts/check_site.py` on every push:
 | Andy's Bet Club predictor | https://andysbetclub.co.uk/predictor-game/ |
 | Challenge.gov sunset notice | https://www.challenge.gov/ · replacement https://www.usa.gov/challenges |
 | Vocal challenges FAQ | https://vocal.media/resources/challenges-frequently-asked-questions |
+| Tom Howard / Margaret Reid Poetry (fee, closed) | https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest |
+| NYPL Young Lions (publisher nomination only) | https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form |
+| Sony Single Image rules (free entry, AI origin) | https://www.worldphoto.org/sony-world-photography-awards/single-image |
+| MLB Beat the Streak rules | https://www.mlb.com/apps/beat-the-streak/official-rules |
+| Freelancer.com contest fee FAQ | https://www.freelancer.com/faq/topic.php?id=33 |
+| Zindi inherited rules URL (404) | https://zindi.world/rules |
+| Kinolime competitions hub | https://www.kinolime.com/competitions |
 | Upstream ledger (pinned) | https://github.com/karagemop466-tech/FreeMoneyApps/commit/466f7c1e7a14b52b4a0d36beb84a00d68fd409b7 |
 
-## 8. Recommended next actions
+## 9. Recommended next actions
 
 1. **Enter one thing this week.** PayPal AI Hackathon (closes 12 Nov 2026, AI allowed, $67,500 pool) is the
    highest-value, best-fit opportunity on the board for an agent-assisted workflow.

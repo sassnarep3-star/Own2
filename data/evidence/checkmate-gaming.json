@@ -13,9 +13,9 @@
  "fields": {
   "prize": {
    "status": "confirmed",
-   "text": "Free-entry tournaments posted on 2026-11-01 paid $40, $120 and similar per event; paid 'Elite' events pay more ($1,500) but require an entry fee",
-   "quote": "$40 PRIZE ... FREE ENTRY ... Nov 1 2026, 01:30 PM EST | $120 PRIZE ... FREE ENTRY",
-   "url": "https://www.checkmategaming.com/free-tournaments"
+   "text": "Free-entry events show published pools of $40 (split $32/$8) and $120; pools are adjusted by eligible teams. Paid 'Elite' events pay more ($1,500) but charge an entry fee.",
+   "quote": "ENTRY/PLAYER Free Entry ... Final prize will be adjusted ...",
+   "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054"
   },
   "freeEntry": {
    "status": "confirmed",
@@ -31,9 +31,9 @@
   },
   "eligibility": {
    "status": "confirmed",
-   "text": "Regions shown per tournament: US, CA and EU",
-   "quote": "All Regions Canada Europe United States",
-   "url": "https://www.checkmategaming.com/free-tournaments"
+   "text": "4v4, up to 256 teams, 18+; US residents unless stated; prize claims barred in AZ, HI, IA, MS, MT, NV and SD. The event header also lists NA + EU, which conflicts with the US-default legal terms.",
+   "quote": "18+; general rules US residents unless otherwise stated. Prize exclusions: AZ, HI, IA, MS, MT, NV, SD.",
+   "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054"
   },
   "aiPolicy": {
    "status": "not_stated",
@@ -50,7 +50,11 @@
  },
  "summary": "Genuine free-entry cash tournaments, refreshed daily, mostly Call of Duty 4v4 SnD. Small prizes ($40-$120) and you must actually be good at the game; free cash entry is confirmed by the operator.",
  "flags": [
-  "Free tournaments observed are console FPS events; prize per event is small."
+  "Prize-claim window is stated as both 24 hours and seven days on the same page - unresolved.",
+  "Region label (NA + EU) conflicts with US-default legal terms.",
+  "Prize barred in AZ, HI, IA, MS, MT, NV, SD.",
+  "Not every listed event is free: the directory also shows paid 'Elite' events."
  ],
- "deadline_iso": null
+ "deadline_iso": null,
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01)."
 }

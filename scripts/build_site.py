@@ -168,7 +168,7 @@ def evidence_table(r):
                 'Nothing is asserted about free entry, prize, deadline or eligibility.'
                 + extra + '</p>'
                 f'<p class="note">Ledger entry date: {date}{tail}</p>')
-    parts = ['<table class="ev"><caption>Evidence recorded on ' + esc(ev.get("checked", AUDIT)) + '</caption>'
+    parts = ['<table class="ev"><caption>Evidence recorded on ' + esc(ev.get("checked", AUDIT)) + (' \u00b7 ' + esc(ev["attribution"]) if ev.get("attribution") else "") + '</caption>'
              '<thead><tr><th scope="col">Field</th><th scope="col">Status</th><th scope="col">Basis (verbatim quote)</th><th scope="col">Source</th></tr></thead><tbody>']
     labels = [("freeEntry", "Free entry"), ("prize", "Cash prize"), ("deadline", "Deadline"),
               ("eligibility", "Eligibility"), ("aiPolicy", "AI rules"), ("payout", "Payment")]
@@ -341,12 +341,12 @@ body = f'''
   <div class="picks">{''.join(short_card(r) for r in watch[:9])}</div>
 </section>
 
-<section class="panel">
+<section class="panel" id="categories">
   <div class="phead"><h2>Browse by category</h2><p>Counts include unverified leads, because losing a lead hides information.</p></div>
   <div class="catgrid">{''.join(f'<a class="catcard" href="{c["id"]}.html"><b>{esc(c["name"])}</b><span>{sum(1 for r in rows if r["category"]==c["id"])} entries · {sum(1 for r in rows if r["category"]==c["id"] and r["verdict"]=="verified")} verified</span><small>{esc(c["blurb"])}</small></a>' for c in cats)}</div>
 </section>
 
-<section class="panel prose">
+<section class="panel prose" id="method">
   <h2>How to read this page</h2>
   <dl class="legend">
     <dt>{badge("verified")}</dt><dd>Free entry <em>and</em> a cash prize are both quoted from the operator's own page, and the window is open.</dd>
@@ -355,6 +355,8 @@ body = f'''
     <dt>{badge("unverified")}</dt><dd>Not checked against any official page in this pass. Kept visible so the lead is not lost; nothing is claimed.</dd>
     <dt>{badge("closed")}</dt><dd>Confirmed to have closed before {AUDIT}.</dd>
   </dl>
+  <p>An independent second audit of 13 of these leads, run in parallel on the same day, is preserved at
+  <a href="audits/2026-11-01/index.html">audits/2026-11-01</a>; its findings are folded into the evidence panels here.</p>
   <p>Values that could not be confirmed are left blank. The ledger's original wording is shown only inside a row's evidence panel, explicitly labelled as a claim that was <em>not</em> adopted. Full method and limitations are on the <a href="summary.html">executive summary</a>; every unresolved item is on <a href="review.html">Flagged for review</a>.</p>
 </section>
 '''
@@ -493,6 +495,18 @@ summary_body = f'''
 <tr><td>Unverified leads retained</td><td>{S["unverified"]}</td></tr>
 <tr><td>Rows with no official source supplied</td><td>{S["no_off"]}</td></tr>
 </tbody></table>
+
+<h2>Parallel audits in this repository</h2>
+<p>Two independent sessions audited the same ledger on the same day. Their material is preserved and linked rather than replaced:</p>
+<ul>
+<li><a href="audits/2026-11-01/index.html">Independent 13-lead official-source audit</a> — a separate report with its own
+<a href="audits/2026-11-01/review.html">review page</a>; its field-level findings (Sony free-entry rule, Tom Howard fee,
+NYPL nomination terms, CheckMate claim-window conflict, Zindi 404, Film Prize rules mismatch, MLB conditional prize,
+Vocal and Freelancer terms) are imported into this site's evidence records with attribution.</li>
+<li><a href="explore.html">Mobile shortlist (parallel build)</a> and <a href="flagged/index.html">its flagged page</a> —
+the other integration session's dashboard, kept live and unchanged.</li>
+<li>Legacy builder for the first dashboard: <code>audits/legacy-build/</code>.</li>
+</ul>
 
 <h2>Files and provenance</h2>
 <ul>

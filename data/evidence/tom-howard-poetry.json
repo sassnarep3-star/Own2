@@ -1,0 +1,58 @@
+{
+ "id": "tom-howard-poetry",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "Tom Howard/Margaret Reid Poetry Contest (official)",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "contradicted",
+   "text": "Charges a $27 entry fee per submission — not free to enter",
+   "quote": "Fee: $27 per submission (one submission may contain up to 3 poems).",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  },
+  "prize": {
+   "status": "confirmed",
+   "text": "$3,500 Tom Howard Prize, $3,500 Margaret Reid Prize, ten $500 honorable mentions",
+   "quote": "$3,500 Tom Howard Prize; $3,500 Margaret Reid Prize; ten $500 honorable mentions",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Currently closed; next window 15 April - 1 October 2027",
+   "quote": "This contest is currently closed. It will open again on April 15, 2027.",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Excludes authors in Iran, North Korea, Crimea, Russia and Belarus; no age restriction mentioned in the excerpt.",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "AI-generated text prohibited; limited critique with disclosure",
+   "quote": "No AI-generated text; restricted critique only and disclosure required.",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment mechanics not read.",
+   "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest"
+  }
+ },
+ "summary": "The ledger listed this as free to enter. The operator charges $27 per submission and the contest is closed until April 2027 — both facts contradict the listing.",
+ "flags": [
+  "Entry fee of $27 — contradicts the ledger's free-entry framing.",
+  "Closed until 2027-04-15."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}
