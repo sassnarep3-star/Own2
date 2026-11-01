@@ -213,3 +213,12 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 ### PR and merge
 
 - PR and merge result: recorded in the PR description and the session summary (see below, appended after merge).
+
+### 2026-11-01 · session 205d508d · PR #10 merge record
+
+- PR: https://github.com/sassnarep3-star/Own2/pull/10 (`arena/205d508d-own2` → `main`). Checks before merge: `Ledger verification check` pass; `Validate site` (other session's workflow) pass.
+- Merge: `--merge`, merge commit `b6c5542a613f6fba5f023b873a7de770ec31c80e`, 2026-11-01 13:55:37 UTC.
+- Post-merge: `Ledger verification check` and `Validate site` passed on `main`. GitHub Pages (legacy, `main` `/`) build `built` at commit `805974996b3ccd685595a9aa0b4e87ce6e5c5a85`, which includes PR #10.
+- Live check: https://sassnarep3-star.github.io/Own2/ledger-verification/ (landing, 206 listings, 48 flagged) and `flagged.html` returned the expected content.
+- Follow-up (docs and one wording fix only): shortlist text double full stop removed. Follow-up PR recorded in the next entry.
+- Still open for the root integration owner: link `ledger-verification/index.html` from shared navigation (request above).
