@@ -1,0 +1,59 @@
+{
+ "id": "kinolime",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "Kinolime competition hub (after redirect)",
+   "url": "https://www.kinolime.com/competitions",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to enter, per the hub",
+   "quote": "Free to enter. Evaluated by our community and team.",
+   "url": "https://www.kinolime.com/competitions"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The hub describes development and production rather than a published cash award; the ledger's $25,000 figure was not found on the page read.",
+   "url": "https://www.kinolime.com/competitions"
+  },
+  "deadline": {
+   "status": "not_found",
+   "text": "",
+   "quote": "The 2026 Script-To-Screen Feature is listed as completed; no open deadline was confirmed.",
+   "url": "https://www.kinolime.com/competitions"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the hub.",
+   "url": "https://www.kinolime.com/competitions"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the hub.",
+   "url": "https://www.kinolime.com/competitions"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.kinolime.com/competitions"
+  }
+ },
+ "summary": "The ledger's /competition URL redirects to a hub where the 2026 feature competition is already complete, and the page sells development/production rather than a cash prize. Free entry is confirmed; the money is not.",
+ "flags": [
+  "Ledger URL redirects to /competitions.",
+  "2026 feature competition listed as completed.",
+  "No cash award established from the page read."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

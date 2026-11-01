@@ -1,0 +1,66 @@
+{
+ "id": "arcprize",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "closed",
+ "sources": [
+  {
+   "title": "ARC Prize 2026 official competition page",
+   "url": "https://arcprize.org/competitions/2026",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "ARC Prize 2026 on Kaggle",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$2,000,000 across three tracks (ARC-AGI-3, ARC-AGI-2, Paper Prize)",
+   "quote": "$2M in prizes. 3 tracks. Open source progress toward AGI.",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "No-purchase entry, confirmed in the Kaggle Paper Track rules",
+   "quote": "No-purchase entry confirmed in the ARC Paper Track rules (Kaggle rules sections 1.5 and 2.4).",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Entry and team-merger deadline 2026-10-26 (passed); final submissions 2026-11-02; papers 2026-11-08 per ARC site / 2026-11-09 per Kaggle rules; winners 2026-12-04",
+   "quote": "ARC-AGI-2 entry + team-merger deadline was 26 Oct 2026 (already passed).",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2/overview"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Open entry, but prizes are at the sole discretion of ARC Prize Inc.; open source required before private evaluation.",
+   "quote": "Prizes are awarded at the sole discretion of ARC Prize Inc. and are subject to review by our Technical Team. We may issue more or fewer awards based on the spirit of the prize and the received submissions.",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "Internet access is unavailable during Kaggle evaluation, so API-based LLM systems cannot be used at evaluation time; submissions must be open source.",
+   "quote": "Internet access is not available during Kaggle evaluation (no API-based systems like GPT/Claude/etc.)",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method is not described on the competition page.",
+   "url": "https://arcprize.org/competitions/2026"
+  }
+ },
+ "summary": "Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.",
+ "flags": [
+  "Deadline discrepancy: ARC site 2026-11-02 submissions / 2026-11-08 papers vs Kaggle Paper Track rules 2026-11-09.",
+  "Awards are discretionary, not a fixed prize table.",
+  "Submissions close within a day of this audit.",
+  "ARC-AGI-2 entry and team-merger deadline passed on 2026-10-26; only final submissions (2026-11-02) remain for teams already entered.",
+  "ARC-AGI-3's $850,000 figure was not re-read in either pass - unverified."
+ ],
+ "deadline_iso": "2026-10-26",
+ "attribution": "Additional rule text supplied by parallel session arena-05a44eaa from audits/2026-11-01/evidence.json (page read 2026-11-01). Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
+}

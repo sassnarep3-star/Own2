@@ -1,0 +1,59 @@
+{
+ "id": "young-lions",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "NYPL Young Lions Fiction Award — submission criteria",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "No fee is mentioned, but entry is not open to the public: publishers submit, not authors.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The prize amount is not stated on the submission-criteria page that was read.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Submission materials due 2026-09-03 5 PM EDT — already past on the audit date",
+   "quote": "All submission materials ... must be received ... September 3, 2026 at 5 PM EDT.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "US citizen, 35 or younger at publication; adult novel, graphic novel or short-story collection published in 2026; publisher submission only",
+   "quote": "Publisher submission only; authors cannot submit directly.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed in the criteria read.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form"
+  }
+ },
+ "summary": "Not an open competition: publishers nominate, the deadline passed on 2026-09-03, and the page's 'now open' label conflicts with its own date. The ledger's '$10,000 grand prize' is not on the page that was read.",
+ "flags": [
+  "Page says submissions are 'now open' but gives a deadline of 2026-09-03, before the audit date.",
+  "Publisher-only nomination — an individual cannot enter.",
+  "Ledger's $10,000 prize could not be found on the source read."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

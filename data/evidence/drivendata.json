@@ -1,0 +1,63 @@
+{
+ "id": "drivendata",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "DrivenData competitions directory",
+   "url": "https://www.drivendata.org/competitions/",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "GEMS Prize Challenge",
+   "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "GEMS Prize Challenge: $300,000 in prizes (only open prize competition on 2026-11-01)",
+   "quote": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge ... $300,000 in prizes ... 4 weeks left",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The directory lists no entry fee but does not state that entry is free.",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "GEMS: about 4 weeks left as of 2026-11-01",
+   "quote": "4 weeks left",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per-competition eligibility; not published on the directory page.",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not published on the directory page.",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not published on the directory page.",
+   "url": "https://www.drivendata.org/competitions/"
+  }
+ },
+ "summary": "Only one live prize competition on the platform as of 2026-11-01: GEMS at $300,000, closing in about four weeks. Everything else listed is a practice or completed competition.",
+ "flags": [
+  "Free entry is not stated on the DrivenData directory.",
+  "The ledger's 'often $10,000-$200,000' range is stale: the one open prize competition is $300,000."
+ ],
+ "deadline_iso": null,
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
+}

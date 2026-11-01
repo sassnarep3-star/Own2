@@ -1,0 +1,59 @@
+{
+ "id": "vocal",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "Vocal Challenges FAQ (official)",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Entry not required to be paid, but some challenges are Vocal+ members only (a paid subscription)",
+   "quote": "You're not required to pay to enter Vocal's Challenges. However, some Challenges will only be open to Vocal+ members.",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Prize amounts live on each challenge page; the FAQ states only that cash prizes are paid via Stripe.",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  },
+  "deadline": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per challenge; not stated in the FAQ.",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "13+, active account, resident in a country where Stripe is available (FAQ says 32 countries)",
+   "quote": "you must be over the age of 13, have an active Vocal account ... and be residing in a country where Stripe is available at time of entry",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed in the FAQ; each challenge sets its own rules.",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  },
+  "payout": {
+   "status": "confirmed",
+   "text": "Cash prizes paid to a Stripe account",
+   "quote": "If the Challenge has a cash prize, we'll send the prize money to your Stripe account.",
+   "url": "https://vocal.media/resources/challenges-frequently-asked-questions"
+  }
+ },
+ "summary": "Free entry is confirmed only in the negative sense: no payment is required for most challenges, but Vocal+ exclusives require a paid membership. Cash is paid via Stripe. The FAQ is marked 'updated 5 years ago', so treat its country count as stale and read the individual challenge.",
+ "flags": [
+  "FAQ is five years old; country list and platform terms may have changed.",
+  "Some challenges require a paid Vocal+ membership.",
+  "Per-challenge prize and AI rules were not verified in this pass."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

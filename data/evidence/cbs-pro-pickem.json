@@ -1,0 +1,56 @@
+{
+ "id": "cbs-pro-pickem",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "2026 CBS Sports Pro Football Pick'em Official Rules",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Prize table sits in section 3 of the rules; the amounts were not read in this pass, so no figure is published here.",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to play; no purchase or entry fee necessary.",
+   "quote": "NO PURCHASE OR ENTRY FEE IS NECESSARY TO ENTER OR WIN. ... The Challenge is FREE to play. No purchase, wireless device or entry fee necessary to enter or win.",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Contest runs 2026-09-09 to 2027-01-10; 18 weekly contests, each Tuesday to Monday 11:59pm ET",
+   "quote": "The Challenge commences on September 9, 2026 and is scheduled to end on January 10, 2027 ... There will be eighteen (18) Weekly Contest Periods within the Challenge Period",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Legal residents of the 50 US states or DC, 18+ or age of majority. Puerto Rico and US territories excluded. Employees of CBS entities and sports-betting/fantasy operators ineligible.",
+   "quote": "legal residents of one of the fifty (50) United States ... eighteen (18) years old or age of majority ... Puerto Rico and all US territories and possessions are expressly excluded",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The rules read in this pass do not address automated or assisted pick selection.",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Prize delivery mechanics are in section 3 of the rules; not read in this pass.",
+   "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+  }
+ },
+ "summary": "Confirmed free, confirmed US-eligible, confirmed running through 2027-01-10. Prize amounts still need to be read off section 3 of the rules before this row is called fully verified.",
+ "flags": [
+  "Prize amounts not yet read; row stays partial on prize."
+ ],
+ "deadline_iso": "2027-01-10"
+}
