@@ -997,7 +997,7 @@
     "id": "squarespool",
     "name": "SquaresPool.com",
     "category": "pools",
-    "source": "http://www.squarespool.com/",
+    "source": "https://www.squarespool.com/",
     "prize": "",
     "deadline": "",
     "free": "",
@@ -1005,7 +1005,7 @@
     "ai": "",
     "checked": "",
     "status": "Unverified",
-    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted. Security flag: inherited source uses HTTP, not HTTPS. Destination not upgraded without verification."
+    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted. Security flag: inherited source uses HTTP, not HTTPS. Destination not upgraded without verification. Source pointer changed to the source-ledger operator site; event-level terms still unverified."
   },
   {
     "id": "myfantasyleague",
@@ -1963,7 +1963,7 @@
     "id": "valorant-pickem",
     "name": "Valorant Champions Pick'Em",
     "category": "sports",
-    "source": "https://x.com/ValorantEsports/status/1963633815282405466",
+    "source": "https://valorantesports.com/",
     "prize": "",
     "deadline": "",
     "free": "",
@@ -1971,7 +1971,7 @@
     "ai": "",
     "checked": "",
     "status": "Unverified",
-    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted."
+    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted. Source pointer changed to the source-ledger operator site; event-level terms still unverified."
   },
   {
     "id": "eredivisie-fantasy",
@@ -2019,7 +2019,7 @@
     "id": "xm-demo",
     "name": "XM Demo Competition (Demo Weekly)",
     "category": "market",
-    "source": "https://www.myfxbook.com/press-release/xmrsquos-anniversary-demo-competitions-now-live-ndash-join-the-celebration-with-a-100000-prize-pool-/33454",
+    "source": "https://www.xm.com/",
     "prize": "",
     "deadline": "",
     "free": "",
@@ -2027,13 +2027,13 @@
     "ai": "",
     "checked": "",
     "status": "Unverified",
-    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted."
+    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted. Source pointer changed to the source-ledger operator site; event-level terms still unverified."
   },
   {
     "id": "headway-demo",
     "name": "Headway No Limits Demo Contest",
     "category": "market",
-    "source": "https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776",
+    "source": "https://hw.online/",
     "prize": "",
     "deadline": "",
     "free": "",
@@ -2041,7 +2041,7 @@
     "ai": "",
     "checked": "",
     "status": "Unverified",
-    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted."
+    "notes": "Imported lead only. Official destination and all entry conditions require verification; upstream claims are not adopted. Source pointer changed to the source-ledger operator site; event-level terms still unverified."
   },
   {
     "id": "hfm-demo",
