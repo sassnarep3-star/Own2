@@ -214,20 +214,29 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 
 - PR and merge result: recorded in the PR description and the session summary (see below, appended after merge).
 
+### 2026-11-01 · session 205d508d · PR #10 merge record
+
+- PR: https://github.com/sassnarep3-star/Own2/pull/10 (`arena/205d508d-own2` → `main`). Checks before merge: `Ledger verification check` pass; `Validate site` (other session's workflow) pass.
+- Merge: `--merge`, merge commit `b6c5542a613f6fba5f023b873a7de770ec31c80e`, 2026-11-01 13:55:37 UTC.
+- Post-merge: `Ledger verification check` and `Validate site` passed on `main`. GitHub Pages (legacy, `main` `/`) build `built` at commit `805974996b3ccd685595a9aa0b4e87ce6e5c5a85`, which includes PR #10.
+- Live check: https://sassnarep3-star.github.io/Own2/ledger-verification/ (landing, 206 listings, 48 flagged) and `flagged.html` returned the expected content.
+- Follow-up (docs and one wording fix only): shortlist text double full stop removed. Follow-up PR recorded in the next entry.
+- Still open for the root integration owner: link `ledger-verification/index.html` from shared navigation (request above).
+
 ## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after all existing sections
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Independent ledger import, analysis, and spot verification of official sources | done | arena-36a6db9e-own2 | Verification log appended below; no duplicate application files added to the deployed site structure |
 
-- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited in a categories/ site structure. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209+ records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site). No duplicate application files were added to main from this session.
+- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209+ records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site at 207 rows). No duplicate application files were added to main from this session.
 - Independent spot checks against official operator pages (all retrieved 2026-11-01 via page retrieval; content matched the ledger):
   - https://www.skillz.com/ — homepage loads ("Win cash and real-world prizes..."). Source CHECKED. (terms-of-service 404 remains flagged by prior sessions.)
   - https://www.checkmategaming.com/free-tournaments — "Totally free to enter with real cash prizes. New tournaments posted daily." Source CHECKED.
   - https://devpost.com/hackathons — loads; hackathons with published cash prizes. Source CHECKED.
   - https://www.chess.com/tournaments — loads; tournaments starting every few minutes. Source CHECKED.
   - https://fantasy.espn.com/games/nfl-pickem-2026/make-picks — "58 prizes ... worth $102K", FREE to play, up to 10 entries, dates 09/09/2026 - 01/10/2027. Source CHECKED.
-- These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them (rows remain flagged per their boards) to avoid altering the deployed dataset outside a coordinated integration pass.
+- These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them to avoid altering the deployed dataset outside a coordinated integration pass.
 - Irregularities carried forward remain published on the live site (review.html / flagged/ and dashboard/flagged.html): 12 entries without an official source, Skillz terms 404, SquaresPool HTTP source, Premier League Second Chance merchandise-not-cash, FPL mini-league third-party citations; dashboard Paper Track date discrepancy (Kaggle rules 2026-11-09 vs arcprize.org 2026-11-08) logged there.
 - This session's branch `arena/36a6db9e-own2` was merged into main via PR #4 after rebasing onto merged main; no other-session work discarded.
 
