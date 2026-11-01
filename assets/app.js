@@ -92,7 +92,12 @@
     }
   }
   if(tbody){
-    ['#search','#category','#evidence','#sort','#free'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',applyFilters));
+    ['#search','#category','#evidence','#sort','#free'].forEach(s=>$(s).addEventListener(s==='#search'?'input':'change',()=>{
+      if(s==='#category' && document.body.dataset.category && $('#category').value!==document.body.dataset.category){
+        const selected=$('#category').value;location.href=prefix+(selected?'categories/'+selected+'/index.html':'index.html');return;
+      }
+      applyFilters();
+    }));
     $('#reset').addEventListener('click',()=>{
       $('#search').value='';$('#category').value=document.body.dataset.category||'';$('#evidence').value='';$('#free').checked=false;$('#sort').value='default';view='all';
       const u=new URL(location);u.searchParams.delete('view');history.replaceState({},'',u);applyFilters();
