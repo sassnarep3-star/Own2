@@ -484,13 +484,13 @@ Site lives at `ledger-4c1d6bb4/` to coexist with the root PrizeDesk site owned b
 |---|---|---|---|---|---|
 | T1 | Analyze reference site `karagemop466-tech/FreeMoneyApps` (structure, data model, issues) | done | `4c1d6bb4` | none (read-only) | Findings logged below |
 | T2 | Establish this coordination board | done | `4c1d6bb4` | `COORDINATION.md` | |
-| T3 | Vendor + normalize ledger data (206 listings), flag rows without official sources | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/assets/data.js`, `ledger-4c1d6bb4/scripts/build-pages.mjs`, `ledger-4c1d6bb4/scripts/check-data.mjs` | |
-| T4 | Build site: landing/dashboard + 9 category subpages in table format, responsive/mobile-friendly | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/*.html`, `ledger-4c1d6bb4/assets/…` | |
-| T5 | Analysis & findings page (distributions, best-opportunity ranking, patterns) | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/analysis.html` | |
-| T6 | Flagged for Review page (all unverified/irregular items with source links) | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/flagged.html` | |
-| T7 | Executive summary (repo doc + site page) | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/EXECUTIVE_SUMMARY.md`, `ledger-4c1d6bb4/executive-summary.html` | |
-| T8 | Link verification: CI workflow checking every URL in data + pages; fix or flag broken links | in progress | `4c1d6bb4` | `.github/workflows/linkcheck.yml`, `ledger-4c1d6bb4/scripts/check-links.mjs` | Report artifact + job log |
-| T9 | Spot verification of featured/top entries against official rules pages (manual fetch) | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/verification-log.md` | |
+| T3 | Vendor + normalize ledger data (206 listings), flag rows without official sources | done | `4c1d6bb4` | `ledger-4c1d6bb4/assets/data.js`, `ledger-4c1d6bb4/scripts/build-pages.mjs`, `ledger-4c1d6bb4/scripts/check-data.mjs` | |
+| T4 | Build site: landing/dashboard + 9 category subpages in table format, responsive/mobile-friendly | done | `4c1d6bb4` | `ledger-4c1d6bb4/*.html`, `ledger-4c1d6bb4/assets/…` | |
+| T5 | Analysis & findings page (distributions, best-opportunity ranking, patterns) | done | `4c1d6bb4` | `ledger-4c1d6bb4/analysis.html` | |
+| T6 | Flagged for Review page (all unverified/irregular items with source links) | done | `4c1d6bb4` | `ledger-4c1d6bb4/flagged.html` | |
+| T7 | Executive summary (repo doc + site page) | done | `4c1d6bb4` | `ledger-4c1d6bb4/EXECUTIVE_SUMMARY.md`, `ledger-4c1d6bb4/executive-summary.html` | |
+| T8 | Link verification: CI workflow checking every URL in data + pages; fix or flag broken links | done | `4c1d6bb4` | `.github/workflows/linkcheck.yml`, `ledger-4c1d6bb4/scripts/check-links.mjs` | Run 41316899973: 326 URLs — 258 ok, 40 blocked, 26 broken (all published on flagged page) |
+| T9 | Spot verification of featured/top entries against official rules pages (manual fetch) | done | `4c1d6bb4` | `ledger-4c1d6bb4/verification-log.md` | |
 | T10 | Integration: re-verify combined data line by line, confirm no broken links, PR → main, merge, confirm Pages deploy | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/README.md`, `COORDINATION.md` (append-only) | PR + deploy record below |
 | T11 | Post-integration independent audit pass (available for a parallel session) | unclaimed | — | `ledger-4c1d6bb4/verification-log.md` (append-only) | Parallel sessions: claim before starting |
 
@@ -503,11 +503,16 @@ _None._
 - `4c1d6bb4` 2026-11-01 — T1: cloned reference repo `karagemop466-tech/FreeMoneyApps` (codeload tarball) and read `assets/data.js` (`window.LEDGER`, 206 listings, 9 types, reviewed 2026-08-19). Issues found in reference site: single-page 206-card scroll (poor mobile UX), no search/filter, deliberate "no filters" stance, one giant list mixing categories, 12 listings lack any `official`-tier source, 27 entries ended, 45 entries previously removed by policy.
 - `4c1d6bb4` 2026-11-01 — T2: created this board; claimed T1–T10 (tightly coupled single-site build; this session owns the whole critical path). T11 left unclaimed for a possible parallel audit session.
 
+- `4c1d6bb4` 2026-11-01 — T3/T4/T5/T6/T7 done: site built under `ledger-4c1d6bb4/` namespace (14 pages: dashboard landing, 9 category tables with search/status/free-path filters + mobile card layout, analysis, flagged, exec summary, 404). Structural audit: 206 listings, 0 dupes, 0 malformed URLs; 12 no-official-source rows blanked + flagged.
+- `4c1d6bb4` 2026-11-01 — T8 done: linkcheck workflow ran in CI (run 41316899973). 326 URLs: 258 ok / 2 redirect / 40 blocked / 26 broken. All 26 broken and all 40 blocked published on `ledger-4c1d6bb4/flagged.html` with listing ids; none rewritten (no confirmed official replacements). Evidence: `ledger-4c1d6bb4/reports/link-check.{json,md}`, check-run https://github.com/sassnarep3-star/Own2/runs/124878890719.
+- `4c1d6bb4` 2026-11-01 — T9 done: 9 featured entries fetched from official pages — 6 verified exactly (ESPN NFL $102K/58, ESPN CFB $86K/46, CBS $1K×18+$5K+$100K, ARC $2M/3 tracks, Kaggle, DrivenData), 3 unconfirmed → prize values blanked + flagged (Devpost stale range vs $1M official event; Fanatics Survivor $1M possibly FanCash + sportsbook policy tension; Dirty Dozen official URL redirects to generic index). Evidence: `ledger-4c1d6bb4/reports/spot-checks.json`, `ledger-4c1d6bb4/verification-log.md`.
+- `4c1d6bb4` 2026-11-01 — Integration: discovered concurrent sessions had merged PRs #1–21 (root PrizeDesk + subsites) while this session built. Relocated this site wholesale to `ledger-4c1d6bb4/` before merging main (no shared paths touched). Merge conflicts resolved retaining main's root README/COORDINATION in full; my board section appended; `.gitignore` merged. All validation suites re-run green post-merge (build_site.py/check_site.py: 209 rows/132 pages; check.cjs; build-pages.cjs; my check-data + build-pages). Added subsite links to root README + footer. Note: `git pull --rebase` after merging main tried to replay flattened main history (same pitfall session ebd10b79 logged) — aborted safely; push had already succeeded; branch intact at remote.
+
 ## Sources & verification records
 
 - Reference dataset: <https://github.com/karagemop466-tech/FreeMoneyApps> (repo raw source of the 206-listing ledger; live site <https://karagemop466-tech.github.io/FreeMoneyApps/>).
 - Each listing's own `sources[]` (tier `official`) is the per-row source shown in site tables — URLs recorded in `assets/data.js`.
-- Link verification: GitHub Actions run of `scripts/check-links.mjs` (see `ledger-4c1d6bb4/verification-log.md` for run URL and results).
+- Link verification: GitHub Actions `linkcheck` run 41316899973 — 326 URLs, 26 broken / 40 blocked published on flagged page (see `ledger-4c1d6bb4/verification-log.md`).
 - Spot checks: `ledger-4c1d6bb4/verification-log.md` (T9).
 
 ## Irregularities flagged
@@ -515,7 +520,7 @@ _None._
 1. **12 listings lack an official-tier source** (only affiliate/forum): `thelines-survivor`, `fantasy-arena`, `fplhub`, `bona-fide`, `olka`, `fplmanager-india`, `fplstore`, `pitchbooking`, `roboforex-demo`, `fbs-pro-demo`, `npbfx-demo`, `tff-fantezi-lig` — prize values blanked and flagged on `ledger-4c1d6bb4/flagged.html`.
 2. **45 entries removed by reference-site policy** (sweepstakes, casinos, gambling-operator promos, dead apps) — documented on `ledger-4c1d6bb4/analysis.html` / `flagged.html` as exclusions, not carried into tables.
 3. **27 listings marked ended/out-of-season** — kept in tables with status badge; prizes not current.
-4. Link-check failures: to be recorded in `ledger-4c1d6bb4/verification-log.md` after T8 runs (each will either be fixed with a confirmed official URL or published on `ledger-4c1d6bb4/flagged.html`).
+4. Link-check: 26 broken (e.g. NHL Bracket 404s, DNS-dead fantasy domains, App Store 404s, Topcoder 404s, expired Pensacola TLS) + 40 blocked (403/429) — all published on `ledger-4c1d6bb4/flagged.html`; none rewritten without confirmed official replacements.
 
 ## PR & deploy record
 

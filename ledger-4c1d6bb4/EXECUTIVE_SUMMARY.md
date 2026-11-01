@@ -70,8 +70,10 @@ broken links. This build:
     policy tension: operator is a licensed sportsbook.
   - **Dirty Dozen (Gambling.com)** — official URL redirects to a generic
     casino-games index; £12,000 figure unconfirmable → blanked.
-- **Links:** full sweep runs in GitHub Actions (sandbox has GitHub-only
-  egress); results published in `reports/link-check.json` and on the flag page.
+- **Links (CI, run 41316899973):** 326 unique URLs — **258 ok · 2 redirect ·
+  40 blocked · 26 broken**. Every broken and blocked URL is published on the
+  flag page with its listing id; none were rewritten without a confirmed
+  official replacement. (`reports/link-check.json`)
 - **Build:** 14 pages generated; internal-link check passes; CI re-runs the
   build on every push.
 
@@ -88,8 +90,10 @@ broken links. This build:
    from ranking).
 5. **45 policy removals** upstream (sweepstakes/casinos) — listed with reasons
    on the Analysis page.
-6. **Link-check broken/blocked URLs** — published on the flag page with status
-   codes as the CI runs complete.
+6. **Link-check: 26 broken + 40 blocked URLs** (e.g. NHL Bracket Challenge
+   404s, several DNS-dead UK/IRL fantasy domains, App Store 404s, Topcoder
+   404s, expired TLS on Pensacola Songwriters; blocked = 403/429 refusals that
+   may still work in a browser) — all published on the flag page with codes.
 
 ## Bottom line
 

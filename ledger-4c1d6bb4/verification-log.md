@@ -58,13 +58,26 @@ external `href`/`src` in the built pages is checked from GitHub Actions
 - `blocked` (401/403/405/429/451/999) → listed for manual review (may work in a browser)
 - `broken` (other 4xx/5xx/DNS/timeout) → **published on Flagged for Review**
 
-Run URL: see **PR & deploy record** in `COORDINATION.md`.
-Reports: `reports/link-check.json`, `reports/link-check.md` (CI artifact `link-check-report`).
+**Result (run 41316899973, 2026-11-01T14:35:22Z, commit `1fa406e`):** 326 unique URLs checked —
+**258 ok · 2 redirect · 40 blocked · 26 broken**. Check-run:
+<https://github.com/sassnarep3-star/Own2/runs/124878890719>.
+
+- All **26 broken** links are published on `flagged.html` with listing ids (e.g. NHL Bracket
+  Challenge 404s, several DNS-dead fantasy domains, App Store 404s, Topcoder 404s, Reedsy
+  `/privacy` 404, expired TLS on Pensacola Songwriters). None were "fixed" — no confirmed
+  official replacement URL was established for any of them within this session, so per policy
+  they are flagged, not rewritten.
+- All **40 blocked** (401/403/429 — e.g. Skillz, Devpost, Metaculus, App-Store-adjacent and
+  Reddit sources) are listed on `flagged.html` for manual review; blocked ≠ broken.
+- Reports: `reports/link-check.json`, `reports/link-check.md` (committed as evidence; the CI
+  artifact copy also exists but artifact/log hosts are unreachable from this sandbox).
 
 **Sandbox limitation (documented honestly):** the development sandbox only has
 outbound access to GitHub/npm/PyPI hosts, so the full URL sweep runs in CI
 (GitHub-hosted runner, full internet), not locally. Manual spot checks in
-section 2 used the agent's page-fetch tool, which has broader access.
+section 2 used the agent's page-fetch tool, which has broader access. CI
+artifact/log download hosts were also unreachable, so results were transcribed
+via the GitHub check-run API (numbers above match the check-run title exactly).
 
 ## 4. Build & internal-link check (T10)
 

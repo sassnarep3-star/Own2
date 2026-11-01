@@ -723,8 +723,9 @@ ${spotFlags || `<p class="muted">None recorded.</p>`}`;
     ARC Prize $2M/3 tracks, Kaggle, DrivenData). Details: <code>reports/spot-checks.json</code> and
     <code>verification-log.md</code>.</li>
     <li>${stats.ended} ended entries keep historical prize figures — re-confirm before entering.</li>
-    <li>Any link-check failures are published on the flag page as they are found
-    (<code>reports/link-check.json</code>).</li>
+    <li>Link check (CI run 41316899973): 326 URLs — 258 ok, 40 blocked, 26 broken.
+    All broken/blocked URLs are published on the flag page with listing ids; none were
+    rewritten without a confirmed official replacement (<code>reports/link-check.json</code>).</li>
   </ol>
 </div>
 
