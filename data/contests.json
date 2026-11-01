@@ -435,7 +435,7 @@
   },
   {
     "id": "draft-pro",
-    "name": "The Draft Pro \u2014 Perfect Draft Challenge",
+    "name": "The Draft Pro — Perfect Draft Challenge",
     "category": "sports",
     "source": "https://www.thedraftpro.com/",
     "prize": "",
@@ -827,7 +827,7 @@
   },
   {
     "id": "andys-predictor",
-    "name": "Andy's Bet Club \u00a31M Predictor",
+    "name": "Andy's Bet Club £1M Predictor",
     "category": "sports",
     "source": "https://andysbetclub.co.uk/predictor-game/",
     "prize": "",
@@ -1149,7 +1149,7 @@
   },
   {
     "id": "espn-tourney-challenge",
-    "name": "ESPN Men\u2019s Tournament Challenge",
+    "name": "ESPN Men’s Tournament Challenge",
     "category": "sports",
     "source": "https://fantasy.espn.com/games/bracket",
     "prize": "",
@@ -1373,7 +1373,7 @@
   },
   {
     "id": "ewc-play",
-    "name": "Esports World Cup (EWC) Play \u2014 Fantasy & Pick'em",
+    "name": "Esports World Cup (EWC) Play — Fantasy & Pick'em",
     "category": "sports",
     "source": "https://esportsworldcup.com/en/play/fantasy/league-of-legends",
     "prize": "",
@@ -1443,7 +1443,7 @@
   },
   {
     "id": "tradingview-leap",
-    "name": "TradingView \u2014 The Leap",
+    "name": "TradingView — The Leap",
     "category": "market",
     "source": "https://www.tradingview.com/the-leap/tradestation-july-2026/rules/",
     "prize": "",
@@ -1499,7 +1499,7 @@
   },
   {
     "id": "play-pokemon",
-    "name": "Play! Pok\u00e9mon Championship Series",
+    "name": "Play! Pokémon Championship Series",
     "category": "skill",
     "source": "https://www.pokemon.com/us/play-pokemon",
     "prize": "",
@@ -2479,7 +2479,7 @@
   },
   {
     "id": "tff-fantezi-lig",
-    "name": "TFF Fantezi Lig (Turkish S\u00fcper Lig)",
+    "name": "TFF Fantezi Lig (Turkish Süper Lig)",
     "category": "sports",
     "source": "https://fantazilig.tff.org/",
     "prize": "",
@@ -2885,7 +2885,7 @@
   },
   {
     "id": "arc-2026",
-    "name": "ARC Prize 2026 \u00b7 three tracks",
+    "name": "ARC Prize 2026 · three tracks",
     "category": "tech",
     "source": "https://arcprize.org/competitions/2026",
     "prize": "$2,000,000 total across tracks",
@@ -2905,11 +2905,26 @@
     "prize": "$300,000 total; final first prize $100,000",
     "deadline": "2026-12-03 23:59 UTC",
     "free": "",
-    "eligibility": "Individuals: U.S. citizen or permanent resident; 18+ and age of majority. Teams, entities and exclusions: see rules \u00a71.3.",
+    "eligibility": "Individuals: U.S. citizen or permanent resident; 18+ and age of majority. Teams, entities and exclusions: see rules §1.3.",
     "ai": "",
     "checked": "2026-11-01",
     "status": "Partial evidence",
-    "notes": "Overview confirms prize and deadline. Official rules \u00a71.3 confirms eligibility restrictions; A.2 requires ACH and W-9 forms within 30 days of notice. Free entry and AI assistance permissions remain unconfirmed.",
+    "notes": "Overview confirms prize and deadline. Official rules §1.3 confirms eligibility restrictions; A.2 requires ACH and W-9 forms within 30 days of notice. Free entry and AI assistance permissions remain unconfirmed.",
     "rules": "https://docs.nlr.gov/docs/fy26osti/96647.pdf"
+  },
+  {
+    "id": "arc-paper-2026",
+    "name": "ARC Prize 2026 — Paper Track",
+    "category": "tech",
+    "source": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track",
+    "rules": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
+    "prize": "$75,000 guaranteed total; first prize $50,000",
+    "deadline": "2026-11-09 23:59 UTC",
+    "free": "No purchase necessary (rules §2.4)",
+    "eligibility": "Requires a submission to ARC-AGI-2 or ARC-AGI-3, plus a public writeup/notebook; full personal eligibility: see rules.",
+    "ai": "AI/tool policy for the linked prediction track must be checked separately.",
+    "checked": "2026-11-01",
+    "status": "Confirmed free entry + cash prize",
+    "notes": "Paper Track rules §1.5 and §2.4 confirm guaranteed pool and no-purchase entry; overview confirms deadline and prerequisite. Optional $375,000 bonus is conditional, not included in guaranteed pool."
   }
 ]

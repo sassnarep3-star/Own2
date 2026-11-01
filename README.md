@@ -31,3 +31,7 @@ GitHub Pages serves the root of `main` (existing repository configuration). No t
 
 **Decision rule:** prioritize a competition only after its official rules confirm a no-purchase cash path, an open deadline, eligibility, and acceptable AI/tool use. Prize pools measure maximum available awards, not expected value; no success rate or ROI can be inferred from available evidence. Recheck all rules immediately before entering.
 
+
+## Two complementary views
+
+The existing [PrizeDesk dashboard](index.html) is retained and now incorporates the independently verified Paper Track row. The new [focused shortlist](explore.html) offers a simpler mobile-first view with a separate category research backlog. Both views identify unchecked leads and point to the [Flagged for Review](flagged/index.html) inventory.
