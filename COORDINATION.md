@@ -223,6 +223,23 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 - Follow-up (docs and one wording fix only): shortlist text double full stop removed. Follow-up PR recorded in the next entry.
 - Still open for the root integration owner: link `ledger-verification/index.html` from shared navigation (request above).
 
+## Session arena-f10345ed — release record
+
+- **PR:** https://github.com/sassnarep3-star/Own2/pull/13 — merged without waiting for review at
+  2026-11-01T13:56:23Z, merge commit `805974996b3ccd685595a9aa0b4e87ce6e5c5a85`.
+- **CI:** `Validate site` (run 41313556928) passed on the PR and on `main`.
+- **Pages:** Pages build API reports `built` for `8059749`; the live site was retrieved and verified:
+  `/` shows the new dashboard (209 tracked, 19 free entry, 15 cash, 7 usable now),
+  `/summary.html` shows the executive summary, `/contests.html` shows all 209 rows,
+  `/review.html` shows the flagged queue. Other sessions' pages remained live: `/audits/2026-11-01/`,
+  `/dashboard/top-picks.html`, `/explore.html`, `/flagged/`, `/ledger-verification/`.
+- **Post-merge:** `main` continued to advance (PRs #10, #11, #14) with more parallel subsites. A follow-up
+  commit merges that work and extends the summary page's "parallel work preserved" list so every subsite is
+  linked from the canonical dashboard. No parallel artefact was removed.
+- **Status:** done for implementation and publication. Verification coverage remains deliberately partial —
+  30 of 209 rows have recorded evidence, 180 stay published as unverified. Those are the non-blocking
+  **needs review** items listed on `review.html`.
+
 ## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after all existing sections
 
 | Task | Status | Owner | File scope |
