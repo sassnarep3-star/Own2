@@ -20,7 +20,11 @@ quoted from the operator's own page; everything else is blank and flagged.
 
 Parallel sessions' material is preserved, not replaced: the independent 13-lead audit lives at
 `audits/2026-11-01/`, the alternate shortlist at `explore.html` + `category/` + `flagged/`, a third standalone
-dashboard at `dashboard/`, and the first dashboard's builder at `audits/legacy-build/`.
+dashboard at `dashboard/`, the first dashboard's builder at `audits/legacy-build/`,
+the Competition Desk at `competition-desk/`, the Prize Ledger dashboard at `ledger-ebd10b79/`,
+the ledger verification subsite at `ledger-verification/`, and a verified-ledger table site at
+`ledger-4c1d6bb4/` (session 4c1d6bb4: 206-row table dashboard with CI link checks and spot-check
+blanking — see `ledger-4c1d6bb4/verification-log.md`).
 
 Mobile-first: below 820px the tables become cards, with the same evidence available per row.
 Content is fully rendered in the HTML, so the site works without JavaScript; `app.js` only adds
