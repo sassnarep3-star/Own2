@@ -1,5 +1,6 @@
-.playwright-cli/
-_site/
-audit-output/
 node_modules/
+.cache/
+__pycache__/
+site/
 test-results/
+playwright-report/

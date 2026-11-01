@@ -73,3 +73,47 @@ the checks.
 GitHub Pages serves the root of `main` (legacy build, `.nojekyll` present). No third-party runtime assets,
 no trackers, no affiliate links, no accounts created on your behalf. Session ownership, checks, PR and
 deployment results are recorded in [`COORDINATION.md`](COORDINATION.md).
+
+
+---
+
+## Additional complementary view: Prize Ledger dashboard
+
+This additional [Prize Ledger dashboard](ledger-ebd10b79/index.html) retains the earlier root dashboard, [focused shortlist](explore.html) and [independent audit](audits/2026-11-01/index.html). Its counts and evidence scope are independent, not an aggregate of all views.
+
+**Live:** https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/
+
+- 216 records: all 206 source listings plus 10 event-level additions, in nine category subpages.
+- 31 official pages inspected; source excerpts and partial-reading disclosures in `data/findings.json` and the dashboard source notebook.
+- Six records with official free-entry and cash-award evidence. Personal eligibility, payout and other conditions still apply. Three Metaculus events allow cash-equivalent substitution and are excluded from the strict cash filter.
+- Most inherited claims and external URLs remain unverified leads, with unsupported operational values blank. **This is not a complete all-206 official verification or external-link audit.** All caution-bearing rows are on the dashboard's Flagged for Review page.
+- Search, evidence/category/AI filters, deadline sorting, browser-local saved lists, pagination, CSV/JSON export and an executive summary.
+
+### Build and test this view
+
+```sh
+npm ci
+npm run build
+npm test
+npm run test:browser
+npm run preview
+```
+
+Preview listens on `0.0.0.0:4173`; this view is at `/ledger-ebd10b79/`. The browser suite starts/stops its own temporary test server; `BASE_URL` can point at an existing dashboard URL.
+
+`npm run build` runs `scripts/build-dashboard.py`, not the earlier root generator. It refreshes committed `ledger-ebd10b79/` static pages and exports, `data/ledger.json`, and `research/AUDIT.md`. The preview-only combined `site/`, dependencies, runtime libraries and test screenshots are ignored. Dashboard static output must be committed because existing Pages publishes `main:/` and the settings API denied changes; no alternate branch or manual setting change is required.
+
+Earlier views remain reproducible using `python scripts/build_site.py`, `python scripts/check_site.py`, `node scripts/check.cjs`, and the independent audit build/tests. No existing source data, field evidence or audit history was replaced by this view.
+
+### Evidence files
+
+- `data/findings.json`: official source URLs, checked excerpts and curated field values.
+- `data/ledger.json` / `data/ledger.csv`: normalized inventory; unsupported values are null/empty.
+- `research/upstream.json`: historical source snapshot, not official authority for operational claims.
+- `research/AUDIT.md`: line-by-line inventory and source scope.
+- `scripts/prepare_data.py`: conservative importer; never promotes inherited facts.
+- `scripts/build-dashboard.py`: this dashboard generator.
+- `tests/`: evidence/provenance/null/internal-link checks and Playwright/axe browser tests.
+- `COORDINATION.md`: preserved histories, integration scope, conflicts, PRs and deployment records.
+
+Do not infer a prize, no-purchase path, date, eligibility, AI permission, tax threshold or expected earnings from missing evidence. Source pages and rules may change after the 1 November 2026 research snapshot.
