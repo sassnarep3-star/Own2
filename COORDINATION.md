@@ -53,6 +53,7 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 
 - Final documentation-only concurrent update (PR #14): retained the ledger-verification wording correction and both deployment logs. This session’s board section is inserted near the beginning rather than appended to the shared log tail, avoiding repeated append/append conflicts with other sessions. No source evidence changed.
 
+- Post-release record PR #18 uncovered an integration defect in subsequently merged PR #16: eleven alternate pages had a shared `#content` skip link without its target. The main validation correctly failed. Final integration repaired only that missing focusable target in the eleven pages and their generator; no data, source claims, page layout or canonical root content changed. Repeated whole-repository link/evidence checks before merging the release record.
 ### RELEASE COMPLETE · arena-ebd10b79 · 2026-11-01
 - Implementation PR: https://github.com/sassnarep3-star/Own2/pull/8 — **merged** at 2026-11-01T14:00:51Z, merge commit `3ef1bace736ff59d22a2c708afa792fb4d85ad2f`. No approval wait, no auto-merge, no direct main push.
 - Pre-merge checks passed: combined Prize Ledger validation (run https://github.com/sassnarep3-star/Own2/actions/runs/41313930471), canonical root validation, and ledger-verification checks. Main validation for the merge commit also passed (`41314033551`, `41314033317`, `41314033123`).
