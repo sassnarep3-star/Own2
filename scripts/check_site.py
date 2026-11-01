@@ -107,7 +107,10 @@ class Links(HTMLParser):
                     self.bad.append(v)
 
 pages = sorted(ROOT.glob("*.html"))
-all_pages = sorted(set(ROOT.glob("**/*.html")) - set(ROOT.glob("**/node_modules/**")))
+SKIP_DIRS = {"node_modules", "test-results", "playwright-report", "coverage", ".git", ".venv", "__pycache__"}
+all_pages = sorted(q for q in ROOT.glob("**/*.html")
+                   if not (set(q.relative_to(ROOT).parts) & SKIP_DIRS)
+                   and "node_modules" not in q.parts)
 for p in all_pages:
     text = p.read_text()
     lk = Links(p.parent)
