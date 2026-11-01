@@ -1,0 +1,62 @@
+{
+ "id": "kaggle-nfl-bdb-2027",
+ "name": "NFL Big Data Bowl 2027 (Kaggle)",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "Kaggle competitions directory",
+   "url": "https://www.kaggle.com/competitions",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "NFL Big Data Bowl 2027",
+   "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$100,000 prize pool",
+   "quote": "NFL Big Data Bowl 2027 ... $100,000 ... 2 months to go",
+   "url": "https://www.kaggle.com/competitions"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "No entry fee is published on the Kaggle directory card; the page does not state that entry is free.",
+   "url": "https://www.kaggle.com/competitions"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "About two months remaining as of 2026-11-01",
+   "quote": "2 months to go",
+   "url": "https://www.kaggle.com/competitions"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per-competition rules; not read in this pass.",
+   "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Per-competition rules; not read in this pass.",
+   "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the directory card.",
+   "url": "https://www.kaggle.com/competitions"
+  }
+ },
+ "summary": "$100,000 sports-analytics competition with about two months of runway - the most time-rich large prize in the tech category right now.",
+ "flags": [
+  "Free entry and eligibility not stated on the pages read."
+ ],
+ "deadline_iso": null
+}

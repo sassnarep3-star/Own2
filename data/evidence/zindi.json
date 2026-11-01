@@ -1,0 +1,58 @@
+{
+ "id": "zindi",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "Inherited rules URL",
+   "url": "https://zindi.world/rules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Retrieved page content reads '404 page not found'; no rules text was available.",
+   "url": "https://zindi.world/rules"
+  },
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not available at the cited URL.",
+   "url": "https://zindi.world/rules"
+  },
+  "deadline": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not available at the cited URL.",
+   "url": "https://zindi.world/rules"
+  },
+  "eligibility": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not available at the cited URL.",
+   "url": "https://zindi.world/rules"
+  },
+  "aiPolicy": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not available at the cited URL.",
+   "url": "https://zindi.world/rules"
+  },
+  "payout": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not available at the cited URL.",
+   "url": "https://zindi.world/rules"
+  }
+ },
+ "summary": "The ledger's rules link returns a 404 error page. No replacement URL was guessed — the row stays unverified until someone finds the current rules page.",
+ "flags": [
+  "Cited rules URL returns '404 page not found'.",
+  "No replacement URL guessed."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

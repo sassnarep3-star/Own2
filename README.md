@@ -1,37 +1,75 @@
-# PrizeDesk
+# PrizeDesk — free-to-enter cash competitions, verified line by line
 
-Evidence-first, mobile-friendly competition research dashboard. No framework, dependencies, accounts, trackers or affiliate links.
+A static, dependency-free dashboard built from a 206-row competition ledger. Every published value is
+quoted from the operator's own page; everything else is blank and flagged.
 
-- Live site: https://sassnarep3-star.github.io/Own2/
-- Executive summary: `summary.html`
-- Uncertainties: `review.html`
-- 206 inherited leads + 2 event records; no fully qualified free-entry cash contest is claimed.
+- **Live site:** https://sassnarep3-star.github.io/Own2/
+- **Executive summary:** [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) · [`summary.html`](summary.html)
+- **Flagged for review:** [`review.html`](review.html)
+- **Evidence log (quote + URL per field):** [`data/EVIDENCE.md`](data/EVIDENCE.md)
 
-## Reproduce
+## What is on the site
 
-```sh
-python scripts/build.py
-python scripts/test.py
-python -m http.server 8000 --bind 0.0.0.0
+| Page | Purpose |
+|---|---|
+| `index.html` | Dashboard: counts, shortlist, confirmed deadlines, category entry points |
+| `contests.html` | All 209 competitions with search, category/verification/free/cash filters, sorting, per-row evidence |
+| `sports.html` `tech.html` `creative.html` `forecasting.html` `skill.html` `market.html` `pools.html` `trivia.html` `directory.html` | Category pages |
+| `summary.html` | Executive summary and method |
+| `review.html` | Every unresolved, contradicted or unsourced item, with links |
+
+Parallel sessions' material is preserved, not replaced: the independent 13-lead audit lives at
+`audits/2026-11-01/`, the alternate shortlist at `explore.html` + `category/` + `flagged/`, a third standalone
+dashboard at `dashboard/`, and the first dashboard's builder at `audits/legacy-build/`.
+
+Mobile-first: below 820px the tables become cards, with the same evidence available per row.
+Content is fully rendered in the HTML, so the site works without JavaScript; `app.js` only adds
+filtering, sorting and the evidence toggle.
+
+## Data model
+
+```
+data/upstream.json     the supplied ledger, unchanged (206 listings + 45 removed records)
+data/evidence/*.json   one file per verified entry: field status, verbatim quote, source URL, check date, flags
+data/categories.json   the nine categories and their evidence-based summary
+data/contests.json     generated: the published dataset (values + evidence + flags + ledger claims)
+data/EVIDENCE.md       generated: human-readable evidence log
 ```
 
-Edit `data/contests.json` and `scripts/build.py`, then regenerate. Generated HTML includes the full tables so content works without JavaScript; JavaScript adds filtering. Category pages are real static subpages. Blank cells are intentionally unverified. Evidence dates apply only to the fields documented, not to every claim about a platform.
+`python scripts/build_site.py` merges the ledger with the evidence files and writes every page, the dataset
+and the evidence log. `python scripts/check_site.py` enforces the rules below and fails the build if any is
+broken.
 
-`data/upstream.json` preserves the supplied ledger's assertions for traceability, not endorsement. Upstream snapshot: https://github.com/karagemop466-tech/FreeMoneyApps/tree/466f7c1e7a14b52b4a0d36beb84a00d68fd409b7 . External URLs on unverified rows are inherited destinations and have not all been authenticated or checked for availability. Internal links are tested. This is not a complete external-link or rules audit.
+### Publication rules enforced by the checks
 
-GitHub Pages serves the root of `main` (existing repository configuration). No third-party runtime assets required. See COORDINATION.md for ownership, checks, PR and deployment results.
+1. A value is published only if an evidence record carries a verbatim quote **and** an http(s) URL.
+2. A row labelled *unverified* publishes no values at all.
+3. A row with no official operator source is automatically flagged.
+4. Every upstream listing is retained; ids are unique; rebuilding is deterministic.
+5. All local links resolve, every page has charset/viewport/lang, and category counts match the dataset.
 
+## Reproduce locally
 
-## Additional official-source findings — 1 November 2026
+```sh
+python3 scripts/build_site.py
+python3 scripts/check_site.py
+python3 -m http.server 8000 --bind 0.0.0.0     # http://localhost:8000
+```
 
-- The starting repository contained only a placeholder README. The [external Free Money & Contest Ledger](https://karagemop466-tech.github.io/FreeMoneyApps/) contains **206** listings across nine categories, but its self-reported “189 true free paths” is **not** a verified count. Its records mix contests, discovery directories, pool tools, non-cash prizes, pay-to-enter products, and old seasons. We imported **all 206 as unverified research leads**, preserving original-record links and operator/cited URLs but blanking unconfirmed prize, fee, deadline, and eligibility fields.
-- **One current opportunity meets the documented free-entry cash-prize standard:** [ARC Prize 2026 Paper Track](https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules). Its official rules explicitly say “NO PURCHASE NECESSARY” (§2.4) and specify **$75,000** in guaranteed awards (§1.5); the [overview](https://www.kaggle.com/competitions/arc-prize-2026-paper-track) gives **9 November 2026, 23:59 UTC** as the deadline. Entry requires a prior submission to ARC-AGI-2 or ARC-AGI-3 and a public writeup/notebook. A possible $375,000 bonus is **conditional**, not counted in the guaranteed prize figure. For agent-assisted work, review competition-specific code-sharing, originality, and eligibility provisions before participating.
-- **One technically promising but incomplete lead:** the [GEMS Prize challenge](https://www.drivendata.org/competitions/306/competition-doe-gems/) specifies **$300,000** in cash awards and a **3 December 2026, 23:59 UTC** deadline. [Official rules](https://docs.nlr.gov/docs/fy26osti/96647.pdf) §§1.1, 1.3 and 3.2 describe prize structure, U.S. eligibility and permitted generative AI use **with disclosure**. No explicit entry-fee statement was found, so it is **not** labeled confirmed free. Its eligibility makes it a potentially relevant project for a U.S.-based technical team, subject to the full rules.
-- **Important correction:** the [Premier League’s Second Chance article](https://www.premierleague.com/en/news/4220308/the-second-chance-league-is-live-in-fantasy) lists merchandise, not a cash award; the linked 2025/26 season is not a current cash contest. The source ledger’s [Skillz terms URL](https://www.skillz.com/terms-of-service/) returned a 404 page on review. Several FPL mini-league entries cite third-party roundups rather than league-specific official rules. See the [Flagged for Review page](https://sassnarep3-star.github.io/Own2/flagged/) for all records and limitations.
+CI (`.github/workflows/validate.yml`) rebuilds the site, fails if the committed pages are stale, then runs
+the checks.
 
-**Decision rule:** prioritize a competition only after its official rules confirm a no-purchase cash path, an open deadline, eligibility, and acceptable AI/tool use. Prize pools measure maximum available awards, not expected value; no success rate or ROI can be inferred from available evidence. Recheck all rules immediately before entering.
+## Honest limits
 
+- 180 of 209 rows are inherited leads that could not be verified in this pass. They keep their link and are
+  labelled unverified; no value from them is published. 30 rows carry recorded evidence.
+- "Free entry confirmed" means the operator states no fee is required. It does not mean the competition is
+  free to *win* — your time, compute and travel are real costs.
+- Prize pools are not expected value. No win probability, hourly rate or earnings ranking is asserted.
+- Only pages actually opened were checked for availability; unopened links may be broken.
+- Rules change. Every row shows the date it was read; re-check before entering.
+- Upstream snapshot: <https://github.com/karagemop466-tech/FreeMoneyApps/commit/466f7c1e7a14b52b4a0d36beb84a00d68fd409b7>
 
-## Two complementary views
-
-The existing [PrizeDesk dashboard](index.html) is retained and now incorporates the independently verified Paper Track row. The new [focused shortlist](explore.html) offers a simpler mobile-first view with a separate category research backlog. Both views identify unchecked leads and point to the [Flagged for Review](flagged/index.html) inventory.
+GitHub Pages serves the root of `main` (legacy build, `.nojekyll` present). No third-party runtime assets,
+no trackers, no affiliate links, no accounts created on your behalf. Session ownership, checks, PR and
+deployment results are recorded in [`COORDINATION.md`](COORDINATION.md).

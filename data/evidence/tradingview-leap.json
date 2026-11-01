@@ -1,0 +1,57 @@
+{
+ "id": "tradingview-leap",
+ "checked": "2026-11-01",
+ "category": "market",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "TradingView The Leap (paper trading competitions)",
+   "url": "https://www.tradingview.com/the-leap/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "contradicted",
+   "text": "",
+   "quote": "The edition shown as the current/latest listing on 2026-11-01 was 'The Leap — Commodities', 7-20 October 2026, marked Completed, with 'Compete for 250 TradingView plans' - not the $50,000 cash table asserted upstream.",
+   "url": "https://www.tradingview.com/the-leap/"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free paper-trading contests with virtual money, no deposit",
+   "quote": "Risk-free trading competitions with real-money prizes ... Experience full-featured chart trading in real market-moving conditions - but with virtual money and zero risk.",
+   "url": "https://www.tradingview.com/the-leap/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Editions run monthly. Commodities edition 2026-10-07 to 2026-10-20 (completed). No open edition was listed on 2026-11-01.",
+   "quote": "CompletedCompleted October 7 - 20, 2026",
+   "url": "https://www.tradingview.com/the-leap/"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Age and residency rules are in each edition's rules page; not published on the index page.",
+   "url": "https://www.tradingview.com/the-leap/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed on the index page.",
+   "url": "https://www.tradingview.com/the-leap/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not described on the index page.",
+   "url": "https://www.tradingview.com/the-leap/"
+  }
+ },
+ "summary": "Real prize contests but the visible current edition was already completed on the audit date, and its prize was 250 TradingView plans, not cash. The upstream $50,000 table belongs to an older edition.",
+ "flags": [
+  "Upstream $50,000 cash prize table is stale: the current edition pays plans, not cash.",
+  "No open edition listed on 2026-11-01."
+ ],
+ "deadline_iso": null
+}

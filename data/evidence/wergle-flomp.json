@@ -1,0 +1,56 @@
+{
+ "id": "wergle-flomp",
+ "checked": "2026-11-01",
+ "category": "creative",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "Wergle Flomp Humor Poetry Contest (no fee)",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$5,100 total: 1st $2,000 + Duotrope/Chill Subs certificates; 2nd $750; 3rd $350; 10 honorable mentions of $200",
+   "quote": "First Prize: $2,000 ... Second Prize: $750 ... Third Prize: $350 ... Honorable Mentions: 10 awards of $200 each",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "No entry fee",
+   "quote": "No fee to enter. Submit published or unpublished work. $5,100 in prizes.",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Submissions 2026-08-15 to 2027-04-01; results announced 2027-08-15",
+   "quote": "Please submit one humor poem during August 15, 2026-April 1, 2027",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "No age restriction; authors from all countries eligible except Iran, North Korea, Crimea, Russia and Belarus; one poem, 250 lines maximum, English",
+   "quote": "No restriction on age of author. ... Authors from all countries eligible except Iran, North Korea, Crimea, Russia, and Belarus",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "AI may only be used as a proofreader; AI-written text is prohibited and any AI use must be disclosed. An AI agent cannot write the entry.",
+   "quote": "Any writing that you submit to a Winning Writers contest must be composed using your own words, and may not contain any AI-generated text.",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method is not described on the contest page read in this pass.",
+   "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+  }
+ },
+ "summary": "Genuinely free, global, $5,100 in prizes, seven months of runway - but the rules explicitly forbid AI-generated text, so this is a writing task for the human, not for the agent.",
+ "flags": [
+  "Official rules prohibit AI-generated entries; the agent can only assist with editing."
+ ],
+ "deadline_iso": "2027-04-01"
+}
