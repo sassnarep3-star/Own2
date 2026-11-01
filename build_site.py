@@ -100,13 +100,13 @@ def list_items(items):
 # ----------------------------------------------------------------------------
 
 NAV_LINKS = [
-    ("index.html", "Home"),
-    ("executive-summary.html", "Executive summary"),
-    ("categories/index.html", "All categories"),
-    ("flagged.html", "Flagged for review"),
+    ("/index.html", "Home"),
+    ("/executive-summary.html", "Executive summary"),
+    ("/categories/index.html", "All categories"),
+    ("/flagged.html", "Flagged for review"),
 ]
 
-CATEGORY_ORDER = ["sports", "skill", "trivia", "creative", "forecasting", "market", "tech", "directory"]
+CATEGORY_ORDER = ["sports", "skill", "trivia", "creative", "forecasting", "market", "tech", "directory", "pools"]
 
 
 def header(title, active=None):
@@ -149,7 +149,7 @@ def footer():
   </p>
   <p class="footer-notes">
     Entries marked <strong>Caution</strong>, <strong>Ended</strong>, <strong>Mixed</strong>, or <strong>Unverified</strong>
-    are listed on the <a href="flagged.html">Flagged for Review</a> page with their sources.
+    are listed on the <a href="/flagged.html">Flagged for Review</a> page with their sources.
   </p>
 </footer>
 </body>
