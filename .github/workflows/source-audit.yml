@@ -5,7 +5,7 @@ on:
     branches: [arena/082959ac-own2]
     paths: [competition-desk/scripts/audit_sources.py, .github/workflows/source-audit.yml]
 permissions:
-  contents: write
+  contents: read
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -23,19 +23,3 @@ jobs:
           name: source-checks
           path: competition-desk/audit-output/source-checks.json
           retention-days: 14
-      - name: Record evidence on the assigned session branch
-        if: github.ref == 'refs/heads/arena/082959ac-own2'
-        run: |
-          python - <<'PYTHON'
-          import json, pathlib
-          rows=json.loads(pathlib.Path('audit-output/source-checks.json').read_text())
-          for row in rows:
-              row['excerpt']=row['excerpt'][:1800]
-          pathlib.Path('docs/source-checks.json').write_text(json.dumps(rows,indent=2)+'\n')
-          PYTHON
-          git config user.name "Own2 source audit"
-          git config user.email "actions@users.noreply.github.com"
-          git add docs/source-checks.json
-          git commit -m "audit: record official URL reachability evidence" || exit 0
-          git pull --rebase origin arena/082959ac-own2
-          git push origin arena/082959ac-own2
