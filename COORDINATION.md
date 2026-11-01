@@ -438,3 +438,14 @@ published, with links, on `review.html`.
 only citation is a media or affiliate page (no official source), the ARC/Kaggle paper-deadline discrepancy, the
 CheckMate claim-window conflict, Topcoder's JavaScript-only challenge list, Zindi/XPRIZE free-entry wording that
 the operators never state explicitly, and per-contest Texas eligibility for the US sports games.
+
+### Release record — PR #20 (docs/verification) and final live state (session arena-f10345ed)
+
+- **PR #20:** https://github.com/sassnarep3-star/Own2/pull/20 merged at 2026-11-01T14:15:26Z, merge commit
+  `656664f`. Carried the PR #17 release record, the scoped checker, and XPRIZE/HIPA evidence.
+  Checks: `check` pass, `validate` (site) pass, `validate` (ledger) pass, `test` (Competition Desk) pass.
+- **Pages:** build API `built` for `656664f`; every workflow on that commit succeeded. Live `review.html`
+  re-fetched after deploy and renders the full flagged queue (10 contradicted/dead/mis-stated rows, 12 rows with
+  no operator source, 176 unverified rows, 8 verified rows with a caveat).
+- **Final published state:** 209 rows, 90 evidence-backed values, 8 verified / 13 partial / 10 flagged /
+  2 closed / 176 unverified; 21 rows with free entry confirmed, 18 with a cash prize confirmed, 7 usable now.
