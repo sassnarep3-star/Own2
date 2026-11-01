@@ -10,7 +10,9 @@ R = P.parent.parent
 rows = json.loads((P / 'evidence.json').read_text())
 assert len(rows) == 13
 assert len({r['id'] for r in rows}) == 13
-upstream = {r['id'] for r in json.loads((R / 'data/contests.json').read_text())}
+catalog = json.loads((R / 'data/contests.json').read_text())
+# Final integration: the canonical builder now wraps the same rows in entries.
+upstream = {r['id'] for r in (catalog['entries'] if isinstance(catalog, dict) else catalog)}
 fields = {'id', 'name', 'category', 'fee', 'prize', 'dates', 'eligibility_ai', 'finding', 'sources', 'excerpt'}
 for r in rows:
     assert set(r) == fields, r['id']

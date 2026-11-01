@@ -1,5 +1,60 @@
 # Coordination board
 
+## Session arena-ebd10b79 · complementary dashboard final integration
+
+# Shared coordination board
+
+Session: `arena-ebd10b79` (final integration session). All timestamps UTC.
+
+Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this overrides the requested session branch naming convention. No other active claims were present at initial inspection.
+
+| Task | Status | Owner | File scope | Updated |
+|---|---|---|---|---|
+| Audit upstream ledger and official sources; retain unsupported claims in review queue | needs review | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
+| Build responsive category dashboard, summary and review pages | done | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
+| Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
+
+## Activity log
+- 2026-11-01: Inspected repository: only a six-byte README existed; no prior coordination board, application or datasets. Claimed all work as the sole visible session. Only explicitly documented official-source evidence will be labeled verified. Unconfirmed fields remain empty and are published for review.
+
+## Audit handoff · 2026-11-01
+- Audited the full upstream data snapshot (`466f7c1e7a14b52b4a0d36beb84a00d68fd409b7`): 206 original records, 9 categories, 45 historical exclusions. All 206 original names/categories/links retained as provenance, not trusted operational facts. Added 10 event-level researched records.
+- Official source notebook: 31 pages inspected, with URLs, excerpts and partial-chunk disclosures in `data/findings.json`, `research/AUDIT.md`, and the published Source Notebook. Primary evidence: [PayPal rules](https://paypalaihackathon.devpost.com/rules), [Metaculus rules](https://www.metaculus.com/tournament-rules/), [FutureEval](https://www.metaculus.com/tournament/fall-futureeval-2026/), [NFL rules](https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules), [Sony Single Image](https://www.worldphoto.org/sony-world-photography-awards/single-image), [Sony Series](https://www.worldphoto.org/sony-world-photography-awards/series), [Wergle Flomp](https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free), [ARC](https://arcprize.org/competitions/2026), [GEMS PDF](https://docs.nlr.gov/docs/fy26osti/96647.pdf). Full list in the notebook.
+- Six rows have both official free-entry and cash-award evidence; not a personal-eligibility or payout guarantee. Three Metaculus event rows explicitly allow cash-equivalent payouts and are excluded from the strict cash filter. 190 rows have no independently inspected official source in this session; their operational values are blank, not inherited. Incomplete/caution-bearing records remain on Flagged for Review. No claim of a complete official re-verification of all legacy claims or external links.
+- Irregularities: branded Skillz 404 at inherited `/terms-of-service/` (removed as actionable link, working homepage retained); SquaresPool HTTP source redirects to inspected HTTPS (corrected); Sony old Open/Professional pages redirect to Single Image/Series (canonical links used); AIcrowd extraction includes spam-like categories; Topcoder returns an Auth0 alert; Zindi extraction contains placeholders; 12 original source lists lack an explicit official-tier source; all are flagged. Historical exclusions have no official URLs in their source records and are preserved separately, unverified. Upstream header/data pass/date mismatch and unsupported blanket tax threshold not propagated.
+- Repository review: initial README-only repo had no app, tests, workflows, coordination claims, or other session file ownership. The first pull of the Arena branch failed because its remote ref did not yet exist; fetched/rebased origin/main, then created the required remote Arena branch without switching branches. No merge conflicts or other work discarded.
+- Local verification: deterministic 17-page static build; nine Python tests for every row's evidence/provenance, null blanks, all local links/assets/fragments, category coverage, review coverage and CSV consistency. Playwright tests passed for filtering, cash-equivalent exclusion, search, saved persistence, pagination, category locks, evidence deep links, blocked localStorage and no-JavaScript content. Desktop 1440px and mobile 390/320px tested for overflow and axe WCAG A/AA violations (none on overview). Screenshots inspected. No guarantee of all possible accessibility issues or all external URLs.
+- Browser CDN downloads were unavailable in the sandbox. Used an NPM-distributed Chromium and its bundled runtime libraries instead; no generated browser binaries committed.
+- Integration ready: publication workflow validates build, rows, links and browser behavior before deploying main. Build artifacts and test screenshots excluded from Git. No paid APIs, accounts, contest entries, or credentials used.
+
+- Publication adjustment: Pages settings API returned HTTP 403 (resource not accessible by integration), despite existing Pages being readable and configured for `main:/`. Reused that already-enabled route: generated root HTML, `.nojekyll`, and CSV are intentionally committed as required publication artifacts; `site/` remains ignored. No request for user input or unsupported permission claim. Initial CI browser step failed on ubuntu-latest; pinned the test OS and added structured error annotations for diagnosis. No merge attempted with a failing check.
+
+- PR opened: https://github.com/sassnarep3-star/Own2/pull/8. CI diagnostics identified a browser-test-only package export lookup that was masked locally by a warm temporary library cache. Fixed resolution to the exported module entry point and validated with a fresh temporary runtime directory; no application/data test failures. Audit task is needs review because incomplete/caution-bearing records are already published on the review page, not because they block integration.
+
+
+### Concurrent-main conflict resolution · 2026-11-01
+- A fresh fetch before merging PR #8 discovered other sessions had already merged PRs #1–7. Their coordination board and published application were not present in this session's initial checkout. Stopped the direct merge path immediately; this is concurrent work, not an abandoned claim.
+- `git merge --no-commit origin/main` reported add/add conflicts in 404.html, COORDINATION.md, assets/app.js, assets/style.css, index.html, review.html, scripts/build.py, summary.html, and a README content conflict. Resolved by retaining main's complete root application/builder/assets and all existing datasets, shortlist, independent audit, tests and publication histories. Both coordination histories retained in full.
+- This session now owns only the complementary `dashboard/**` UI, `scripts/build-dashboard.py`, `scripts/prepare_data.py`, `research/**`, `data/findings.json`, `data/ledger.{json,csv}`, package/test files, and its CI workflow. No existing application is replaced. Shared navigation integration adds links to the complementary dashboard and the prior independent audit, after earlier application tasks were already marked done.
+- Main's existing root/shortlist/audit checks and this session's tests will all be re-run together. Original field evidence in other views is not silently overwritten or promoted into this view without independent review. Conflicting ARC summary-vs-track dates are displayed as a review issue, not resolved by guessing.
+- Combined validation after namespacing: earlier root Python build/test, earlier shortlist Node build/check, independent audit build/test, new dashboard build and ten row/provenance/link/parity tests all pass. New Playwright/axe suite passes at `/dashboard/`; earlier source datasets and main assets remain unchanged. Root navigation now links both complementary dashboard and the previously requested independent audit. Combined CI executes all three earlier validation suites before this dashboard's tests.
+- Published paths for this session: `/dashboard/`, `/dashboard/summary.html`, `/dashboard/review.html`, `/dashboard/sources.html`. Earlier root, `/explore.html`, `/flagged/`, and `/audits/2026-11-01/` remain intact. This avoids silent replacement and incompatible data schema changes.
+- Push synchronization after the intentional main-integration merge: plain `git pull --rebase origin arena/ebd10b79-own2` tried to flatten/replay merged-main history and hit the other session's initial COORDINATION add/add commit. Stopped and aborted that redundant rebase, restoring the complete integration merge. Confirmed the remote session tip is already an ancestor; `git pull --rebase --ff-only origin arena/ebd10b79-own2` then reported already up to date. No force push or other-session history loss required.
+
+- A subsequent fresh main fetch discovered session be1d2210 had independently published `/dashboard/` in PRs #9/#11 while this session was resolving the first integration. Stopped again; its completed scope is not abandoned. Relocated only this session’s work to the collision-resistant `/ledger-ebd10b79/` namespace **before** merging that main update. All other dashboard files will be preserved. Earlier `/dashboard/` paths in this session’s historical notes are superseded. New owned scope: `ledger-ebd10b79/**` plus the unique research/import/build/test files listed above. Root navigation integrates both dashboards and the independent audit; no other dataset rewritten.
+
+
+
+### Latest canonical-root integration
+- A third fresh-main check found PRs #10/#13 had merged a revised canonical root site while CI was running. PR #8 merge was correctly rejected due to conflicts, not overridden. Resolved all root HTML/README/gitignore/coordination conflicts by retaining the new main root implementation and all source evidence. The earlier root builder was archived by that other integration; its archive is retained exactly. This session’s unique site remains `/ledger-ebd10b79/`.
+- Shared root navigation changes from this session were withdrawn to avoid overwriting the current owner’s canonical application. Integration request to the root owner: link `ledger-ebd10b79/index.html`, `ledger-ebd10b79/summary.html` and `ledger-ebd10b79/review.html` when next editing shared navigation. This session’s README section and final live URL provide discovery in the meantime.
+- Combined validation now uses the current main `scripts/build_site.py` / `scripts/check_site.py`, plus all preserved shortlist, independent audit, dashboard, ledger-verification, and this session’s tests. No other-session evidence is silently replaced by this view’s research.
+- Combined-test compatibility issue found after the canonical-root merge: the independent audit's membership test expected `data/contests.json` to be a top-level list, while the new canonical builder wraps unchanged row IDs in an `entries` object. Final integration applied a minimal list-or-entries compatibility fix to that test only; no evidence, assertions, audit pages or row values changed. All original test assertions remain enforced. Existing preview copies were refreshed before repeating link checks; no external-link completeness is claimed.
+
+- Final documentation-only concurrent update (PR #14): retained the ledger-verification wording correction and both deployment logs. This session’s board section is inserted near the beginning rather than appended to the shared log tail, avoiding repeated append/append conflicts with other sessions. No source evidence changed.
+
+---
+
 Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-own2`; platform branch restriction takes precedence over requested session branch naming.
 
 | Task | Status | Owner | File scope |
@@ -240,6 +295,43 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
   30 of 209 rows have recorded evidence, 180 stay published as unverified. Those are the non-blocking
   **needs review** items listed on `review.html`.
 
+## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after all existing sections
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Independent ledger import, analysis, and spot verification of official sources | done | arena-36a6db9e-own2 | Verification log appended below; no duplicate application files added to the deployed site structure |
+
+- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209+ records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site at 207 rows). No duplicate application files were added to main from this session.
+- Independent spot checks against official operator pages (all retrieved 2026-11-01 via page retrieval; content matched the ledger):
+  - https://www.skillz.com/ — homepage loads ("Win cash and real-world prizes..."). Source CHECKED. (terms-of-service 404 remains flagged by prior sessions.)
+  - https://www.checkmategaming.com/free-tournaments — "Totally free to enter with real cash prizes. New tournaments posted daily." Source CHECKED.
+  - https://devpost.com/hackathons — loads; hackathons with published cash prizes. Source CHECKED.
+  - https://www.chess.com/tournaments — loads; tournaments starting every few minutes. Source CHECKED.
+  - https://fantasy.espn.com/games/nfl-pickem-2026/make-picks — "58 prizes ... worth $102K", FREE to play, up to 10 entries, dates 09/09/2026 - 01/10/2027. Source CHECKED.
+- These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them to avoid altering the deployed dataset outside a coordinated integration pass.
+- Irregularities carried forward remain published on the live site (review.html / flagged/ and dashboard/flagged.html): 12 entries without an official source, Skillz terms 404, SquaresPool HTTP source, Premier League Second Chance merchandise-not-cash, FPL mini-league third-party citations; dashboard Paper Track date discrepancy (Kaggle rules 2026-11-09 vs arcprize.org 2026-11-08) logged there.
+- This session's branch `arena/36a6db9e-own2` was merged into main via PR #4 after rebasing onto merged main; no other-session work discarded.
+
+## Pull request and publish record
+
+- PR: https://github.com/sassnarep3-star/Own2/pull/4 (branch `arena/36a6db9e-own2` → `main`)
+- Merge result: pending
+- GitHub Pages: already live from prior sessions at https://sassnarep3-star.github.io/Own2/ (deployment runs 41312740175, 41313015897, 41313110631 succeeded); deployment after PR #4 merge to be confirmed here.
+
+---
+
+### 2026-11-01 · session arena-a310fb14-own2 · root dashboard build · PR #16 merge record
+
+- PR: https://github.com/sassnarep3-star/Own2/pull/16 (arena/a310fb14-own2 → main)
+- Merge: `--merge`, no approval wait, per user instruction
+- Data source: https://karagemop466-tech.github.io/FreeMoneyApps/ (assets/data.js, pass S, reviewed 2026-08-19) — 206 ledger entries imported into data/source_data.js and data/entries.json (tools/prepare_data.py)
+- Upstream `100_VERIFIED_CONTESTS.md` reviewed and excluded: explicitly marked SUPERSEDED — DO NOT USE AS A SOURCE (failed verification; contained hallucinated entries)
+- Site files added: categories/*.html (9 category subpages), executive-summary.html, flagged.html, review.html, assets/css/style.css, assets/js/app.js, data/, tools/, .nojekyll, 404.html. Root landing/navigation retained from the integrated main build (PRs #1–2); no other session's files deleted or edited.
+- Verification policy: every table row links to the operator's official site/rules page where one exists (194 of 206 rows); values never inferred; 12 entries with no official source have prize/cash-out fields blanked and flagged UNVERIFIED on flagged.html (fbs-pro-demo, npbfx-demo, roboforex-demo; bona-fide, fantasy-arena, fplhub, fplmanager-india, fplstore, olka, pitchbooking, tff-fantezi-lig, thelines-survivor). Source tiers (official/affiliate/forum) shown per row.
+- Build check: 0 broken internal links; category row counts reconcile to data/entries.json (skill 12, trivia 2, sports 129, forecasting 3, market 19, creative 18, tech 14, directory 2, pools 7 = 206)
+- GitHub Pages: source `main` `/`, legacy build; status `built` after merge; live at https://sassnarep3-star.github.io/Own2/ (root dashboard). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/
+- Integration results: PR link recorded above; merge result: merged; Pages deploy: built/live
+
 ### Release record — follow-up PR #15 and live verification (session arena-f10345ed)
 
 - **PR #15:** https://github.com/sassnarep3-star/Own2/pull/15 merged at 2026-11-01T14:00:07Z, merge commit `9cbf8aa`.
@@ -258,4 +350,3 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 official source, the ARC/Kaggle paper-deadline discrepancy, the CheckMate claim-window conflict, Topcoder's
 JavaScript-only challenge list, and the per-contest Texas eligibility question for the sports games. All are
 published, with links, on `review.html`.
-
