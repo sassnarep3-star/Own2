@@ -6,8 +6,8 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 
 | Task | Status | Owner | File scope | Updated |
 |---|---|---|---|---|
-| Audit upstream ledger and official sources; retain unsupported claims in review queue | in progress | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
-| Build responsive category dashboard, summary and review pages | in progress | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
+| Audit upstream ledger and official sources; retain unsupported claims in review queue | needs review | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
+| Build responsive category dashboard, summary and review pages | done | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
 | Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
 
 ## Activity log
@@ -24,3 +24,5 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 - Integration ready: publication workflow validates build, rows, links and browser behavior before deploying main. Build artifacts and test screenshots excluded from Git. No paid APIs, accounts, contest entries, or credentials used.
 
 - Publication adjustment: Pages settings API returned HTTP 403 (resource not accessible by integration), despite existing Pages being readable and configured for `main:/`. Reused that already-enabled route: generated root HTML, `.nojekyll`, and CSV are intentionally committed as required publication artifacts; `site/` remains ignored. No request for user input or unsupported permission claim. Initial CI browser step failed on ubuntu-latest; pinned the test OS and added structured error annotations for diagnosis. No merge attempted with a failing check.
+
+- PR opened: https://github.com/sassnarep3-star/Own2/pull/8. CI diagnostics identified a browser-test-only package export lookup that was masked locally by a warm temporary library cache. Fixed resolution to the exported module entry point and validated with a fresh temporary runtime directory; no application/data test failures. Audit task is needs review because incomplete/caution-bearing records are already published on the review page, not because they block integration.

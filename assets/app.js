@@ -126,7 +126,7 @@
   const target = params.get('entry');
   const targetRow = rows.find(r => r.dataset.id === target);
   if (targetRow) {
-    search.value = ''; category.value = locked || ''; evidence.value = 'all'; view = 'all';
+    search.value = ''; category.value = locked || ''; evidence.value = 'all'; sort.value = 'research'; view = 'all';
     // Research-order deep links reach their page without trusting input as a selector or HTML.
     const idx = rows.indexOf(targetRow);
     page = Math.floor(idx / perPage) + 1;

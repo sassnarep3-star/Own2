@@ -20,7 +20,7 @@ async function run() {
   const libs = path.join(os.tmpdir(), 'prize-ledger-libs');
   if (!fs.existsSync(path.join(libs, 'lib/libnspr4.so'))) {
     fs.mkdirSync(libs, {recursive:true});
-    const compressed = fs.readFileSync(path.join(path.dirname(require.resolve('@sparticuz/chromium/package.json')), 'bin/al2023.tar.br'));
+    const compressed = fs.readFileSync(path.resolve(path.dirname(require.resolve('@sparticuz/chromium')), '../../bin/al2023.tar.br'));
     const extracted = spawnSync('tar', ['-xf', '-', '-C', libs], {input:zlib.brotliDecompressSync(compressed)});
     assert.equal(extracted.status, 0, 'Extract browser runtime libraries');
   }
