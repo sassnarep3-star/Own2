@@ -66,7 +66,7 @@ for r in ordered:
  review+=f'<tr data-review="{e((r["name"]+" "+" ".join(flags)+" "+status).lower())}"><td><b>{e(r["name"])}</b><span class="entry-category">{e(CAT[r["category"]])}</span></td><td>{"<br>".join(e(f) for f in flags)}</td><td>{e(status)}<span class="entry-category">{e(c["checkedAt"][:10]) if c else ""}</span></td><td>{links}<button class="detail-button js-only" data-detail="{e(r["id"])}">View full evidence</button></td></tr>'
 review+='</tbody></table></div></section>'
 write('review/index.html',layout('Flagged for Review',review,'../','review'))
-write('404.html',layout('Page not found','<div class="panel"><h1>That page moved.</h1><p><a href="/Own2/index.html">Return to the competition directory →</a></p></div>','/Own2/'))
+write('404.html',layout('Page not found','<div class="panel"><h1>That page moved.</h1><p><a href="/Own2/competition-desk/index.html">Return to the competition directory →</a></p></div>','/Own2/competition-desk/'))
 # Plain CSV leaves unconfirmed values genuinely empty.
 buf=io.StringIO();w=csv.writer(buf);headers=['id','name','category','entryFee','prize','deadline','eligibility','payout','aiPolicy','officialUrl','reviewStatus','unknownFields'];w.writerow(headers)
 for r in ordered:w.writerow([r['id'],r['name'],CAT[r['category']],*[r['facts'][k] for k in ('entryFee','prize','deadline','eligibility','payout','aiPolicy')],r['officialUrl'],r['reviewStatus'],'; '.join(r['unknownFields'])])

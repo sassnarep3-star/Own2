@@ -1,14 +1,17 @@
-name: Official source reachability audit
+name: Competition Desk source reachability audit
 on:
   workflow_dispatch:
   push:
     branches: [arena/082959ac-own2]
-    paths: [scripts/audit_sources.py, .github/workflows/source-audit.yml]
+    paths: [competition-desk/scripts/audit_sources.py, .github/workflows/source-audit.yml]
 permissions:
   contents: write
 jobs:
   audit:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: competition-desk
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,7 +21,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: source-checks
-          path: audit-output/source-checks.json
+          path: competition-desk/audit-output/source-checks.json
           retention-days: 14
       - name: Record evidence on the assigned session branch
         if: github.ref == 'refs/heads/arena/082959ac-own2'

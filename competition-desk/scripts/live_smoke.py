@@ -1,6 +1,6 @@
 """Run after deployment; verify the actual public project subpath and assets."""
 import json,time,urllib.request
-BASE='https://sassnarep3-star.github.io/Own2/'
+BASE='https://sassnarep3-star.github.io/Own2/competition-desk/'
 data=json.load(open('data/competitions.json'))
 paths=['index.html','summary/index.html','review/index.html','assets/styles.css','assets/app.js','assets/catalog.json','data/competitions.csv','docs/source-checks.json']+[f'categories/{c["id"]}/index.html' for c in data['categories']]
 for path in paths:

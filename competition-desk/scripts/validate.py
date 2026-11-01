@@ -43,7 +43,7 @@ for path,page in pages.items():
  for href in page.links:
   u=urllib.parse.urlsplit(href)
   if u.scheme or u.netloc:continue
-  if u.path.startswith('/Own2/'):target=OUT/u.path[len('/Own2/'):]
+  if u.path.startswith('/Own2/competition-desk/'):target=OUT/u.path[len('/Own2/competition-desk/'):]
   elif u.path.startswith('/'):target=OUT/u.path.lstrip('/')
   elif u.path:target=path.parent/u.path
   else:target=path
