@@ -17,3 +17,8 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 - Implementation and local validation: done. Full official verification and external-link audit: needs review, published at review.html; not falsely marked done.
 
 - Final follow-up PR: https://github.com/sassnarep3-star/Own2/pull/2. Review queue is public and nonblocking; implementation delivered.
+
+## Session 582a1199-own2 (post-merge follow-up)
+
+- 2026-11-01: Independent session initially claimed the integration scope before seeing any other claim on `main`. During PR #3 integration, fetched `main` and discovered session `arena/f72a1743-own2` had meanwhile merged PRs #1 and #2. This is overlapping scope, not evidence of an abandoned claim. Retain that session's work; integrate the additional verified ARC Paper Track evidence without deleting its implementation. Arena fixes this session's branch name to `arena/582a1199-own2`.
+- Conflict log: `git rebase origin/main` encountered add/add `COORDINATION.md` at claim commit. Preserved the other session's full board and appended this handoff note; no work discarded. Shared output work is now final integration of both sessions. File scope: `COORDINATION.md`, `README.md`, `index.html`, `assets/**`, `category/**`, `data/catalog.json`, `flagged/**`, `scripts/*.{cjs}`, `.github/workflows/pages.yml`, `.nojekyll`; existing root category pages, root JS/CSS, and Python builder are retained.
