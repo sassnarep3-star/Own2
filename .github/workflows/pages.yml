@@ -1,0 +1,45 @@
+name: Validate Prize Ledger
+on:
+  push:
+    branches: [main, arena/ebd10b79-own2]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ledger-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Rebuild and validate preserved root dashboard
+        run: |
+          python3 scripts/build_site.py
+          python3 scripts/check_site.py
+          node scripts/build-pages.cjs
+          node scripts/check.cjs
+          python3 audits/2026-11-01/build.py
+          python3 audits/2026-11-01/test.py
+          node dashboard/tools/build.js
+          node dashboard/tools/linkcheck.js
+          node dashboard/tools/check-consistency.js
+          node ledger-verification/tools/build.mjs
+          node ledger-verification/tools/check.mjs
+      - run: npm run build
+      - run: npm test
+      - run: npm run test:browser
+      - name: Verify published pages and research artifacts are reproducible
+        run: git diff --exit-code
+      # Existing GitHub Pages source is main:/; its built-in Pages workflow
+      # publishes the committed root site after a validated PR is merged.
