@@ -1,6 +1,9 @@
 name: Official source reachability audit
 on:
   workflow_dispatch:
+  push:
+    branches: [arena/082959ac-own2]
+    paths: [scripts/audit_sources.py, .github/workflows/source-audit.yml]
 permissions:
   contents: read
 jobs:
