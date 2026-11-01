@@ -1,0 +1,11 @@
+{
+  "name": "own2-competition-desk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "python3 scripts/validate.py && playwright test",
+    "test:data": "python3 scripts/validate.py"
+  },
+  "devDependencies": {"@playwright/test": "1.56.1"}
+}
