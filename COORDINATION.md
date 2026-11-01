@@ -15,3 +15,5 @@ Only information observed in an official source is verified. Unknown fields rema
 
 ## Activity log
 - 2026-11-01: Repository inspected: only README.md exists (6 bytes), no site, data, workflow or prior coordination claims. Claimed scopes before starting work. The requested source is https://karagemop466-tech.github.io/FreeMoneyApps/. Outbound network restrictions may limit direct verification; any such restriction will be documented rather than treated as source evidence.
+- Claim push: remote session branch did not yet exist, so `pull --rebase origin <session-branch>` failed safely; rebased against main and pushed the claim to the assigned branch. No conflict or discarded work.
+- Imported all 206 rows from upstream assets/data.js; upstream labels are retained only as unverified provenance. Official source reachability audit will run in GitHub Actions because sandbox outbound access to operator domains is restricted. HTTP 200 alone will never verify cash/entry/eligibility claims.

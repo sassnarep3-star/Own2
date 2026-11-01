@@ -1,0 +1,5 @@
+node_modules/
+_site/
+audit-output/
+.playwright-cli/
+test-results/
