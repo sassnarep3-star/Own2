@@ -113,10 +113,15 @@ all_pages = sorted(q for q in ROOT.glob("**/*.html")
                    and "node_modules" not in q.parts)
 for p in all_pages:
     text = p.read_text()
+    strict = p.parent == ROOT          # root pages are ours; subsites belong to other sessions
     lk = Links(p.parent)
     lk.feed(text)
     if lk.bad:
-        fail(f"{p.name}: broken local links {sorted(set(lk.bad))}")
+        (fail if strict else warns.append)(
+            f"{p.name}: broken local links {sorted(set(lk.bad))}" if strict
+            else f"{p.name}: broken local links (owned by another session; not edited) {sorted(set(lk.bad))}")
+    if not strict:
+        continue
     if 'charset="utf-8"' not in text:
         fail(f"{p.name}: missing charset")
     if 'name="viewport"' not in text:
@@ -125,12 +130,9 @@ for p in all_pages:
         fail(f"{p.name}: missing lang")
     # anchor targets: both same-page "#x" and "page.html#x"
     anchors = set(re.findall(r'id="([^"]+)"', text))
-    generated = (p.parent == ROOT) and (p.name in GEN)
     for a in re.findall(r'href="#([^"]+)"', text):
         if a not in anchors:
-            (fail if generated else warns.append)(
-                f"{p.name}: in-page anchor #{a} has no target" if generated
-                else f"{p.name}: in-page anchor #{a} has no target (owned by another session; not edited)")
+            fail(f"{p.name}: in-page anchor #{a} has no target")
     for path, a in re.findall(r'href="([^"#]+)#([^"]+)"', text):
         if path.startswith(("http", "mailto")):
             continue
@@ -138,7 +140,7 @@ for p in all_pages:
         if tgt.is_dir():
             tgt = tgt / "index.html"
         if tgt.is_file() and f'id="{a}"' not in tgt.read_text():
-            warns.append(f"{p.name}: {path}#{a} target id not found")
+            fail(f"{p.name}: {path}#{a} target id not found")
 ok(f"{len(all_pages)} pages (root + parallel audit pages), internal links resolve, metadata present")
 for w in sorted(set(warns)):
     print("  warn " + w)

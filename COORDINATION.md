@@ -12,7 +12,7 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 |---|---|---|---|---|
 | Audit upstream ledger and official sources; retain unsupported claims in review queue | needs review | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
 | Build responsive category dashboard, summary and review pages | done | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
-| Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
+| Final integration, testing, GitHub Pages, PR and merge | done | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
 
 ## Activity log
 - 2026-11-01: Inspected repository: only a six-byte README existed; no prior coordination board, application or datasets. Claimed all work as the sole visible session. Only explicitly documented official-source evidence will be labeled verified. Unconfirmed fields remain empty and are published for review.
@@ -53,6 +53,15 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 
 - Final documentation-only concurrent update (PR #14): retained the ledger-verification wording correction and both deployment logs. This session’s board section is inserted near the beginning rather than appended to the shared log tail, avoiding repeated append/append conflicts with other sessions. No source evidence changed.
 
+- Post-release record PR #18 uncovered an integration defect in subsequently merged PR #16: eleven alternate pages had a shared `#content` skip link without its target. The main validation correctly failed. Final integration repaired only that missing focusable target in the eleven pages and their generator; no data, source claims, page layout or canonical root content changed. Repeated whole-repository link/evidence checks before merging the release record.
+### RELEASE COMPLETE · arena-ebd10b79 · 2026-11-01
+- Implementation PR: https://github.com/sassnarep3-star/Own2/pull/8 — **merged** at 2026-11-01T14:00:51Z, merge commit `3ef1bace736ff59d22a2c708afa792fb4d85ad2f`. No approval wait, no auto-merge, no direct main push.
+- Pre-merge checks passed: combined Prize Ledger validation (run https://github.com/sassnarep3-star/Own2/actions/runs/41313930471), canonical root validation, and ledger-verification checks. Main validation for the merge commit also passed (`41314033551`, `41314033317`, `41314033123`).
+- GitHub Pages deployment https://github.com/sassnarep3-star/Own2/actions/runs/41314032720 — **success**, including build, deploy and report-build-status jobs, for the same merge commit. Subsequent parallel-session deployments do not replace this unique site path.
+- Live content retrieved successfully after deployment: https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/ ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/summary.html ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/review.html . Confirmed expected headings, 216 records, six sourced free-entry cash-award records, 31 inspected official pages, and explicit review/verification limitations.
+- Final deliverable: 17-page independent dashboard, nine category subpages, 206 retained original listings + 10 researched event records, 45 historical exclusions separate, source notebook, summary, review queue, CSV/JSON and responsive search/saved/filter UI. Mobile/desktop/axe tests and ten row/provenance/link tests passed. All prior sites, source evidence and session histories remain intact.
+- Status: UI/build/integration/publication **done**. Official verification of remaining leads and external-link/legal completeness **needs review**, already public and nonblocking. No claim that every historical entry or every external link was independently verified. No contest accounts, entries or paid tools created.
+
 ---
 
 Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-own2`; platform branch restriction takes precedence over requested session branch naming.
@@ -91,6 +100,44 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 
 - 2026-11-01 integration: Rebasing on merged PRs #1–2 caused conflicts in COORDINATION.md, README.md and index.html. Preserved the earlier root dashboard and both audit histories; published the complementary mobile shortlist as explore.html. Updated the earlier builder and dataset to 209 records (206 historical + 3 event-level), including the officially confirmed ARC Paper Track. Its 208 unresolved rows remain flagged. Re-ran `python scripts/build.py`, `python scripts/test.py`, `node scripts/build-pages.cjs`, and `node scripts/check.cjs` successfully. Existing Pages source is legacy main-root, so removed a redundant workflow and extended existing validation workflow. External URLs are not exhaustively audited.
 - Push coordination: `git pull --rebase origin arena/582a1199-own2` after rebasing onto newly merged `main` attempted to replay the old session-branch history against the newer integrated history and hit a COORDINATION.md add/add conflict. Aborted that redundant rebase; confirmed the current branch already contains all merged-main commits and both sessions' records. The session branch alone will be updated with `--force-with-lease` (never `main`) to reflect the intentional rebase, without discarding upstream work.
+## Session arena-082959ac — isolated Competition Desk integration
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| 206-row import + official field evidence + all inherited URL attempts | needs review (published) | arena-082959ac | competition-desk/data/**, competition-desk/docs/** |
+| Responsive dashboard, nine category subpages, summary, review queue | done | arena-082959ac | competition-desk/** |
+| Combined validation, PR #12 merge and public deployment | done | arena-082959ac | competition-desk/**, .github/workflows/site.yml, .github/workflows/source-audit.yml, .gitignore; append-only COORDINATION.md |
+
+- Started from f0b01b8 with only the six-byte README and no board; claimed/pushed assigned fixed branch `arena/082959ac-own2` immediately. The remote branch did not exist for the first pull, so rebased against main before its initial push. Initial task history is preserved in competition-desk/COORDINATION.md.
+- 2026-11-01: PR https://github.com/sassnarep3-star/Own2/pull/12 passed its initial 16 browser tests and data checks, but GitHub reported main had advanced with other sessions' implementations. Paused before merging. Fetched/read the complete shared board and moved this implementation into **competition-desk/** instead of replacing any other session's files. `git merge origin/main --no-commit` then succeeded without conflicts. All prior main application files and the full shared board were retained byte-for-byte; the only shared edit is this appended coordination section. No other branch was created or pushed.
+- **Integration requests:** root-navigation owner may add a link to `competition-desk/index.html`. This session does not edit the root landing page, existing shared datasets/builders, or `.github/workflows/validate.yml`. New workflows are separately named and scoped to the isolated site.
+- Audit scope: all 206 original IDs retained plus 3 specific event findings (209 rows), 8 rows with field-level partial evidence, 201 without independently verified contest fields. All 209 carry at least one unresolved requirement and appear on competition-desk/review/index.html. Official URLs/excerpts/date for every populated field: competition-desk/data/competitions.json. One inherited press-release-only row has no established official operator source and is explicitly flagged rather than inventing an operator.
+- Sources independently inspected: Papaya FAQ; Kaggle directory, NFL Big Data Bowl 2027 overview/rules, ARC Paper Track overview; DrivenData directory and GEMS overview/rules gateway; ARC 2026 overview and ARC-AGI-3; Metaculus tournaments, Fall FutureEval and bot-resource introduction; Wergle Flomp (including its no-AI-generated-text rule). No uninspected chunks are treated as evidence.
+- Cross-session discrepancy independently rechecked: ARC overview says papers due Nov 8; Kaggle Paper Track overview says Nov 9 at 23:59 UTC. Both official links/excerpts appear in the ARC review record; its combined deadline field is blank. No inferred reconciliation adopted.
+- Reachability audit: **281 unique inherited signup/rules/terms URLs attempted** in GitHub Actions, including inherited secondary links. 229 HTTP 200, 26 HTTP 403, 7 HTTP 404, 11 network errors, 4 HTTP 202, 2 HTTP 307 errors, 1 HTTP 503, 1 HTTP 429. Full dated evidence in competition-desk/docs/source-checks.json. HTTP success is not verification; blocking/timeouts are not proof of permanent breakage. Official page-reader access and Actions HTTP results can differ.
+- Implementation QA: 13 HTML pages, all 209 IDs, 9 category partitions, 347 internal links/anchors, blank unknowns and per-field citations validated. 16 desktop/mobile browser tests passed; screenshots at 1440/390 px inspected. Fixed real page overflow from a screen-reader span outside its table-scroller containing block. Tests cover filters/search/sorting/save persistence/dialogs/keyboard/CSV/no-JS/mobile nav/review search. Browser binaries and temporary results remain out of Git.
+- Combined other-session checks after merge: `python scripts/build.py`, `python scripts/test.py`, `node scripts/check.cjs`, independent audit build/test, and dashboard build/linkcheck/consistency all passed with no generated HTML diff. Root application and other subsites were not modified.
+- Pages settings API update returned HTTP 403, so retained existing main/root native Pages publication. Small generated snapshot lives inside competition-desk/ and is checked for drift in CI. Main workflow smoke-tests 17 actual public URLs. No user settings input needed. Public target: https://sassnarep3-star.github.io/Own2/competition-desk/ . No contest accounts, entries, deposits or prize claims were made.
+- Pull/rebase integration note: after the non-destructive merge, ordinary `git pull --rebase` tried to flatten the merged other-session history and hit an older README modify/delete conflict. Stopped and aborted that replay, retaining the completed merge and all files. Repeated with `git pull --rebase=merges` so the existing merge topology is preserved; it completed successfully. No other-session file was discarded. Future pulls in this session preserve merges.
+- A repeat source-audit run refreshed only this subsite’s URL evidence on the assigned branch. Removed the workflow’s automatic evidence-commit step after this initial collection: future runs produce artifacts but do not race snapshot regeneration or silently push changes. Rebuilt snapshot with the refreshed results before revalidating.
+- Main advanced again with PRs #10/#13 during this session’s CI. Paused and merged their newest outputs. Conflicts were confined to shared append-only COORDINATION.md and .gitignore: retained newest main’s full board, appended this session’s section, and unioned ignore entries. All other files from those sessions were accepted unchanged. No root-navigation edit was made by this session.
+- Latest combined QA: current root `python scripts/build_site.py` / `python scripts/check_site.py`, alternate `node scripts/check.cjs`, dashboard link/consistency, and ledger-verification checks pass. The new root validator initially rejected this subsite’s absolute /Own2/... 404 links; fixed **only competition-desk/404.html and its builder** to use relative links. Root validation now passes all 56 scanned pages. No main-owned validator change was needed.
+- **Integration request / published review flag:** owner of `audits/2026-11-01/test.py` should adapt its upstream-ID read to the latest root `data/contests.json` object schema. That legacy test now raises TypeError (it assumed a top-level list) after concurrent PR #13 changed the root schema. This is an existing cross-session test-compatibility issue, not a failing current CI or broken application page; it is published on competition-desk/review/index.html. Scope ownership prevents editing that session’s test here. Prior pass statements describe earlier-main snapshots.
+
+- PRs #14/#15 added further other-session release records during CI. Preserved them in full. To avoid repeated end-of-file append collisions, this session’s additive section is now placed immediately after the board heading; no pre-existing session text is edited. Shared summary owner has independently added parallel-site links; this session still makes no navigation edits.
+
+
+- PR #8 added another isolated subsite and fixed the audit test schema incompatibility. Kept all its changes; the legacy test flag is now resolved and the public review note updated. A simultaneous top-of-board insertion caused a coordination-only conflict; retained both complete sections and placed this section before the completed independent-audit section to avoid future top/end insert collisions. Root .gitignore is retained exactly; own build ignores moved to competition-desk/.gitignore.
+
+
+### Competition Desk release complete — arena-082959ac
+
+- Primary PR: https://github.com/sassnarep3-star/Own2/pull/12 — **merged** using `gh pr merge 12 --merge` without approval wait at 2026-11-01T14:06:51Z. Merge commit: `30e441de370f07e916392f1df07acbfb3e57ffff`. No failing check was bypassed.
+- GitHub Pages deployment: https://github.com/sassnarep3-star/Own2/actions/runs/41314542028 — **success**. Pages build API confirms **built**, same merge commit, updated 2026-11-01T14:07:11Z. Existing legacy main/root configuration unchanged.
+- Main validation + public smoke run: https://github.com/sassnarep3-star/Own2/actions/runs/41314542798 — **success**. Repeated all 16 desktop/mobile tests, field/ID/link checks, snapshot drift check, combined root validator and 17 live public-URL checks. Independently fetched live landing with the page reader and confirmed title and 209-row catalog.
+- Live site: https://sassnarep3-star.github.io/Own2/competition-desk/ ; executive summary: /competition-desk/summary/ ; review queue: /competition-desk/review/ . All other sessions’ applications, evidence, generators and histories retained.
+- Implementation/integration/publication: **done**. Official contest qualification: **needs review**, published and nonblocking. Eight rows have partial inspected official facts; 201 have no independently confirmed contest fields. Every row has unresolved eligibility/payout or other requirements. Not a claim of full line-by-line verification of every operator’s rules. Three free+cash rows include a platform/event overlap. No contest account, entry, deposit or payout claim made.
+
 ## Session arena-05a44eaa: independent verification supplement
 
 | Task | Status | Owner | File scope |
@@ -315,8 +362,9 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 ## Pull request and publish record
 
 - PR: https://github.com/sassnarep3-star/Own2/pull/4 (branch `arena/36a6db9e-own2` → `main`)
-- Merge result: pending
-- GitHub Pages: already live from prior sessions at https://sassnarep3-star.github.io/Own2/ (deployment runs 41312740175, 41313015897, 41313110631 succeeded); deployment after PR #4 merge to be confirmed here.
+- Merge result: MERGED — PR https://github.com/sassnarep3-star/Own2/pull/4 (branch arena/36a6db9e-own2 → main) merged at 2026-11-01T14:00:45Z after the branch was rebased onto merged main (origin/main 9cbf8aa → commit 3a76554 pushed; main now f0a13e6 after PR #16). CI: Validate site + Ledger verification check + Validate Prize Ledger all success on main. No other-session work discarded.
+- GitHub Pages: CONFIRMED DEPLOYED after PR #4 merge — Pages API status `built` for main; live at https://sassnarep3-star.github.io/Own2/ (root dashboard: 209 competitions, category pages, review.html, flagged entries each carrying official source links; 12 no-official-source entries blanked and flagged UNVERIFIED). Sibling subsites retained: /ledger-verification/, /dashboard/, /audits/2026-11-01/.
+- Live spot checks retrieved 2026-11-01 against official operator pages: skillz.com, checkmategaming.com/free-tournaments, devpost.com/hackathons, chess.com/tournaments, fantasy.espn.com NFL Pick'em ($102K, free). Verified content matches the ledger; log-only, no dataset changes.
 
 ---
 
@@ -350,3 +398,8 @@ Upstream: https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a
 official source, the ARC/Kaggle paper-deadline discrepancy, the CheckMate claim-window conflict, Topcoder's
 JavaScript-only challenge list, and the per-contest Texas eligibility question for the sports games. All are
 published, with links, on `review.html`.
+
+### Competition Desk integration update (arena-082959ac)
+- PR #16's newly added alternate pages initially failed the combined validator because eleven skip links had no target. The owner fixed these in PR #18; merged latest main without editing those files independently. The earlier supplemental-audit schema issue was also fixed by its integration owner. Current shared validator passes. An ignored local `site/` build from the parallel dashboard contained a copied canonical summary with a relative snapshot link; removed only that disposable generated directory before clean-check validation. Removed this session’s accidentally staged root `_site/` additions while retaining every `_site/` file already on main. Own outputs remain isolated in competition-desk/.
+- Publication still waits for green checks; no failed check has been bypassed or merged. The shared workflows and all other-session data/builders are retained unchanged.
+
