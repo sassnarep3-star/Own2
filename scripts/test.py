@@ -13,7 +13,7 @@ assert len(rows)==209 and len({x['id'] for x in rows})==209
 assert {x['id'] for x in up['listings']} <= {x['id'] for x in rows}
 assert len(up['listings'])==206
 for r in rows:
- assert urlsplit(r['source']).scheme in ('http','https'),r['id']
+ assert urlsplit(r['source']).scheme == 'https',r['id']
  if r['id']!='arc-paper-2026': assert not r['free'],r['id']
  if not r['checked']:assert not any(r[k] for k in ['prize','deadline','eligibility','ai'])
 for p in R.glob('*.html'):

@@ -35,3 +35,7 @@ Original landing page retrieved: https://karagemop466-tech.github.io/FreeMoneyAp
 | gems-2026 | [Official NLR rules](https://docs.nlr.gov/docs/fy26osti/96647.pdf) §3.2 | Generative AI may be used in development, but use must be disclosed in the narrative. | Explicit no-fee clause was not located. |
 
 The original summary's statement that there are zero fully qualified rows described the earlier snapshot, before these additional rules were inspected. One row now has a confirmed no-purchase cash path, not a universal eligibility guarantee. [The Premier League's Second Chance article](https://www.premierleague.com/en/news/4220308/the-second-chance-league-is-live-in-fantasy) lists merchandise, not cash, and is from the 2025/26 season. [Skillz terms link](https://www.skillz.com/terms-of-service/) returned an operator 404.
+
+## Operator-pointer cleanup after live inspection
+
+The original source ledger cited a social post for Valorant Pick'em and third-party Myfxbook articles for XM and Headway. The normalized table now points to the source-ledger operator sites (`valorantesports.com`, `xm.com`, `hw.online`), **not** as proof that those contests currently exist or pay cash. SquaresPool's original HTTP URL was updated to the HTTPS operator site after an [official page retrieval](https://www.squarespool.com/) succeeded. All four rows remain unverified. The source-ledger claim for each operator still needs independent event-level review.
