@@ -1,0 +1,63 @@
+{
+ "id": "herox",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "Challenge.gov (sunset notice)",
+   "url": "https://www.challenge.gov/",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "USA.gov challenges and prize competitions",
+   "url": "https://www.usa.gov/challenges",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "not_found",
+   "text": "",
+   "quote": "The federal listing that the ledger points to was retired; prize figures were not verified in this pass.",
+   "url": "https://www.usa.gov/challenges"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not verified in this pass.",
+   "url": "https://www.usa.gov/challenges"
+  },
+  "deadline": {
+   "status": "not_found",
+   "text": "",
+   "quote": "Not verified in this pass.",
+   "url": "https://www.usa.gov/challenges"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Federal challenges set eligibility per competition.",
+   "url": "https://www.usa.gov/challenges"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.usa.gov/challenges"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated.",
+   "url": "https://www.usa.gov/challenges"
+  }
+ },
+ "summary": "The ledger's official source for this row, challenge.gov, was sunset on 2026-03-30 and now serves a redirect notice. Federal prize competitions are now listed through USA.gov; this row needs re-sourcing before it can be used.",
+ "flags": [
+  "Official source is a retired platform: Challenge.gov was sunset on 2026-03-30.",
+  "Replacement listing is https://www.usa.gov/find-active-challenge.",
+  "No prize figure could be verified."
+ ],
+ "deadline_iso": null
+}

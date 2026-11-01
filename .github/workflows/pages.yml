@@ -25,8 +25,8 @@ jobs:
       - run: npm ci
       - name: Rebuild and validate preserved root dashboard
         run: |
-          python3 scripts/build.py
-          python3 scripts/test.py
+          python3 scripts/build_site.py
+          python3 scripts/check_site.py
           node scripts/build-pages.cjs
           node scripts/check.cjs
           python3 audits/2026-11-01/build.py
@@ -34,6 +34,8 @@ jobs:
           node dashboard/tools/build.js
           node dashboard/tools/linkcheck.js
           node dashboard/tools/check-consistency.js
+          node ledger-verification/tools/build.mjs
+          node ledger-verification/tools/check.mjs
       - run: npm run build
       - run: npm test
       - run: npm run test:browser

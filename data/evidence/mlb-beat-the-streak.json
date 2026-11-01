@@ -1,0 +1,59 @@
+{
+ "id": "mlb-beat-the-streak",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "MLB Beat the Streak official rules",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "No purchase necessary to enter or win",
+   "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  },
+  "prize": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The prize amount was not adopted: the grand prize is conditional on a 57-hit streak and the rules sections holding the figure were not read.",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Starts 2026-03-24 about noon ET and ends with the final 2026 regular-season game",
+   "quote": "Starts March 24, 2026 about noon ET; ends with final 2026 regular-season game",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "US (including territories) and Canada except Quebec; age of majority and at least 21; MLB.com registration required",
+   "quote": "US including territories and Canada except Quebec; age of majority and at least 21",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed in the sections read.",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated in the sections read.",
+   "url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+  }
+ },
+ "summary": "Confirmed free entry and US eligibility, but the grand prize requires a 57-hit streak — a conditional jackpot, not a prize table. The season also ends with the 2026 regular season, so it is not open now.",
+ "flags": [
+  "Grand prize conditional on a 57-hit streak.",
+  "2026 season window — not open on the audit date.",
+  "Prize amount not adopted."
+ ],
+ "deadline_iso": null,
+ "attribution": "Parallel session arena-05a44eaa read this page on 2026-11-01; quote transcribed from audits/2026-11-01/evidence.json and checked into this repo."
+}

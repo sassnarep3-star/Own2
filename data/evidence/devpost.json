@@ -1,0 +1,64 @@
+{
+ "id": "devpost",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "Devpost open hackathons",
+   "url": "https://devpost.com/hackathons",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "PayPal AI Hackathon official rules (representative Devpost rules page)",
+   "url": "https://paypalaihackathon.devpost.com/rules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "Published per hackathon. Open on 2026-11-01: PayPal AI $67,500; Kiroween $100,000; Meta VR Start $1,000,000; Codegeist $120,000; UGREEN $46,000; Codex x TwitchCon $25,000",
+   "quote": "PayPal AI Hackathon ... $67,500 in prizes ... 11 days left | Kiroween 2026 ... $100,000 in prizes | Meta VR Start Developer Competition 2026 ... $1,000,000 in prizes",
+   "url": "https://devpost.com/hackathons"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to enter: standard Devpost rules state no purchase or payment is necessary.",
+   "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN. A PURCHASE OR PAYMENT WILL NOT INCREASE YOUR CHANCES OF WINNING.",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Per hackathon. Example: PayPal AI Hackathon submissions close 2026-11-12 12:00 pm Pacific; winners around 2026-12-21",
+   "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) - Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Individuals at or above the age of majority where they reside, teams, and organizations. Excluded: residents of Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea and other US-sanctioned countries; sponsor/administrator employees and judges.",
+   "quote": "The Hackathon IS open to: Individuals who are at least the age of majority where they reside as of the time of entry",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "AI tools are explicitly allowed on AI hackathons; each rules page governs what must be built and disclosed. Example rules permit any AI tool as long as the sponsor integration is central.",
+   "quote": "Any AI tool works, as long as PayPal integration is central to the project.",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment mechanics are not described on the listing or the rules sections read in this pass.",
+   "url": "https://devpost.com/hackathons"
+  }
+ },
+ "summary": "Best verified source of large, genuinely free-to-enter cash prizes: 14,220 hackathons indexed with six-figure pools live on 2026-11-01. Prize money is real cash; effort is a working software project judged within days.",
+ "flags": [
+  "Prize amounts are per-hackathon; the listing page shows pool totals, not per-place awards.",
+  "Many listings are student or invite-only events; check the rules page for each.",
+  "The ledger's 'currently $10,000 to $685,000 per hackathon' range is stale: the largest pool listed on 2026-11-01 was $1,000,000."
+ ],
+ "deadline_iso": null,
+ "attribution": "Additional live-verification supplied by parallel session be1d2210 from dashboard/data/verification/verified.json (pages read 2026-11-01)."
+}

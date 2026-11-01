@@ -1,0 +1,63 @@
+{
+ "id": "devpost-paypal",
+ "name": "PayPal AI Hackathon (Devpost)",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "PayPal AI Hackathon official rules",
+   "url": "https://paypalaihackathon.devpost.com/rules",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "Devpost hackathon listing (prize total)",
+   "url": "https://devpost.com/hackathons",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$67,500 in prizes",
+   "quote": "PayPal AI Hackathon ... $67,500 in prizes ... 11 days left",
+   "url": "https://devpost.com/hackathons"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "No purchase or payment necessary",
+   "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN. A PURCHASE OR PAYMENT WILL NOT INCREASE YOUR CHANCES OF WINNING.",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Submissions close 2026-11-12 at 12:00 pm Pacific; judging 2026-12-01 to 2026-12-15; winners about 2026-12-21",
+   "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) - Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Age of majority where you live; teams and organisations allowed; excludes residents of Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea and other US-sanctioned countries",
+   "quote": "Individuals who are at least the age of majority where they reside as of the time of entry",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "AI tools explicitly permitted; PayPal integration must be central",
+   "quote": "Any AI tool works, as long as PayPal integration is central to the project.",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment mechanics not read in this pass.",
+   "url": "https://paypalaihackathon.devpost.com/rules"
+  }
+ },
+ "summary": "The single best current fit for an AI-assisted workflow: $67,500 pool, free entry confirmed, closes 2026-11-12, AI tools explicitly allowed and only a PayPal sandbox integration required.",
+ "flags": [
+  "Prize is a pool total across categories; individual awards are smaller.",
+  "11 days of runway as of 2026-11-01."
+ ],
+ "deadline_iso": "2026-11-12"
+}

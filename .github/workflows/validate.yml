@@ -1,4 +1,4 @@
-name: Validate dashboard
+name: Validate site
 on: [push, pull_request]
 permissions:
   contents: read
@@ -13,7 +13,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: python scripts/build.py
-      - run: python scripts/test.py
-      - run: node scripts/check.cjs
-      - run: git diff --exit-code -- '*.html'
+      - name: Rebuild the site from data + evidence
+        run: python scripts/build_site.py
+      - name: Fail if generated pages are out of date
+        run: git diff --exit-code -- '*.html' 'data/contests.json'
+      - name: Validate evidence rules, links and metadata
+        run: python scripts/check_site.py

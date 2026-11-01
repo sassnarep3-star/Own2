@@ -147,7 +147,7 @@ def build():
     preview=OUT.parent
     for shared in list(ROOT.glob('*.html'))+[ROOT/'app.js',ROOT/'style.css',ROOT/'.nojekyll']:
         if shared.exists(): shutil.copy(shared,preview/shared.name)
-    for directory in ['assets','category','flagged','audits','data','dashboard']:
+    for directory in ['assets','category','flagged','audits','data','dashboard','ledger-verification']:
         if (ROOT/directory).exists(): shutil.copytree(ROOT/directory,preview/directory,dirs_exist_ok=True)
     print(f'Built {len(list(OUT.rglob("*.html")))} pages · {len(ROWS)} records · {len(SOURCES)} official sources · {sum(r["freeCash"] for r in ROWS)} free + cash sourced')
 if __name__=='__main__':build()

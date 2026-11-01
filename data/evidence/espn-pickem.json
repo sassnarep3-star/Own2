@@ -1,0 +1,62 @@
+{
+ "id": "espn-pickem",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "ESPN NFL Pick'em 2026 (picks page)",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "ESPN NFL Pick'em 2026 official rules",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay#CompleteRules",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$102,000 across 58 prizes in four game modes, plus $1,500 in guaranteed weekly prizes and a $5,000 bonus prize for playing all four modes every week",
+   "quote": "There are 58 prizes to be won this year worth $102K across four game modes - Standard, Spread, Pick 5 (NEW) and Confidence. ... $1,500 in guaranteed prizes available EVERY WEEK of the NFL season",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to play, up to 10 entries",
+   "quote": "FREE to play. Create up to 10 entries. Compete for 58 prizes worth $102K!",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Season runs 2026-09-09 to 2027-01-10; picks lock per game kickoff, Week 18 ends 2027-01-10",
+   "quote": "Event Dates 09/09/2026 - 01/10/2027",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Eligibility is defined in the complete official rules, which were not read in this pass; the picks page states no residency or age rule.",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay#CompleteRules"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The picks page does not address automated entry. ESPN terms may restrict scripting; unverified.",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay#CompleteRules"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Prize delivery terms sit in the complete rules section; not read in this pass.",
+   "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay#CompleteRules"
+  }
+ },
+ "summary": "Free, live, mid-season, 10 entries allowed and $102K spread over 58 prizes with weekly cash. Highest ratio of prize pool to effort for a US entrant right now - but eligibility and payment terms still need the full rules.",
+ "flags": [
+  "Eligibility (age/residency) not yet read from the official rules.",
+  "AI/automation policy unverified."
+ ],
+ "deadline_iso": "2027-01-10"
+}
