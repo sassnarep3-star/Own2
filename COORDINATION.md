@@ -58,13 +58,29 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 
 - Final publication-record PR #7 encountered a concurrent append conflict after PR #6 merged. Paused, retained both sessions’ complete deployment logs, and rebased; no application files changed or other-session work discarded.
 
-## Session arena-36a6db9e-own2 — integration continuation (2026-11-01)
+## Session be1d2210 (independent "verified-or-blank" dashboard at `/dashboard/`)
+
+| Task | Status | Owner | File scope |
+|---|---|---|---|
+| Repo review of karagemop466-tech/FreeMoneyApps + offline audit (T1, T2) | done | be1d2210 | `dashboard/audit/**`, `dashboard/data/raw/**`, `dashboard/tools/{extract,audit}.js` |
+| Live verification of 13 entries against official pages (T3) | done for 13; remaining 191 → **needs review** (unclaimed follow-up T7) | be1d2210 | `dashboard/data/verification/**` |
+| Site, executive summary, flagged page (T4, T5) | done | be1d2210 | `dashboard/**` only |
+| Integration PR → main, merge, Pages check (T6) | in progress → see log | be1d2210 | `dashboard/**`, this file (append-only) |
+
+- 2026-11-01: **Overlap note.** This session started from the initial commit (empty repo; board did not exist on that snapshot) and worked in isolation. When opening the PR it found that sessions f72a1743, 582a1199 and 05a44eaa had already merged full sites (PRs #1–#7) at the repository root. Rather than overwrite them, this session moved its entire site into `dashboard/` (an independent site; the project brief expects multiple sites), merged `origin/main` into its branch (only conflict: `README.md` modify/delete → kept the other session's README; `COORDINATION.md` taken from main and appended here), and edited **no** file outside `dashboard/` except this append-only log.
+- Sources & verification (details: `dashboard/data/verification/verified.json`, `dashboard/audit/SOURCE_REPO_REVIEW.md`): source ledger at karagemop466-tech/FreeMoneyApps commit 466f7c1e7a14b52b4a0d36beb84a00d68fd409b7; official pages fetched live 2026-11-01 for arcprize.org, kaggle.com (competitions index + ARC-AGI-2), devpost.com/hackathons, drivendata.org/competitions, metaculus.com/tournaments, fantasy.espn.com (NFL Pick'em, Survivor), cbssports.com Pro Football Pick'em rules (chunks 0–1 of 5), checkmategaming.com/free-tournaments, aicrowd.com ARC White-Box, mlb.com Beat the Streak, fantasygames.nascar.com rules (chunk 0 of 5), tradingview.com/the-leap (chunk 0 of 3). Topcoder and Zindi returned no content (JS-only). 11 of 13 readable entries show a discrepancy or unconfirmable figure vs the old ledger.
+- Checks run after merging main: `python scripts/build.py`, `python scripts/test.py`, `node scripts/check.cjs` (other sessions' checks) all pass with no generated diff; `node dashboard/tools/build.js`, `linkcheck.js` (17 pages, 801 internal links, 412 rows each with an official link, 0 problems) and `check-consistency.js` (0 problems) pass. External link-rot not measurable here (network allow-list); `dashboard/tools/linkcheck-external.js` provided.
+- Cross-session findings: arcprize.org states Paper Track papers due 2026-11-08 while session 582a1199 reports 2026-11-09 from the Kaggle rules → logged as a discrepancy on `dashboard/flagged.html`. Our GEMS finding (free entry not confirmed) matches 582a1199's.
+- **Integration requests (not performed by this session, per scope rules):** (1) owner of root `index.html`/navigation: add a link to `/dashboard/`; (2) owner of `.github/workflows/validate.yml`: optionally append `node dashboard/tools/build.js && node dashboard/tools/linkcheck.js && node dashboard/tools/check-consistency.js`.
+- Irregularities: `dashboard/flagged.html` sections A–E. Not blocking.
+
+## Session arena-36a6db9e-own2 — integration continuation (2026-11-01) — appended after session be1d2210 section
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
 | Independent ledger import, analysis, and spot verification of official sources | done | arena-36a6db9e-own2 | Verification log appended below; no duplicate application files added to the deployed site structure |
 
-- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited in a categories/ site structure. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209 records including GEMS Prize Challenge and ARC Prize event records with official sources). No duplicate application files were added to main from this session.
+- Parallel import of the Free Money & Contest Ledger (pass S, reviewed 2026-08-19): 206 entries audited in a categories/ site structure. That parallel build was validated (14 pages, no broken internal links, every row carries source link(s), 12 entries without an official source flagged unverified) and then **retired in favor of the deployed structure on main** (`category/*.html`, `data/contests.json` at 209 records including GEMS Prize Challenge and ARC Prize event records with official sources; plus the independent `dashboard/` site at 207 rows). No duplicate application files were added to main from this session.
 - Independent spot checks against official operator pages (all retrieved 2026-11-01 via page retrieval; content matched the ledger):
   - https://www.skillz.com/ — homepage loads ("Win cash and real-world prizes..."). Source CHECKED. (terms-of-service 404 remains flagged by prior sessions.)
   - https://www.checkmategaming.com/free-tournaments — "Totally free to enter with real cash prizes. New tournaments posted daily." Source CHECKED.
@@ -72,7 +88,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
   - https://www.chess.com/tournaments — loads; tournaments starting every few minutes. Source CHECKED.
   - https://fantasy.espn.com/games/nfl-pickem-2026/make-picks — "58 prizes ... worth $102K", FREE to play, up to 10 entries, dates 09/09/2026 - 01/10/2027. Source CHECKED.
 - These spot checks update the verification log only; data/contests.json evidence cells are left as prior sessions left them (rows remain flagged per their board) to avoid altering the deployed dataset outside a coordinated integration pass.
-- Irregularities carried forward from prior sessions remain published on the live site (review.html / flagged/): 12 entries without an official source, Skillz terms 404, SquaresPool HTTP source, Premier League Second Chance merchandise-not-cash, FPL mini-league third-party citations.
+- Irregularities carried forward remain published on the live site (review.html / flagged/ and dashboard/flagged.html): 12 entries without an official source, Skillz terms 404, SquaresPool HTTP source, Premier League Second Chance merchandise-not-cash, FPL mini-league third-party citations; dashboard Paper Track date discrepancy (Kaggle rules 2026-11-09 vs arcprize.org 2026-11-08) logged there.
 - This session's branch `arena/36a6db9e-own2` was merged into main via PR #4 after rebasing onto merged main; no other-session work discarded.
 
 ## Pull request and publish record
