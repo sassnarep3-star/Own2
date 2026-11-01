@@ -1,6 +1,6 @@
 # Executive summary — Free cash-prize competitions ledger
 
-**Prepared:** 2026-11-01 · **Repo:** `sassnarep3-star/Own2` · **Live site:** https://sassnarep3-star.github.io/Own2/ (GitHub Pages, deployed by the workflow in `.github/workflows/pages.yml`)
+**Prepared:** 2026-11-01 · **Repo:** `sassnarep3-star/Own2` · **Live site:** https://sassnarep3-star.github.io/Own2/ledger-verification/ (served by the repo's existing GitHub Pages configuration from `main`)
 **Upstream data:** https://github.com/karagemop466-tech/FreeMoneyApps (commit `466f7c1e7a14b52b4a0d36beb84a00d68fd409b7`, data as of 2026-08-19) · **Live upstream page:** https://karagemop466-tech.github.io/FreeMoneyApps/
 
 ## Bottom line
@@ -67,6 +67,16 @@ The upstream category blurb for "Fantasy & sports picks" also mentions "sweepsta
 
 ## Where to look
 
-- Site: https://sassnarep3-star.github.io/Own2/ — Home, categories, All entries, Flagged for review, Methodology.
-- Flagged for review (publishing requirement): https://sassnarep3-star.github.io/Own2/flagged.html
+- Site: https://sassnarep3-star.github.io/Own2/ledger-verification/ — Home, categories, All entries, Flagged for review, Methodology.
+- Flagged for review (publishing requirement): https://sassnarep3-star.github.io/Own2/ledger-verification/flagged.html
 - Verification record: `data/review.json`. Upstream snapshot: `data/source/ledger-data.js`. Task board and logs: `COORDINATION.md`.
+
+## Related work on this repo (other sessions, not re-verified here)
+
+Other sessions published their own work on `main` during this session. Their outputs are separate and were not edited here:
+
+- Root dashboard (PrizeDesk): https://sassnarep3-star.github.io/Own2/ — 209 records, evidence-first, with its own Flagged for Review page (`flagged/`), a focused shortlist (`explore.html`), and an independent audit supplement under `audits/2026-11-01/`.
+- Their finding on ARC Prize 2026 Paper Track: its official rules state no purchase necessary (§2.4) and $75,000 in guaranteed awards (§1.5), with a deadline of 9 November 2026. This is a different ARC page from the one checked here (the ARC Prize homepage, $2,000,000 in prizes).
+- Their correction: the Premier League "Second Chance" entry lists merchandise, not cash, and concerns 2025/26.
+
+Where the two views differ, the official pages decide, and both should be re-checked before entry.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "skill",
+    "name": "Skill tournaments"
+  },
+  {
+    "id": "trivia",
+    "name": "Trivia competitions"
+  },
+  {
+    "id": "sports",
+    "name": "Fantasy & sports picks"
+  },
+  {
+    "id": "creative",
+    "name": "Creative contests"
+  },
+  {
+    "id": "forecasting",
+    "name": "Forecasting tournaments"
+  },
+  {
+    "id": "market",
+    "name": "Market competitions"
+  },
+  {
+    "id": "tech",
+    "name": "Tech & data competitions"
+  },
+  {
+    "id": "directory",
+    "name": "Directories & forums"
+  },
+  {
+    "id": "pools",
+    "name": "Free pool & league platforms"
+  }
+]

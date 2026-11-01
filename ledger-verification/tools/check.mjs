@@ -1,7 +1,7 @@
-// Verifies the generated site in _site/ against the rules in the brief. Exits non-zero on any failure.
+// Verifies the generated site in ledger-verification/ against the rules in the brief. Exits non-zero on any failure.
 //   1. Every listing appears exactly once in the all-entries table, with an official signup link.
 //   2. Category pages together contain every listing once.
-//   3. Every internal link and asset resolves to a file in _site/.
+//   3. Every internal link and asset resolves to a file in ledger-verification/.
 //   4. Verified prize cells contain only values that come from an official page (review.json), and
 //      every unverified row shows a blank prize.
 //   5. Verified or partial rows carry a checked-page link.
@@ -12,7 +12,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const SITE = path.join(ROOT, '_site');
+const SITE = ROOT;
 const data = JSON.parse(fs.readFileSync(path.join(SITE, 'data/listings.json'), 'utf8'));
 const review = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/review.json'), 'utf8'));
 const failures = [];

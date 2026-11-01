@@ -1,4 +1,4 @@
-// Builds the static site into _site/ from:
+// Builds the static site into ledger-verification/ (this folder) from:
 //   data/source/ledger-data.js  (unmodified snapshot of the upstream ledger)
 //   data/review.json            (this review's verification record, flags, irregularities)
 // Rules enforced here:
@@ -11,7 +11,7 @@ import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const OUT = path.join(ROOT, '_site');
+const OUT = ROOT; // generated pages are written next to their sources; see GENERATED below
 
 const src = fs.readFileSync(path.join(ROOT, 'data/source/ledger-data.js'), 'utf8');
 const sandbox = { window: {} };
@@ -532,7 +532,7 @@ ${rows.map((r) => rowHtml(r, { showCategory: true })).join('\n')}
 <h2>Sources used in this pass</h2>
 <div class="table-wrap"><table class="data simple"><thead><tr><th>Source</th><th>Link</th><th>Use</th></tr></thead><tbody>${sourcesList}</tbody></table></div>
 <h2>Reproduce</h2>
-<p><code>node scripts/build.mjs</code> then <code>node scripts/check.mjs</code>. Output is written to <code>_site/</code>. The site is deployed by GitHub Pages from <code>.github/workflows/pages.yml</code>.</p>`;
+<p><code>node ledger-verification/tools/build.mjs</code> then <code>node ledger-verification/tools/check.mjs</code>. Generated pages are committed in <code>ledger-verification/</code>; the workflow <code>.github/workflows/ledger-verification.yml</code> fails if they differ from a fresh build. GitHub Pages serves the repository root of <code>main</code> (existing legacy configuration), so this folder is live at <code>/Own2/ledger-verification/</code>.</p>`;
   pages['methodology.html'] = layout({ title: 'Methodology', root: '', active: 'method', body });
 }
 
@@ -545,18 +545,16 @@ pages['404.html'] = layout({
 });
 
 // ---------- write ----------
-fs.rmSync(OUT, { recursive: true, force: true });
+// Remove only the generated outputs; sources (assets/, data/source, data/review.json, tools/) are never touched.
+const GENERATED = ['index.html', 'all.html', 'flagged.html', 'executive-summary.html', 'methodology.html', '404.html', 'categories', 'data/listings.json'];
+for (const g of GENERATED) fs.rmSync(path.join(OUT, g), { recursive: true, force: true });
 fs.mkdirSync(path.join(OUT, 'categories'), { recursive: true });
-fs.mkdirSync(path.join(OUT, 'assets'), { recursive: true });
 fs.mkdirSync(path.join(OUT, 'data'), { recursive: true });
 for (const [rel, html] of Object.entries(pages)) fs.writeFileSync(path.join(OUT, rel), html);
-fs.copyFileSync(path.join(ROOT, 'site/assets/style.css'), path.join(OUT, 'assets/style.css'));
-fs.copyFileSync(path.join(ROOT, 'site/assets/app.js'), path.join(OUT, 'assets/app.js'));
-fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 fs.writeFileSync(
   path.join(OUT, 'data/listings.json'),
   JSON.stringify({ checkedOn: CHECKED_ON, sourceCommit: SOURCE_COMMIT, stats: STATS, rows, irregularities: REVIEW.irregularities }, null, 2),
 );
 
 console.log(JSON.stringify(STATS, null, 2));
-console.log(`Wrote ${Object.keys(pages).length} pages to ${path.relative(ROOT, OUT)}/`);
+console.log(`Wrote ${Object.keys(pages).length} pages to ${path.relative(path.resolve(ROOT, '..'), OUT)}/`);
