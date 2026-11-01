@@ -1,0 +1,59 @@
+{
+ "id": "andys-predictor",
+ "checked": "2026-11-01",
+ "category": "sports",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "Andy Robson's £1,000,000 Premier League Predictor Game 26/27",
+   "url": "https://andysbetclub.co.uk/predictor-game/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "£1,000,000 only for a perfect 1-20 table prediction, split between all perfect entries; realistic prizes are £500 / £250 / £100 cash for the closest predictions",
+   "quote": "1st place wins £500 cash, 2nd place £250, and 3rd place £100. ... A perfect prediction wins £1,000,000.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free to enter",
+   "quote": "Whoever tops the leaderboard will win £500 cash, 2nd will receive £250 cash and third £100 cash and it's completely free to enter.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Entry closed 2026-09-18 at 12:00 BST for the 26/27 season",
+   "quote": "The deadline to enter (or edit your predictions) is Friday 18th September at 12:00BST.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "18+; the £1,000,000 jackpot is limited to UK or Ireland residents, and entries from outside the UK and Ireland are not eligible",
+   "quote": "The £1,000,000 jackpot can only be won by a UK or Ireland resident. ... Entries from outside the UK and Ireland are not currently eligible.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed on the page.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method not described; prizes must be claimed within 30 days.",
+   "url": "https://andysbetclub.co.uk/predictor-game/"
+  }
+ },
+ "summary": "Two problems: entry closed on 2026-09-18 for the 26/27 season, and the headline £1,000,000 is a lottery-style perfect-table jackpot on a betting-tipster site limited to UK/Ireland residents - not a US-eligible cash opportunity.",
+ "flags": [
+  "Entry closed 2026-09-18; upstream listed it as live.",
+  "Headline prize is a near-impossible perfect-table jackpot, shared; typical prizes £100-£500.",
+  "UK/Ireland only - not available to a US entrant.",
+  "Publisher is a betting-tipster affiliate site."
+ ],
+ "deadline_iso": "2026-09-18"
+}
