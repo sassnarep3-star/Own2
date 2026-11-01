@@ -1,0 +1,34 @@
+{
+ "id": "bullrush",
+ "checked": "2026-11-01",
+ "category": "market",
+ "verdict": "flagged",
+ "sources": [
+  {
+   "title": "BullRush competition types (official)",
+   "url": "https://bullrush.com/competition-types/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Only the hourly competitions and some weekend events are free; daily entry is $5, weekly $10 and the monthly main event $50. The ledger's 'free to enter' framing only holds for the free tier.",
+   "quote": "1 Free Hourly Competitions ... No entry fee, no re-buys ... 2 Daily Competitions - Free or $5 Entry ... 3 Weekly Competitions - Free to Enter or $10 Entry ... 4 Monthly Tournament - Free or $50 Entry",
+   "url": "https://bullrush.com/competition-types/"
+  },
+  "prize": {
+   "status": "confirmed",
+   "text": "Headline prize is a $101,000 pool made up mostly of simulated prop-firm accounts (50K/25K/15K/5K) plus a share of the entry-fee pool; only a minority is described as cash rewards.",
+   "quote": "$100,000+ Prize Pool. Prizes include BR Prop Accounts and cash rewards ... $50K Prop Account + 50% of Prize Pool",
+   "url": "https://bullrush.com/competition-types/"
+  }
+ },
+ "summary": "Prop-firm trading contest: free hourly rounds exist, but the $101K monthly event charges $50 to enter and pays mostly in simulated funded accounts, not cash.",
+ "flags": [
+  "Entry fee applies to the daily, weekly and monthly brackets, so it is not a free-to-enter cash competition.",
+  "Headline prize is largely prop-account credit tied to a funded-account programme, not withdrawable cash.",
+  "Prize pool is partly funded by other entrants' fees (-20% rake on Profit Rush)."
+ ],
+ "attribution": "Verified by session arena-f10345ed against bullrush.com on 2026-11-01."
+}
