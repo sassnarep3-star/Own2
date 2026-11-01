@@ -1,4 +1,4 @@
-name: Validate and publish Prize Ledger
+name: Validate Prize Ledger
 on:
   push:
     branches: [main, arena/ebd10b79-own2]
@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,22 +26,7 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: npm run test:browser
-      - name: Ensure generated research artifacts are current
-        run: git diff --exit-code -- data/ledger.json research/AUDIT.md
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-  deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: validate
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Publish GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Verify published pages and research artifacts are reproducible
+        run: git diff --exit-code
+      # Existing GitHub Pages source is main:/; its built-in Pages workflow
+      # publishes the committed root site after a validated PR is merged.

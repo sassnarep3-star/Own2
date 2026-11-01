@@ -35,7 +35,7 @@ npm run preview
 
 The preview binds `0.0.0.0:4173`. Browser tests use an NPM-distributed Chromium with bundled runtime libraries rather than downloading a browser from blocked CDN hosts. `npm run test:browser` starts and stops its own temporary test server; use `BASE_URL` to point at an existing server.
 
-The site generator itself uses only Python's standard library. `site/`, browser binaries, dependencies, screenshots and test results are excluded from Git. No credentials, paid APIs, fonts, analytics or third-party frontend scripts are needed.
+The site generator itself uses only Python's standard library. `site/`, browser binaries, dependencies, screenshots and test results are excluded from Git. Static root HTML, `.nojekyll` and CSV are deliberately committed because the existing Pages configuration publishes `main:/` and the Pages settings API denied changes. No credentials, paid APIs, fonts, analytics or third-party frontend scripts are needed.
 
 ## Files and provenance
 
@@ -50,7 +50,7 @@ The site generator itself uses only Python's standard library. `site/`, browser 
 
 ## Publishing
 
-`.github/workflows/pages.yml` validates pushes and pull requests. Main publishes only after the static checks and browser tests pass. GitHub Pages must use **GitHub Actions** as its build source. Deployment never requires a committed build directory or another branch.
+`.github/workflows/pages.yml` validates pushes and pull requests. The existing GitHub Pages configuration publishes from **main, repository root**. The build refreshes the exact committed static root pages and export; CI checks their reproducibility. Merge only after validation passes; GitHub’s built-in Pages workflow then publishes the root files. No alternate branch or manual settings change is needed. The redundant `site/` preview directory is not committed.
 
 ## Updating evidence
 

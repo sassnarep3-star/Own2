@@ -7,7 +7,7 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 | Task | Status | Owner | File scope | Updated |
 |---|---|---|---|---|
 | Audit upstream ledger and official sources; retain unsupported claims in review queue | in progress | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
-| Build responsive category dashboard, summary and review pages | in progress | arena-ebd10b79 | index.html, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
+| Build responsive category dashboard, summary and review pages | in progress | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
 | Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
 
 ## Activity log
@@ -22,3 +22,5 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 - Local verification: deterministic 17-page static build; nine Python tests for every row's evidence/provenance, null blanks, all local links/assets/fragments, category coverage, review coverage and CSV consistency. Playwright tests passed for filtering, cash-equivalent exclusion, search, saved persistence, pagination, category locks, evidence deep links, blocked localStorage and no-JavaScript content. Desktop 1440px and mobile 390/320px tested for overflow and axe WCAG A/AA violations (none on overview). Screenshots inspected. No guarantee of all possible accessibility issues or all external URLs.
 - Browser CDN downloads were unavailable in the sandbox. Used an NPM-distributed Chromium and its bundled runtime libraries instead; no generated browser binaries committed.
 - Integration ready: publication workflow validates build, rows, links and browser behavior before deploying main. Build artifacts and test screenshots excluded from Git. No paid APIs, accounts, contest entries, or credentials used.
+
+- Publication adjustment: Pages settings API returned HTTP 403 (resource not accessible by integration), despite existing Pages being readable and configured for `main:/`. Reused that already-enabled route: generated root HTML, `.nojekyll`, and CSV are intentionally committed as required publication artifacts; `site/` remains ignored. No request for user input or unsupported permission claim. Initial CI browser step failed on ubuntu-latest; pinned the test OS and added structured error annotations for diagnosis. No merge attempted with a failing check.

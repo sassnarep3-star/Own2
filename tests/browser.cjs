@@ -95,4 +95,4 @@ async function run() {
   await browser.close();
   console.log('PASS: filtering, strict cash exclusions, search, save/unsave/persistence, pagination, category locks, deep links, mobile 320/390px, desktop 1440px, axe WCAG AA, no-JS content and blocked storage.');
 }
-run().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server?.kill());
+run().catch(e=>{console.error(e); console.error('::error::Browser validation failed: '+String(e.message).replace(/\n/g,' '));process.exitCode=1;}).finally(()=>server?.kill());

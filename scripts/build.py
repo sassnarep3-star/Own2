@@ -1,5 +1,5 @@
 """Dependency-free, deterministic GitHub Pages site generator."""
-import csv, html, io, json, re, shutil
+import csv, html, io, json, re, shutil, sys
 from collections import Counter
 from pathlib import Path
 from prepare_data import prepare
@@ -66,7 +66,7 @@ def render_row(r,prefix):
     detail=''.join('<dt>'+LABELS[k]+'</dt><dd>'+ (E(v['value'])+refs(v,prefix) if v else '<span class="blank" aria-label="Unverified; intentionally blank"></span>')+'</dd>' for k,v in fields.items())
     detail+='<dt>Unverified fields</dt><dd>'+E(', '.join(r['missing']) or 'No empty tracked fields; specific cautions below still apply.')+'</dd>'
     flags='<ul>'+''.join('<li>'+E(f)+'</li>' for f in r['flags'])+'</ul>' if r['flags'] else ''
-    origin=a(UPSTREAM,'Original ledger record ↗')+' · '+a(prefix+'data/upstream.json','Archived claims (unverified)') if r['origin']=='upstream' else 'Added from current official-source research.'
+    origin=a(UPSTREAM,'Original ledger record ↗')+' · '+a(prefix+'research/upstream.json','Archived claims (unverified)') if r['origin']=='upstream' else 'Added from current official-source research.'
     detail+=f'<dt>Provenance</dt><dd>{origin}</dd>'
     # Only a source notebook inspection counts as checked. Raw inherited links remain labeled candidates.
     if r.get('candidates'):
@@ -110,7 +110,11 @@ def build():
     for path in ['assets','data']:
         (OUT/path).mkdir(exist_ok=True)
     for f in (ROOT/'assets').iterdir():shutil.copy(f,OUT/'assets'/f.name)
-    shutil.copy(ROOT/'data/ledger.json',OUT/'data/ledger.json');shutil.copy(ROOT/'research/upstream.json',OUT/'data/upstream.json')
+    shutil.copy(ROOT/'data/ledger.json',OUT/'data/ledger.json')
+    (OUT/'research').mkdir(exist_ok=True)
+    shutil.copy(ROOT/'research/upstream.json',OUT/'research/upstream.json')
+    # Remove an obsolete build-only export, never any repository source.
+    (OUT/'data/upstream.json').unlink(missing_ok=True)
     (OUT/'.nojekyll').touch()
     dashboard=heading('The competition research desk','Spend your time on the right challenge.','Find free-to-enter competitions, understand the rules, and make an informed choice.<br>Every confirmed detail has official evidence. Everything else is clearly flagged.',a('./competitions.html','<span>↗</span> Explore all opportunities',**{'class':'button primary'}))
     page('index.html','Overview',dashboard+metrics()+notice()+shortlist()+table(ROWS)+bottom())
@@ -132,5 +136,12 @@ def build():
     page('sources.html','Source notebook',sourcehtml+'</div>')
     page('404.html','Page not found',heading('404 / Not found','This page is not in the ledger.','The link may be out of date. Return to the dashboard or browse the full inventory.',a('./index.html','Back to overview',**{'class':'button primary'})))
     audit_files()
+    if '--publish-root' in sys.argv:
+        # Existing Pages configuration is main:/ and its settings API is not writable.
+        # Commit only the exact static pages/exports required by that publishing route.
+        for generated in list(OUT.rglob('*.html'))+[OUT/'.nojekyll',OUT/'data/ledger.csv']:
+            target=ROOT/generated.relative_to(OUT)
+            target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy(generated,target)
     print(f'Built {len(list(OUT.rglob("*.html")))} pages · {len(ROWS)} records · {len(SOURCES)} official sources · {sum(r["freeCash"] for r in ROWS)} free + cash sourced')
 if __name__=='__main__':build()

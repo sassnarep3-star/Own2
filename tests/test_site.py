@@ -17,6 +17,9 @@ class Links(HTMLParser):
         if tag=='title':self.title=True
         if tag=='meta' and d.get('name')=='viewport':self.viewport=True
 class SiteTests(unittest.TestCase):
+    def test_published_root_matches_build(self):
+        for generated in list(SITE.rglob('*.html'))+[SITE/'.nojekyll',SITE/'data/ledger.csv']:
+            self.assertEqual(generated.read_bytes(),(ROOT/generated.relative_to(SITE)).read_bytes(),generated)
     def test_all_original_records_retained(self):
         original=json.loads((ROOT/'research/upstream.json').read_text())
         ids=[r['id'] for r in DATA['rows']]
