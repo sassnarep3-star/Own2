@@ -29,6 +29,6 @@ All 209 entries have unresolved requirements. Three rows have explicit free-entr
 
 ## Build and publish
 
-`npm run build` writes `_site/` (ignored). `scripts/validate.py` checks row coverage, evidence integrity and local links. GitHub Actions runs data/build checks plus desktop/mobile browser tests on pull requests. Main publishes `_site/` through GitHub Pages Actions after checks pass.
+`npm run build` writes `_site/` (ignored). `scripts/validate.py` checks row coverage, evidence integrity and local links. GitHub Actions runs data/build checks plus desktop/mobile browser tests on pull requests. The existing GitHub Pages main/root deployment publishes the checked-in static snapshot after merge. `python scripts/snapshot.py` refreshes that snapshot from `_site/`; CI checks it for drift. The main workflow runs public-URL smoke checks while GitHub’s native Pages job publishes it.
 
 No external fonts, analytics, remote frontend libraries or backend are required. Saved items use browser local storage only. CSV export leaves unknown values empty. The website makes no contest submissions or deposits.
