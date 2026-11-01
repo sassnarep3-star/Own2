@@ -330,7 +330,7 @@
       "facts": {
         "entryFee": "",
         "prize": "$2,000,000 across three 2026 tracks",
-        "deadline": "2026-11-02 submissions; 2026-11-08 papers",
+        "deadline": "",
         "eligibility": "",
         "payout": "",
         "aiPolicy": "AI solutions; no internet / API systems during Kaggle evaluation"
@@ -339,12 +339,6 @@
         "prize": {
           "url": "https://arcprize.org/competitions/2026",
           "quote": "$2M in prizes. 3 tracks. Open source progress toward AGI.",
-          "checked": "2026-11-01",
-          "method": "Official page text inspected"
-        },
-        "deadline": {
-          "url": "https://arcprize.org/competitions/2026",
-          "quote": "November 2, 2026 - Submissions due; November 8, 2026 - Papers due",
           "checked": "2026-11-01",
           "method": "Official page text inspected"
         },
@@ -357,19 +351,35 @@
       },
       "notes": [
         "Prizes require reproducible open-source submissions. Track-specific conditions apply.",
-        "Very short runway as of the audit: submissions due November 2. Entry fee and full personal eligibility not independently established."
+        "Very short runway as of the audit: submissions due November 2. Entry fee and full personal eligibility not independently established.",
+        "Official deadline conflict: ARC\u2019s 2026 overview says papers due November 8, 2026; Kaggle Paper Track overview says November 9, 2026 at 23:59 UTC. Both inspected November 1. Deadline cell left blank; do not resolve the conflict by inference."
       ],
       "priority": 4,
       "checked": "2026-11-01",
       "unknownFields": [
         "entryFee",
         "eligibility",
-        "payout"
+        "payout",
+        "deadline"
       ],
       "reviewStatus": "partial",
       "freeCash": false,
       "flags": [
-        "Unverified: entryFee, eligibility, payout"
+        "Unverified: entryFee, eligibility, payout, deadline"
+      ],
+      "additionalSources": [
+        {
+          "url": "https://arcprize.org/competitions/2026",
+          "label": "ARC overview timeline",
+          "quote": "November 2, 2026 - Submissions due; November 8, 2026 - Papers due.",
+          "checked": "2026-11-01"
+        },
+        {
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/overview",
+          "label": "Kaggle Paper Track timeline (conflict)",
+          "quote": "November 9, 2026 - Final Submission Deadline. All deadlines are at 11:59 PM UTC ... unless otherwise noted.",
+          "checked": "2026-11-01"
+        }
       ]
     },
     {
