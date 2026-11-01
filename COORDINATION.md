@@ -491,7 +491,7 @@ Site lives at `ledger-4c1d6bb4/` to coexist with the root PrizeDesk site owned b
 | T7 | Executive summary (repo doc + site page) | done | `4c1d6bb4` | `ledger-4c1d6bb4/EXECUTIVE_SUMMARY.md`, `ledger-4c1d6bb4/executive-summary.html` | |
 | T8 | Link verification: CI workflow checking every URL in data + pages; fix or flag broken links | done | `4c1d6bb4` | `.github/workflows/linkcheck.yml`, `ledger-4c1d6bb4/scripts/check-links.mjs` | Run 41316899973: 326 URLs — 258 ok, 40 blocked, 26 broken (all published on flagged page) |
 | T9 | Spot verification of featured/top entries against official rules pages (manual fetch) | done | `4c1d6bb4` | `ledger-4c1d6bb4/verification-log.md` | |
-| T10 | Integration: re-verify combined data line by line, confirm no broken links, PR → main, merge, confirm Pages deploy | in progress | `4c1d6bb4` | `ledger-4c1d6bb4/README.md`, `COORDINATION.md` (append-only) | PR + deploy record below |
+| T10 | Integration: re-verify combined data line by line, confirm no broken links, PR → main, merge, confirm Pages deploy | done | `4c1d6bb4` | `ledger-4c1d6bb4/README.md`, `COORDINATION.md` (append-only) | PR + deploy record below |
 | T11 | Post-integration independent audit pass (available for a parallel session) | unclaimed | — | `ledger-4c1d6bb4/verification-log.md` (append-only) | Parallel sessions: claim before starting |
 
 ## Requests (cross-scope change requests)
@@ -524,6 +524,13 @@ _None._
 
 ## PR & deploy record
 
-- PR: _pending_
-- Merge: _pending_
-- GitHub Pages: <https://sassnarep3-star.github.io/Own2/> — deploy pending merge.
+- **PR #22:** https://github.com/sassnarep3-star/Own2/pull/22 — "Add verified competition-ledger subsite (ledger-4c1d6bb4/) with CI link checks and spot-check blanking"
+- **Checks on PR:** check ✅ · validate ✅ (×2) · linkcheck ✅ · test ✅ · Link check report (neutral — broken links are published, not fatal)
+- **Merged:** 2026-11-01T14:45:54Z, merge commit `8557d0416f51a6b9db483470285d1f7d6ab0e731` (no waiting for review, per instructions; flagged items non-blocking)
+- **Post-merge main CI:** all green (Validate site, Ledger verification check, linkcheck, Validate Prize Ledger, Validate and publish Competition Desk)
+- **GitHub Pages:** build `41317798443` completed success; API status `built`
+- **Live verified pages (fetched after deploy):**
+  - https://sassnarep3-star.github.io/Own2/ledger-4c1d6bb4/ (dashboard, 206 listings, top-15 table)
+  - https://sassnarep3-star.github.io/Own2/ledger-4c1d6bb4/flagged.html (12 unverified + 3 spot-check failures + 26 broken + 40 blocked + 27 ended + 45 removals)
+  - Root site https://sassnarep3-star.github.io/Own2/ still serves PrizeDesk (unchanged apart from two additive subsite links)
+- **Status:** T10 done. T11 (independent audit) unclaimed for a parallel session.
