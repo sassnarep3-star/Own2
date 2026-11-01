@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analysis &amp; findings — Free Contest Ledger</title>
+<meta name="description" content="Distributions, scoring method, policy exclusions and patterns computed from the ledger.">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html"><span class="mark">$</span>
+    <span>Free Contest Ledger<small>Verified free cash-prize competitions</small></span></a>
+  <nav class="main"><a href="index.html">Home</a><a href="analysis.html" aria-current="page">Analysis</a><a href="flagged.html">Flagged for Review</a><a href="executive-summary.html">Executive Summary</a></nav>
+</div></header>
+<div class="wrap">
+
+<section class="hero">
+  <p class="kicker">Findings</p>
+  <h1>Analysis &amp; findings</h1>
+  <p class="lede">Every number below is computed directly from the ledger file
+  (<code>assets/data.js</code>, reviewed 2026-08-19). Nothing is estimated.</p>
+</section>
+
+<div class="panel">
+  <h2>What's in the ledger</h2>
+  <p><strong>206</strong> listings · <strong>9</strong> categories ·
+  <strong>194</strong> rows with an official source ·
+  <strong>12</strong> rows flagged unverified (no official source) ·
+  <strong>45</strong> candidates removed by policy in the upstream audit.</p>
+  <h3>Listings by category</h3>
+  <div class="bar-row"><span class="label">Fantasy &amp; sports picks</span>
+  <span class="track"><span class="fill" style="width:63%"></span></span>
+  <span class="val">129</span></div><div class="bar-row"><span class="label">Market competitions</span>
+  <span class="track"><span class="fill" style="width:9%"></span></span>
+  <span class="val">19</span></div><div class="bar-row"><span class="label">Creative contests</span>
+  <span class="track"><span class="fill" style="width:9%"></span></span>
+  <span class="val">18</span></div><div class="bar-row"><span class="label">Tech &amp; data competitions</span>
+  <span class="track"><span class="fill" style="width:7%"></span></span>
+  <span class="val">14</span></div><div class="bar-row"><span class="label">Skill tournaments</span>
+  <span class="track"><span class="fill" style="width:6%"></span></span>
+  <span class="val">12</span></div><div class="bar-row"><span class="label">Free pool &amp; league platforms</span>
+  <span class="track"><span class="fill" style="width:3%"></span></span>
+  <span class="val">7</span></div><div class="bar-row"><span class="label">Forecasting tournaments</span>
+  <span class="track"><span class="fill" style="width:1%"></span></span>
+  <span class="val">3</span></div><div class="bar-row"><span class="label">Trivia competitions</span>
+  <span class="track"><span class="fill" style="width:1%"></span></span>
+  <span class="val">2</span></div><div class="bar-row"><span class="label">Directories &amp; forums</span>
+  <span class="track"><span class="fill" style="width:1%"></span></span>
+  <span class="val">2</span></div>
+</div>
+
+<div class="panel">
+  <h2>Status of entries</h2>
+  <div class="bar-row"><span class="label">Active</span>
+  <span class="track"><span class="fill" style="width:100%"></span></span>
+  <span class="val">163</span></div><div class="bar-row"><span class="label">Mixed</span>
+  <span class="track"><span class="fill" style="width:3%"></span></span>
+  <span class="val">5</span></div><div class="bar-row"><span class="label">Caution</span>
+  <span class="track"><span class="fill" style="width:7%"></span></span>
+  <span class="val">11</span></div><div class="bar-row"><span class="label">Ended</span>
+  <span class="track"><span class="fill" style="width:17%"></span></span>
+  <span class="val">27</span></div>
+  <p class="muted">27 entries are ended or out-of-season — their prize figures are historical
+  and must be re-confirmed on the official page before entering. 11 carry caution flags.</p>
+</div>
+
+<div class="panel">
+  <h2>Free-to-enter reality check</h2>
+  <div class="bar-row"><span class="label">Free USD path</span>
+  <span class="track"><span class="fill" style="width:92%"></span></span>
+  <span class="val">189</span></div><div class="bar-row"><span class="label">Some free events</span>
+  <span class="track"><span class="fill" style="width:6%"></span></span>
+  <span class="val">13</span></div><div class="bar-row"><span class="label">Cash needs entry fee</span>
+  <span class="track"><span class="fill" style="width:2%"></span></span>
+  <span class="val">4</span></div>
+  <p class="muted">Only <strong>189</strong> rows advertise a genuine free-USD path.
+  "Some free events" rows mix free and paid competition; "Cash needs entry fee" rows are listed for
+  completeness and are <em>not</em> free to win money in.</p>
+</div>
+
+<div class="panel">
+  <h2>Verification friction (what you must pass to get paid)</h2>
+  <div class="bar-row"><span class="label">Account only</span>
+  <span class="track"><span class="fill" style="width:41%"></span></span>
+  <span class="val">85</span></div><div class="bar-row"><span class="label">Eligibility check</span>
+  <span class="track"><span class="fill" style="width:47%"></span></span>
+  <span class="val">96</span></div><div class="bar-row"><span class="label">Full KYC</span>
+  <span class="track"><span class="fill" style="width:3%"></span></span>
+  <span class="val">7</span></div><div class="bar-row"><span class="label">Tax paperwork</span>
+  <span class="track"><span class="fill" style="width:9%"></span></span>
+  <span class="val">18</span></div>
+  <p class="muted">Account-only = email login is enough to play; eligibility = age/residency checks;
+  KYC = government ID before cash-out; tax paperwork = W-9/W-8 at $600+ (US).</p>
+</div>
+
+<div class="panel">
+  <h2>Priority score — full formula</h2>
+  <p>Used only to rank the "Best places to spend your time" table on the home page.
+  It is a <strong>transparent heuristic over ledger fields</strong>, not a prediction of winnings,
+  and it ignores prize size (prize text is not machine-parseable and guessing would violate the
+  no-inference rule).</p>
+  <ul>
+    <li>Status: active <strong>+3</strong>, mixed <strong>+1</strong>, caution <strong>−1</strong> (ended/inactive excluded)</li>
+    <li>Free path: free-USD <strong>+3</strong>, some free <strong>+1</strong>, fee-required <strong>−2</strong></li>
+    <li>Verification: account-only <strong>+2</strong>, eligibility check <strong>+1</strong>, KYC/tax <strong>0</strong></li>
+    <li>No official source → row excluded from ranking entirely</li>
+  </ul>
+  <p class="muted">Reproduce it: <code>node scripts/build-pages.mjs</code> (function <code>priorityScore</code>).</p>
+</div>
+
+<div class="panel">
+  <h2>Policy exclusions (removed upstream, not carried into tables)</h2>
+  <p>The upstream audit removed sweepstakes, sweepstakes casinos, gambling-operator free-to-play funnels
+  and real-money DFS. Reasons: sweepstakes are chance draws (no skill), sweeps casinos demand full KYC plus
+  mail-in AMOE, and bookmaker/DFS free games are acquisition funnels that often pay bonus bets, not cash.
+  Full list:</p>
+  <ul><li><strong>Publishers Clearing House</strong> — sweepstakes category removed</li><li><strong>Lucktastic</strong> — sweepstakes category removed</li><li><strong>High 5 Casino</strong> — sweepstakes category removed</li><li><strong>Pulsz</strong> — sweepstakes category removed</li><li><strong>Chumba Casino</strong> — sweepstakes category removed</li><li><strong>LuckyLand Slots</strong> — sweepstakes category removed</li><li><strong>Crown Coins Casino</strong> — sweepstakes category removed</li><li><strong>Stake.us</strong> — sweepstakes category removed</li><li><strong>Fliff</strong> — sweepstakes/AMOE model removed</li><li><strong>Online-Sweepstakes.com</strong> — sweepstakes directory removed</li><li><strong>r/sweepstakes &amp; r/Sweepstake</strong> — sweepstakes directory removed</li><li><strong>AARP Sweepstakes</strong> — sweepstakes category removed</li><li><strong>HGTV / Food Network Giveaways</strong> — sweepstakes category removed</li><li><strong>iHeartRadio Contests</strong> — sweepstakes category removed</li><li><strong>People / BHG / Meredith magazine sweeps</strong> — sweepstakes category removed</li><li><strong>McLuck</strong> — sweepstakes category removed</li><li><strong>WOW Vegas</strong> — sweepstakes category removed</li><li><strong>RealPrize</strong> — sweepstakes category removed</li><li><strong>Sweepstakes Fanatics</strong> — sweepstakes directory removed</li><li><strong>Contest Girl</strong> — sweepstakes directory removed</li><li><strong>UltraContest</strong> — sweepstakes directory removed</li><li><strong>Sweepstakes Advantage</strong> — sweepstakes directory removed</li><li><strong>FreebieShark</strong> — sweepstakes directory removed</li><li><strong>SweepWidget Giveaways</strong> — sweepstakes directory removed</li><li><strong>Solitaire Smash</strong> — DEAD: App Store ID 6444781403 does not render a listing; unverifiable</li><li><strong>Bingo Billions</strong> — DEAD: App Store ID 6446250848 returns &quot;page cannot be found&quot;; sole source unreachable</li><li><strong>Lucky Day</strong> — sweepstakes category removed</li><li><strong>HQ Trivia</strong> — DEAD: Service dissolved February 2020</li><li><strong>USA TODAY Pro Football Survivor</strong> — DEAD: usatoday.com/sports/contests/survivor-pool redirects to the USA TODAY homepage</li><li><strong>Football Nation USA Weekly Pick'Em</strong> — DEAD: footballnationusa.com/pickems contains no pick’em and no prize</li><li><strong>DraftKings Fantasy</strong> — Casino product — iOS listing is &quot;DraftKings Sportsbook &amp; Casino&quot;</li><li><strong>FanDuel Fantasy</strong> — Casino product — iOS listing is &quot;FanDuel Sportsbook &amp; Casino&quot;</li><li><strong>Backspin Games</strong> — Casino product — listed in the App Store Casino category (chart #35 Casino), 18+, slots/bingo suite</li><li><strong>Verse Gaming</strong> — Sweepstakes model — operator FAQ states &quot;VerseCash is a promotional sweepstakes currency&quot; and contests are sweepstakes-style ($50 min redemption after 1x playthrough)</li><li><strong>LockMyPicks</strong> — No cash path — site states &quot;No fees · No paywalls&quot; and prizes are coins/cosmetics only. Also sells $1–$5 cosmetic packs and currently exposes admin controls (password reset, streak recalculation) on its public homepage.</li><li><strong>PrizePicks Free NFL Jackpot</strong> — Real-money DFS operator — free jackpot is an acquisition funnel</li><li><strong>FanDuel Daily Shuffle</strong> — Requires a FanDuel Sportsbook account; prize is Bonus Bets, not cash</li><li><strong>BetMGM Football Survivor</strong> — Requires a BetMGM account (bookmaker and casino operator)</li><li><strong>DraftKings Free-to-Play contests</strong> — Requires a DraftKings account (Sportsbook &amp; Casino)</li><li><strong>Sky Bet Super 6</strong> — Requires a Sky Bet account (licensed bookmaker operating Sky Vegas / Sky Casino)</li><li><strong>bet365 6 Scores Challenge</strong> — Requires a bet365 account (licensed bookmaker and casino operator)</li><li><strong>BetMGM Golden Goals</strong> — Requires a BetMGM UK account (LeoVegas Gaming plc — bookmaker and casino operator)</li><li><strong>Paddy Power Beat The Drop</strong> — Requires a Paddy Power account (Flutter — bookmaker and casino operator)</li><li><strong>Dabble Fantasy</strong> — Real-money DFS operator — $10 no-deposit credit is an acquisition funnel</li><li><strong>ParlayPlay</strong> — Real-money DFS operator — $5 free entry is an acquisition funnel</li></ul>
+</div>
+
+<div class="panel">
+  <h2>Patterns worth knowing before you invest time</h2>
+  <ul>
+    <li><strong>Free rooms rarely pay dollars.</strong> Skill apps (Solitaire/Bingo/Skillz-style) pay gems or
+    tickets on free paths; withdrawable USD almost always needs a paid entry.</li>
+    <li><strong>Seasonal sports games dominate volume</strong> (129 of 206 rows)
+    and most go dormant in the off-season — check the status badge first.</li>
+    <li><strong>Tax paperwork starts at $600</strong> in the US; keep records for every win.</li>
+    <li><strong>Geo-restrictions are common</strong> — state/country blocks appear in each row's
+    "Blocked / limits" detail.</li>
+    <li><strong>12 rows have no official source</strong> and are excluded from ranking;
+    they are published on the <a href="flagged.html">Flagged for Review</a> page with their non-official
+    links so a human can confirm or drop them.</li>
+  </ul>
+</div>
+<footer>
+  <p><strong>Free Contest Ledger</strong> is an independent research compilation (session build 2026-11-01).
+  Data reviewed upstream 2026-08-19; every row carries its official source link.
+  Not affiliated with any listed operator. Contest laws vary — play only where legal.
+  18+/21+ where required. Always open the official rules before entering.</p>
+</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

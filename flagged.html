@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flagged for review — Free Contest Ledger</title>
+<meta name="description" content="Unverified rows, link-check failures and policy exclusions with source links.">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html"><span class="mark">$</span>
+    <span>Free Contest Ledger<small>Verified free cash-prize competitions</small></span></a>
+  <nav class="main"><a href="index.html">Home</a><a href="analysis.html">Analysis</a><a href="flagged.html" aria-current="page">Flagged for Review</a><a href="executive-summary.html">Executive Summary</a></nav>
+</div></header>
+<div class="wrap">
+
+<section class="hero">
+  <p class="kicker">Transparency</p>
+  <h1>Flagged for Review</h1>
+  <p class="lede">Everything the data could <em>not</em> confirm from an official source lives here.
+  These items do not block publication — they are published so a human can review them.
+  Nothing on this page has been guessed or filled in.</p>
+  <div class="stats">
+    <div class="stat"><b>12</b><span>Unverified rows</span></div>
+    <div class="stat"><b>3</b><span>Spot-check failures (prize blanked)</span></div>
+    <div class="stat"><b>6</b><span>Spot-checks passed</span></div>
+    <div class="stat"><b>45</b><span>Policy removals (upstream)</span></div>
+    <div class="stat"><b>27</b><span>Ended entries (prizes historical)</span></div>
+  </div>
+</section>
+
+<div class="panel"><h2>Link check</h2><p class="muted">No <code>reports/link-check.json</code> yet — run
+    <code>node scripts/check-links.mjs</code> (or the <em>linkcheck</em> GitHub Actions workflow) and rebuild.</p></div>
+
+<div class="panel">
+  <h2>Ended / out-of-season entries (27)</h2>
+  <p class="muted">Kept in tables with an "Ended" badge. Prize figures for these rows describe a past or
+  future season and must be re-confirmed on the official page before entering.
+  They are excluded from the priority ranking.</p>
+</div>
+
+<div class="panel">
+  <h2>Upstream policy removals (45)</h2>
+  <p class="muted">Removed by the upstream audit before this build — sweepstakes, casinos, gambling-operator
+  promos, real-money DFS and dead apps. Listed on <a href="analysis.html">Analysis</a> with reasons;
+  not carried into any table.</p>
+</div>
+
+<h2 class="section">Unverified rows (12) — values shown blank</h2>
+<div class="flag-item" id="flag-thelines-survivor">
+  <h3>TheLines Free NFL Survivor <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://www.thelines.com/free-nfl-contest-pools-games-week-1-2024/" rel="noopener noreferrer">TheLines Free NFL Survivor</a> — https://www.thelines.com/free-nfl-contest-pools-games-week-1-2024/</div>
+  <p class="src">Row in table: <a href="sports.html#thelines-survivor">sports.html#thelines-survivor</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fantasy-arena">
+  <h3>Fantasy Arena FPL league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/" rel="noopener noreferrer">Free-to-join FPL prize leagues</a> — https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/</div>
+  <p class="src">Row in table: <a href="sports.html#fantasy-arena">sports.html#fantasy-arena</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fplhub">
+  <h3>FPL Hub league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://fpltips.com/fpl-leagues-with-prizes/" rel="noopener noreferrer">FPL leagues with prizes</a> — https://fpltips.com/fpl-leagues-with-prizes/</div>
+  <p class="src">Row in table: <a href="sports.html#fplhub">sports.html#fplhub</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-bona-fide">
+  <h3>Bona Fide Sports league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (forum): <a href="https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/" rel="noopener noreferrer">r/FantasyPL minileagues thread</a> — https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/</div>
+  <p class="src">Row in table: <a href="sports.html#bona-fide">sports.html#bona-fide</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-olka">
+  <h3>OLKA Express league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (forum): <a href="https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/" rel="noopener noreferrer">r/FantasyPL league codes megathread</a> — https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/</div>
+  <p class="src">Row in table: <a href="sports.html#olka">sports.html#olka</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fplmanager-india">
+  <h3>FPLManagerIndia league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/" rel="noopener noreferrer">Free-to-join FPL prize leagues</a> — https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/</div>
+  <p class="src">Row in table: <a href="sports.html#fplmanager-india">sports.html#fplmanager-india</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fplstore">
+  <h3>fplStore_ league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://fpltips.com/fpl-leagues-with-prizes/" rel="noopener noreferrer">FPL leagues with prizes</a> — https://fpltips.com/fpl-leagues-with-prizes/</div>
+  <p class="src">Row in table: <a href="sports.html#fplstore">sports.html#fplstore</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-pitchbooking">
+  <h3>Pitchbooking.com league <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (forum): <a href="https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/" rel="noopener noreferrer">Free FPL leagues with prizes</a> — https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/</div>
+  <p class="src">Row in table: <a href="sports.html#pitchbooking">sports.html#pitchbooking</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-roboforex-demo">
+  <h3>RoboForex Demo Contest <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://tradingbrokers.com/roboforex-demo-contest/" rel="noopener noreferrer">RoboForex Demo Contest (review)</a> — https://tradingbrokers.com/roboforex-demo-contest/</div>
+  <p class="src">Row in table: <a href="market.html#roboforex-demo">market.html#roboforex-demo</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fbs-pro-demo">
+  <h3>FBS Pro Demo Contest <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://fofan.org/contest/fbs-pro-demo-trading-contest/" rel="noopener noreferrer">FBS Pro Demo Contest (review)</a> — https://fofan.org/contest/fbs-pro-demo-trading-contest/</div>
+  <p class="src">Row in table: <a href="market.html#fbs-pro-demo">market.html#fbs-pro-demo</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-npbfx-demo">
+  <h3>NPBFX Trading Battle Demo Contest <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html" rel="noopener noreferrer">NPBFX Trading Battle Demo Contest (review)</a> — https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html</div>
+  <p class="src">Row in table: <a href="market.html#npbfx-demo">market.html#npbfx-demo</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-tff-fantezi-lig">
+  <h3>TFF Fantezi Lig (Turkish Süper Lig) <span class="badge unverified">Unverified — values blank</span></h3>
+  <p><strong>Why flagged:</strong> this row has no source with tier <code>official</code>.
+  Under the project rule, values that cannot be confirmed from an official source are left blank
+  and never inferred — so Prize, Cash-out, Pays via and Who-can-enter are blank in its table row.</p>
+  <p><strong>What would clear it:</strong> an official rules, contest or signup page from the operator itself.</p>
+  <div class="src">Non-official (affiliate): <a href="https://en.shiftdelete.net/tff-launches-official-fantasy-league-mobile-game-for-super-lig/" rel="noopener noreferrer">TFF launches official Fantasy League (secondary news)</a> — https://en.shiftdelete.net/tff-launches-official-fantasy-league-mobile-game-for-super-lig/</div>
+  <p class="src">Row in table: <a href="sports.html#tff-fantezi-lig">sports.html#tff-fantezi-lig</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+
+<h2 class="section">Spot-check failures — prize value blanked</h2>
+<div class="flag-item" id="flag-devpost">
+  <h3>Devpost Hackathons <span class="badge unverified">Prize value blanked</span></h3>
+  <p><strong>Why flagged:</strong> a manual fetch of the official page could not confirm the ledger's
+  value for <code>prizeUsd</code>. Per project rule the value is shown blank in the table — never
+  rewritten or inferred.</p>
+  <p><strong>Spot-check (2026-11-01, field <code>prizeUsd</code>):</strong> Ledger states 'Per event - currently $10,000 to $685,000 per hackathon'. Current official page lists Meta VR Start Developer Competition at $1,000,000 (Sep 24-Nov 18, 2026), plus $120,000 Codegeist, $100,000 Kiroween, $67,500 PayPal AI. The stated 'currently' range is contradicted by the official page; per policy the value is blanked pending re-audit, not rewritten.</p>
+             <p class="src">Official page fetched: <a href="https://devpost.com/hackathons" rel="noopener noreferrer">https://devpost.com/hackathons</a></p>
+  <p class="src">Row in table: <a href="tech.html#devpost">tech.html#devpost</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-fanatics-survivor">
+  <h3>Fanatics NFL Survivor League <span class="badge unverified">Prize value blanked</span></h3>
+  <p><strong>Why flagged:</strong> a manual fetch of the official page could not confirm the ledger's
+  value for <code>prizeUsd</code>. Per project rule the value is shown blank in the table — never
+  rewritten or inferred.</p>
+  <p><strong>Spot-check (2026-11-01, field <code>prizeUsd</code>):</strong> Ledger states '$1M+ guaranteed (up to $10M)' citing betfanatics.com as official. Fetched official homepage on 2026-11-01: no Survivor contest or prize figure shown (sportsbook marketing only). Third-party reports describe the $1M as FanCash (loyalty currency), not USD. Prize currency/amount therefore cannot be confirmed from an official source. Additional policy concern: operator is a licensed sportsbook, which the upstream audit's own exclusion policy targets.</p>
+             <p class="src">Official page fetched: <a href="https://betfanatics.com/" rel="noopener noreferrer">https://betfanatics.com/</a></p>
+  <p class="src">Row in table: <a href="sports.html#fanatics-survivor">sports.html#fanatics-survivor</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<div class="flag-item" id="flag-dirty-dozen">
+  <h3>Dirty Dozen (Gambling.com) <span class="badge unverified">Prize value blanked</span></h3>
+  <p><strong>Why flagged:</strong> a manual fetch of the official page could not confirm the ledger's
+  value for <code>prizeUsd</code>. Per project rule the value is shown blank in the table — never
+  rewritten or inferred.</p>
+  <p><strong>Spot-check (2026-11-01, field <code>prizeUsd</code>):</strong> Ledger states 'GBP 12,000 weekly' with official URL https://www.gambling.com/games/dirty-dozen. Fetch on 2026-11-01 redirected to https://www.gambling.com/games (generic free-casino-games index); no Dirty Dozen contest or prize figure present. Value cannot be confirmed from the official source.</p>
+             <p class="src">Official page fetched: <a href="https://www.gambling.com/games/dirty-dozen" rel="noopener noreferrer">https://www.gambling.com/games/dirty-dozen</a></p>
+  <p class="src">Row in table: <a href="sports.html#dirty-dozen">sports.html#dirty-dozen</a>
+  · upstream last-checked: 2026-08-19</p>
+</div>
+<footer>
+  <p><strong>Free Contest Ledger</strong> is an independent research compilation (session build 2026-11-01).
+  Data reviewed upstream 2026-08-19; every row carries its official source link.
+  Not affiliated with any listed operator. Contest laws vary — play only where legal.
+  18+/21+ where required. Always open the official rules before entering.</p>
+</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

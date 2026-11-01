@@ -1,0 +1,53 @@
+name: linkcheck
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Structural data audit
+        run: node scripts/check-data.mjs
+
+      - name: Rebuild pages (proves site builds cleanly)
+        run: node scripts/build-pages.mjs
+
+      - name: Check every URL (data.js + pages)
+        run: node scripts/check-links.mjs --timeout=20000 --concurrency=10
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ -f reports/link-check.md ]; then
+            cat reports/link-check.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: reports/
+          retention-days: 30
+
+      # Site must build; broken links are surfaced, not fatal (they are
+      # published on /flagged.html). Structure failures ARE fatal.
+      - name: Fail on structural problems
+        run: |
+          node -e "
+            const r = require('./reports/link-check.json');
+            console.log('counts:', JSON.stringify(r.counts));
+          "
