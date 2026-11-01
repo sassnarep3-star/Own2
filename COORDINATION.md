@@ -11,11 +11,12 @@ Repo: `sassnarep3-star/Own2` · Live site (GitHub Pages, legacy build from `main
 | ID | Task | Status | Owner session | Files touched | Claimed (UTC) |
 |----|------|--------|---------------|---------------|---------------|
 | T1 | Repo review: audit the source repo (karagemop466-tech/FreeMoneyApps) and its live site; list irregularities | in progress | be1d2210 | `audit/**` | 2026-11-01T13:42Z |
-| T2 | Data extraction + offline integrity checks (URL syntax, domains, tiers, internal inconsistencies) | unclaimed | — | `data/raw/**`, `tools/**` | — |
-| T3 | Live verification against official pages (fetch each official URL, record what was confirmed) | unclaimed | — | `data/verification/**` | — |
+| T2 | Data extraction + offline integrity checks (URL syntax, domains, tiers, internal inconsistencies) | in progress | be1d2210 | `data/raw/**`, `tools/extract.js`, `tools/audit.js` | 2026-11-01T13:44Z |
+| T3 | Live verification against official pages (fetch official URLs, record only what was read) | in progress | be1d2210 | `data/verification/**` | 2026-11-01T13:44Z |
 | T4 | Site build (landing page, category subpages, flagged page, styles, JS) | unclaimed | — | `site-src/**` (templates only; no shared index/nav output) | — |
 | T5 | Executive summary | unclaimed | — | `EXECUTIVE_SUMMARY.md` | — |
 | T6 | Final integration: merge data, re-verify combined data, build site, link check, PR to `main`, merge, confirm Pages | unclaimed | — | root `index.html`, `*.html`, `data/ledger.json`, `README.md`, `COORDINATION.md` | — |
 
 ## Log
 - 2026-11-01T13:42Z — be1d2210 — Created board. Claimed T1.
+- 2026-11-01T13:44Z — be1d2210 — Claimed T2, T3 (same session; non-overlapping scopes). Source repo cloned read-only to /tmp (not modified). Source commit under review: 466f7c1e7a14b52b4a0d36beb84a00d68fd409b7.
