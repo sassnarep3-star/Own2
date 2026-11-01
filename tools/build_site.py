@@ -120,6 +120,9 @@ def table_body(rows):
     return "<tbody id=\"entries\">" + "".join(entry_row(e) for e in rows) + "</tbody>"
 
 def page_shell(title, body, active_page="", root=""):
+    # Integration: every shared skip link must have a focusable target.
+    if 'id="content"' not in body:
+        body = '<span id="content" tabindex="-1"></span>\n' + body
     return """<!DOCTYPE html>
 <html lang="en">
 <head>
