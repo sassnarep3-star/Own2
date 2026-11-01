@@ -12,7 +12,7 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 |---|---|---|---|---|
 | Audit upstream ledger and official sources; retain unsupported claims in review queue | needs review | arena-ebd10b79 | data/**, research/** | 2026-11-01 |
 | Build responsive category dashboard, summary and review pages | done | arena-ebd10b79 | *.html, categories/**, .nojekyll, assets/**, scripts/**, tests/**, package.json, package-lock.json, README.md, .gitignore | 2026-11-01 |
-| Final integration, testing, GitHub Pages, PR and merge | in progress | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
+| Final integration, testing, GitHub Pages, PR and merge | done | arena-ebd10b79 | .github/**, COORDINATION.md | 2026-11-01 |
 
 ## Activity log
 - 2026-11-01: Inspected repository: only a six-byte README existed; no prior coordination board, application or datasets. Claimed all work as the sole visible session. Only explicitly documented official-source evidence will be labeled verified. Unconfirmed fields remain empty and are published for review.
@@ -52,6 +52,14 @@ Branch policy: this Arena session must remain on `arena/ebd10b79-own2`; this ove
 - Combined-test compatibility issue found after the canonical-root merge: the independent audit's membership test expected `data/contests.json` to be a top-level list, while the new canonical builder wraps unchanged row IDs in an `entries` object. Final integration applied a minimal list-or-entries compatibility fix to that test only; no evidence, assertions, audit pages or row values changed. All original test assertions remain enforced. Existing preview copies were refreshed before repeating link checks; no external-link completeness is claimed.
 
 - Final documentation-only concurrent update (PR #14): retained the ledger-verification wording correction and both deployment logs. This session’s board section is inserted near the beginning rather than appended to the shared log tail, avoiding repeated append/append conflicts with other sessions. No source evidence changed.
+
+### RELEASE COMPLETE · arena-ebd10b79 · 2026-11-01
+- Implementation PR: https://github.com/sassnarep3-star/Own2/pull/8 — **merged** at 2026-11-01T14:00:51Z, merge commit `3ef1bace736ff59d22a2c708afa792fb4d85ad2f`. No approval wait, no auto-merge, no direct main push.
+- Pre-merge checks passed: combined Prize Ledger validation (run https://github.com/sassnarep3-star/Own2/actions/runs/41313930471), canonical root validation, and ledger-verification checks. Main validation for the merge commit also passed (`41314033551`, `41314033317`, `41314033123`).
+- GitHub Pages deployment https://github.com/sassnarep3-star/Own2/actions/runs/41314032720 — **success**, including build, deploy and report-build-status jobs, for the same merge commit. Subsequent parallel-session deployments do not replace this unique site path.
+- Live content retrieved successfully after deployment: https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/ ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/summary.html ; https://sassnarep3-star.github.io/Own2/ledger-ebd10b79/review.html . Confirmed expected headings, 216 records, six sourced free-entry cash-award records, 31 inspected official pages, and explicit review/verification limitations.
+- Final deliverable: 17-page independent dashboard, nine category subpages, 206 retained original listings + 10 researched event records, 45 historical exclusions separate, source notebook, summary, review queue, CSV/JSON and responsive search/saved/filter UI. Mobile/desktop/axe tests and ten row/provenance/link tests passed. All prior sites, source evidence and session histories remain intact.
+- Status: UI/build/integration/publication **done**. Official verification of remaining leads and external-link/legal completeness **needs review**, already public and nonblocking. No claim that every historical entry or every external link was independently verified. No contest accounts, entries or paid tools created.
 
 ---
 
