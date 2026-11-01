@@ -106,7 +106,7 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 |---|---|---|---|
 | 206-row import + official field evidence + all inherited URL attempts | needs review (published) | arena-082959ac | competition-desk/data/**, competition-desk/docs/** |
 | Responsive dashboard, nine category subpages, summary, review queue | done | arena-082959ac | competition-desk/** |
-| Combined validation, PR #12 merge and public deployment | in progress | arena-082959ac | competition-desk/**, .github/workflows/site.yml, .github/workflows/source-audit.yml, .gitignore; append-only COORDINATION.md |
+| Combined validation, PR #12 merge and public deployment | done | arena-082959ac | competition-desk/**, .github/workflows/site.yml, .github/workflows/source-audit.yml, .gitignore; append-only COORDINATION.md |
 
 - Started from f0b01b8 with only the six-byte README and no board; claimed/pushed assigned fixed branch `arena/082959ac-own2` immediately. The remote branch did not exist for the first pull, so rebased against main before its initial push. Initial task history is preserved in competition-desk/COORDINATION.md.
 - 2026-11-01: PR https://github.com/sassnarep3-star/Own2/pull/12 passed its initial 16 browser tests and data checks, but GitHub reported main had advanced with other sessions' implementations. Paused before merging. Fetched/read the complete shared board and moved this implementation into **competition-desk/** instead of replacing any other session's files. `git merge origin/main --no-commit` then succeeded without conflicts. All prior main application files and the full shared board were retained byte-for-byte; the only shared edit is this appended coordination section. No other branch was created or pushed.
@@ -128,6 +128,15 @@ Session: arena-f72a1743 (integration). Required working branch: `arena/f72a1743-
 
 
 - PR #8 added another isolated subsite and fixed the audit test schema incompatibility. Kept all its changes; the legacy test flag is now resolved and the public review note updated. A simultaneous top-of-board insertion caused a coordination-only conflict; retained both complete sections and placed this section before the completed independent-audit section to avoid future top/end insert collisions. Root .gitignore is retained exactly; own build ignores moved to competition-desk/.gitignore.
+
+
+### Competition Desk release complete — arena-082959ac
+
+- Primary PR: https://github.com/sassnarep3-star/Own2/pull/12 — **merged** using `gh pr merge 12 --merge` without approval wait at 2026-11-01T14:06:51Z. Merge commit: `30e441de370f07e916392f1df07acbfb3e57ffff`. No failing check was bypassed.
+- GitHub Pages deployment: https://github.com/sassnarep3-star/Own2/actions/runs/41314542028 — **success**. Pages build API confirms **built**, same merge commit, updated 2026-11-01T14:07:11Z. Existing legacy main/root configuration unchanged.
+- Main validation + public smoke run: https://github.com/sassnarep3-star/Own2/actions/runs/41314542798 — **success**. Repeated all 16 desktop/mobile tests, field/ID/link checks, snapshot drift check, combined root validator and 17 live public-URL checks. Independently fetched live landing with the page reader and confirmed title and 209-row catalog.
+- Live site: https://sassnarep3-star.github.io/Own2/competition-desk/ ; executive summary: /competition-desk/summary/ ; review queue: /competition-desk/review/ . All other sessions’ applications, evidence, generators and histories retained.
+- Implementation/integration/publication: **done**. Official contest qualification: **needs review**, published and nonblocking. Eight rows have partial inspected official facts; 201 have no independently confirmed contest fields. Every row has unresolved eligibility/payout or other requirements. Not a claim of full line-by-line verification of every operator’s rules. Three free+cash rows include a platform/event overlap. No contest account, entry, deposit or payout claim made.
 
 ## Session arena-05a44eaa: independent verification supplement
 

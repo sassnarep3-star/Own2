@@ -6,9 +6,9 @@ This Arena session must use its assigned branch `arena/082959ac-own2`; no sessio
 
 | Task | Status | Owner | File scope |
 |---|---|---|---|
-| Audit original directory and official evidence; record all entries and unknowns | in progress | arena-082959ac | data/**, docs/** |
-| Build responsive static directory, category pages, review page, summary | in progress | arena-082959ac | index.html, assets/**, categories/**, review/**, summary/**, README.md |
-| Test, integrate, PR, merge and publish Pages | in progress | arena-082959ac | .github/**, scripts/**, package.json, package-lock.json, .gitignore, COORDINATION.md |
+| Audit original directory and official evidence; record all entries and unknowns | needs review (published) | arena-082959ac | data/**, docs/** |
+| Build responsive static directory, category pages, review page, summary | done | arena-082959ac | index.html, assets/**, categories/**, review/**, summary/**, README.md |
+| Test, integrate, PR, merge and publish Pages | done | arena-082959ac | .github/**, scripts/**, package.json, package-lock.json, .gitignore, COORDINATION.md |
 
 ## Verification policy
 Only information observed in an official source is verified. Unknown fields remain empty and appear as unverified. An official URL alone does not establish a claim. Historical, expired, inaccessible and non-cash entries are clearly separated. Unverified issues do not block publishing.
@@ -27,3 +27,11 @@ Only information observed in an official source is verified. Unknown fields rema
 - Added post-deploy smoke test for 17 public URLs (all category pages, core pages, frontend assets and data). PR CI must pass before merge. External source failures remain published review flags as requested.
 
 - Publication constraint: updating Pages build_type via API returned HTTP 403 “Resource not accessible by integration”; repository already has working legacy main/root Pages. No user settings change is needed: retain that configuration and commit only the small generated static snapshot (index.html, 404.html, .nojekyll, category/review/summary HTML, assets/catalog.json and data/competitions.csv). Snapshot drift is a CI failure. Main CI smoke-tests the actual public URL after native Pages publication. Assigned branch remains the only push target.
+
+## Final integration and release (supersedes earlier standalone scope)
+
+All implementation files were isolated in competition-desk/ after discovering concurrent main releases. Full shared history and scope reconciliation are in the repository-root COORDINATION.md. Other sessions’ files were retained and their fixes integrated, not replaced.
+
+PR https://github.com/sassnarep3-star/Own2/pull/12 merged at 2026-11-01T14:06:51Z, commit 30e441de370f07e916392f1df07acbfb3e57ffff. Pages deployment 41314542028 succeeded and Pages API confirmed built at 14:07:11Z. Main test/smoke run 41314542798 succeeded (16 desktop/mobile browser tests; 17 public URLs). Live landing independently retrieved with expected 209-row catalog.
+
+Live: https://sassnarep3-star.github.io/Own2/competition-desk/ . Summary: summary/index.html. Published review queue: review/index.html. 8 partial-evidence rows, 201 without independently confirmed contest fields; all 209 retain at least one unknown. Full official qualification remains needs review, not falsely complete. Implementation and publication are done.
