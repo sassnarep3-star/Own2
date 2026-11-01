@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-11-01",
+  "checkedBy": "session 4c1d6bb4 (T9) via direct official-page fetch",
+  "policy": "verdict=unconfirmed => the named field is rendered BLANK in tables and the row is published on /flagged.html. verdict=verified/stale-consistent => value kept. Values are never rewritten from observations; only blanked.",
+  "checks": [
+    {
+      "id": "espn-pickem",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official page: '58 prizes worth $102K', 'Total Prizes $102,000', FREE to play, event dates 09/09/2026-01/10/2027.",
+      "source": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "espn-cfb",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official page: '46 season-long and weekly prizes ... worth $86K', 'Total Prizes $86,000', FREE to play.",
+      "source": "https://fantasy.espn.com/games/college-football-pickem-2026/make-picks",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "cbs-pro-pickem",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official rules: Weekly Prize US$1,000 x 18 weeks; Season Long Prize US$5,000; Contingency (perfect) Prize US$100,000; max ARV US$223,000; FREE to play; 18+; 50 US states + DC.",
+      "source": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "arcprize",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official page: '$2M in prizes. 3 tracks.' (ARC-AGI-2, ARC-AGI-3, Paper Prize); competition started 2026-03-25; submissions due 2026-11-02.",
+      "source": "https://arcprize.org/competitions/2026",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "kaggle",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official competitions page shows featured cash-prize events incl. NFL Big Data Bowl 2027 ($100,000), Gemma 4 paper track ($35,000), ARC Prize paper track ($450,000 shown as hackathon). Supports the ledger's range statement.",
+      "source": "https://www.kaggle.com/competitions",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "drivendata",
+      "verdict": "verified",
+      "field": "prizeUsd",
+      "observed": "Official page: active prize competitions incl. DOE GEMS ($300,000), completed incl. Gates Foundation ASR ($120,000), DaT Parkinson's (EUR 25,000). Supports the hedged range statement 'often $10,000-$200,000'.",
+      "source": "https://www.drivendata.org/competitions/",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "devpost",
+      "verdict": "unconfirmed",
+      "field": "prizeUsd",
+      "observed": "Ledger states 'Per event - currently $10,000 to $685,000 per hackathon'. Current official page lists Meta VR Start Developer Competition at $1,000,000 (Sep 24-Nov 18, 2026), plus $120,000 Codegeist, $100,000 Kiroween, $67,500 PayPal AI. The stated 'currently' range is contradicted by the official page; per policy the value is blanked pending re-audit, not rewritten.",
+      "source": "https://devpost.com/hackathons",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "fanatics-survivor",
+      "verdict": "unconfirmed",
+      "field": "prizeUsd",
+      "observed": "Ledger states '$1M+ guaranteed (up to $10M)' citing betfanatics.com as official. Fetched official homepage on 2026-11-01: no Survivor contest or prize figure shown (sportsbook marketing only). Third-party reports describe the $1M as FanCash (loyalty currency), not USD. Prize currency/amount therefore cannot be confirmed from an official source. Additional policy concern: operator is a licensed sportsbook, which the upstream audit's own exclusion policy targets.",
+      "source": "https://betfanatics.com/",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "dirty-dozen",
+      "verdict": "unconfirmed",
+      "field": "prizeUsd",
+      "observed": "Ledger states 'GBP 12,000 weekly' with official URL https://www.gambling.com/games/dirty-dozen. Fetch on 2026-11-01 redirected to https://www.gambling.com/games (generic free-casino-games index); no Dirty Dozen contest or prize figure present. Value cannot be confirmed from the official source.",
+      "source": "https://www.gambling.com/games/dirty-dozen",
+      "date": "2026-11-01"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+name: linkcheck
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ledger-4c1d6bb4
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Structural data audit
+        run: node scripts/check-data.mjs
+
+      - name: Rebuild pages (proves site builds cleanly)
+        run: node scripts/build-pages.mjs
+
+      - name: Check every URL (data.js + pages)
+        run: node scripts/check-links.mjs --timeout=20000 --concurrency=10
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ -f reports/link-check.md ]; then
+            cat reports/link-check.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: ledger-4c1d6bb4/reports/
+          retention-days: 30
+
+      - name: Publish results as check-run summary
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish-check.mjs

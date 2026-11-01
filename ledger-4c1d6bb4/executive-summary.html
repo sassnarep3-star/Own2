@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Executive summary — Free Contest Ledger</title>
+<meta name="description" content="Project goal, method, results and irregularities in one page.">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html"><span class="mark">$</span>
+    <span>Free Contest Ledger<small>Verified free cash-prize competitions</small></span></a>
+  <nav class="main"><a href="index.html">Home</a><a href="analysis.html">Analysis</a><a href="flagged.html">Flagged for Review</a><a href="executive-summary.html" aria-current="page">Executive Summary</a></nav>
+</div></header>
+<div class="wrap">
+
+<section class="hero">
+  <p class="kicker">Executive summary</p>
+  <h1>Free cash-prize competition ledger — project summary</h1>
+  <p class="lede">Prepared 2026-11-01 · data reviewed upstream 2026-08-19 ·
+  206 listings · source: <a href="https://github.com/karagemop466-tech/FreeMoneyApps">karagemop466-tech/FreeMoneyApps</a></p>
+</section>
+
+<div class="panel">
+  <h2>Goal</h2>
+  <p>Collect, organize and analyze a full list of free-to-enter competitions that pay real cash,
+  and publish it as a clean, mobile-friendly dashboard where every value carries an official source
+  link and anything unconfirmable is blank and flagged — so a human (and an AI agent) can pick the
+  best competitions to spend time on.</p>
+</div>
+
+<div class="panel">
+  <h2>What exists</h2>
+  <ul>
+    <li><strong>206 listings</strong> across 9 categories, 189 with a true free-USD path,
+    163 active, 27 ended/out-of-season.</li>
+    <li><strong>194 rows carry an official source</strong>; 12 rows have none and are
+    flagged with blank values on <a href="flagged.html">Flagged for Review</a>.</li>
+    <li>Upstream audit removed 45 sweepstakes/casino/gambling-operator entries by policy
+    (<a href="analysis.html">Analysis</a> lists them with reasons).</li>
+  </ul>
+</div>
+
+<div class="panel">
+  <h2>What this build adds</h2>
+  <ul>
+    <li><strong>Responsive dashboard</strong>: landing page + one subpage per category, table format,
+    search/status/free-path filters, mobile card layout below 720px (the upstream site was a single
+    206-card scroll with no filters — the top complaint).</li>
+    <li><strong>Verification pipeline</strong>: <code>scripts/check-data.mjs</code> (structural audit),
+    <code>scripts/check-links.mjs</code> (every URL in data + pages, run in CI), spot checks of featured
+    entries against official pages (<code>verification-log.md</code>).</li>
+    <li><strong>Analysis</strong>: distributions, transparency-scored top-15 ranking with published formula,
+    policy exclusions, patterns (<a href="analysis.html">Analysis</a>).</li>
+    <li><strong>Flag page</strong>: every unverified row and every broken link, with source links
+    (<a href="flagged.html">Flagged for Review</a>).</li>
+  </ul>
+</div>
+
+<div class="panel">
+  <h2>Irregularities for review</h2>
+  <ol>
+    <li>12 listings have only affiliate/forum sources (names in <a href="flagged.html">Flagged for Review</a>) —
+    values blanked, awaiting official confirmation.</li>
+    <li>3 of 9 spot-checked featured entries could not be confirmed from their official pages
+    (Devpost — official page now lists a $1,000,000 event vs the ledger's stated range; Fanatics Survivor —
+    official page shows no contest and third parties describe the $1M as FanCash, not USD; Dirty Dozen —
+    official URL redirects to a generic games index). Prize values blanked + flagged, not rewritten.
+    6 of 9 verified exactly (ESPN NFL $102K/58 prizes, ESPN CFB $86K/46 prizes, CBS $1K×18 + $5K + $100K,
+    ARC Prize $2M/3 tracks, Kaggle, DrivenData). Details: <code>reports/spot-checks.json</code> and
+    <code>verification-log.md</code>.</li>
+    <li>27 ended entries keep historical prize figures — re-confirm before entering.</li>
+    <li>Link check (CI run 41316899973): 326 URLs — 258 ok, 40 blocked, 26 broken.
+    All broken/blocked URLs are published on the flag page with listing ids; none were
+    rewritten without a confirmed official replacement (<code>reports/link-check.json</code>).</li>
+  </ol>
+</div>
+
+<div class="panel">
+  <h2>Bottom line</h2>
+  <p><strong>189 competitions currently advertise a genuine free path to cash.</strong>
+  Start from the <a href="index.html">home page</a> top-15 table, open the official rules from the row's
+  source cell, and treat every prize figure as "per the official page as of 2026-08-19" until
+  you re-check it yourself.</p>
+</div>
+<footer>
+  <p><strong>Free Contest Ledger</strong> is an independent research compilation (session build 2026-11-01).
+  Data reviewed upstream 2026-08-19; every row carries its official source link.
+  Not affiliated with any listed operator. Contest laws vary — play only where legal.
+  18+/21+ where required. Always open the official rules before entering.</p>
+</footer>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

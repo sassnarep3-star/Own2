@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-11-01T14:42:06.696Z",
+  "listingCount": 206,
+  "duplicateIds": [],
+  "unknownType": [],
+  "unknownStatus": [],
+  "unknownFreePath": [],
+  "malformedUrls": [],
+  "listingsWithoutAnySource": [],
+  "listingsWithoutOfficialSource": [
+    {
+      "id": "thelines-survivor",
+      "name": "TheLines Free NFL Survivor",
+      "type": "sports",
+      "status": "ended",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "TheLines Free NFL Survivor",
+          "url": "https://www.thelines.com/free-nfl-contest-pools-games-week-1-2024/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "fantasy-arena",
+      "name": "Fantasy Arena FPL league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "Free-to-join FPL prize leagues",
+          "url": "https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "fplhub",
+      "name": "FPL Hub league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "FPL leagues with prizes",
+          "url": "https://fpltips.com/fpl-leagues-with-prizes/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "bona-fide",
+      "name": "Bona Fide Sports league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "r/FantasyPL minileagues thread",
+          "url": "https://www.reddit.com/r/FantasyPL/comments/1v4h6th/fpl_202627_minileagues_thread/",
+          "tier": "forum"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "olka",
+      "name": "OLKA Express league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "r/FantasyPL league codes megathread",
+          "url": "https://www.reddit.com/r/FantasyPL/comments/1m6naoy/league_codes_megathread/",
+          "tier": "forum"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "fplmanager-india",
+      "name": "FPLManagerIndia league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "Free-to-join FPL prize leagues",
+          "url": "https://allaboutfpl.com/2025/07/list-of-free-to-join-prize-fpl-mini-leagues-ahead-of-25-26-season/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "fplstore",
+      "name": "fplStore_ league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "FPL leagues with prizes",
+          "url": "https://fpltips.com/fpl-leagues-with-prizes/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "pitchbooking",
+      "name": "Pitchbooking.com league",
+      "type": "sports",
+      "status": "caution",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "Free FPL leagues with prizes",
+          "url": "https://www.reddit.com/r/FantasyPL/comments/wecme0/list_of_free_to_enter_fpl_leagues_with_prizes/",
+          "tier": "forum"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "roboforex-demo",
+      "name": "RoboForex Demo Contest",
+      "type": "market",
+      "status": "live",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "RoboForex Demo Contest (review)",
+          "url": "https://tradingbrokers.com/roboforex-demo-contest/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "fbs-pro-demo",
+      "name": "FBS Pro Demo Contest",
+      "type": "market",
+      "status": "live",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "FBS Pro Demo Contest (review)",
+          "url": "https://fofan.org/contest/fbs-pro-demo-trading-contest/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "npbfx-demo",
+      "name": "NPBFX Trading Battle Demo Contest",
+      "type": "market",
+      "status": "live",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "NPBFX Trading Battle Demo Contest (review)",
+          "url": "https://www.ndfxbonus.com/2026/07/npbfx-trading-battle-demo-contest-win.html",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    },
+    {
+      "id": "tff-fantezi-lig",
+      "name": "TFF Fantezi Lig (Turkish Süper Lig)",
+      "type": "sports",
+      "status": "live",
+      "freePath": "full",
+      "officialSourceCount": 0,
+      "officialUrls": [],
+      "allSources": [
+        {
+          "title": "TFF launches official Fantasy League (secondary news)",
+          "url": "https://en.shiftdelete.net/tff-launches-official-fantasy-league-mobile-game-for-super-lig/",
+          "tier": "affiliate"
+        }
+      ],
+      "lastChecked": "2026-08-19"
+    }
+  ]
+}
