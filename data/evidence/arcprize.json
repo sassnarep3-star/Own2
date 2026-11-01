@@ -1,0 +1,62 @@
+{
+ "id": "arcprize",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "ARC Prize 2026 official competition page",
+   "url": "https://arcprize.org/competitions/2026",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "ARC Prize 2026 on Kaggle",
+   "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$2,000,000 across three tracks (ARC-AGI-3, ARC-AGI-2, Paper Prize)",
+   "quote": "$2M in prizes. 3 tracks. Open source progress toward AGI.",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "The official page publishes no entry fee and does not state that entry is free.",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Submissions 2026-11-02; papers 2026-11-08; results 2026-12-04",
+   "quote": "November 2, 2026 - Submissions due / November 8, 2026 - Papers due / December 4, 2026 - Results announced",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Open entry, but prizes are at the sole discretion of ARC Prize Inc.; open source required before private evaluation.",
+   "quote": "Prizes are awarded at the sole discretion of ARC Prize Inc. and are subject to review by our Technical Team. We may issue more or fewer awards based on the spirit of the prize and the received submissions.",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "aiPolicy": {
+   "status": "confirmed",
+   "text": "Internet access is unavailable during Kaggle evaluation, so API-based LLM systems cannot be used at evaluation time; submissions must be open source.",
+   "quote": "Internet access is not available during Kaggle evaluation (no API-based systems like GPT/Claude/etc.)",
+   "url": "https://arcprize.org/competitions/2026"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payment method is not described on the competition page.",
+   "url": "https://arcprize.org/competitions/2026"
+  }
+ },
+ "summary": "Biggest verified cash pool in the ledger ($2M) but submissions close 2026-11-02 - one day after this audit - and awards are discretionary. Not a realistic target for a new entrant this cycle.",
+ "flags": [
+  "Submissions close 2026-11-02, one day after the audit date.",
+  "Prize amounts are discretionary, not a fixed prize table."
+ ],
+ "deadline_iso": "2026-11-02"
+}

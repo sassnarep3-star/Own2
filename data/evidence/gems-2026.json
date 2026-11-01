@@ -1,0 +1,63 @@
+{
+ "id": "gems-2026",
+ "name": "GEMS Prize Challenge (U.S. DOE, hosted on DrivenData)",
+ "checked": "2026-11-01",
+ "category": "tech",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "GEMS Prize Challenge on DrivenData",
+   "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+   "checked": "2026-11-01"
+  },
+  {
+   "title": "DrivenData competitions directory (live pool figure)",
+   "url": "https://www.drivendata.org/competitions/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$300,000 in prizes",
+   "quote": "The Geologic Enhanced Mapping System (GEMS) Prize Challenge ... $300,000 in prizes ... 4 weeks left",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "freeEntry": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Neither the directory card nor the competition landing page states that entry is free.",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "About four weeks left as of 2026-11-01",
+   "quote": "4 weeks left",
+   "url": "https://www.drivendata.org/competitions/"
+  },
+  "eligibility": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Rules link to the sponsor's official rules; not re-read in this pass.",
+   "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the pages read in this pass.",
+   "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not stated on the pages read in this pass.",
+   "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+  }
+ },
+ "summary": "A live $300,000 US Department of Energy data competition with roughly four weeks remaining. Free entry and full eligibility still need the sponsor's rules page; treated as a research candidate, not a confirmed free entry.",
+ "flags": [
+  "Free entry not stated on the pages read.",
+  "Full rules sit off-site with the sponsor."
+ ],
+ "deadline_iso": null
+}

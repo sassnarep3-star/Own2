@@ -1,0 +1,56 @@
+{
+ "id": "gamersaloon",
+ "checked": "2026-11-01",
+ "category": "skill",
+ "verdict": "partial",
+ "sources": [
+  {
+   "title": "GamerSaloon 1-Rounders (weekly free tournaments)",
+   "url": "https://www.gamersaloon.com/promos/1rounder/",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "$10 per weekly one-round tournament, paid as Bonus Cash that cannot be withdrawn",
+   "quote": "Prizes are paid as Bonus Cash* ... *Bonus Cash can be used to enter tournaments, matches, and pay other fees on GamerSaloon. It is not eligible for withdrawal.",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free entry, one entry per person, Saturdays 4:30 PM CT",
+   "quote": "These special free tournaments are limited to one entry per person, so pick your title wisely.",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Weekly, Saturdays 4:30 PM CT, join before 4:30 PM CT",
+   "quote": "Launched Weekly on Saturdays at 4:30 PM CT.",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "18+; console titles on PS4/PS5, Xbox One/Series",
+   "quote": "18+",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed on the promotion page.",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  },
+  "payout": {
+   "status": "confirmed",
+   "text": "No cash withdrawal: prize is site credit only",
+   "quote": "It is not eligible for withdrawal.",
+   "url": "https://www.gamersaloon.com/promos/1rounder/"
+  }
+ },
+ "summary": "Free to enter, but the $10 is site credit, not money you can take out. The upstream ledger summarised this as '$10 cash per bracket', which the operator's own footnote contradicts.",
+ "flags": [
+  "Upstream claim '$10 cash per bracket' is contradicted by the operator's own footnote: Bonus Cash is not withdrawable."
+ ],
+ "deadline_iso": null
+}

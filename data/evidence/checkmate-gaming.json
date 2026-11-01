@@ -1,0 +1,56 @@
+{
+ "id": "checkmate-gaming",
+ "checked": "2026-11-01",
+ "category": "skill",
+ "verdict": "verified",
+ "sources": [
+  {
+   "title": "Checkmate Gaming free tournaments",
+   "url": "https://www.checkmategaming.com/free-tournaments",
+   "checked": "2026-11-01"
+  }
+ ],
+ "fields": {
+  "prize": {
+   "status": "confirmed",
+   "text": "Free-entry tournaments posted on 2026-11-01 paid $40, $120 and similar per event; paid 'Elite' events pay more ($1,500) but require an entry fee",
+   "quote": "$40 PRIZE ... FREE ENTRY ... Nov 1 2026, 01:30 PM EST | $120 PRIZE ... FREE ENTRY",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  },
+  "freeEntry": {
+   "status": "confirmed",
+   "text": "Free entry is explicit on the page and in each free tournament title.",
+   "quote": "Totally free to enter with real cash prizes. New tournaments posted daily.",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  },
+  "deadline": {
+   "status": "confirmed",
+   "text": "Rolling: multiple free tournaments per day, posted a day ahead",
+   "quote": "Nov 1 2026, 05:30 PM EST | Nov 2 2026, 01:30 PM EST",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  },
+  "eligibility": {
+   "status": "confirmed",
+   "text": "Regions shown per tournament: US, CA and EU",
+   "quote": "All Regions Canada Europe United States",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  },
+  "aiPolicy": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Not addressed on the free tournament page.",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  },
+  "payout": {
+   "status": "not_stated",
+   "text": "",
+   "quote": "Payout methods are not described on the free tournament page.",
+   "url": "https://www.checkmategaming.com/free-tournaments"
+  }
+ },
+ "summary": "Genuine free-entry cash tournaments, refreshed daily, mostly Call of Duty 4v4 SnD. Small prizes ($40-$120) and you must actually be good at the game; free cash entry is confirmed by the operator.",
+ "flags": [
+  "Free tournaments observed are console FPS events; prize per event is small."
+ ],
+ "deadline_iso": null
+}
