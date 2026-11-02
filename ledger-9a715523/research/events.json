@@ -326,7 +326,7 @@
       "agent_policy": "restricted",
       "shortlist": true,
       "top_cash_usd": 20000,
-      "pool_usd": 46000,
+      "pool_usd": null,
       "flags": [
         "Only up to 30 finalists receive one day of free remote NAS access.",
         "Finalists must test and record a working skill in Round 2.",
