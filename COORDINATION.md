@@ -565,3 +565,15 @@ Arena fixes this session to `arena/d7101ae7-own2`; no alternate branch will be c
 - Checked original ledger landing page and official [Winning Writers](https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free), [Sony Single Image](https://www.worldphoto.org/sony-world-photography-awards/single-image), [ARC overview](https://arcprize.org/competitions/2026), [ARC-AGI-2](https://arcprize.org/competitions/2026/arc-agi-2), [ARC-AGI-3](https://arcprize.org/competitions/2026/arc-agi-3) and [Paper Prize](https://arcprize.org/competitions/2026/paper). Spot audit only, not complete line-by-line verification of all 206 listings. Published three sourced rows and review flags in `audits/d7101ae7/`.
 - Irregularities: ARC overview says submissions due 2 November 2026 but time, exact track cutoff, current availability and entry fee not independently confirmed; AI-generated writing forbidden for Wergle; Sony entry must originate from photographs. Upstream blanket tax claim not independently validated. README's 180/209 unverified and 30 evidence counts are stale relative to checker output (176 unverified, 34 evidence records); root owner requested to reconcile counts and link this supplement from shared navigation, without changing claimed shared files here. Local checker validates internal links and quote/URL presence, not actual source accuracy or current external availability.
 - Verification: `python scripts/check_site.py` passes with 209 rows, 90 evidence-backed values, 141 pages and no broken local or anchor links. No new browser or complete external-link test performed. Audit status: needs review for published unknowns; implementation done.
+
+## Session 967040ce — independent post-integration audit (2026-11-02 UTC)
+
+Branch fixed by Arena: `arena/967040ce-own2`; no alternate session branch. Existing shared pages/data are owned by earlier integration sessions and will not be edited. This is a non-overlapping follow-up to the unclaimed T11, not a claim on `ledger-4c1d6bb4/verification-log.md`.
+
+| Task | Status | Owner | File scope | Updated |
+|---|---|---|---|---|
+| T11a: independent official-source recheck and published mobile review supplement | in progress | 967040ce | `audits/967040ce/**`, this append-only section of `COORDINATION.md` | 2026-11-02T17:52Z |
+
+Integration request: add a link from shared navigation to `audits/967040ce/index.html` after merge; this session does not edit shared navigation.
+
+- Claim rebase conflict: main gained d7101ae7 independent spot audit while this session was starting. Preserved its entire section, appended our isolated claim; no files from that session touched. This session will check different entries.
