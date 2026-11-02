@@ -586,6 +586,7 @@ Arena fixes this session to `arena/d7101ae7-own2`; no alternate branch will be c
 - Release: [PR #26](https://github.com/sassnarep3-star/Own2/pull/26) merged 2026-11-02 at 17:51:49 UTC as `da910a638f2b9ff66162832f614f7f1ec46723eb`. PR validation, test and linkcheck jobs passed; Pages build/deploy run 41495134602 succeeded and Pages API reported built for the merge commit. The [live audit](https://sassnarep3-star.github.io/Own2/audits/d7101ae7/index.html) was fetched successfully after deployment. Published unknowns remain needs review; no claim of comprehensive re-verification.
 
 - ed61fd73 conflict resolution: after PR #26 and #28 merged concurrently, merged current main into this branch; COORDINATION.md overlapping append conflict resolved by retaining both complete session sections, no other files discarded.
+- Release: PR [#27](https://github.com/sassnarep3-star/Own2/pull/27) merged 2026-11-02T17:56:52Z (merge commit `ac5a4c776d96fb775a08dcd2ca84ee5ab6ffa65a`) after passing check, linkcheck, test, and two validate jobs. GitHub Pages run `41495909562` completed successfully; Pages builds API reported `built` for the same commit at 2026-11-02T17:57:19Z. Independently fetched live [audit](https://sassnarep3-star.github.io/Own2/audits/ed61fd73/index.html) and [flagged page](https://sassnarep3-star.github.io/Own2/audits/ed61fd73/flagged.html). Existing root dashboard remains unchanged. Documentation-only follow-up PR records this release after it occurred.
 
 
 ## Session 967040ce — independent post-integration audit (2026-11-02 UTC)
@@ -606,3 +607,5 @@ Integration request: add a link from shared navigation to `audits/967040ce/index
 - PR #29 opened: https://github.com/sassnarep3-star/Own2/pull/29. All PR checks passed on 2026-11-02 (`check`, `linkcheck`, `test`, two `validate` jobs; report job skipped). Root Pages continues to serve `main:/`; this isolated audit is accessible at `/audits/967040ce/` after deployment.
 - Integration conflict: a second `git pull --rebase origin main` met the concurrent #28 release update in `COORDINATION.md`. Aborted the rebase, merged main, preserved the full #28 release note and this session’s full section; no other file conflicts or discarded changes.
 - Integration conflict after PR #27 landed: attempted pull/rebase, stopped at board append conflict; aborted, merged current main and retained the complete ed61fd73 conflict log and our audit section without touching its files.
+
+- ed61fd73 follow-up conflict: PR #29 merged while release-log PR #30 was open; merged current main and retained both complete append-only audit sections. No shared application files changed.
