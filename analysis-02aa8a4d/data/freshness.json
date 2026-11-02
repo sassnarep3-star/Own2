@@ -1,0 +1,545 @@
+{
+  "audit": "Priority freshness sweep — official pages read 2026-11-02 (UTC) via page reader",
+  "checked_date": "2026-11-02",
+  "policy": "Every field records a verbatim quote and the URL it was read from on 2026-11-02. Values with no official quote are left null and flagged. Nothing is inferred.",
+  "records": [
+    {
+      "id": "arcprize",
+      "name": "ARC Prize 2026 (program)",
+      "url": "https://arcprize.org/competitions/2026",
+      "category": "tech",
+      "status": {
+        "value": "Final days: submissions due 2026-11-02 (today); papers due 2026-11-08 per overview. ARC-AGI-2/3 entry deadline (2026-10-26) already passed (per prior official read recorded in root data); Kaggle Paper Track still accepting entries on 2026-11-02.",
+        "quote": "November 2, 2026 - Submissions due",
+        "quote2": "November 8, 2026 - Papers due",
+        "quote3": "December 4, 2026 - Results announced",
+        "url": "https://arcprize.org/competitions/2026"
+      },
+      "prize": {
+        "value": "$2,000,000 across 3 tracks (ARC-AGI-3, ARC-AGI-2, Paper Prize)",
+        "quote": "$2M in prizes. 3 tracks. Open source progress toward AGI.",
+        "url": "https://arcprize.org/competitions/2026"
+      },
+      "free": {
+        "value": null,
+        "quote": null,
+        "url": null,
+        "note": "No free-entry clause on the overview page. Root dataset records a no-purchase finding from the Kaggle Paper Track rules (prior session, url https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules) — inherited, not re-read in this sweep."
+      },
+      "eligibility": {
+        "value": "Open-source submission required to be prize-eligible; prizes at sole discretion of ARC Prize Inc.",
+        "quote": "All leading participants are expected to open source their solutions to be eligible for a prize.",
+        "url": "https://arcprize.org/competitions/2026"
+      },
+      "flags": [
+        "Paper deadline discrepancy (carried, re-confirmed 2026-11-02): arcprize.org overview says papers due 2026-11-08 while the Kaggle Paper Track card shows '7 days to go' on 2026-11-02 (i.e. ~2026-11-09) and earlier sessions recorded Kaggle rules text '2026-11-09 23:59 UTC'. Not reconciled; both official links published."
+      ]
+    },
+    {
+      "id": "arcprize-paper",
+      "name": "ARC Prize 2026 — Paper Prize",
+      "url": "https://arcprize.org/competitions/2026/paper",
+      "category": "tech",
+      "status": {
+        "value": "Accepting entries (Kaggle card showed '7 days to go' on 2026-11-02).",
+        "quote": "Paper submissions must be linked to a Kaggle code submission (ARC-AGI-2 or ARC-AGI-3 track) that demonstrates the approach detailed in the paper.",
+        "url": "https://arcprize.org/competitions/2026/paper"
+      },
+      "prize": {
+        "value": "$450,000 total: Top Paper $75,000 guaranteed (1st $50,000 / 2nd $20,000 / 3rd $5,000) + Outstanding Papers Pool $375,000",
+        "quote": "Prizes - $450K Total",
+        "quote2": "Top Paper - $75K (guaranteed)",
+        "quote3": "Outstanding Papers Pool - $375K",
+        "url": "https://arcprize.org/competitions/2026/paper"
+      },
+      "free": {"value": null, "quote": null, "url": null, "note": "Same as arcprize: inherited no-purchase finding from Kaggle Paper Track rules (prior session)."},
+      "flags": [
+        "Kaggle Paper Track card showed '$450,000' and '7 days to go' on 2026-11-02 (https://www.kaggle.com/competitions) — consistent with this page's $450K total."
+      ]
+    },
+    {
+      "id": "kaggle-nfl-bdb-2027",
+      "name": "NFL Big Data Bowl 2027 (Kaggle)",
+      "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027",
+      "category": "tech",
+      "status": {
+        "value": "Open — started 2026-10-06; final submissions due 2027-01-06.",
+        "quote": "October 6, 2026 - Start Date.",
+        "quote2": "January 6, 2027 - Final Submission Deadline.",
+        "quote3": "2 months to go",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+      },
+      "prize": {
+        "value": "$100,000 total: Open Track $45,000 (3 finalists $10,000 each + 3 runners-up $5,000 each), University Track $45,000 (same split), Grand Prize $10,000 (Combine presentation winner)",
+        "quote": "5. TOTAL PRIZES AVAILABLE: $100,000",
+        "quote2": "Open Track ($45,000)",
+        "quote3": "University Track ($45,000)",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules"
+      },
+      "free": {
+        "value": "Free to enter (no purchase necessary)",
+        "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules"
+      },
+      "eligibility": {
+        "value": "Open Track has no eligibility restrictions; University Track is undergraduates only (verification may be required).",
+        "quote": "Open Track · $45,000 — No eligibility restrictions for entry.",
+        "quote2": "University Track · $45,000 — Open only to groups or individuals composed entirely of undergraduate students. Verification may be required to prove eligibility.",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+      },
+      "format": {
+        "value": "Written analytical writeup (≤2,000 words, <10 tables/figures) using Combine tracking data; winning code must be open-sourced.",
+        "quote": "Word and figure limits: Submissions should contain no more than 2,000 words and fewer than 10 tables or figures.",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027"
+      },
+      "flags": []
+    },
+    {
+      "id": "espn-pickem",
+      "name": "ESPN NFL Pick'em 2026",
+      "url": "https://fantasy.espn.com/games/nfl-pickem-2026/picks",
+      "category": "sports",
+      "status": {
+        "value": "Open — live season; Week 8 ran Oct 29–Nov 2 and Week 9 opens Nov 5 on 2026-11-02.",
+        "quote": "Week 8 Oct 29 - Nov 2",
+        "quote2": "Week 9 Nov 5 - 9",
+        "quote3": "Event Dates 09/09/2026 - 01/10/2027",
+        "url": "https://fantasy.espn.com/games/nfl-pickem-2026/picks"
+      },
+      "prize": {
+        "value": "$102,000 across 58 prizes (season-long + weekly); $1,500 guaranteed weekly; extra $5K bonus for full picks in all 4 modes",
+        "quote": "Total Prizes $102,000",
+        "quote2": "There are 58 prizes to be won this year worth $102K across four game modes - Standard, Spread, Pick 5 (NEW) and Confidence.",
+        "quote3": "$1,500 in guaranteed prizes available EVERY WEEK of the NFL season!",
+        "url": "https://fantasy.espn.com/games/nfl-pickem-2026/picks"
+      },
+      "free": {
+        "value": "Free to play, up to 10 entries",
+        "quote": "FREE to play. Create up to 10 entries. Compete for 58 prizes worth $102K!",
+        "url": "https://fantasy.espn.com/games/nfl-pickem-2026/picks"
+      },
+      "format": {
+        "value": "Weekly game-winner picks across 4 modes; up to 10 entries.",
+        "quote": "Make at least one pick to get started! Winning picks are worth 10 points.",
+        "url": "https://fantasy.espn.com/games/nfl-pickem-2026/picks"
+      },
+      "flags": ["Eligibility not restated on the fetched page — blank, see official rules link on the game page."]
+    },
+    {
+      "id": "espn-cfb",
+      "name": "ESPN College Football Pick'em 2026",
+      "url": "https://fantasy.espn.com/games/college-football-pickem-2026/picks",
+      "category": "sports",
+      "status": {
+        "value": "Open — Week 10 locks Sat 2026-11-07 on 2026-11-02; event runs to 2026-12-06.",
+        "quote": "Sat 11/7 • LOCKS @ 12:00 pm",
+        "quote2": "Event Dates 09/05/2026 - 12/06/2026",
+        "url": "https://fantasy.espn.com/games/college-football-pickem-2026/picks"
+      },
+      "prize": {
+        "value": "$86,000 across 46 season-long and weekly prizes; $1,500 weekly; $5,000 bonus for full picks in all 3 modes",
+        "quote": "Total Prizes $86,000",
+        "quote2": "There are 46 season-long and weekly prizes to be won this year worth $86K across three game modes - Standard, Spread and Confidence.",
+        "url": "https://fantasy.espn.com/games/college-football-pickem-2026/picks"
+      },
+      "free": {
+        "value": "Free to play, up to 5 entries",
+        "quote": "Pick college football winners every week and compete for $86K in prizes! FREE to play.",
+        "url": "https://fantasy.espn.com/games/college-football-pickem-2026/picks"
+      },
+      "format": {
+        "value": "Weekly picks across 3 modes; up to 5 entries.",
+        "quote": "Create up to 5 entires to maximize your chances!",
+        "url": "https://fantasy.espn.com/games/college-football-pickem-2026/picks"
+      },
+      "flags": ["First independent official-source verification of this row (root dataset previously had no evidence for it). Upstream ledger claim '$86,000 total (46 prizes)' now matches the official page exactly."]
+    },
+    {
+      "id": "cbs-pro-pickem",
+      "name": "CBS Sports Pro Football Pick'em 2026",
+      "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+      "category": "sports",
+      "status": {
+        "value": "Open — challenge period 2026-09-09 to 2027-01-10; 18 weekly contests.",
+        "quote": "The Challenge commences on September 9, 2026 and is scheduled to end on January 10, 2027 (the \"Challenge Period\"). ... There will be eighteen (18) Weekly Contest Periods within the Challenge Period",
+        "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+      },
+      "prize": {
+        "value": "18 weekly prizes of $1,000; season-long prize $5,000; contingency prize $100,000 (perfect weekly card + exact tiebreaker scores)",
+        "quote": "Eighteen (18) Weekly Prizes will be awarded in accordance with these Official Rules. Each Weekly Prize consists of One Thousand Dollars (US$1,000.00)",
+        "quote2": "The Season Long Prize consists of Five Thousand Dollars (US$5,000.00)",
+        "quote3": "the contingency prize, which consists of One Hundred Thousand Dollars (US$100,000.00)",
+        "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+      },
+      "free": {
+        "value": "Free to play; no purchase or entry fee necessary",
+        "quote": "The Challenge is FREE to play. No purchase, wireless device or entry fee necessary to enter or win.",
+        "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+      },
+      "eligibility": {
+        "value": "Legal residents of the 50 US states (DC included; PR/territories excluded), 18+ or age of majority; one account per person.",
+        "quote": "The Challenge is open to persons who are: (a) Registered Users (as defined below); (b) legal residents of one of the fifty (50) United States; and (c) eighteen (18) years old or age of majority, whichever is older, in your state of residence as of the date of registration in the Challenge;.",
+        "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+      },
+      "format": {
+        "value": "Weekly against-the-spread picks with tiebreaker score predictions; one entry per person.",
+        "quote": "Limit one (1) entry per Registered User and per person.",
+        "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+      },
+      "flags": []
+    },
+    {
+      "id": "metaculus",
+      "name": "Metaculus tournaments",
+      "url": "https://www.metaculus.com/tournaments/",
+      "category": "forecasting",
+      "status": {
+        "value": "Open — 19 live tournaments listed on 2026-11-02; US Midterms 2026 ends in ~2 days.",
+        "quote": "19 tournaments shown",
+        "quote2": "US Midterms 2026 ... $10,000 PRIZE POOL ... Ends 2 days from now",
+        "url": "https://www.metaculus.com/tournaments/"
+      },
+      "prize": {
+        "value": "Listed live prize pools on 2026-11-02 include: Fall 2026 FutureEval Bot Tournament $50,000; Labor Automation Tournament $35,000; Forecasting Our World in Data $20,000; POTUS Predictions $15,000; US Midterms 2026 $10,000; US Democracy Threat Index $10,000; ACX 2026 Prediction Contest $10,000; Market Pulse Challenge 26Q4 $7,500; Metaculus Cup Fall 2026 $5,000; AI Pathways $5,000; Sagan Space $5,000; Climate Tipping Points $5,000; Animal Futures $3,400 (plus Summer 2026 FutureEval $50,000 pending winners).",
+        "quote": "Fall 2026 FutureEval Bot Tournament ... $50,000 PRIZE POOL ... Ends 2 months from now",
+        "quote2": "Metaculus Cup Fall 2026 ... $5,000 PRIZE POOL ... Ends 2 months from now",
+        "quote3": "Labor Automation Tournament ... $35,000 PRIZE POOL ... Ends 9 years from now",
+        "url": "https://www.metaculus.com/tournaments/"
+      },
+      "free": {
+        "value": "Free to participate; cash prizes for accuracy; nothing staked",
+        "quote": "We are not a prediction market. You can participate for free and win cash prizes for being accurate.",
+        "url": "https://www.metaculus.com/tournaments/"
+      },
+      "flags": ["US Midterms 2026 tournament ends ~2026-11-04 ('Ends 2 days from now') — act fast or skip."]
+    },
+    {
+      "id": "gems-2026",
+      "name": "GEMS Prize Challenge (US DOE / DrivenData)",
+      "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+      "category": "tech",
+      "status": {
+        "value": "Open — closes 2026-12-03 23:59 UTC (~4 weeks left on 2026-11-02).",
+        "quote": "Dec. 3, 2026, 11:59 p.m. UTC",
+        "quote2": "4 weeks left",
+        "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+      },
+      "prize": {
+        "value": "$300,000 total: Initial round $50,000 (5 × $10,000 on private test set); Final round $250,000 ($100,000 / $70,000 / $40,000 / $25,000 / $15,000 on re-labeled dataset)",
+        "quote": "Total Prize Pool: $300,000",
+        "quote2": "Initial Prize Round — $50,000 ... 1st – 5th Place (each) $10,000",
+        "quote3": "Final Prize Round — $250,000 ... 1st $100,000 ... 2nd $70,000 ... 3rd $40,000 ... 4th $25,000 ... 5th $15,000",
+        "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+      },
+      "free": {
+        "value": null,
+        "quote": null,
+        "url": null,
+        "note": "No free-entry statement on the competition page or the rules gateway. Official rules are the NLR PDF (https://www.nlr.gov/docs/fy26osti/96647.pdf) linked from https://www.herox.com/GEMSPrize/resource/2274 ('Official rules document for the Geologic Enhanced Mapping System (GEMS) Prize.') — not read in this sweep. Left blank; flagged."
+      },
+      "flags": ["Free entry still not confirmed from an official page (consistent with two earlier sessions' findings). Do not assume free entry."]
+    },
+    {
+      "id": "devpost-paypal",
+      "name": "PayPal AI Hackathon (Devpost)",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "category": "tech",
+      "status": {
+        "value": "Open — 10 days left on 2026-11-02; submissions close 2026-11-12 12:00 PT / 15:00 EST.",
+        "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time) (“Submission Period”).",
+        "quote2": "10 more days to deadline",
+        "url": "https://paypalaihackathon.devpost.com/rules"
+      },
+      "prize": {
+        "value": "$67,500 in cash per the official prizes card and the Devpost directory; the same event's About text says '$69,750 in total prizes' — conflicting totals on the official site, both published.",
+        "quote": "$67,500 in cash",
+        "quote2": "Win part of $69,750 in total prizes",
+        "url": "https://paypalaihackathon.devpost.com/"
+      },
+      "free": {
+        "value": "Free to enter (no purchase or payment necessary)",
+        "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN. A PURCHASE OR PAYMENT WILL NOT INCREASE YOUR CHANCES OF WINNING.",
+        "url": "https://paypalaihackathon.devpost.com/rules"
+      },
+      "eligibility": {
+        "value": "Individuals at the age of majority+, teams, and organizations; excluded: Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea and other US-sanctioned jurisdictions.",
+        "quote": "Individuals who are at least the age of majority where they reside as of the time of entry (“Eligible Individuals”)",
+        "quote2": "Individuals who are residents of, or Organizations domiciled in, a country, state, province or territory where the laws of the United States or local law prohibits participating or receiving a prize in the Hackathon (including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea",
+        "url": "https://paypalaihackathon.devpost.com/rules"
+      },
+      "format": {
+        "value": "Build an application integrating the PayPal developer platform (free sandbox) + an AI tool; public repo, demo video <3 min; team or individual.",
+        "quote": "Entrants must build or update an application that integrates the PayPal developer platform (using the free sandbox environment) along with an AI tool, model, or platform of your choice (each a “Project”).",
+        "url": "https://paypalaihackathon.devpost.com/rules"
+      },
+      "flags": ["Prize total conflict on the official event site: '$67,500 in cash' (card) vs '$69,750 in total prizes' (About text). Not reconciled; both quoted."]
+    },
+    {
+      "id": "devpost",
+      "name": "Devpost hackathon directory (open cash events snapshot)",
+      "url": "https://devpost.com/hackathons",
+      "category": "tech",
+      "status": {
+        "value": "Open directory — 14,228 hackathons listed; cash events open on 2026-11-02 include Meta VR Start Developer Competition 2026 ($1,000,000, Sep 24–Nov 18), Codegeist 2026 ($120,000, Oct 27–Dec 22), Kiroween 2026 ($100,000, Oct 30–Dec 04), UGREEN Hackathon 2026 on AI NAS ($46,000, Oct 22–Nov 16), PayPal AI Hackathon ($67,500, to Nov 12), Codex x TwitchCon ($25,000, ending within hours on 2026-11-02), Learn AR with SPECS ($2,500, to Nov 09), Arbiter Hacks V1 ($7,800, Oct 20–Dec 21).",
+        "quote": "Showing 14228 hackathons",
+        "quote2": "Meta VR Start Developer Competition 2026 ... 16 days left ... Online ... $1,000,000 in prizes ... Sep 24 - Nov 18, 2026",
+        "quote3": "Codegeist 2026: Build with context. Ship with confidence. ... about 2 months left ... Online ... $120,000 in prizes ... Oct 27 - Dec 22, 2026",
+        "url": "https://devpost.com/hackathons"
+      },
+      "prize": {
+        "value": "Per-event cash prizes; largest confirmed open cash pool on 2026-11-02: Meta VR Start Developer Competition 2026 at $1,000,000.",
+        "quote": "Meta VR Start Developer Competition 2026 ... $1,000,000 in prizes",
+        "url": "https://devpost.com/hackathons"
+      },
+      "free": {
+        "value": "Directory events use Devpost standard rules ('NO PURCHASE OR PAYMENT NECESSARY'); per-event rules govern (example verified 2026-11-02: PayPal AI Hackathon rules).",
+        "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN. A PURCHASE OR PAYMENT WILL NOT INCREASE YOUR CHANCES OF WINNING.",
+        "url": "https://paypalaihackathon.devpost.com/rules"
+      },
+      "flags": [
+        "DSH Hacks V2 title claims '$100k+ in prizes!' but the official directory card shows '5 non-cash prizes' — marketing claim vs non-cash reality. Quote: 'DSH Hacks V2 ($100k+ in prizes!) ... 13 days left ... 5 non-cash prizes'.",
+        "Codex x TwitchCon Hackathon ends ~2026-11-02 ('about 4 hours left' when read)."
+      ]
+    },
+    {
+      "id": "sony-world-photo",
+      "name": "Sony World Photography Awards — Single Image competition",
+      "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+      "category": "creative",
+      "status": {
+        "value": "Open — deadline 2027-01-05 16:00 GMT.",
+        "quote": "Deadline is 5 January, 2027 at 16.00 GMT",
+        "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+      },
+      "prize": {
+        "value": "$5,000 for the Single Image overall winner (plus Sony equipment, ceremony trip, exposure); category winners receive Sony equipment.",
+        "quote": "you could win $5,000, a range of top Sony Digital Imaging equipment plus benefit from international media exposure",
+        "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+      },
+      "free": {
+        "value": "Free to enter; up to three images free",
+        "quote": "1.2.1 The Competition is free to enter.",
+        "quote2": "3.5 Each Entrant can submit up to three images for free.",
+        "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+      },
+      "eligibility": {
+        "value": "Open to all members of the public; images must be taken in 2026.",
+        "quote": "1.2.2 The Single Image competition is open to all members of the public.",
+        "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+      },
+      "flags": [
+        "AI restriction: 'Computer generated content cannot be the origin of the Entry.' (rule 4) — entries must originate from a photograph.",
+        "Note: the ledger's $25,000 figure belongs to the separate Series competition, not Single Image. Series prize not re-read in this sweep."
+      ]
+    },
+    {
+      "id": "wergle-flomp",
+      "name": "Wergle Flomp Humor Poetry Contest (Winning Writers)",
+      "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+      "category": "creative",
+      "status": {
+        "value": "Open — submission window 2026-08-15 to 2027-04-01 (26th year).",
+        "quote": "Please submit one humor poem during August 15, 2026-April 1, 2027",
+        "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+      },
+      "prize": {
+        "value": "$5,100 in cash: 1st $2,000, 2nd $750, 3rd $350, 10 × $200 honorable mentions (plus in-kind subscriptions)",
+        "quote": "Now in its 26th year, this contest seeks today's best humor poems. No fee to enter. Submit published or unpublished work. $5,100 in prizes.",
+        "quote2": "First Prize: $2,000 plus a two-year gift certificate from Duotrope (a $100 value) and five years of Chill Subs' Best plan (a $1,000 value)",
+        "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+      },
+      "free": {
+        "value": "No fee to enter",
+        "quote": "No fee to enter.",
+        "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+      },
+      "eligibility": {
+        "value": "All countries except Iran, North Korea, Crimea, Russia, Belarus; English-language humor poems; no age restriction.",
+        "quote": "Authors from all countries eligible except Iran, North Korea, Crimea, Russia, and Belarus (due to US government restrictions).",
+        "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+      },
+      "flags": [
+        "AI restriction (re-confirmed): 'Any writing that you submit to a Winning Writers contest must be composed using your own words, and may not contain any AI-generated text.' — AI-assisted entries are effectively barred; human-only work required."
+      ]
+    },
+    {
+      "id": "mlb-beat-the-streak",
+      "name": "MLB Beat the Streak",
+      "url": "https://www.mlb.com/apps/beat-the-streak",
+      "category": "sports",
+      "status": {
+        "value": "CONFLICT — official terms say the contest ends with the 2026 MLB regular season (concluded before 2026-11-02), but the page still promotes playing now. Not resolved.",
+        "quote": "Starts on or about 12:00 p.m. ET on March 24, 2026, and ends upon conclusion of the final game of the 2026 MLB regular season.",
+        "quote2": "Beat the Streak is back for another exciting season! Start playing now in the MLB app or on MLB.com/Play.",
+        "url": "https://www.mlb.com/apps/beat-the-streak"
+      },
+      "prize": {
+        "value": "US$5,600,000 for a 57-game hitting streak (winner's choice of 30-year annuity $186,667/yr or lump sum ~$3,000,000 as of 2026-03-12); not awarded if no one hits 57.",
+        "quote": "The US$5,600,000 prize is subject to applicable taxes & awarded as winner’s choice of 30-yr annuity of US$186,667 per year without interest or lump sum payment of the estimated present value of the prize, which as of March 12, 2026, equals US$3,000,000). If no eligible participant achieves a 57-game hitting streak, the US$5,600,000 prize will not be awarded.",
+        "url": "https://www.mlb.com/apps/beat-the-streak"
+      },
+      "free": {
+        "value": "No purchase necessary",
+        "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+        "url": "https://www.mlb.com/apps/beat-the-streak"
+      },
+      "eligibility": {
+        "value": "US and Canada (excluding Quebec) residents, 21+, registered MLB.com users.",
+        "quote": "Open to legal residents of the United States and Canada (excluding Quebec) who are registered users of MLB.com and 21+.",
+        "url": "https://www.mlb.com/apps/beat-the-streak"
+      },
+      "flags": ["Status conflict (carried from earlier audits, re-confirmed 2026-11-02): terms say the prize window ended with the 2026 regular season; page still says 'Start playing now'. Verify with MLB before spending time."]
+    },
+    {
+      "id": "checkmate-gaming",
+      "name": "Checkmate Gaming free tournaments",
+      "url": "https://www.checkmategaming.com/free-tournaments",
+      "category": "skill",
+      "status": {
+        "value": "Open — free cash tournaments posted daily; six FREE ENTRY events listed for 2026-11-02 alone.",
+        "quote": "Totally free to enter with real cash prizes. New tournaments posted daily.",
+        "quote2": "Nov 2 2026, 06:30 PM EST ... FREE ENTRY ... $120 FREE ENTRY 4v4 SND BEST OF 1",
+        "url": "https://www.checkmategaming.com/free-tournaments"
+      },
+      "prize": {
+        "value": "Per-event cash prizes, e.g. $40 and $120 events on 2026-11-02 (small, frequent).",
+        "quote": "$40 PRIZE ... FREE ENTRY",
+        "quote2": "$120 PRIZE ... FREE ENTRY",
+        "url": "https://www.checkmategaming.com/free-tournaments"
+      },
+      "free": {
+        "value": "Totally free to enter",
+        "quote": "Totally free to enter with real cash prizes.",
+        "url": "https://www.checkmategaming.com/free-tournaments"
+      },
+      "eligibility": {
+        "value": "Regions offered: United States, Canada, Europe (filter labels US / CA / EU on events).",
+        "quote": "All Regions Canada Europe United States",
+        "url": "https://www.checkmategaming.com/free-tournaments"
+      },
+      "format": {
+        "value": "Short 4v4 Search & Destroy best-of-1 matches in Call of Duty titles.",
+        "quote": "FREE ENTRY 4v4 SND BEST OF 1",
+        "url": "https://www.checkmategaming.com/free-tournaments"
+      },
+      "flags": ["Prize per event is small ($40–$120 observed). Prior sessions flagged a claim-window conflict (claiming prizes) — carried, not re-investigated here."]
+    },
+    {
+      "id": "gamersaloon",
+      "name": "GamerSaloon 1-Rounders",
+      "url": "https://www.gamersaloon.com/promos/1rounder/",
+      "category": "skill",
+      "status": {
+        "value": "Open — weekly free tournaments, Saturdays 16:30 CT; many titles listed on 2026-11-02.",
+        "quote": "Launched Weekly on Saturdays at 4:30 PM CT.",
+        "url": "https://www.gamersaloon.com/promos/1rounder/"
+      },
+      "prize": {
+        "value": "$10 per win, paid as Bonus Cash — NOT withdrawable as USD.",
+        "quote": "Get the win and $10 is yours.",
+        "quote2": "Prizes are paid as Bonus Cash*.",
+        "quote3": "*Bonus Cash can be used to enter tournaments, matches, and pay other fees on GamerSaloon. It is not eligible for withdrawal.",
+        "url": "https://www.gamersaloon.com/promos/1rounder/"
+      },
+      "free": {
+        "value": "Free entry, one entry per person per week",
+        "quote": "These special free tournaments are limited to one entry per person, so pick your title wisely.",
+        "url": "https://www.gamersaloon.com/promos/1rounder/"
+      },
+      "flags": ["Prize is Bonus Cash only ('not eligible for withdrawal') — not a real-cash free path. Stamped honestly; excluded from cash rankings."]
+    },
+    {
+      "id": "xprize",
+      "name": "XPRIZE grand challenges (index snapshot)",
+      "url": "https://www.xprize.org/competitions",
+      "category": "tech",
+      "status": {
+        "value": "Open at index level — 3 Active, 1 Finals-stage, 2 Impact competitions listed on 2026-11-02 (new-entry viability per competition unconfirmed).",
+        "quote": "ActiveXPRIZE Quantum Applications ... $5 Million",
+        "quote2": "ActiveXPRIZE Water Scarcity ... $119 Million",
+        "quote3": "FinalsXPRIZE Wildfire ... $11 Million",
+        "url": "https://www.xprize.org/competitions"
+      },
+      "prize": {
+        "value": "Active purses: Water Scarcity $119M, Healthspan $101M, Quantum Applications $5M; also Wildfire $11M (Finals), Carbon Removal $100M (Impact), Rainforest $10M (Impact).",
+        "quote": "$119 Million ActiveXPRIZE Water Scarcity",
+        "quote2": "$101 Million ActiveXPRIZE Healthspan",
+        "url": "https://www.xprize.org/competitions"
+      },
+      "free": {
+        "value": null,
+        "quote": null,
+        "url": null,
+        "note": "No free-entry statement on the index; per-competition entry requirements not read in this sweep. Prior session flagged 'free entry not stated'; carried."
+      },
+      "flags": ["New-entry viability unconfirmed (a prior session flagged that finalists for some purses were already selected). Multi-year team R&D effort, not a quick free entry."]
+    },
+    {
+      "id": "tradingview-leap",
+      "name": "TradingView The Leap (paper-trading contests)",
+      "url": "https://www.tradingview.com/the-leap/",
+      "category": "market",
+      "status": {
+        "value": "Between contests — the most recent event (The Leap — Commodities, Oct 7–20, 2026) shows 'Completed'; no open contest displayed on 2026-11-02.",
+        "quote": "October 7 – 20, 2026 ... Completed ... The Leap — Commodities",
+        "url": "https://www.tradingview.com/the-leap/"
+      },
+      "prize": {
+        "value": "Latest completed contest awarded 250 TradingView plans (non-cash). General page claims real-money prizes exist across the series.",
+        "quote": "Take part with ‪25,189‬ traders ... Compete for 250 TradingView plans",
+        "quote2": "Risk-free trading competitions with real-money prizes and real practice up for grabs.",
+        "url": "https://www.tradingview.com/the-leap/"
+      },
+      "free": {
+        "value": "Free to enter with virtual money (paper trading), no deposit",
+        "quote": "Trade commodities ... Experience full-featured chart trading in real market-moving conditions — but with virtual money and zero risk.",
+        "url": "https://www.tradingview.com/the-leap/"
+      },
+      "flags": ["Prize form varies by contest: the Oct 2026 event paid TradingView plans (subscription, non-cash) despite the general 'real-money prizes' claim. Do not count on cash for a given contest without reading its own page."]
+    },
+    {
+      "id": "zindi",
+      "name": "Zindi (data-science challenge platform)",
+      "url": "https://zindi.world/competitions",
+      "category": "tech",
+      "status": {
+        "value": "Not verifiable — challenge list did not render for the page reader (JS-driven); counters showed placeholders.",
+        "quote": "Open Challenges: —Past Challenges: —",
+        "url": "https://zindi.world/competitions"
+      },
+      "prize": {"value": null, "quote": null, "url": null},
+      "free": {"value": null, "quote": null, "url": null},
+      "flags": [
+        "Platform moved domains: zindi.africa → zindi.world (page retrieved at zindi.world on 2026-11-02). Old links should be updated after manual review.",
+        "Challenge list not machine-verifiable (placeholder counters, 'Load more' JS). Same class of issue earlier sessions flagged as 'Zindi extraction contains placeholders'."
+      ]
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle competitions index (open cash events snapshot)",
+      "url": "https://www.kaggle.com/competitions",
+      "category": "tech",
+      "status": {
+        "value": "Open — Featured Hackathons on 2026-11-02: ARC Prize 2026 Paper Track ($450,000, '7 days to go'), NFL Big Data Bowl 2027 ($100,000, '2 months to go'), Google Gemma 4 Developer Agent Paper Track ($35,000, '10 days to go').",
+        "quote": "ARC Prize 2026 - Paper Track ... 391 Teams ... $450,000 ... 7 days to go",
+        "quote2": "NFL Big Data Bowl 2027 ... 477 Teams ... $100,000 ... 2 months to go",
+        "quote3": "Google - The Gemma 4 Developer Agent Paper Track ... 492 Teams ... $35,000 ... 10 days to go",
+        "url": "https://www.kaggle.com/competitions"
+      },
+      "prize": {
+        "value": "Per-competition cash pools (see status quotes).",
+        "quote": "The world's most important AI problems, open to anyone.",
+        "url": "https://www.kaggle.com/competitions"
+      },
+      "free": {
+        "value": "Per-competition rules state no purchase necessary (verified 2026-11-02 for NFL Big Data Bowl 2027).",
+        "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+        "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules"
+      },
+      "flags": [
+        "Kaggle's Paper Track card ('7 days to go' on 2026-11-02) implies a ~2026-11-09 close, one day after arcprize.org's 'November 8, 2026 - Papers due' — the documented ARC/Kaggle paper-deadline discrepancy is still live.",
+        "New since the 2026-08-19 ledger: Google Gemma 4 Developer Agent Paper Track ($35,000) — not in the original 206-row ledger."
+      ]
+    }
+  ]
+}

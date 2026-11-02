@@ -1,0 +1,28 @@
+{
+ "assessed_rows": 17,
+ "checked_date": "2026-11-02",
+ "counts_root": {
+  "cash": 18,
+  "closed": 2,
+  "flagged": 10,
+  "free": 21,
+  "no_off": 12,
+  "partial": 13,
+  "start": 7,
+  "total": 209,
+  "unverified": 176,
+  "verified": 8
+ },
+ "freshness_records": 19,
+ "internal_broken": 0,
+ "internal_pages_scanned": 170,
+ "link_rechecked": 12,
+ "link_recovered": 1,
+ "link_still_broken": 11,
+ "tier_a": 12,
+ "tier_b": 3,
+ "tier_c": 0,
+ "tier_x": 2,
+ "total_rows": 209,
+ "unassessed_rows": 192
+}
