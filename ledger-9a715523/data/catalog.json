@@ -874,8 +874,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Operator games page retrieved; it advertises gift-card prizes and survivor pools. Current survivor cash form and eligibility unverified.",
-        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
+        "Operator games page retrieved; it advertises gift-card prizes and survivor pools. Current survivor cash form and eligibility unverified."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -1050,7 +1049,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Official source reachability: http-error (HTTP 520). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: server-error (HTTP 520). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -3385,7 +3384,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Official source reachability: http-error (HTTP 503). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: server-error (HTTP 503). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5111,7 +5110,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: redirect-unresolved (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5141,7 +5140,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: redirect-unresolved (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5229,7 +5228,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: server-error (HTTP 520). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5695,7 +5695,7 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Official source reachability: http-error (HTTP 520). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: server-error (HTTP 520). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -6941,7 +6941,7 @@
         "An AI agent must not write or rewrite the poem.",
         "Any AI use must be described at submission.",
         "Cash-winning entries are published online; nonexclusive publication license applies.",
-        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
+        "Official source reachability: redirect-unresolved (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Human-written humor poem; agent use limited to error spotting under the stated policy.",
       "checked": "2026-11-02",
