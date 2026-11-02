@@ -1,0 +1,143 @@
+[
+  {
+    "id": "paypal",
+    "category": "Technology",
+    "name": "PayPal AI Hackathon",
+    "source": "https://paypalaihackathon.devpost.com/rules",
+    "checked": "2026-11-02",
+    "free": {
+      "value": "No purchase or payment necessary",
+      "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN."
+    },
+    "prize": {
+      "value": "USD $12,000 first place",
+      "quote": "1st Place | $12,000 USD | 1 | All Eligible Submissions"
+    },
+    "deadline": {
+      "value": "12 Nov 2026, 12:00 pm Pacific Time",
+      "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time)"
+    },
+    "geography": {
+      "value": "Exclusions apply; Singapore not named",
+      "quote": "including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea"
+    },
+    "ai": {
+      "value": "AI integration required in project",
+      "quote": "Entrants must build or update an application that integrates the PayPal developer platform (using the free sandbox environment) along with an AI tool, model, or platform of their choice"
+    },
+    "flag": "Singapore residency, local law, final prize eligibility and coding-agent-assisted authorship are not expressly approved; account, functioning demo, project rights and winner verification apply. Page header says 3:00pm EST; rules say 12:00pm Pacific Time—check time-zone conversion and rules before submitting."
+  },
+  {
+    "id": "futureeval",
+    "category": "Forecasting",
+    "name": "Metaculus Fall 2026 FutureEval Bot Tournament",
+    "source": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+    "extra": "https://www.metaculus.com/tournament-rules/",
+    "botSource": "https://www.metaculus.com/notebooks/38928/ai-benchmark-resources/",
+    "checked": "2026-11-02",
+    "free": {
+      "value": "No purchase or entry fee (general rules)",
+      "quote": "No purchase or entry fee is necessary to enter a Metaculus competition.",
+      "source": "https://www.metaculus.com/tournament-rules/"
+    },
+    "prize": null,
+    "deadline": {
+      "value": "6 Jan 2027 (time not stated on event page)",
+      "quote": "Jan 06 2027"
+    },
+    "geography": {
+      "value": "Generally worldwide, subject to competition-specific and sanctions rules",
+      "quote": "Competitions on Metaculus are generally open to participants worldwide, ages 13 or older; however, in compliance with U.S. laws and regulations, we cannot send monetary prizes, cash equivalents, or physical prizes to individuals located in countries subject to U.S. sanctions or export restrictions",
+      "source": "https://www.metaculus.com/tournament-rules/"
+    },
+    "ai": {
+      "value": "Bot-only event",
+      "quote": "This is a bot-only competition where bot-makers attempt to push AI to its limits in predicting future events."
+    },
+    "flag": "General rules disallow bots for prizes unless specifically permitted; this event is bot-only and resource page confirms $50k bot tournament. Event advertises a $50,000 prize pool, but general rules allow cash OR cash equivalent at operator discretion; withdrawable cash is unverified. Singapore-specific prize delivery and actual computational costs are not confirmed. Recheck event-specific terms and registration."
+  },
+  {
+    "id": "sony-single",
+    "category": "Creative",
+    "name": "Sony World Photography Awards — Single Image",
+    "source": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+    "checked": "2026-11-02",
+    "free": {
+      "value": "Up to three images free",
+      "quote": "Enter up to three single images for free"
+    },
+    "prize": {
+      "value": "USD $5,000 overall winner",
+      "quote": "Win $5,000 (USD) | x"
+    },
+    "deadline": {
+      "value": "5 Jan 2027, 16:00 GMT",
+      "quote": "Deadline is 5 January, 2027 at 16.00 GMT"
+    },
+    "geography": {
+      "value": "Open to all members of the public (other conditions apply)",
+      "quote": "The Single Image competition is open to all members of the public."
+    },
+    "ai": {
+      "value": "Computer-generated content cannot originate the entry",
+      "quote": "Computer generated content cannot be the origin of the Entry."
+    },
+    "flag": "A photograph taken in 2026 is required; any manipulation must be described. Singapore-specific payout and any use of AI for editing are not expressly confirmed; do not submit an AI-generated image."
+  },
+  {
+    "id": "sony-series",
+    "category": "Creative",
+    "name": "Sony World Photography Awards — Series",
+    "source": "https://www.worldphoto.org/sony-world-photography-awards/series",
+    "checked": "2026-11-02",
+    "free": {
+      "value": "Free to enter",
+      "quote": "1.2.1 The Competition is free to enter."
+    },
+    "prize": {
+      "value": "USD $25,000 overall winner",
+      "quote": "Win $25,000 (USD) | x"
+    },
+    "deadline": {
+      "value": "12 Jan 2027, 16:00 GMT",
+      "quote": "Entries must be submitted by 12 January, 2027 at 16.00 GMT"
+    },
+    "geography": {
+      "value": "Open to photographers entering a body of work; over 18",
+      "quote": "The Series competition is open to all Photographers entering a body of work."
+    },
+    "ai": {
+      "value": "Computer-generated content cannot originate the entry",
+      "quote": "Computer generated content cannot be the origin of the Entry."
+    },
+    "flag": "Five to ten photographs and series description required; entrants must be over 18 (rule 1.3). Singapore-specific payout and any use of AI for editing are not expressly confirmed."
+  },
+  {
+    "id": "wergle",
+    "category": "Creative",
+    "name": "Wergle Flomp Humor Poetry Contest 2026–27",
+    "source": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+    "checked": "2026-11-02",
+    "free": {
+      "value": "No fee",
+      "quote": "No fee to enter."
+    },
+    "prize": {
+      "value": "$5,100 in prizes",
+      "quote": "No fee to enter. Submit published or unpublished work. $5,100 in prizes."
+    },
+    "deadline": {
+      "value": "1 Apr 2027 (time not stated)",
+      "quote": "August 15, 2026-April 1, 2027"
+    },
+    "geography": {
+      "value": "All countries except listed restricted territories",
+      "quote": "Authors from all other countries are eligible."
+    },
+    "ai": {
+      "value": "No AI-generated text in submitted writing",
+      "quote": "Any writing that you submit to a Winning Writers contest must be composed using your own words, and may not contain any AI-generated text."
+    },
+    "flag": "Agent-generated poem is prohibited; any AI use must be described at submission. English original poem required. Confirm submission window, restricted territory list, local rules and payout before entry."
+  }
+]
