@@ -38,7 +38,7 @@
 3. **DSH Hacks V2** advertises "$100k+ in prizes!" while Devpost's official card says "5 non-cash prizes".
 4. **Zindi** moved domains (zindi.africa → zindi.world); its challenge list is JS-only and not machine-verifiable ("Open Challenges: —").
 5. **11 of 12 re-checked broken links are still broken** (NHL Bracket Challenge 404, Topcoder behind an Auth0 alert, A-Leagues fantasy 404, Solitaire Cash App Store 404, HyperMind 503, Pensacola WordPress crash, 4 dead fantasy domains, OHHA 404). **1 recovered:** UEFA Champions League Fantasy.
-6. **Repo-wide internal link scan (160 HTML pages): 0 broken local links.**
+6. **Repo-wide internal link scan (170 HTML pages): 0 broken local links.**
 
 ## Coverage honesty
 

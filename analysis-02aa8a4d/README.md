@@ -5,7 +5,7 @@ Independent analysis pass by session **arena-02aa8a4d** (2026-11-02). Complement
 
 1. **Freshness sweep** (`freshness.html`) — 19 official pages re-read on 2026-11-02; every cell quote-backed or blank.
 2. **Ranked picks** (`ranked.html`) — evidence-only priority scores (rubric on `methodology.html`) answering *"where should I spend my competition time?"*.
-3. **Link health** (`link-health.html`) — recheck of previously flagged broken external links + repo-wide internal link scan (160 pages, 0 broken).
+3. **Link health** (`link-health.html`) — recheck of previously flagged broken external links + repo-wide internal link scan (170 pages, 0 broken).
 
 Also: `all.html` (all 209 entries in one table), 9 category pages, `flagged.html` (irregularities),
 `summary.html` (executive summary), `EXECUTIVE_SUMMARY.md`, `verification-log.md` (line-by-line sources).

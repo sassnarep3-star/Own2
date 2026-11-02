@@ -54,14 +54,14 @@ Baseline: `ledger-4c1d6bb4/reports/link-check.json` (GitHub Actions run 41316899
 
 ## Internal link scan (whole repository)
 
-Scanned **160 HTML pages** (root site + every parallel subsite incl. this one) and checked every
+Scanned **170 HTML pages** (root site + every parallel subsite incl. this one) and checked every
 local `href`/`src` target: **0 broken local links**. Report: `reports/link-health.json`.
 
 ## Validation performed in this session
 
 1. `python3 analysis-02aa8a4d/build.py` — deterministic static build (18 pages + 2 reports).
 2. `python3 analysis-02aa8a4d/check.py` — PASSED: deterministic rebuild; every published value has quote+URL; every table row has a source link or explicit "no official source" stamp; all local links resolve; charset/viewport/lang/h1 on every page; score math consistent; all 209 catalog rows present; `app.js` passes `node --check`.
-3. `python3 scripts/check_site.py` (shared root checker) — PASSED: 209 rows, 90 evidence-backed values, 160 pages, no broken local or anchor links (includes this subsite).
+3. `python3 scripts/check_site.py` (shared root checker) — PASSED: 209 rows, 90 evidence-backed values, 170 pages, no broken local or anchor links (includes this subsite).
 4. Manual diff review of quotes against fetched page text (this log).
 
 ## Explicitly NOT done / not claimed
