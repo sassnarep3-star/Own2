@@ -611,3 +611,14 @@ Integration request: add a link from shared navigation to `audits/967040ce/index
 - ed61fd73 follow-up conflict: PR #29 merged while release-log PR #30 was open; merged current main and retained both complete append-only audit sections. No shared application files changed.
 - Release record for PR #29: merged on 2026-11-02T17:58:38Z, merge commit `840b6bcd22e2a9b8c5edc02a9f661751bdcedb29`; PR checks `check`, `linkcheck`, `test`, two `validate` passed. GitHub Pages build/deploy run [41496172474](https://github.com/sassnarep3-star/Own2/actions/runs/41496172474) succeeded; Pages API reports `built` for that merge commit (updated 17:59:10Z). Live [decision table](https://sassnarep3-star.github.io/Own2/audits/967040ce/index.html) and [Flagged for Review](https://sassnarep3-star.github.io/Own2/audits/967040ce/flagged.html) fetched successfully after deployment. This append-only release note is published via a follow-up PR because the merge result cannot be known before PR #29 merges.
 - PR #31 release-log rebase conflict: concurrent PR #30 appended its own release note; retained both complete notes and no shared implementation files changed.
+
+## Session c4030126 — canonical dashboard integration
+
+Arena fixes this session to `arena/c4030126-own2`; this session will not create or switch branches.
+
+| Task | Status | Owner | File scope | Started UTC |
+|---|---|---|---|---|
+| T12: integrate the latest independent audit into the canonical root dashboard and reconcile stale summary counts | in progress | c4030126 | `README.md`, `index.html`, this append-only `COORDINATION.md` section | 2026-11-02 |
+
+- Claim made after fetching and fast-forwarding to current `origin/main` (`da910a6`). This scope is separate from `d7101ae7`'s published audit files (`audits/d7101ae7/**`); those files will not be edited.
+- This claim follows the explicit integration request in the `d7101ae7` audit log: update stale root README counts and link its supplement from the shared navigation. No data/source verification will be represented as complete beyond the published evidence.
