@@ -20,6 +20,12 @@ jobs:
           python3 ledger-9a715523/tools/build.py
           python3 ledger-9a715523/tools/test.py
           git diff --exit-code -- ledger-9a715523
+      - name: Show generated diff on failure
+        if: failure()
+        run: |
+          git status --short
+          git diff --stat -- ledger-9a715523
+          git diff -- ledger-9a715523 | head -200
       - name: Install browser test dependencies
         run: npm ci
       - name: Browser, responsive and accessibility checks

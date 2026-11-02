@@ -32,6 +32,17 @@ for r in events['records']:
         assert 'free' in fields and 'prize' in fields
     if r['top_cash_usd'] is not None: assert isinstance(r['top_cash_usd'],(int,float)) and r['top_cash_usd']>0
 assert not any(r['id']=='event-ugreen' and r['pool_usd'] is not None for r in events['records']), 'Derived pool must not be published as an official total'
+# Link audit coverage is separate from content verification, but every collected pointer must be represented.
+if (ROOT/'research/link-audit.json').exists():
+    audit=json.loads((ROOT/'research/link-audit.json').read_text())
+    audited={r['url'] for r in audit['results']}
+    expected={r['official_url'] for r in inv['rows'] if r['official_url']}
+    expected|={e['url'] for r in events['records'] for e in r['evidence']}
+    if 'every inherited source pointer' in audit.get('method',''):
+        expected|={s['url'] for r in source['listings'] for s in r.get('sources',[]) if s.get('url')}
+    assert expected<=audited,('missing link audit URLs',sorted(expected-audited)[:10])
+    assert sum(audit['counts'].values())==len(audit['results'])
+    assert all(r['classification'] in {'reachable','redirected','blocked','redirect-unresolved','server-error','http-error','network-error','soft-404'} for r in audit['results'])
 with (ROOT/'data/catalog.csv').open(newline='',encoding='utf-8') as f: csvrows=list(csv.DictReader(f))
 assert len(csvrows)==224
 assert {r['id'] for r in csvrows}=={r['id'] for r in catalog['rows']}

@@ -7,6 +7,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 ROOT=Path(__file__).resolve().parents[1]
 inv=json.loads((ROOT/'data/inventory.json').read_text())
+upstream=json.loads((ROOT.parent/'data/upstream.json').read_text())
 events=json.loads((ROOT/'research/events.json').read_text())
 urls={}
 def add(url, row, role):
@@ -15,6 +16,9 @@ def add(url, row, role):
   if row not in urls[url]['rows']: urls[url]['rows'].append(row)
   if role not in urls[url]['roles']: urls[url]['roles'].append(role)
 for r in inv['rows']: add(r.get('official_url'),r['id'],'inherited official pointer')
+for r in upstream['listings']:
+ for source in r.get('sources', []):
+  add(source.get('url'),r['id'],'inherited '+source.get('tier','unknown')+' source')
 for r in events['records']:
  add(r['official_url'],r['id'],'official event source')
  for e in r['evidence']: add(e['url'],r['id'],'field evidence')
@@ -31,7 +35,7 @@ def check(item):
    soft=bool(re.search(r'page not found|page does not exist|sorry, that page|404 page not found',result['title'],re.I))
    result['classification']='soft-404' if soft else ('redirected' if resp.url.rstrip('/')!=url.rstrip('/') else 'reachable')
  except HTTPError as e:
-  result.update(status=e.code,final_url=e.url,classification='blocked' if e.code in (401,403,429) else 'http-error')
+  result.update(status=e.code,final_url=e.url,classification='blocked' if e.code in (401,403,429) else 'redirect-unresolved' if 300<=e.code<400 else 'server-error' if e.code>=500 else 'http-error')
  except Exception as e:
   result.update(status=None,classification='network-error',error=f'{type(e).__name__}: {str(e)[:220]}')
  result['elapsed_ms']=round((time.monotonic()-start)*1000)
@@ -40,7 +44,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
  results=list(pool.map(check,urls.values()))
 counts={}
 for r in results: counts[r['classification']]=counts.get(r['classification'],0)+1
-out={'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'method':'GET with 20-second timeout, 10 workers; first 180 KB inspected for title/soft-404. Reachability is not official-content verification. Blocks and network errors are inconclusive.','counts':counts,'results':sorted(results,key=lambda r:r['url'])}
+out={'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),'method':'GET with 20-second timeout, 10 workers; first 180 KB inspected for title/soft-404. Includes every inherited source pointer plus current official/evidence URLs. Reachability is not official-content verification. Blocks, unresolved redirects, server errors and network errors are inconclusive.','counts':counts,'results':sorted(results,key=lambda r:r['url'])}
 dest=ROOT/'research/link-audit.json'
 if '--output' in sys.argv: dest=Path(sys.argv[sys.argv.index('--output')+1])
 dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')

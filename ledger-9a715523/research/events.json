@@ -192,9 +192,9 @@
         },
         {
           "field": "prize",
-          "quote": "First Place | - $15,000 USD",
+          "quote": "$15,000 USD",
           "url": "https://codegeist2026.devpost.com/rules",
-          "locator": "§8 Prizes",
+          "locator": "§8 prize table, category first-place amount",
           "checked": "2026-11-02"
         },
         {
@@ -419,7 +419,7 @@
       "source_name": "Meta official rules on Devpost",
       "fields": {
         "free": "No purchase necessary, but Start membership and developer access are required",
-        "prize": "$100,000 track winners; $50,000 track runners-up; special awards also listed",
+        "prize": "$100,000 track winner award; see official prize table for other awards",
         "deadline": "18 Nov 2026, 12:00 pm PT",
         "eligibility": "18+ and age of majority; active Meta developer access; submitting representative must be a Start member",
         "agent": "Agentic Interaction award; coding-agent authorship permission not established",
@@ -1275,7 +1275,7 @@
       "top_cash_usd": 32,
       "pool_usd": null,
       "flags": [
-        "Event page says NA + EU, but general rules default to US residents unless otherwise stated; eligibility left blank.",
+        "Event page says NA + EU, but general rules default to US residents unless otherwise stated; eligibility is disputed; read both before entering.",
         "Prize exclusions: AZ, HI, IA, MS, MT, NV and SD.",
         "Claim window conflicts: 24 hours in event note versus seven days in general rules.",
         "Owning/running the game and console/network costs were not verified; not a zero-cost shortlist item.",

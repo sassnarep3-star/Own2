@@ -86,7 +86,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -231,7 +232,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -405,7 +407,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 404). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -840,7 +843,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -870,7 +874,8 @@
       },
       "flags": [
         "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
-        "Operator games page retrieved; it advertises gift-card prizes and survivor pools. Current survivor cash form and eligibility unverified."
+        "Operator games page retrieved; it advertises gift-card prizes and survivor pools. Current survivor cash form and eligibility unverified.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -1044,7 +1049,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 520). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2212,7 +2218,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2531,7 +2538,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 404). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2676,7 +2684,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2705,7 +2714,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2821,7 +2831,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -2879,7 +2890,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -3372,7 +3384,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 503). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -3488,7 +3501,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -3662,7 +3676,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4039,7 +4054,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4068,7 +4084,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 429). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4184,7 +4201,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4213,7 +4231,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4242,7 +4261,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4271,7 +4291,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4477,7 +4498,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4738,7 +4760,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -4796,7 +4819,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5086,7 +5110,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5115,7 +5140,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5435,7 +5461,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: network-error (HTTP no response). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -5667,7 +5694,8 @@
         "payout": ""
       },
       "flags": [
-        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official source reachability: http-error (HTTP 520). This is not proof of permanent breakage or contest validity."
       ],
       "evidence": [],
       "agent_policy": "unreviewed",
@@ -6073,7 +6101,8 @@
         "Public open-source repository required; do not use private code.",
         "Kiro credits are limited and regional feature availability varies.",
         "Country exclusions include Australia, Indonesia, Italy, Philippines and Argentina; read the full list.",
-        "Cash awards and Kiro credits/subscriptions are different prize types."
+        "Cash awards and Kiro credits/subscriptions are different prize types.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Build with Kiro; publish a demo and open-source GitHub repository; document Kiro usage.",
       "checked": "2026-11-02",
@@ -6158,7 +6187,8 @@
         "Page header says 3:00pm EST; controlling rule text says 12:00pm Pacific Time. Rules say they prevail over conflicting materials.",
         "AI in the product is not permission for an outside agent to author the entry.",
         "Render credits are not cash.",
-        "Winner identity, qualifications and role are verified."
+        "Winner identity, qualifications and role are verified.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Build or significantly update a PayPal-integrated AI application; provide a working demo and pitch.",
       "checked": "2026-11-02",
@@ -6193,9 +6223,9 @@
         },
         {
           "field": "prize",
-          "quote": "First Place | - $15,000 USD",
+          "quote": "$15,000 USD",
           "url": "https://codegeist2026.devpost.com/rules",
-          "locator": "§8 Prizes",
+          "locator": "§8 prize table, category first-place amount",
           "checked": "2026-11-02"
         },
         {
@@ -6243,7 +6273,8 @@
         "The old codegeist.devpost.com rules URL serves 2024 rules; this record uses codegeist2026.devpost.com.",
         "Technical assistance clause does not explicitly approve autonomous coding-agent authorship.",
         "Travel is not included with Team 2027 tickets.",
-        "Originality, ownership and judge testing access are required."
+        "Originality, ownership and judge testing access are required.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Build a Forge app; supply a judge-accessible installation link, setup instructions and demo video.",
       "checked": "2026-11-02",
@@ -6335,7 +6366,8 @@
         "Only up to 30 finalists receive one day of free remote NAS access.",
         "Finalists must test and record a working skill in Round 2.",
         "Do not assume an outside coding agent satisfies the entrant-authored-work rule.",
-        "Round 1 substantive PDF responses are limited to 500 English words; ZIP at most 10 MB."
+        "Round 1 substantive PDF responses are limited to 500 English words; ZIP at most 10 MB.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Submit a concise proposal and initial skill package. Finalists receive remote hardware access for validation.",
       "checked": "2026-11-02",
@@ -6411,7 +6443,8 @@
       "flags": [
         "Closes on the audit date; verify the live submission form before starting.",
         "Project must be newly created during the submission period.",
-        "Do not start a new multi-day build against this deadline."
+        "Do not start a new multi-day build against this deadline.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Build a Twitch experience with Codex and document the session.",
       "checked": "2026-11-02",
@@ -6429,7 +6462,7 @@
       "source_name": "Meta official rules on Devpost",
       "fields": {
         "free": "No purchase necessary, but Start membership and developer access are required",
-        "prize": "$100,000 track winners; $50,000 track runners-up; special awards also listed",
+        "prize": "$100,000 track winner award; see official prize table for other awards",
         "deadline": "18 Nov 2026, 12:00 pm PT",
         "eligibility": "18+ and age of majority; active Meta developer access; submitting representative must be a Start member",
         "agent": "Agentic Interaction award; coding-agent authorship permission not established",
@@ -6488,14 +6521,15 @@
         "Start membership cost and practical development costs were not confirmed; excluded from zero-cost shortlist.",
         "Membership is a gate even though the rules say no purchase necessary.",
         "One entry per individual; original work and third-party rights required.",
-        "AI judging assistance is not permission to use AI to author an entry."
+        "AI judging assistance is not permission to use AI to author an entry.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Existing Start members can build a new or substantially updated VR experience.",
       "checked": "2026-11-02",
       "provenance_url": "https://start-developer-competition-26.devpost.com/rules",
       "category_name": "Tech & data",
       "status": "event-reviewed",
-      "search": "meta vr start developer competition 2026 tech & data event-meta-start start membership cost and practical development costs were not confirmed; excluded from zero-cost shortlist. membership is a gate even though the rules say no purchase necessary. one entry per individual; original work and third-party rights required. ai judging assistance is not permission to use ai to author an entry. no purchase necessary, but start membership and developer access are required $100,000 track winners; $50,000 track runners-up; special awards also listed 18 nov 2026, 12:00 pm pt 18+ and age of majority; active meta developer access; submitting representative must be a start member agentic interaction award; coding-agent authorship permission not established meta vr experience, functional access and public demo video; emulator may be used for video"
+      "search": "meta vr start developer competition 2026 tech & data event-meta-start start membership cost and practical development costs were not confirmed; excluded from zero-cost shortlist. membership is a gate even though the rules say no purchase necessary. one entry per individual; original work and third-party rights required. ai judging assistance is not permission to use ai to author an entry. no purchase necessary, but start membership and developer access are required $100,000 track winner award; see official prize table for other awards 18 nov 2026, 12:00 pm pt 18+ and age of majority; active meta developer access; submitting representative must be a start member agentic interaction award; coding-agent authorship permission not established meta vr experience, functional access and public demo video; emulator may be used for video"
     },
     {
       "id": "event-nfl-bdb",
@@ -6906,7 +6940,8 @@
       "flags": [
         "An AI agent must not write or rewrite the poem.",
         "Any AI use must be described at submission.",
-        "Cash-winning entries are published online; nonexclusive publication license applies."
+        "Cash-winning entries are published online; nonexclusive publication license applies.",
+        "Official source reachability: http-error (HTTP 307). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Human-written humor poem; agent use limited to error spotting under the stated policy.",
       "checked": "2026-11-02",
@@ -7245,7 +7280,8 @@
         "$50,000 advertised prize pool is not confirmed as withdrawable cash: general rules allow cash or cash equivalents at Metaculus discretion.",
         "Cash prize field intentionally blank; excluded from strict cash shortlist.",
         "General bot prohibition has an exception for specifically permitted competitions; this event is explicitly bot-only.",
-        "Compute/API costs and Singapore-specific prize delivery were not confirmed."
+        "Compute/API costs and Singapore-specific prize delivery were not confirmed.",
+        "Official source reachability: blocked (HTTP 403). This is not proof of permanent breakage or contest validity."
       ],
       "requirements": "Automated forecasting benchmark; payment form must be checked before treating it as cash.",
       "checked": "2026-11-02",
@@ -7318,7 +7354,7 @@
       "top_cash_usd": 32,
       "pool_usd": null,
       "flags": [
-        "Event page says NA + EU, but general rules default to US residents unless otherwise stated; eligibility left blank.",
+        "Event page says NA + EU, but general rules default to US residents unless otherwise stated; eligibility is disputed; read both before entering.",
         "Prize exclusions: AZ, HI, IA, MS, MT, NV and SD.",
         "Claim window conflicts: 24 hours in event note versus seven days in general rules.",
         "Owning/running the game and console/network costs were not verified; not a zero-cost shortlist item.",
@@ -7329,7 +7365,7 @@
       "provenance_url": "https://www.checkmategaming.com/free-tournaments",
       "category_name": "Skill tournaments",
       "status": "event-reviewed",
-      "search": "checkmate gaming free 4v4 tournament skill tournaments event-cmg event page says na + eu, but general rules default to us residents unless otherwise stated; eligibility left blank. prize exclusions: az, hi, ia, ms, mt, nv and sd. claim window conflicts: 24 hours in event note versus seven days in general rules. owning/running the game and console/network costs were not verified; not a zero-cost shortlist item. prize and start time are a dated observation, not a standing offer. free tournament entry observed event: $40 advertised; $32 first / $8 second, adjusted by eligible teams rolling events; observed event 2 nov 2026, 1:30 pm est registered participants; 4v4; one entry per person per tournament us residents unless otherwise stated; event region label conflicts; 18+"
+      "search": "checkmate gaming free 4v4 tournament skill tournaments event-cmg event page says na + eu, but general rules default to us residents unless otherwise stated; eligibility is disputed; read both before entering. prize exclusions: az, hi, ia, ms, mt, nv and sd. claim window conflicts: 24 hours in event note versus seven days in general rules. owning/running the game and console/network costs were not verified; not a zero-cost shortlist item. prize and start time are a dated observation, not a standing offer. free tournament entry observed event: $40 advertised; $32 first / $8 second, adjusted by eligible teams rolling events; observed event 2 nov 2026, 1:30 pm est registered participants; 4v4; one entry per person per tournament us residents unless otherwise stated; event region label conflicts; 18+"
     },
     {
       "id": "event-mlb-bts",
