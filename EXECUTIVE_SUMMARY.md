@@ -29,15 +29,18 @@ inconvenient, and nothing was upgraded on the strength of a third-party claim.
 
 - **209** competitions tracked: the 206 ledger rows plus 3 specific live events found during verification
   (GEMS Prize Challenge, PayPal AI Hackathon, NFL Big Data Bowl 2027).
-- **30** rows carry recorded evidence (19 verified in this pass, 11 imported from two parallel verifications with attribution).
+- The current root checker records evidence for **34** entries and **90** field values supported by quotes
+  and official URLs. An evidence record is not the same as a fully verified opportunity.
 - **8** fully verified: free entry **and** a cash prize both stated by the operator, window open.
 - **7** of those are usable right now and form the "where to spend your time" shortlist.
-- **19** have confirmed free entry; **15** have a confirmed cash prize.
-- **11** are partly verified: one side of the free-entry/cash-prize test is confirmed, the other is not.
-- **9** are flagged: the source contradicts the ledger, or the cited page no longer exists.
-- **1** is confirmed closed (ARC Prize entry closed 26 Oct 2026).
-- **180** remain unverified leads. They are published blank, with their link, so nothing is lost and
-  nothing is invented.
+- **21** have confirmed free entry; **18** have a confirmed cash prize.
+- **13** are partly verified: one or more fields are confirmed, while others remain unknown.
+- **10** are flagged for review, including source contradictions, closed entries, paid or non-cash paths,
+  and dead or redirected sources.
+- **2** are confirmed closed.
+- **176** remain unverified leads. They are published blank, with their link, so nothing is lost and
+  nothing is invented. Separate 2 November spot audits cover three, five, and four selected records;
+  these are not included in the root-dashboard counts.
 
 ## 3. Where the time should actually go
 
@@ -101,8 +104,8 @@ Enforced by `scripts/check_site.py` on every push:
 
 ## 6. Limits and irregularities (also on `review.html`)
 
-1. **180 of 209 rows are unverified.** That is the honest state of a 206-row ledger checked in one pass. They
-   keep their links and their "unverified" label.
+1. **176 of 209 rows are unverified in the root dashboard.** They keep their links and their "unverified"
+   label; values remain blank until an official source supports them.
 2. **Free entry is not the same as free.** Kaggle, DrivenData, ARC and Topcoder publish no fee but never say
    entry is free — so they are *partly* verified, not verified.
 3. **Three rows could not be sustained by their own sources:** Dirty Dozen (link dead, prize unlocatable),
@@ -117,8 +120,17 @@ Enforced by `scripts/check_site.py` on every push:
 
 ## 7. Parallel audits preserved in this repository
 
+- `audits/index.html` — a central index linking five separate audit reports and their individual review flags.
+  Their scopes are independent and do not amount to a full re-verification of the ledger.
 - `audits/2026-11-01/` — an independent 13-lead official-source audit by a separate session, with its own report,
   review page and evidence file. Its findings are imported into this site's evidence records, attributed per row.
+- `audits/d7101ae7/` — a separate, limited 2 November 2026 spot audit of three leads, with official-source
+  links and a separate Flagged for Review page. It is not a re-verification of all 206 inherited listings
+  and is not included in the root-dashboard counts above.
+- `audits/ed61fd73/` — a 2 November Singapore-access and AI-use review of five existing event-level records,
+  with a separate Flagged for Review page. It does not establish every entrant's local eligibility or payout.
+- `audits/967040ce/` — a 2 November spot audit of four additional leads, with source excerpts and a separate
+  Flagged for Review page. It is limited and is not included in the root-dashboard counts.
 - `explore.html`, `category/`, `flagged/`, `assets/` — the other integration session's shortlist site, kept live
   and unchanged.
 - `dashboard/` — a third session's standalone dashboard with its own live-verification file
