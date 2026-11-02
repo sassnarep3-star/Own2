@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-02T20:02:02+00:00",
+  "checked_at": "2026-11-02T20:07:53+00:00",
   "method": "GET with 20-second timeout, 10 workers; first 180 KB inspected for title/soft-404. Reachability is not official-content verification. Blocks and network errors are inconclusive.",
   "counts": {
     "reachable": 160,
-    "blocked": 23,
+    "blocked": 22,
     "redirected": 19,
-    "http-error": 7,
+    "http-error": 8,
     "network-error": 6
   },
   "results": [
@@ -22,7 +22,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "UFC Fight Night: Cortes-Acosta vs. Walker Free UFC Fantasy Picks — AgentMMA Contest | AgentMMA",
       "classification": "reachable",
-      "elapsed_ms": 382
+      "elapsed_ms": 495
     },
     {
       "url": "https://aleagues.com.au/news/official-a-leagues-fantasy-the-handbook/",
@@ -37,7 +37,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "A-Leagues Fantasy handbook: Prepare your squad to compete for cash prizes and free tickets",
       "classification": "reachable",
-      "elapsed_ms": 1112
+      "elapsed_ms": 893
     },
     {
       "url": "https://andysbetclub.co.uk/predictor-game/",
@@ -52,7 +52,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Andy Robson&#x27;s £1,000,000 Premier League Predictor Game 26&#x2F;27",
       "classification": "reachable",
-      "elapsed_ms": 261
+      "elapsed_ms": 140
     },
     {
       "url": "https://apexfantasyleagues.com/",
@@ -65,7 +65,7 @@
       "status": 520,
       "final_url": "https://apexfantasyleagues.com/",
       "classification": "http-error",
-      "elapsed_ms": 165
+      "elapsed_ms": 650
     },
     {
       "url": "https://apps.apple.com/us/app/pick-em-sports-nfl-cfb/id6737177213",
@@ -80,7 +80,7 @@
       "content_type": "text/html",
       "title": "‎Pick 'Em Sports: NFL &amp; CFB App - App Store",
       "classification": "reachable",
-      "elapsed_ms": 330
+      "elapsed_ms": 526
     },
     {
       "url": "https://apps.apple.com/us/app/sports-predictor-fantasy-game/id1445043792",
@@ -95,7 +95,7 @@
       "content_type": "text/html",
       "title": "‎Sports Predictor: Fantasy Game App - App Store",
       "classification": "reachable",
-      "elapsed_ms": 339
+      "elapsed_ms": 508
     },
     {
       "url": "https://apps.apple.com/us/app/streak-contest/id1623816920",
@@ -110,7 +110,7 @@
       "content_type": "text/html",
       "title": "‎Streak Contest App - App Store",
       "classification": "reachable",
-      "elapsed_ms": 458
+      "elapsed_ms": 414
     },
     {
       "url": "https://arcprize.org/competitions/2026",
@@ -125,7 +125,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ARC Prize 2026",
       "classification": "reachable",
-      "elapsed_ms": 78
+      "elapsed_ms": 405
     },
     {
       "url": "https://betfanatics.com/",
@@ -140,7 +140,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fanatics Sports &amp; Casino — Bet $20 Get $350 in FanCash",
       "classification": "reachable",
-      "elapsed_ms": 770
+      "elapsed_ms": 658
     },
     {
       "url": "https://bracketchallenge.nhl.com/en/how-to-play",
@@ -153,7 +153,7 @@
       "status": 404,
       "final_url": "https://bracketchallenge.nhl.com/en/how-to-play",
       "classification": "http-error",
-      "elapsed_ms": 215
+      "elapsed_ms": 261
     },
     {
       "url": "https://bullrush.com/competition-types/",
@@ -168,7 +168,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Competition Types - BullRush",
       "classification": "reachable",
-      "elapsed_ms": 286
+      "elapsed_ms": 290
     },
     {
       "url": "https://buzzfantasygolf.com/services/FreeGameRules",
@@ -183,7 +183,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Buzz Fantasy Golf - Free Fantasy Golf Contest Rules",
       "classification": "reachable",
-      "elapsed_ms": 118
+      "elapsed_ms": 262
     },
     {
       "url": "https://cevmatchpredictor.zendesk.com/hc/en-us/articles/12463995830941-CEV-Champions-League-Fantasy-Terms-Conditions",
@@ -196,7 +196,7 @@
       "status": 403,
       "final_url": "https://cevmatchpredictor.zendesk.com/hc/en-us/articles/12463995830941-CEV-Champions-League-Fantasy-Terms-Conditions",
       "classification": "blocked",
-      "elapsed_ms": 34
+      "elapsed_ms": 115
     },
     {
       "url": "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/win-fantastic-prizes-with-the-clvolleyw-predictor-game/",
@@ -211,7 +211,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Win fantastic prizes with the #CLVolleyW Predictor Game | ChampionsLeague",
       "classification": "reachable",
-      "elapsed_ms": 1114
+      "elapsed_ms": 952
     },
     {
       "url": "https://cheltenhamfestival.fans/stable-stars/",
@@ -226,7 +226,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Stable Stars | Free Daily Horse Racing Tipping Game",
       "classification": "reachable",
-      "elapsed_ms": 915
+      "elapsed_ms": 837
     },
     {
       "url": "https://codegeist2026.devpost.com/rules",
@@ -240,7 +240,7 @@
       "status": 403,
       "final_url": "https://codegeist2026.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 68
+      "elapsed_ms": 145
     },
     {
       "url": "https://dash.hypermind.com/hypermind/app.html",
@@ -253,7 +253,7 @@
       "status": 503,
       "final_url": "https://dash.hypermind.com/hypermind/app.html",
       "classification": "http-error",
-      "elapsed_ms": 558
+      "elapsed_ms": 299
     },
     {
       "url": "https://deriv.com/newsroom/updates/free-trading-tournaments-virtual-funds-cash-prizes",
@@ -268,7 +268,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Deriv launches monthly, skill-based demo trading tournaments to accelerate trader education",
       "classification": "reachable",
-      "elapsed_ms": 2153
+      "elapsed_ms": 345
     },
     {
       "url": "https://devpost.com/hackathons",
@@ -281,7 +281,7 @@
       "status": 403,
       "final_url": "https://devpost.com/hackathons",
       "classification": "blocked",
-      "elapsed_ms": 143
+      "elapsed_ms": 152
     },
     {
       "url": "https://draft.premierleague.com/",
@@ -296,7 +296,7 @@
       "content_type": "text/html",
       "title": "Fantasy Premier League Draft 2026/27",
       "classification": "reachable",
-      "elapsed_ms": 243
+      "elapsed_ms": 284
     },
     {
       "url": "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/news/vnl-fantasy-unveiling-the-new-fantasy-experience",
@@ -311,7 +311,7 @@
       "content_type": "text/html",
       "title": "VNL Fantasy: Unveiling the new fantasy experience!",
       "classification": "reachable",
-      "elapsed_ms": 3033
+      "elapsed_ms": 1417
     },
     {
       "url": "https://epoty.org/",
@@ -326,7 +326,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Untap: Streamline Innovation & Talent Discovery",
       "classification": "redirected",
-      "elapsed_ms": 1610
+      "elapsed_ms": 1420
     },
     {
       "url": "https://eredivisie.com/news/this-is-espn-fantasy-voetbal-the-official-game-of-the-vriendenloterij-eredivisie/",
@@ -341,7 +341,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Eredivisie | This is ESPN Fantasy Voetbal – the official game of the…",
       "classification": "reachable",
-      "elapsed_ms": 1811
+      "elapsed_ms": 791
     },
     {
       "url": "https://esportsworldcup.com/en/play/fantasy/league-of-legends",
@@ -354,7 +354,7 @@
       "status": 403,
       "final_url": "https://esportsworldcup.com/en/play/fantasy/league-of-legends",
       "classification": "blocked",
-      "elapsed_ms": 100
+      "elapsed_ms": 157
     },
     {
       "url": "https://fantasy.efl.com/prizes",
@@ -369,7 +369,7 @@
       "content_type": "text/html",
       "title": "Fantasy EFL",
       "classification": "reachable",
-      "elapsed_ms": 536
+      "elapsed_ms": 676
     },
     {
       "url": "https://fantasy.espn.com/games/bracket",
@@ -384,7 +384,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Men&#x27;s Tournament Challenge - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 225
+      "elapsed_ms": 65
     },
     {
       "url": "https://fantasy.espn.com/games/college-football-bowl-mania-2025/picks",
@@ -399,7 +399,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Capital One Bowl Mania - Picks",
       "classification": "reachable",
-      "elapsed_ms": 197
+      "elapsed_ms": 283
     },
     {
       "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
@@ -415,7 +415,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN College Pick&#x27;em - How to Play",
       "classification": "reachable",
-      "elapsed_ms": 208
+      "elapsed_ms": 274
     },
     {
       "url": "https://fantasy.espn.com/games/college-football-pickem-2026/make-picks",
@@ -430,7 +430,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN College Pick&#x27;em - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 275
+      "elapsed_ms": 114
     },
     {
       "url": "https://fantasy.espn.com/games/college-football-playoff-challenge-2025/mostpickedchampions",
@@ -445,7 +445,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN CFP Bracket Challenge - Most Picked Champions",
       "classification": "reachable",
-      "elapsed_ms": 225
+      "elapsed_ms": 491
     },
     {
       "url": "https://fantasy.espn.com/games/mens-knockout-bracket-challenge-2026/howtoplay",
@@ -460,7 +460,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Knockout Bracket Challenge - How to Play",
       "classification": "reachable",
-      "elapsed_ms": 238
+      "elapsed_ms": 526
     },
     {
       "url": "https://fantasy.espn.com/games/mens-tournament-challenge-eliminator-2026/howtoplay",
@@ -475,7 +475,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Men&#x27;s Tournament Challenge Eliminator - How to Play",
       "classification": "reachable",
-      "elapsed_ms": 220
+      "elapsed_ms": 256
     },
     {
       "url": "https://fantasy.espn.com/games/nba-playoff-challenge-2026/howtoplay",
@@ -490,7 +490,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NBA Playoff Challenge - How to Play",
       "classification": "reachable",
-      "elapsed_ms": 219
+      "elapsed_ms": 456
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
@@ -506,7 +506,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NFL Pick&#x27;em - How to Play",
       "classification": "reachable",
-      "elapsed_ms": 276
+      "elapsed_ms": 220
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks",
@@ -521,7 +521,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NFL Pick&#x27;em - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 240
+      "elapsed_ms": 476
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-playoff-football-challenge-2026/make-picks",
@@ -536,7 +536,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Pigskin Bracket Challenge - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 266
+      "elapsed_ms": 302
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-playoff-predictor-2026/make-picks",
@@ -551,7 +551,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NFL Playoff Predictor - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 279
+      "elapsed_ms": 236
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks",
@@ -566,7 +566,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NFL Survivor - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 250
+      "elapsed_ms": 269
     },
     {
       "url": "https://fantasy.espn.com/games/nfl-win-totals-2026/make-picks",
@@ -581,7 +581,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN NFL Win Totals - Make Picks",
       "classification": "reachable",
-      "elapsed_ms": 201
+      "elapsed_ms": 311
     },
     {
       "url": "https://fantasy.espn.com/games/nhl-playoff-hockey-challenge-2026/group",
@@ -596,7 +596,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Playoff Hockey Challenge - Group",
       "classification": "reachable",
-      "elapsed_ms": 212
+      "elapsed_ms": 470
     },
     {
       "url": "https://fantasy.espn.com/games/tournament-challenge-bracket-women-2026/leaderboard",
@@ -611,7 +611,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ESPN Women&#x27;s Tournament Challenge - Leaderboard",
       "classification": "reachable",
-      "elapsed_ms": 220
+      "elapsed_ms": 490
     },
     {
       "url": "https://fantasy.football.scot/",
@@ -624,7 +624,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "elapsed_ms": 183
+      "elapsed_ms": 150
     },
     {
       "url": "https://fantasy.premierleague.com/",
@@ -639,7 +639,7 @@
       "content_type": "text/html",
       "title": "Fantasy Premier League, Official Fantasy Football Game of the Premier League",
       "classification": "reachable",
-      "elapsed_ms": 252
+      "elapsed_ms": 317
     },
     {
       "url": "https://fantasy.sixnationsrugby.com/m6n/",
@@ -654,7 +654,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Six Nations Fantasy Game",
       "classification": "reachable",
-      "elapsed_ms": 653
+      "elapsed_ms": 538
     },
     {
       "url": "https://fantasy.superleague.co.uk/prizes-winners",
@@ -669,7 +669,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Super League Fantasy League",
       "classification": "reachable",
-      "elapsed_ms": 475
+      "elapsed_ms": 410
     },
     {
       "url": "https://fantasyfootball.telegraph.co.uk/",
@@ -684,7 +684,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Telegraph Fantasy Football",
       "classification": "reachable",
-      "elapsed_ms": 961
+      "elapsed_ms": 836
     },
     {
       "url": "https://fantasyfootballscout.co.uk/2026/08/15/join-our-tattico-fantasy-serie-a-league-win-750-in-prizes",
@@ -699,7 +699,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Join our Tattico Fantasy Serie A league – win £750 in prizes",
       "classification": "redirected",
-      "elapsed_ms": 1963
+      "elapsed_ms": 1389
     },
     {
       "url": "https://fantasygaelicfootball.com/",
@@ -712,7 +712,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error timed out>",
-      "elapsed_ms": 20094
+      "elapsed_ms": 20095
     },
     {
       "url": "https://fantasygames.nascar.com/live/page/rules",
@@ -727,7 +727,7 @@
       "content_type": "text/html",
       "title": "NASCAR Fantasy Live",
       "classification": "reachable",
-      "elapsed_ms": 176
+      "elapsed_ms": 189
     },
     {
       "url": "https://fantasygolf.pgatour.com/prizes",
@@ -742,7 +742,7 @@
       "content_type": "text/html",
       "title": "PGA TOUR Fantasy",
       "classification": "reachable",
-      "elapsed_ms": 595
+      "elapsed_ms": 454
     },
     {
       "url": "https://fantasyracing.telegraph.co.uk/cheltenham/how-to-play",
@@ -755,7 +755,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "elapsed_ms": 53
+      "elapsed_ms": 90
     },
     {
       "url": "https://favorites.actionnetwork.com/games/the-favorites",
@@ -768,7 +768,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'favorites.actionnetwork.com'. (_ssl.c:1016)>",
-      "elapsed_ms": 167
+      "elapsed_ms": 206
     },
     {
       "url": "https://fbs.com/",
@@ -783,7 +783,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "FBS Forex Broker Online: Trade and Grow with FBS",
       "classification": "reachable",
-      "elapsed_ms": 987
+      "elapsed_ms": 935
     },
     {
       "url": "https://football.fantasysports.yahoo.com/",
@@ -798,7 +798,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Fantasy Football 2026: Create or Join a League, Rankings, Analysis & More | Fantasy Football | Yahoo! Sports",
       "classification": "reachable",
-      "elapsed_ms": 499
+      "elapsed_ms": 266
     },
     {
       "url": "https://fortraders.com/tournaments",
@@ -813,7 +813,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Trading Tournaments | Forex &amp; Crypto Trading Competition | For Traders",
       "classification": "reachable",
-      "elapsed_ms": 745
+      "elapsed_ms": 692
     },
     {
       "url": "https://fundedfast.com/trading-competition",
@@ -828,7 +828,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Free Trading Competition: Monthly Championship | FundedFast",
       "classification": "reachable",
-      "elapsed_ms": 105
+      "elapsed_ms": 210
     },
     {
       "url": "https://gaming.uefa.com/en/uclfantasy",
@@ -843,7 +843,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fantasy Football | UEFA Champions League | UEFA.com",
       "classification": "reachable",
-      "elapsed_ms": 1825
+      "elapsed_ms": 481
     },
     {
       "url": "https://goaloracle.io/",
@@ -858,7 +858,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "GoalOracle — Predict the World Cup 2026 (Free Entry, Prizes for Top Finishers)",
       "classification": "reachable",
-      "elapsed_ms": 78
+      "elapsed_ms": 175
     },
     {
       "url": "https://golfgamecentral.com/fantasy-challenge.php",
@@ -873,7 +873,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Fantasy Challenge Signup",
       "classification": "reachable",
-      "elapsed_ms": 389
+      "elapsed_ms": 230
     },
     {
       "url": "https://grand-challenge.org/challenges/",
@@ -888,7 +888,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Challenges - Grand Challenge",
       "classification": "reachable",
-      "elapsed_ms": 1195
+      "elapsed_ms": 831
     },
     {
       "url": "https://gridirongames.com/football-pools/nfl-survivor/",
@@ -903,7 +903,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "NFL Survivor Pools Online | Gridiron Games",
       "classification": "reachable",
-      "elapsed_ms": 3000
+      "elapsed_ms": 373
     },
     {
       "url": "https://help.battlefy.com/en/articles/3940531-where-is-my-prize",
@@ -918,7 +918,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Where is my prize? | Battlefy Help Center",
       "classification": "reachable",
-      "elapsed_ms": 483
+      "elapsed_ms": 352
     },
     {
       "url": "https://help.fundednext.com/en/articles/11982105-how-to-win-fundednext-monthly-competition",
@@ -933,7 +933,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "How to win FundedNext CFD Monthly Competition? | FundedNext Help Center",
       "classification": "redirected",
-      "elapsed_ms": 1074
+      "elapsed_ms": 886
     },
     {
       "url": "https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia",
@@ -946,7 +946,7 @@
       "status": 403,
       "final_url": "https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia",
       "classification": "blocked",
-      "elapsed_ms": 141
+      "elapsed_ms": 185
     },
     {
       "url": "https://help.yahoo.com/kb/SLN36907.html",
@@ -961,7 +961,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Overview of the Daily Draw game in the Yahoo Sports and Yahoo Fantasy apps | Yahoo Help",
       "classification": "reachable",
-      "elapsed_ms": 701
+      "elapsed_ms": 440
     },
     {
       "url": "https://home.myfantasyleague.com/",
@@ -976,7 +976,7 @@
       "content_type": "text/html",
       "title": "MyFantasyLeague Home Page",
       "classification": "reachable",
-      "elapsed_ms": 298
+      "elapsed_ms": 100
     },
     {
       "url": "https://hub.crunchdao.com/competitions/structural-break-real-time",
@@ -991,7 +991,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ADIA Lab Structural Break Challenge: Real-Time Edition | CrunchDAO",
       "classification": "reachable",
-      "elapsed_ms": 472
+      "elapsed_ms": 476
     },
     {
       "url": "https://istanbulphotoawards.com/",
@@ -1006,7 +1006,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "İstanbul Photo Awards",
       "classification": "reachable",
-      "elapsed_ms": 1059
+      "elapsed_ms": 1025
     },
     {
       "url": "https://kiroween.devpost.com/rules",
@@ -1020,7 +1020,7 @@
       "status": 403,
       "final_url": "https://kiroween.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 55
+      "elapsed_ms": 111
     },
     {
       "url": "https://ligue1.com/en/fantasy",
@@ -1035,7 +1035,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fantasy Ligue 1 game: become the best coach in France",
       "classification": "reachable",
-      "elapsed_ms": 1345
+      "elapsed_ms": 1306
     },
     {
       "url": "https://lolesports.com/en-US/news/msi-2026-primer",
@@ -1048,9 +1048,9 @@
       "status": 200,
       "final_url": "https://lolesports.com/en-US/news/msi-2026-primer",
       "content_type": "text/html; charset=utf-8",
-      "title": "LoL Esports |",
+      "title": "",
       "classification": "reachable",
-      "elapsed_ms": 251
+      "elapsed_ms": 350
     },
     {
       "url": "https://mlcontests.com/",
@@ -1065,7 +1065,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "ML Contests",
       "classification": "reachable",
-      "elapsed_ms": 156
+      "elapsed_ms": 290
     },
     {
       "url": "https://motocrossactionmag.com/fantasy-mx-sx/",
@@ -1075,12 +1075,10 @@
       "roles": [
         "inherited official pointer"
       ],
-      "status": 200,
+      "status": 520,
       "final_url": "https://motocrossactionmag.com/fantasy-mx-sx/",
-      "content_type": "text/html; charset=utf-8",
-      "title": "2026 SUPERCROSS FANTASY LEAGUE -",
-      "classification": "reachable",
-      "elapsed_ms": 192
+      "classification": "http-error",
+      "elapsed_ms": 291
     },
     {
       "url": "https://mysurvivorpool.com/",
@@ -1095,7 +1093,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Home | My Survivor Pool",
       "classification": "reachable",
-      "elapsed_ms": 345
+      "elapsed_ms": 426
     },
     {
       "url": "https://ncga.org/majorschallenge",
@@ -1110,7 +1108,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "NCGA Majors Challenge Fantasy Golf | NCGA",
       "classification": "reachable",
-      "elapsed_ms": 162
+      "elapsed_ms": 148
     },
     {
       "url": "https://nflmockdraft.app.splashsports.com/nfl-mock-draft/my-entry",
@@ -1125,7 +1123,7 @@
       "content_type": "text/html",
       "title": "2026 NFL Draft Predictor | Splash Sports",
       "classification": "reachable",
-      "elapsed_ms": 503
+      "elapsed_ms": 455
     },
     {
       "url": "https://nflpickwatch.com/contest/nfl/2026",
@@ -1140,7 +1138,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "NFL Pickwatch Contest",
       "classification": "reachable",
-      "elapsed_ms": 383
+      "elapsed_ms": 430
     },
     {
       "url": "https://ninjatrader.com/ninjatrader-arena/",
@@ -1155,7 +1153,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Futures Trading Competitions With Cash Prizes: NinjaTrader Arena",
       "classification": "reachable",
-      "elapsed_ms": 133
+      "elapsed_ms": 210
     },
     {
       "url": "https://nrlfantasy.zendesk.com/hc/en-us/articles/15492067192861-Prizes",
@@ -1168,7 +1166,7 @@
       "status": 403,
       "final_url": "https://nrlfantasy.zendesk.com/hc/en-us/articles/15492067192861-Prizes",
       "classification": "blocked",
-      "elapsed_ms": 72
+      "elapsed_ms": 101
     },
     {
       "url": "https://oddspedia.com/us/picks/capper-contests/wc2026-competition",
@@ -1183,7 +1181,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "World Cup 2026 Competition - Win Your Share of €2,000!",
       "classification": "reachable",
-      "elapsed_ms": 550
+      "elapsed_ms": 635
     },
     {
       "url": "https://officepoolstop.com/",
@@ -1198,7 +1196,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Football Pool Hosting | OfficePoolStop",
       "classification": "reachable",
-      "elapsed_ms": 333
+      "elapsed_ms": 165
     },
     {
       "url": "https://paypalaihackathon.devpost.com/rules",
@@ -1212,7 +1210,7 @@
       "status": 403,
       "final_url": "https://paypalaihackathon.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 118
+      "elapsed_ms": 110
     },
     {
       "url": "https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/",
@@ -1225,7 +1223,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>",
-      "elapsed_ms": 103
+      "elapsed_ms": 168
     },
     {
       "url": "https://play.google.com/store/apps/editorial?id=mc_apps_edit_icc_fantasy_fcp&gl=GB&hl=en",
@@ -1240,7 +1238,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "",
       "classification": "reachable",
-      "elapsed_ms": 74
+      "elapsed_ms": 152
     },
     {
       "url": "https://playfantasyrugby.com/rugby-championship/help/game-guidelines",
@@ -1255,7 +1253,7 @@
       "content_type": "text/html",
       "title": "Super Rugby Pacific Fantasy",
       "classification": "reachable",
-      "elapsed_ms": 552
+      "elapsed_ms": 753
     },
     {
       "url": "https://premierleaguepredictor.co.uk/",
@@ -1270,7 +1268,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Free English Premier League Predictor Game | Win Cash Prizes",
       "classification": "reachable",
-      "elapsed_ms": 592
+      "elapsed_ms": 545
     },
     {
       "url": "https://reedsy.com/resources/writing-contests",
@@ -1285,7 +1283,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "The Ultimate List of Writing Contests in 2026 • Win Cash Prizes!",
       "classification": "reachable",
-      "elapsed_ms": 1319
+      "elapsed_ms": 741
     },
     {
       "url": "https://roboforex.com/forex-trading/trading/trading-accounts/",
@@ -1300,7 +1298,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "RoboForex Trading Accounts - Pro, Prime, ECN, ProCent, RST with clear conditions - RoboForex",
       "classification": "reachable",
-      "elapsed_ms": 590
+      "elapsed_ms": 628
     },
     {
       "url": "https://runaces.com/racing/live-racing/fantasy-horse-racing-league/",
@@ -1315,7 +1313,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Fantasy Horse Racing League - Running Aces Casino, Hotel &amp; Racetrack",
       "classification": "reachable",
-      "elapsed_ms": 79
+      "elapsed_ms": 174
     },
     {
       "url": "https://signate.jp/",
@@ -1330,7 +1328,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "SIGNATE",
       "classification": "redirected",
-      "elapsed_ms": 480
+      "elapsed_ms": 284
     },
     {
       "url": "https://spie.org/",
@@ -1345,7 +1343,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "SPIE, the international society for optics and photonics",
       "classification": "reachable",
-      "elapsed_ms": 744
+      "elapsed_ms": 787
     },
     {
       "url": "https://sports.yahoo.com/fantasy/article/yahoo-fantasy-bracket-mayhem-is-back-the-best-bracket-in-both-the-mens-and-womens-college-basketball-contests-will-win-25k-each-225407876.html",
@@ -1360,7 +1358,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Yahoo Fantasy Bracket Mayhem is back! The best bracket in both the men&#x27;s and women&#x27;s college basketball contests will win $25K each - Yahoo Sports",
       "classification": "reachable",
-      "elapsed_ms": 411
+      "elapsed_ms": 342
     },
     {
       "url": "https://stablestakes.com/",
@@ -1375,7 +1373,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Stable Stakes — Free Fantasy Horse Racing | Crown Showdown",
       "classification": "reachable",
-      "elapsed_ms": 348
+      "elapsed_ms": 304
     },
     {
       "url": "https://start-developer-competition-26.devpost.com/rules",
@@ -1389,7 +1387,7 @@
       "status": 403,
       "final_url": "https://start-developer-competition-26.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 146
+      "elapsed_ms": 106
     },
     {
       "url": "https://start.gg/",
@@ -1404,7 +1402,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "start.gg | Community through competition",
       "classification": "redirected",
-      "elapsed_ms": 315
+      "elapsed_ms": 347
     },
     {
       "url": "https://supercoach.com.au/nrl",
@@ -1419,7 +1417,7 @@
       "content_type": "text/html",
       "title": "SuperCoach | Fantasy Sports Game, News, Tipping &amp; Prizes",
       "classification": "redirected",
-      "elapsed_ms": 767
+      "elapsed_ms": 1526
     },
     {
       "url": "https://supercoach.news.com.au/bbl/",
@@ -1432,7 +1430,7 @@
       "status": null,
       "classification": "network-error",
       "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "elapsed_ms": 311
+      "elapsed_ms": 649
     },
     {
       "url": "https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest",
@@ -1445,7 +1443,7 @@
       "status": 403,
       "final_url": "https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest",
       "classification": "blocked",
-      "elapsed_ms": 152
+      "elapsed_ms": 214
     },
     {
       "url": "https://support.challengermode.com/en/start-here/how-to-get-started-with-challengermode",
@@ -1460,7 +1458,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "How to get started with Challengermode",
       "classification": "reachable",
-      "elapsed_ms": 1114
+      "elapsed_ms": 933
     },
     {
       "url": "https://tattico.com/",
@@ -1475,7 +1473,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fantasy Serie A 2026/27 | Tattico",
       "classification": "reachable",
-      "elapsed_ms": 434
+      "elapsed_ms": 734
     },
     {
       "url": "https://tfffantezilig.com/",
@@ -1490,7 +1488,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "TFF Fantezi Lig | Kendi Takımını Kur",
       "classification": "reachable",
-      "elapsed_ms": 819
+      "elapsed_ms": 708
     },
     {
       "url": "https://thegolfwire.com/majors-challenge-perfect-team-contest-masters/",
@@ -1505,7 +1503,7 @@
       "content_type": "text/html",
       "title": "Majors Challenge Launches $250,000 Perfect Team contest for The Masters - The Golf Wire",
       "classification": "reachable",
-      "elapsed_ms": 396
+      "elapsed_ms": 297
     },
     {
       "url": "https://thespecialone.co.uk/",
@@ -1520,7 +1518,7 @@
       "content_type": "text/html",
       "title": "The Special One | Free to Play Football Prediction Game | Win Prizes!",
       "classification": "redirected",
-      "elapsed_ms": 265
+      "elapsed_ms": 546
     },
     {
       "url": "https://tianchi.aliyun.com/competition/entrance/532277?lang=en-us",
@@ -1535,7 +1533,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "算法大赛-天池大赛-阿里云的赛制",
       "classification": "reachable",
-      "elapsed_ms": 1705
+      "elapsed_ms": 1803
     },
     {
       "url": "https://tradfi.multibankgroup.com/en/lp-n/demo-competition",
@@ -1548,7 +1546,7 @@
       "status": 403,
       "final_url": "https://tradfi.multibankgroup.com/en/lp-n/demo-competition",
       "classification": "blocked",
-      "elapsed_ms": 188
+      "elapsed_ms": 130
     },
     {
       "url": "https://trofeo.live/nfl-confidence-pool",
@@ -1563,7 +1561,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "NFL Confidence Pool Rules &amp; Strategy | Trofeo.live",
       "classification": "reachable",
-      "elapsed_ms": 861
+      "elapsed_ms": 563
     },
     {
       "url": "https://twitchcon-codex.devpost.com/rules",
@@ -1577,7 +1575,7 @@
       "status": 403,
       "final_url": "https://twitchcon-codex.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 83
+      "elapsed_ms": 103
     },
     {
       "url": "https://ugreenhackathon.devpost.com/rules",
@@ -1591,7 +1589,7 @@
       "status": 403,
       "final_url": "https://ugreenhackathon.devpost.com/rules",
       "classification": "blocked",
-      "elapsed_ms": 75
+      "elapsed_ms": 101
     },
     {
       "url": "https://ultimatefantasytennis.com/blog/what-is-fantasy-tennis",
@@ -1606,7 +1604,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "What is Fantasy Tennis? How to Play Fantasy Tennis for Free in 2026 | Ultimate Fantasy Tennis",
       "classification": "reachable",
-      "elapsed_ms": 242
+      "elapsed_ms": 287
     },
     {
       "url": "https://ustrottingnews.com/ohhas-fantasy-league-returns-with-more-ways-to-win/",
@@ -1621,7 +1619,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "OHHA’s Fantasy League returns with more ways to win &#8211; U.S. Trotting News",
       "classification": "reachable",
-      "elapsed_ms": 93
+      "elapsed_ms": 128
     },
     {
       "url": "https://vocal.media/resources/challenges-frequently-asked-questions",
@@ -1636,7 +1634,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Challenges: Frequently Asked Questions | Vocal",
       "classification": "reachable",
-      "elapsed_ms": 375
+      "elapsed_ms": 568
     },
     {
       "url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest",
@@ -1649,7 +1647,7 @@
       "status": 307,
       "final_url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest",
       "classification": "http-error",
-      "elapsed_ms": 77
+      "elapsed_ms": 108
     },
     {
       "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
@@ -1665,7 +1663,7 @@
       "status": 307,
       "final_url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
       "classification": "http-error",
-      "elapsed_ms": 76
+      "elapsed_ms": 208
     },
     {
       "url": "https://www.afl.com.au/aflw/news/1550791/win-a-37k-toyota-huge-prizes-on-offer-in-aflw-fantasy",
@@ -1680,7 +1678,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Win a $37K Toyota: HUGE prizes on offer in AFLW Fantasy",
       "classification": "reachable",
-      "elapsed_ms": 515
+      "elapsed_ms": 731
     },
     {
       "url": "https://www.afl.com.au/aflw/news/1555826/aflw-tipping-is-back-for-2026-with-new-games-and-huge-prizes-to-be-won",
@@ -1695,7 +1693,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "AFLW Tipping is back for 2026, with new games and huge prizes to be won",
       "classification": "reachable",
-      "elapsed_ms": 538
+      "elapsed_ms": 687
     },
     {
       "url": "https://www.afl.com.au/fantasy",
@@ -1710,7 +1708,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "AFL Fantasy - AFL.com.au",
       "classification": "reachable",
-      "elapsed_ms": 506
+      "elapsed_ms": 1023
     },
     {
       "url": "https://www.afl.com.au/news/1469992/play-afl-tipping-25k-up-for-grabs-new-game-launched",
@@ -1725,7 +1723,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Play AFL Tipping: $25K up for grabs, new game launched",
       "classification": "reachable",
-      "elapsed_ms": 632
+      "elapsed_ms": 699
     },
     {
       "url": "https://www.aicrowd.com/challenges",
@@ -1740,7 +1738,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "AIcrowd | Challenges",
       "classification": "reachable",
-      "elapsed_ms": 1515
+      "elapsed_ms": 898
     },
     {
       "url": "https://www.atptour.com/en/news/atp-launches-official-fantasy-game-2026",
@@ -1753,7 +1751,7 @@
       "status": 403,
       "final_url": "https://www.atptour.com/en/news/atp-launches-official-fantasy-game-2026",
       "classification": "blocked",
-      "elapsed_ms": 98
+      "elapsed_ms": 121
     },
     {
       "url": "https://www.biathlonworld.com/inside-ibu/marketing/ibu-biathlon-ecup",
@@ -1768,7 +1766,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "International Biathlon Union - Inside IBU Official IBU eCup Tournament - International Biathlon Union",
       "classification": "reachable",
-      "elapsed_ms": 1214
+      "elapsed_ms": 677
     },
     {
       "url": "https://www.bridgewater.com/forecasting-the-future-a-modern-economics-challenge",
@@ -1783,7 +1781,7 @@
       "content_type": "text/html;charset=UTF-8",
       "title": "Forecasting the Future: A Modern Economics Challenge 2025",
       "classification": "reachable",
-      "elapsed_ms": 622
+      "elapsed_ms": 492
     },
     {
       "url": "https://www.bundesliga.com/en/bundesliga/news/official-fantasy-manager-season-2026-27-new-features-38255",
@@ -1798,7 +1796,7 @@
       "content_type": "text/html;charset=UTF-8",
       "title": "Bundesliga Fantasy Manager: what's new for 2026/27? | Bundesliga",
       "classification": "reachable",
-      "elapsed_ms": 268
+      "elapsed_ms": 284
     },
     {
       "url": "https://www.cbssports.com/fantasy/college-football/games/pickem/rules",
@@ -1813,7 +1811,7 @@
       "content_type": "text/html",
       "title": "",
       "classification": "reachable",
-      "elapsed_ms": 301
+      "elapsed_ms": 288
     },
     {
       "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
@@ -1831,7 +1829,7 @@
       "content_type": "text/html",
       "title": "",
       "classification": "reachable",
-      "elapsed_ms": 736
+      "elapsed_ms": 244
     },
     {
       "url": "https://www.challenge.gov/",
@@ -1846,7 +1844,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Challenge and prize competition content has moved | Challenge.gov",
       "classification": "reachable",
-      "elapsed_ms": 325
+      "elapsed_ms": 373
     },
     {
       "url": "https://www.checkmategaming.com/free-tournaments",
@@ -1864,7 +1862,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Free Tournaments with Cash Prizes",
       "classification": "reachable",
-      "elapsed_ms": 357
+      "elapsed_ms": 346
     },
     {
       "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
@@ -1879,7 +1877,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "FREE ENTRY 4v4 SND BEST OF 1 - Call of Duty Modern Warfare 4 Tournament - Cross-Platform",
       "classification": "reachable",
-      "elapsed_ms": 247
+      "elapsed_ms": 253
     },
     {
       "url": "https://www.chess.com/announcements/view/chess-com-community-events",
@@ -1894,7 +1892,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Chess.com Community Events Overview - Chess.com",
       "classification": "reachable",
-      "elapsed_ms": 564
+      "elapsed_ms": 395
     },
     {
       "url": "https://www.codabench.org/",
@@ -1909,7 +1907,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Codabench",
       "classification": "reachable",
-      "elapsed_ms": 1313
+      "elapsed_ms": 1616
     },
     {
       "url": "https://www.codesports.com.au/afl/supercoach-news/supercoach-afl-returns-for-2026-heres-everything-you-need-to-know/news-story/a5da766fdefa2f0cd3e31252a4848ef8",
@@ -1924,7 +1922,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "No Cookies | CODE Sports",
       "classification": "redirected",
-      "elapsed_ms": 1456
+      "elapsed_ms": 2164
     },
     {
       "url": "https://www.crowdspring.com/",
@@ -1939,7 +1937,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "",
       "classification": "reachable",
-      "elapsed_ms": 274
+      "elapsed_ms": 303
     },
     {
       "url": "https://www.dartscorner.co.uk/pages/premier-league-darts-predictor",
@@ -1954,7 +1952,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Premier League Darts Predictor 2026 - Win £1,000! | Darts Corner",
       "classification": "reachable",
-      "elapsed_ms": 537
+      "elapsed_ms": 212
     },
     {
       "url": "https://www.designcrowd.com/help/article/what-are-community-contests-and-how-do-i-start-participating",
@@ -1969,7 +1967,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "What are community contests and how do I start participating? | DesignCrowd",
       "classification": "reachable",
-      "elapsed_ms": 420
+      "elapsed_ms": 294
     },
     {
       "url": "https://www.dota2.com/",
@@ -1984,7 +1982,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Dota 2",
       "classification": "redirected",
-      "elapsed_ms": 426
+      "elapsed_ms": 658
     },
     {
       "url": "https://www.dreamteamfc.com/",
@@ -1999,7 +1997,7 @@
       "content_type": "text/html",
       "title": "Gaming - dreamteamfc.com",
       "classification": "reachable",
-      "elapsed_ms": 669
+      "elapsed_ms": 573
     },
     {
       "url": "https://www.drivendata.org/competitions/",
@@ -2014,7 +2012,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Competitions",
       "classification": "reachable",
-      "elapsed_ms": 993
+      "elapsed_ms": 635
     },
     {
       "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
@@ -2030,7 +2028,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Competition: The Geologic Enhanced Mapping System (GEMS) Prize Challenge",
       "classification": "reachable",
-      "elapsed_ms": 283
+      "elapsed_ms": 153
     },
     {
       "url": "https://www.euroleaguebasketball.net/euroleague/fantasy/prizes-and-rules/",
@@ -2043,7 +2041,7 @@
       "status": 429,
       "final_url": "https://www.euroleaguebasketball.net/euroleague/fantasy/prizes-and-rules/",
       "classification": "blocked",
-      "elapsed_ms": 139
+      "elapsed_ms": 143
     },
     {
       "url": "https://www.europeantour.com/dpworld-tour/news/articles/detail/fantasy-dp-world-tour-is-back/",
@@ -2058,7 +2056,7 @@
       "content_type": "text/html",
       "title": "Fantasy DP World Tour is back! - Articles - DP World Tour",
       "classification": "reachable",
-      "elapsed_ms": 743
+      "elapsed_ms": 1096
     },
     {
       "url": "https://www.fantasyfootballscout.co.uk/2026/08/14/win-5000-worth-of-prizes-with-fantasy-football-scout-in-2026-27",
@@ -2073,7 +2071,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Win £5,000 worth of prizes with Fantasy Football Scout in 2026/27!",
       "classification": "reachable",
-      "elapsed_ms": 806
+      "elapsed_ms": 713
     },
     {
       "url": "https://www.fantasyfootballscout.co.uk/mini-leagues",
@@ -2089,7 +2087,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "FFScout Mini-Leagues - Best FPL Tips, Advice, Team News, Picks, and Statistics from Fantasy Football Scout",
       "classification": "reachable",
-      "elapsed_ms": 831
+      "elapsed_ms": 891
     },
     {
       "url": "https://www.fftoday.com/contests/draftcontest.php?o=3",
@@ -2104,7 +2102,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "NFL Draft Contest | FFToday",
       "classification": "reachable",
-      "elapsed_ms": 284
+      "elapsed_ms": 226
     },
     {
       "url": "https://www.fiaformulae.com/en/news/9291",
@@ -2119,7 +2117,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Formula E latest news, media and videos - ABB FIA Formula E World Championship",
       "classification": "redirected",
-      "elapsed_ms": 198
+      "elapsed_ms": 227
     },
     {
       "url": "https://www.footballmad.co.uk/think-youre-a-fantasy-football-genius-prove-it-5-000-in-cash-prizes-up-for-grabs/",
@@ -2134,7 +2132,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Think You’re a Fantasy Football Genius? Prove It – £5,000 in Cash Prizes Up for Grabs! | Football Mad",
       "classification": "redirected",
-      "elapsed_ms": 1066
+      "elapsed_ms": 530
     },
     {
       "url": "https://www.formula1.com/en/latest/article/boost-the-fun-with-friends-and-family-this-season-f1-fantasy-is-back.2xVBBN90riZiaYXeYhOe0Z",
@@ -2149,7 +2147,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "F1 Fantasy is back. Create a league and boost the Formula 1 fun with your friends &amp; family this season",
       "classification": "reachable",
-      "elapsed_ms": 736
+      "elapsed_ms": 488
     },
     {
       "url": "https://www.foxsports.com/fox-super-6",
@@ -2164,7 +2162,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "FOX Super 6 — Play free Pick&#x27;em Game | FOX Sports",
       "classification": "reachable",
-      "elapsed_ms": 292
+      "elapsed_ms": 209
     },
     {
       "url": "https://www.freelancer.com/faq/topic.php?id=33",
@@ -2179,7 +2177,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Contest - Payment FAQ | Freelancer",
       "classification": "reachable",
-      "elapsed_ms": 310
+      "elapsed_ms": 350
     },
     {
       "url": "https://www.funofficepools.com/",
@@ -2194,7 +2192,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Free Office Pools — Football Pick&#039;em, Survivor &amp; Squares Since 2007",
       "classification": "reachable",
-      "elapsed_ms": 517
+      "elapsed_ms": 430
     },
     {
       "url": "https://www.gambling.com/games/dirty-dozen",
@@ -2209,7 +2207,7 @@
       "content_type": "text/html",
       "title": "Free Online Casino Games | Play for Free at Gambling.com",
       "classification": "redirected",
-      "elapsed_ms": 786
+      "elapsed_ms": 618
     },
     {
       "url": "https://www.gamersaloon.com/promos/1rounder/",
@@ -2224,7 +2222,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "GamerSaloon 1-Rounders",
       "classification": "reachable",
-      "elapsed_ms": 357
+      "elapsed_ms": 339
     },
     {
       "url": "https://www.givling.com/",
@@ -2239,7 +2237,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Givling",
       "classification": "redirected",
-      "elapsed_ms": 652
+      "elapsed_ms": 375
     },
     {
       "url": "https://www.hfm.com/int/en/promotions/demo-contest",
@@ -2252,7 +2250,7 @@
       "status": 403,
       "final_url": "https://www.hfm.com/int/en/promotions/demo-contest",
       "classification": "blocked",
-      "elapsed_ms": 106
+      "elapsed_ms": 147
     },
     {
       "url": "https://www.hipa.ae/",
@@ -2267,7 +2265,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "HIPA Hamdan Bin Mohammed Bin Rashid Al Maktoum International Photography Award",
       "classification": "reachable",
-      "elapsed_ms": 1627
+      "elapsed_ms": 1222
     },
     {
       "url": "https://www.indycar.com/fantasychallenge/indycar/fullrules",
@@ -2282,7 +2280,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "INDYCAR Fantasy Challenge Full Rules",
       "classification": "reachable",
-      "elapsed_ms": 380
+      "elapsed_ms": 247
     },
     {
       "url": "https://www.kaggle.com/competitions",
@@ -2297,7 +2295,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "AI Competitions and Hackathons | Kaggle",
       "classification": "reachable",
-      "elapsed_ms": 163
+      "elapsed_ms": 177
     },
     {
       "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/overview",
@@ -2312,7 +2310,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ARC Prize 2026 - Paper Track | Kaggle",
       "classification": "reachable",
-      "elapsed_ms": 130
+      "elapsed_ms": 178
     },
     {
       "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
@@ -2328,7 +2326,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "ARC Prize 2026 - Paper Track | Kaggle",
       "classification": "reachable",
-      "elapsed_ms": 129
+      "elapsed_ms": 202
     },
     {
       "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview",
@@ -2343,7 +2341,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "NFL Big Data Bowl 2027 | Kaggle",
       "classification": "reachable",
-      "elapsed_ms": 184
+      "elapsed_ms": 157
     },
     {
       "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
@@ -2359,7 +2357,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "NFL Big Data Bowl 2027 | Kaggle",
       "classification": "reachable",
-      "elapsed_ms": 188
+      "elapsed_ms": 199
     },
     {
       "url": "https://www.kinolime.com/competition",
@@ -2374,7 +2372,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "",
       "classification": "redirected",
-      "elapsed_ms": 1345
+      "elapsed_ms": 849
     },
     {
       "url": "https://www.laliga.com/en-GB/legal/condiciones-de-uso-fantasy",
@@ -2389,7 +2387,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Legal information Conditions of Use | LALIGA",
       "classification": "reachable",
-      "elapsed_ms": 2090
+      "elapsed_ms": 1810
     },
     {
       "url": "https://www.lazyfpl.com/readers-mini-league",
@@ -2404,7 +2402,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Readers&#x27; Mini League | LazyFPL",
       "classification": "reachable",
-      "elapsed_ms": 129
+      "elapsed_ms": 173
     },
     {
       "url": "https://www.leicestertigers.com/news/fantasy-premiership-2223-launch",
@@ -2419,7 +2417,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fantasy Premiership Rugby is here! | Leicester Tigers",
       "classification": "reachable",
-      "elapsed_ms": 1253
+      "elapsed_ms": 822
     },
     {
       "url": "https://www.litefinance.org/contests/demo/best/",
@@ -2434,7 +2432,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Forex demo contest: BEST OF THE BEST | LiteFinance",
       "classification": "reachable",
-      "elapsed_ms": 911
+      "elapsed_ms": 991
     },
     {
       "url": "https://www.metaculus.com/tournament-rules/",
@@ -2447,7 +2445,7 @@
       "status": 403,
       "final_url": "https://www.metaculus.com/tournament-rules/",
       "classification": "blocked",
-      "elapsed_ms": 40
+      "elapsed_ms": 86
     },
     {
       "url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
@@ -2461,7 +2459,7 @@
       "status": 403,
       "final_url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
       "classification": "blocked",
-      "elapsed_ms": 70
+      "elapsed_ms": 80
     },
     {
       "url": "https://www.metaculus.com/tournaments/",
@@ -2474,7 +2472,7 @@
       "status": 403,
       "final_url": "https://www.metaculus.com/tournaments/",
       "classification": "blocked",
-      "elapsed_ms": 57
+      "elapsed_ms": 151
     },
     {
       "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
@@ -2492,7 +2490,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Official Rules | Beat the Streak | Apps | MLB.com",
       "classification": "reachable",
-      "elapsed_ms": 1826
+      "elapsed_ms": 734
     },
     {
       "url": "https://www.mlb.com/sponsorship/home-run-derby-pick-em/official-rules",
@@ -2507,7 +2505,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "MLB Home Run Derby Pick &#x27;Em presented by T-Mobile | Official Rules | MLB.com",
       "classification": "reachable",
-      "elapsed_ms": 527
+      "elapsed_ms": 473
     },
     {
       "url": "https://www.motogp.com/en/news/2026/02/18/motogp-fantasy-play-smart-and-win-big/874823",
@@ -2522,7 +2520,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "MotoGP Fantasy: play smart and win big!",
       "classification": "reachable",
-      "elapsed_ms": 1153
+      "elapsed_ms": 551
     },
     {
       "url": "https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776",
@@ -2535,7 +2533,7 @@
       "status": 403,
       "final_url": "https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776",
       "classification": "blocked",
-      "elapsed_ms": 82
+      "elapsed_ms": 67
     },
     {
       "url": "https://www.myfxbook.com/press-release/xmrsquos-anniversary-demo-competitions-now-live-ndash-join-the-celebration-with-a-100000-prize-pool-/33454",
@@ -2563,7 +2561,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Moomoo’s Second Global Paper Trading Competition, Powered by Nasdaq TotalView, Hits 150,000 Participants in Two Days | Nasdaq",
       "classification": "reachable",
-      "elapsed_ms": 142
+      "elapsed_ms": 365
     },
     {
       "url": "https://www.nba.com/news/2026-nba-pick-em-bracket-challenge-is-now-live",
@@ -2578,7 +2576,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "2026 NBA Pick‘Em Bracket Challenge is now live | NBA.com",
       "classification": "reachable",
-      "elapsed_ms": 383
+      "elapsed_ms": 304
     },
     {
       "url": "https://www.nbl.com.au/news/supercoach-nbl-start-picking-your-team-now",
@@ -2593,7 +2591,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "SuperCoach NBL: Start picking your team now!",
       "classification": "reachable",
-      "elapsed_ms": 1853
+      "elapsed_ms": 2045
     },
     {
       "url": "https://www.nmarkets.org/fr/",
@@ -2608,7 +2606,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "NPBFX | Services on the FOREX",
       "classification": "reachable",
-      "elapsed_ms": 2793
+      "elapsed_ms": 2583
     },
     {
       "url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form",
@@ -2623,7 +2621,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Twenty-Seventh Annual Young Lions Fiction Award Submission Form | The New York Public Library",
       "classification": "reachable",
-      "elapsed_ms": 440
+      "elapsed_ms": 233
     },
     {
       "url": "https://www.papaya.com/faq",
@@ -2639,7 +2637,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Papaya Gaming FAQ | About Papaya and the Platform",
       "classification": "reachable",
-      "elapsed_ms": 515
+      "elapsed_ms": 516
     },
     {
       "url": "https://www.playerslounge.com/madden",
@@ -2654,7 +2652,7 @@
       "content_type": "text/html",
       "title": "Players' Lounge | Win money playing Madden",
       "classification": "reachable",
-      "elapsed_ms": 258
+      "elapsed_ms": 399
     },
     {
       "url": "https://www.pocket7games.com/",
@@ -2669,7 +2667,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "AviaGames | Fun, Thrilling, Competitive Free Mobile Games",
       "classification": "redirected",
-      "elapsed_ms": 1443
+      "elapsed_ms": 472
     },
     {
       "url": "https://www.pokemon.com/us/play-pokemon",
@@ -2684,7 +2682,7 @@
       "content_type": "text/html;charset=UTF-8",
       "title": "Play! Pokémon Events | Pokemon.com",
       "classification": "reachable",
-      "elapsed_ms": 214
+      "elapsed_ms": 338
     },
     {
       "url": "https://www.pooltracker.com/game_info/english-premier-league-predictor.asp",
@@ -2699,7 +2697,7 @@
       "content_type": "text/html",
       "title": "English Premier League EPL Predictor football pools",
       "classification": "reachable",
-      "elapsed_ms": 276
+      "elapsed_ms": 326
     },
     {
       "url": "https://www.premierleague.com/en/news/4220308/the-second-chance-league-is-live-in-fantasy",
@@ -2714,7 +2712,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Second Chance league starts NOW in Fantasy",
       "classification": "reachable",
-      "elapsed_ms": 577
+      "elapsed_ms": 430
     },
     {
       "url": "https://www.prizefest.com/film/rules/",
@@ -2729,7 +2727,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Photo Prize Rules and Regulations &#8211; Prize Fest 2026",
       "classification": "redirected",
-      "elapsed_ms": 2133
+      "elapsed_ms": 2080
     },
     {
       "url": "https://www.rmets.org/weather-photographer-of-the-year",
@@ -2744,7 +2742,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Weather Photographer of the Year | Royal Meteorological Society",
       "classification": "reachable",
-      "elapsed_ms": 451
+      "elapsed_ms": 270
     },
     {
       "url": "https://www.rotoballer.com/free-fantasy-football-tournament-rotoballer-challenge-2026/1900460",
@@ -2759,7 +2757,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Free Fantasy Football Tournament - RotoBaller Challenge (2026)",
       "classification": "reachable",
-      "elapsed_ms": 222
+      "elapsed_ms": 183
     },
     {
       "url": "https://www.skillz.com/",
@@ -2772,7 +2770,7 @@
       "status": 403,
       "final_url": "https://www.skillz.com/",
       "classification": "blocked",
-      "elapsed_ms": 388
+      "elapsed_ms": 247
     },
     {
       "url": "https://www.skysports.com/football/news/11095/12359927/sky-sports-fantasy-football-is-live-create-your-team-for-free-and-win-lb50-000",
@@ -2787,7 +2785,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Sky Sports Fantasy Football is LIVE! Create your team for free and win £50,000 | Football News | Sky Sports",
       "classification": "redirected",
-      "elapsed_ms": 1727
+      "elapsed_ms": 1029
     },
     {
       "url": "https://www.squarespool.com/",
@@ -2802,7 +2800,7 @@
       "content_type": "text/html",
       "title": "Football Squares Pool | Squares Pool Online (Free) - SquaresPool.com",
       "classification": "reachable",
-      "elapsed_ms": 279
+      "elapsed_ms": 240
     },
     {
       "url": "https://www.streakforthecash.com/",
@@ -2817,7 +2815,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Streak for the Cash | Free Sports Betting Contests | Sports Picks | StreakfortheCash",
       "classification": "reachable",
-      "elapsed_ms": 435
+      "elapsed_ms": 174
     },
     {
       "url": "https://www.superbru.com/worldcup/prizes.php",
@@ -2832,7 +2830,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Superbru - Free Football World Cup score predictor game - Prizes",
       "classification": "redirected",
-      "elapsed_ms": 1502
+      "elapsed_ms": 1213
     },
     {
       "url": "https://www.superleague.co.uk/article/5728/play-super-league-predictor-in-2026",
@@ -2847,7 +2845,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Play Super League Predictor in 2026!",
       "classification": "reachable",
-      "elapsed_ms": 764
+      "elapsed_ms": 586
     },
     {
       "url": "https://www.teepster.com/the-open-championship/",
@@ -2860,7 +2858,7 @@
       "status": 520,
       "final_url": "https://www.teepster.com/the-open-championship/",
       "classification": "http-error",
-      "elapsed_ms": 813
+      "elapsed_ms": 1053
     },
     {
       "url": "https://www.thecricketdraft.com/prizes",
@@ -2875,7 +2873,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "The Cricket Draft | Fantasy Game Prizes",
       "classification": "reachable",
-      "elapsed_ms": 110
+      "elapsed_ms": 163
     },
     {
       "url": "https://www.thedraftpro.com/",
@@ -2890,7 +2888,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "The Draft Pro® | NFL, NHL &amp; NBA Draft Contests",
       "classification": "reachable",
-      "elapsed_ms": 268
+      "elapsed_ms": 221
     },
     {
       "url": "https://www.thehundred.com/terms/fantasy",
@@ -2905,7 +2903,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "The Hundred",
       "classification": "reachable",
-      "elapsed_ms": 658
+      "elapsed_ms": 301
     },
     {
       "url": "https://www.thelines.com/betting/free-games/",
@@ -2915,10 +2913,12 @@
       "roles": [
         "inherited official pointer"
       ],
-      "status": 403,
+      "status": 200,
       "final_url": "https://www.thelines.com/betting/free-games/",
-      "classification": "blocked",
-      "elapsed_ms": 154
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Free Betting Games Daily: Win Cash Equivalent Gift Cards",
+      "classification": "reachable",
+      "elapsed_ms": 171
     },
     {
       "url": "https://www.theopen.com/fantasy/prizes",
@@ -2933,7 +2933,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Fantasy Predictor | The Open Match Ups",
       "classification": "reachable",
-      "elapsed_ms": 776
+      "elapsed_ms": 204
     },
     {
       "url": "https://www.therams.com/news/rams-pick-em-launching-2026-season-season-tickets-player-signed-merchandise-more-prizes-for-predictions",
@@ -2948,7 +2948,7 @@
       "content_type": "text/html",
       "title": "Rams Predictive Game: Pick&#x27;em 2026 win season tickets, signed merch, and more prizes",
       "classification": "reachable",
-      "elapsed_ms": 198
+      "elapsed_ms": 237
     },
     {
       "url": "https://www.thesportsgeek.com/contests/beat-the-geek/",
@@ -2963,7 +2963,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Beat The Geek 2026 | Free NFL Pick&#039;em Contest",
       "classification": "reachable",
-      "elapsed_ms": 155
+      "elapsed_ms": 224
     },
     {
       "url": "https://www.thesportsgeek.com/contests/nfl-playoff-pickem/",
@@ -2978,7 +2978,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "NFL Playoff Pick’em Contest – Free NFL Playoff Pool",
       "classification": "reachable",
-      "elapsed_ms": 28
+      "elapsed_ms": 185
     },
     {
       "url": "https://www.tickmill.com/promotions/nfp-machine",
@@ -2993,7 +2993,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Put your NFP forecast to the test | Tickmill",
       "classification": "redirected",
-      "elapsed_ms": 856
+      "elapsed_ms": 997
     },
     {
       "url": "https://www.timhortons.ca/tims-nhl-hockey-challenge",
@@ -3008,7 +3008,7 @@
       "content_type": "text/html",
       "title": "Tim Hortons",
       "classification": "reachable",
-      "elapsed_ms": 574
+      "elapsed_ms": 435
     },
     {
       "url": "https://www.topcoder.com/challenges",
@@ -3021,7 +3021,7 @@
       "status": 404,
       "final_url": "https://www.topcoder.com/challenges",
       "classification": "http-error",
-      "elapsed_ms": 282
+      "elapsed_ms": 222
     },
     {
       "url": "https://www.tottenhamhotspur.com/news/1086226/women-everything-you-need-to-know-about-the-wsls-new-fantasy-game",
@@ -3036,7 +3036,7 @@
       "content_type": "text/html;charset=utf-8",
       "title": "Everything you need to know about the WSL’s new fantasy game",
       "classification": "reachable",
-      "elapsed_ms": 1059
+      "elapsed_ms": 849
     },
     {
       "url": "https://www.trading.com/us/forex-trading-competition",
@@ -3051,7 +3051,7 @@
       "content_type": "text/html",
       "title": "Forex Trading Competition | Win Big Prizes",
       "classification": "reachable",
-      "elapsed_ms": 474
+      "elapsed_ms": 616
     },
     {
       "url": "https://www.tradingview.com/the-leap/tradestation-july-2026/rules/",
@@ -3066,7 +3066,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "The Leap with TradeStation — Terms and Conditions — TradingView",
       "classification": "reachable",
-      "elapsed_ms": 77
+      "elapsed_ms": 231
     },
     {
       "url": "https://www.wallstreetsurvivor.com/contest-valentines-2026/",
@@ -3081,7 +3081,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Love to Trade Contest - Test Your Skills and Win up to $500! - Wall Street Survivor",
       "classification": "reachable",
-      "elapsed_ms": 706
+      "elapsed_ms": 163
     },
     {
       "url": "https://www.worldphoto.org/sony-world-photography-awards",
@@ -3096,7 +3096,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Sony World Photography Awards | World Photography Organisation",
       "classification": "reachable",
-      "elapsed_ms": 666
+      "elapsed_ms": 728
     },
     {
       "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
@@ -3112,7 +3112,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Series competition (Previously Professional competition) | World Photography Organisation",
       "classification": "reachable",
-      "elapsed_ms": 615
+      "elapsed_ms": 535
     },
     {
       "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
@@ -3128,7 +3128,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "Single Image competition (Previously Open competition) | World Photography Organisation",
       "classification": "reachable",
-      "elapsed_ms": 644
+      "elapsed_ms": 593
     },
     {
       "url": "https://www.worldpressphoto.org/",
@@ -3143,7 +3143,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Home | World Press Photo",
       "classification": "reachable",
-      "elapsed_ms": 1100
+      "elapsed_ms": 940
     },
     {
       "url": "https://www.xprize.org/",
@@ -3158,7 +3158,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Home Page | XPRIZE Foundation",
       "classification": "reachable",
-      "elapsed_ms": 229
+      "elapsed_ms": 239
     },
     {
       "url": "https://x.com/ValorantEsports/status/1963633815282405466",
@@ -3173,7 +3173,7 @@
       "content_type": "text/html; charset=UTF-8",
       "title": "VALORANT Champions Tour on X: &quot;Champions Paris : Pick&#x27;Ems powered by AWS&quot; / X",
       "classification": "reachable",
-      "elapsed_ms": 750
+      "elapsed_ms": 336
     },
     {
       "url": "https://zindi.world/competitions",
@@ -3188,7 +3188,7 @@
       "content_type": "text/html; charset=utf-8",
       "title": "Zindi Challenges - Solve Real-World Challenges With AI",
       "classification": "reachable",
-      "elapsed_ms": 598
+      "elapsed_ms": 663
     }
   ]
 }
