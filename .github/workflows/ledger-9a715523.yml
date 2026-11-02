@@ -20,6 +20,10 @@ jobs:
           python3 ledger-9a715523/tools/build.py
           python3 ledger-9a715523/tools/test.py
           git diff --exit-code -- ledger-9a715523
+      - name: Install browser test dependencies
+        run: npm ci
+      - name: Browser, responsive and accessibility checks
+        run: node ledger-9a715523/tools/browser.cjs
   source-audit:
     runs-on: ubuntu-22.04
     permissions:
