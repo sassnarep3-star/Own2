@@ -1,12 +1,13 @@
 # PrizeDesk — free-to-enter cash competitions, verified line by line
 
-A static, dependency-free dashboard built from a 206-row competition ledger. Every published value is
-quoted from the operator's own page; everything else is blank and flagged.
+A static, dependency-free dashboard built from a 206-row source ledger plus three event-level entries.
+Every published value is quoted from the operator's own page; everything else is blank and flagged.
 
 - **Live site:** https://sassnarep3-star.github.io/Own2/
 - **Executive summary:** [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) · [`summary.html`](summary.html)
 - **Flagged for review:** [`review.html`](review.html)
 - **Evidence log (quote + URL per field):** [`data/EVIDENCE.md`](data/EVIDENCE.md)
+- **Independent audit reports:** [`audits/index.html`](audits/index.html) links the separate findings and review flags. The reports are limited spot checks, not a full re-verification of all inherited listings.
 
 ## What is on the site
 
@@ -17,9 +18,11 @@ quoted from the operator's own page; everything else is blank and flagged.
 | `sports.html` `tech.html` `creative.html` `forecasting.html` `skill.html` `market.html` `pools.html` `trivia.html` `directory.html` | Category pages |
 | `summary.html` | Executive summary and method |
 | `review.html` | Every unresolved, contradicted or unsourced item, with links |
+| `audits/index.html` | Index of five separate official-source audits and each report's Flagged for Review page |
 
 Parallel sessions' material is preserved, not replaced: the independent 13-lead audit lives at
-`audits/2026-11-01/`, the alternate shortlist at `explore.html` + `category/` + `flagged/`, a third standalone
+`audits/2026-11-01/`, the independent report index at `audits/index.html` (linking separate 1–2 November
+reports and review flags), the alternate shortlist at `explore.html` + `category/` + `flagged/`, a third standalone
 dashboard at `dashboard/`, the first dashboard's builder at `audits/legacy-build/`,
 the Competition Desk at `competition-desk/`, the Prize Ledger dashboard at `ledger-ebd10b79/`,
 the ledger verification subsite at `ledger-verification/`, and a verified-ledger table site at
@@ -65,8 +68,7 @@ the checks.
 
 ## Honest limits
 
-- 180 of 209 rows are inherited leads that could not be verified in this pass. They keep their link and are
-  labelled unverified; no value from them is published. 30 rows carry recorded evidence.
+- Current root checks report 34 entries with recorded evidence (supporting 90 published field values with quotes and official URLs); 176 of 209 rows remain unverified and blank. An evidence record is not the same as a fully verified opportunity.
 - "Free entry confirmed" means the operator states no fee is required. It does not mean the competition is
   free to *win* — your time, compute and travel are real costs.
 - Prize pools are not expected value. No win probability, hourly rate or earnings ranking is asserted.
