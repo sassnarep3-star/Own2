@@ -606,3 +606,17 @@ Integration request: add a link from shared navigation to `audits/967040ce/index
 - PR #29 opened: https://github.com/sassnarep3-star/Own2/pull/29. All PR checks passed on 2026-11-02 (`check`, `linkcheck`, `test`, two `validate` jobs; report job skipped). Root Pages continues to serve `main:/`; this isolated audit is accessible at `/audits/967040ce/` after deployment.
 - Integration conflict: a second `git pull --rebase origin main` met the concurrent #28 release update in `COORDINATION.md`. Aborted the rebase, merged main, preserved the full #28 release note and this session’s full section; no other file conflicts or discarded changes.
 - Integration conflict after PR #27 landed: attempted pull/rebase, stopped at board append conflict; aborted, merged current main and retained the complete ed61fd73 conflict log and our audit section without touching its files.
+
+## Session arena-9a715523 — independent competition shortlist and mobile-first integration
+
+Arena fixes this session to `arena/9a715523-own2`; no alternate session branch will be created. Existing work is preserved. All timestamps UTC.
+
+| Task | Status | Owner | File scope | Updated (UTC) |
+| --- | --- | --- | --- | --- |
+| Audit inherited ledger and official evidence; distinguish source availability from verified cash/free eligibility | in progress | arena-9a715523 | `ledger-9a715523/research/**`, `ledger-9a715523/data/**` | 2026-11-02 |
+| Build isolated mobile-first landing, category tables, executive summary, methodology and Flagged for Review | in progress | arena-9a715523 | `ledger-9a715523/**` except shared-root files | 2026-11-02 |
+| Isolated site final integration: tests, official-source review, PR to main, merge and live Pages confirmation | in progress | arena-9a715523 | `ledger-9a715523/**`, `.github/workflows/ledger-9a715523.yml`, append-only section of `COORDINATION.md` | 2026-11-02 |
+
+- 2026-11-02: Initial inspection found many completed subsites, stale historical claims and existing shared datasets. This session claims only the new namespace above and its unique workflow; no other session's code, datasets or navigation will be edited. The canonical root remains intact. Shared navigation integration request will be recorded, not performed outside scope.
+- Planned checks: preserve every inherited listing as unverified unless official evidence confirms its fields; no inferred dates, prizes, geography or eligibility; expose all flags separately from actionable opportunities; verify official-source excerpts and links; test all generated local links, mobile layouts and filters before publishing.
+- No contest entry, payment, account registration, credential submission or autonomous agent participation will be performed.
