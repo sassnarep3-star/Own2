@@ -1,0 +1,21 @@
+{
+  "audit": "External link recheck — previously flagged broken links re-read 2026-11-02 (UTC) via page reader",
+  "checked_date": "2026-11-02",
+  "baseline": "ledger-4c1d6bb4/reports/link-check.json (GitHub Actions linkcheck run 41316899973, 2026-11-01): 326 URLs — 258 ok, 2 redirect, 40 blocked, 26 broken.",
+  "policy": "Sample of 12 of the 26 broken URLs re-read on 2026-11-02. A reachable page is not verification of a competition; a failure here is not proof of permanent breakage (blocks/timeouts can be regional or transient).",
+  "results": [
+    {"url": "https://bracketchallenge.nhl.com/en/home", "listingId": "nhl-bracket-challenge", "prior": "404 (2026-11-01 CI)", "now": "still broken", "evidence": "Page title 'Azure Static Web Apps - 404: Not found'; body: \"We couldn’t find that page, please check the URL and try again.\""},
+    {"url": "https://aleagues.com.au/fantasy", "listingId": "aleague-fantasy", "prior": "404 (2026-11-01 CI)", "now": "still broken", "evidence": "Site-themed 404: 'Offside!  Page not found'."},
+    {"url": "https://www.topcoder.com/challenges", "listingId": "topcoder", "prior": "404 (2026-11-01 CI)", "now": "still unreachable as a public list", "evidence": "Redirects to an Auth0 page: 'Alert — Login/Logout action is not called. Please check return url (retUrl) value in query parameters'. Challenge list not publicly retrievable."},
+    {"url": "https://www.topcoder.com/policy", "listingId": "topcoder", "prior": "404 (2026-11-01 CI)", "now": "still unreachable", "evidence": "Redirects to the same Auth0 alert page (title 'Topcoder', body 'Auth0 ... Alert')."},
+    {"url": "https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1252281551", "listingId": "solitaire-cash", "prior": "404 (2026-11-01 CI)", "now": "still broken", "evidence": "App Store page: 'The page you're looking for can't be found.'"},
+    {"url": "https://gaming.uefa.com/en/uclfantasy", "listingId": "ucl-fantasy", "prior": "broken/DNS (2026-11-01 CI)", "now": "RECOVERED — reachable", "evidence": "Title 'Fantasy Football | UEFA Champions League | UEFA.com' with Gaming Hub page loaded on 2026-11-02. Content is JS-driven; only the hub shell was verified."},
+    {"url": "https://supercoach.news.com.au/bbl/", "listingId": "supercoach-bbl", "prior": "network error (2026-11-01 CI)", "now": "still unreachable", "evidence": "Page reader failed to fetch the URL on 2026-11-02 (network error)."},
+    {"url": "https://wslfantasy.com/", "listingId": "wsl-fantasy", "prior": "network error (2026-11-01 CI)", "now": "still unreachable", "evidence": "Page reader failed to fetch the URL on 2026-11-02 (network error)."},
+    {"url": "https://fantasyfootball.skysports.com/", "listingId": "sky-sports-ff", "prior": "network error (2026-11-01 CI)", "now": "still unreachable", "evidence": "Page reader failed to fetch the URL on 2026-11-02 (network error)."},
+    {"url": "https://dash.hypermind.com/hypermind/app.html", "listingId": "hypermind", "prior": "503 (2026-11-01 CI)", "now": "still broken", "evidence": "'503 Service Unavailable — The server is temporarily unable to service your request due to maintenance downtime or capacity problems.'"},
+    {"url": "https://www.ohha.com/fantasy-stable", "listingId": "ohha-harness", "prior": "404 (2026-11-01 CI)", "now": "still broken", "evidence": "'404 — Sorry, this page doesn’t exist.'"},
+    {"url": "https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/", "listingId": "pensacola-songwriting", "prior": "TLS/network error (2026-11-01 CI)", "now": "still broken", "evidence": "'WordPress › Error — There has been a critical error on this website.'"}
+  ],
+  "summary": {"rechecked": 12, "still_broken_or_unreachable": 11, "recovered": 1, "not_rechecked": 14}
+}

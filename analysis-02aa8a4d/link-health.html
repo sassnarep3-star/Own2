@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link health audit — Free Cash Competitions · Analysis 02aa8a4d</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header>
+  <p class="crumb"><a href="../index.html">← Main project dashboard</a></p>
+  <h1>Link health audit</h1>
+  <p class="sub">Independent analysis pass · official sources checked 2026-11-02 · every value quote-backed or blank</p>
+  <nav aria-label="Section navigation"><a href="index.html">Dashboard</a><a href="ranked.html">Ranked picks</a><a href="freshness.html">Freshness sweep</a><a href="all.html">All entries</a><a href="categories.html">Categories</a><a href="link-health.html" aria-current="page" class="active">Link health</a><a href="flagged.html">Flagged for review</a><a href="summary.html">Executive summary</a><a href="methodology.html">Methodology</a></nav>
+</header>
+<main id="content">
+
+<section>
+<h2>External link recheck (2026-11-02)</h2>
+<p>Baseline: GitHub Actions linkcheck of 2026-11-01 (326 URLs: 258 ok, 2 redirect, 40 blocked, 26 broken —
+<a class="src" href="../ledger-4c1d6bb4/reports/link-check.json">baseline JSON</a>). This pass re-read a sample
+of 12 of the 26 broken URLs: <strong>11 still broken or unreachable</strong>,
+<strong>1 recovered</strong>. 14 were not re-checked (stale until re-run).
+Reachability is not verification, and a failure is not proof of permanent breakage.</p>
+<div class="tablewrap"><table class="wide">
+<caption>Broken-link recheck sample (2026-11-02)</caption>
+<thead><tr><th scope="col">URL</th><th scope="col">Prior status (2026-11-01 CI)</th><th scope="col">Now (2026-11-02)</th><th scope="col">Evidence</th></tr></thead>
+<tbody><tr>
+<td data-label="URL"><a class="src" href="https://bracketchallenge.nhl.com/en/home">https://bracketchallenge.nhl.com/en/home</a><br><span class="muted">nhl-bracket-challenge</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">Page title &#x27;Azure Static Web Apps - 404: Not found&#x27;; body: &quot;We couldn’t find that page, please check the URL and try again.&quot;</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://aleagues.com.au/fantasy">https://aleagues.com.au/fantasy</a><br><span class="muted">aleague-fantasy</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">Site-themed 404: &#x27;Offside!  Page not found&#x27;.</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://www.topcoder.com/challenges">https://www.topcoder.com/challenges</a><br><span class="muted">topcoder</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still unreachable as a public list</span></td>
+<td data-label="Evidence"><span class="muted">Redirects to an Auth0 page: &#x27;Alert — Login/Logout action is not called. Please check return url (retUrl) value in query parameters&#x27;. Challenge list not publicly retrievable.</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://www.topcoder.com/policy">https://www.topcoder.com/policy</a><br><span class="muted">topcoder</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still unreachable</span></td>
+<td data-label="Evidence"><span class="muted">Redirects to the same Auth0 alert page (title &#x27;Topcoder&#x27;, body &#x27;Auth0 ... Alert&#x27;).</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://apps.apple.com/us/app/solitaire-cash-win-real-money/id1252281551">https://apps.apple.com/us/app/solitaire-cash-win-real-money/id12522815</a><br><span class="muted">solitaire-cash</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">App Store page: &#x27;The page you&#x27;re looking for can&#x27;t be found.&#x27;</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://gaming.uefa.com/en/uclfantasy">https://gaming.uefa.com/en/uclfantasy</a><br><span class="muted">ucl-fantasy</span></td>
+<td data-label="Prior status (2026-11-01 CI)">broken/DNS (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="ok">RECOVERED — reachable</span></td>
+<td data-label="Evidence"><span class="muted">Title &#x27;Fantasy Football | UEFA Champions League | UEFA.com&#x27; with Gaming Hub page loaded on 2026-11-02. Content is JS-driven; only the hub shell was verified.</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://supercoach.news.com.au/bbl/">https://supercoach.news.com.au/bbl/</a><br><span class="muted">supercoach-bbl</span></td>
+<td data-label="Prior status (2026-11-01 CI)">network error (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still unreachable</span></td>
+<td data-label="Evidence"><span class="muted">Page reader failed to fetch the URL on 2026-11-02 (network error).</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://wslfantasy.com/">https://wslfantasy.com/</a><br><span class="muted">wsl-fantasy</span></td>
+<td data-label="Prior status (2026-11-01 CI)">network error (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still unreachable</span></td>
+<td data-label="Evidence"><span class="muted">Page reader failed to fetch the URL on 2026-11-02 (network error).</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://fantasyfootball.skysports.com/">https://fantasyfootball.skysports.com/</a><br><span class="muted">sky-sports-ff</span></td>
+<td data-label="Prior status (2026-11-01 CI)">network error (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still unreachable</span></td>
+<td data-label="Evidence"><span class="muted">Page reader failed to fetch the URL on 2026-11-02 (network error).</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://dash.hypermind.com/hypermind/app.html">https://dash.hypermind.com/hypermind/app.html</a><br><span class="muted">hypermind</span></td>
+<td data-label="Prior status (2026-11-01 CI)">503 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">&#x27;503 Service Unavailable — The server is temporarily unable to service your request due to maintenance downtime or capacity problems.&#x27;</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://www.ohha.com/fantasy-stable">https://www.ohha.com/fantasy-stable</a><br><span class="muted">ohha-harness</span></td>
+<td data-label="Prior status (2026-11-01 CI)">404 (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">&#x27;404 — Sorry, this page doesn’t exist.&#x27;</span></td>
+</tr><tr>
+<td data-label="URL"><a class="src" href="https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/">https://pensacolabeachsongwritersfestival.com/2026-songwriting-competi</a><br><span class="muted">pensacola-songwriting</span></td>
+<td data-label="Prior status (2026-11-01 CI)">TLS/network error (2026-11-01 CI)</td>
+<td data-label="Now (2026-11-02)"><span class="bad">still broken</span></td>
+<td data-label="Evidence"><span class="muted">&#x27;WordPress › Error — There has been a critical error on this website.&#x27;</span></td>
+</tr></tbody>
+</table></div>
+</section>
+<section>
+<h2>Internal link scan (whole repository, 2026-11-02)</h2>
+<p>Scanned 160 HTML pages across the main site and every parallel subsite;
+checked 4340 local links; found <strong>0 broken</strong>.</p>
+<div class="tablewrap"><table>
+<caption>Broken internal links</caption>
+<thead><tr><th scope="col">Page</th><th scope="col">Broken link</th></tr></thead>
+<tbody><tr><td colspan="2">None — every local link in the scanned pages resolves.</td></tr></tbody>
+</table></div>
+<div class="tablewrap"><table>
+<caption>HTML pages by top-level section</caption>
+<thead><tr><th scope="col">Section</th><th scope="col">HTML pages</th></tr></thead>
+<tbody><tr><td data-label="Section">(root)</td><td data-label="HTML pages">17</td></tr><tr><td data-label="Section">_site</td><td data-label="HTML pages">15</td></tr><tr><td data-label="Section">analysis-02aa8a4d</td><td data-label="HTML pages">19</td></tr><tr><td data-label="Section">audits</td><td data-label="HTML pages">14</td></tr><tr><td data-label="Section">categories</td><td data-label="HTML pages">9</td></tr><tr><td data-label="Section">category</td><td data-label="HTML pages">9</td></tr><tr><td data-label="Section">competition-desk</td><td data-label="HTML pages">13</td></tr><tr><td data-label="Section">dashboard</td><td data-label="HTML pages">17</td></tr><tr><td data-label="Section">flagged</td><td data-label="HTML pages">1</td></tr><tr><td data-label="Section">ledger-4c1d6bb4</td><td data-label="HTML pages">14</td></tr><tr><td data-label="Section">ledger-ebd10b79</td><td data-label="HTML pages">17</td></tr><tr><td data-label="Section">ledger-verification</td><td data-label="HTML pages">15</td></tr></tbody>
+</table></div>
+</section>
+
+</main>
+<footer>
+  <p>Session <strong>arena-02aa8a4d</strong> · subsite <code>analysis-02aa8a4d/</code> · data snapshot 2026-11-02.
+  Official rules win every argument. Nobody legitimate will ever ask you to pay a fee to collect a prize.
+  Sources: official operator pages listed per row. Unverified values are left blank and published on the
+  <a href="flagged.html">Flagged for Review</a> page. See <a href="methodology.html">methodology</a> for the scoring rubric.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
