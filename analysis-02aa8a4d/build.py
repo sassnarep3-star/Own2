@@ -189,7 +189,7 @@ def score_rows(contests, fresh_by_id):
                 open_ok = True
                 open_note = st["value"][:180]
             elif "conflict" in v:
-                open_note = "CONFLICT — " + st["value"][:160]
+                open_note = st["value"][:160]
             else:
                 open_note = st["value"][:180]
         if rid == "tradingview-leap":
@@ -695,10 +695,13 @@ catalog of {stats['total_rows']} entries lives on the <a href="../index.html">ma
 <ul>{a_list}</ul>
 <p><strong>Key findings.</strong></p>
 <ul>
-<li>Six A-tier opportunities were re-verified against their official pages on {CHECKED}: CBS Pro Football
+<li>All 12 tier-A rows were re-verified against their official pages on {CHECKED}: CBS Pro Football
 Pick'em (free, $1K×18 weekly + $5K season + $100K contingency), ESPN NFL Pick'em ($102K, 58 prizes) and
-College Pick'em ($86K, 46 prizes), NFL Big Data Bowl 2027 ($100K, no purchase necessary, closes 2027-01-06),
-Metaculus tournaments (free, live pools up to $50K), and the Wergle Flomp humor poetry contest ($5,100, no fee).</li>
+College Pick'em ($86K, 46 prizes), the Devpost and Kaggle platforms (open cash events to $1M / featured
+pools), NFL Big Data Bowl 2027 ($100K, no purchase necessary, closes 2027-01-06), Sony Single Image
+($5,000, free, closes 2027-01-05), Checkmate Gaming (daily free cash events), Metaculus tournaments
+(free, live pools up to $50K), Wergle Flomp ($5,100, no fee), the PayPal AI Hackathon ($67,500, closes
+2026-11-12), and ARC Prize 2026 ($2M; final submissions due today).</li>
 <li>Time-critical: ARC Prize 2026 final submissions are due {CHECKED}; its Paper Track ($450K) closes within
 days (Kaggle shows "7 days to go"); the PayPal AI Hackathon ($67,500) closes 2026-11-12; the GEMS Prize
 Challenge ($300,000, DOE) closes 2026-12-03 but its free-entry status is <em>not</em> officially confirmed.</li>
