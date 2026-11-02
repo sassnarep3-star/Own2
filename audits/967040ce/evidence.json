@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-02",
+  "method": "Four distinct inherited ledger leads rechecked against operator pages. A prize on a past event is not a current opportunity. Blank cells mean not confirmed, not no. No account, eligibility or payout tested.",
+  "rows": [
+    {
+      "id": "bridgewater-forecast", "name": "Bridgewater Forecasting the Future (2025)", "category": "Forecasting", "source": "https://www.bridgewater.com/bridgewater-global-citizen-forecasting-the-future-a-modern-economics-challenge-2025-terms-conditions",
+      "free": null, "cash": "$25,000 (2025 prize)", "deadline": "2025-08-01", "status": "Closed — 2025 window", "ai": "Substantially AI-generated submissions prohibited", "priority": "Do not enter; historical research only",
+      "quotes": {"cash": "The top 5 Winner(s) will receive $25,000", "deadline": "The Challenge webpage will be made available from May 20, 2025 through August 1, 2025.", "ai": "not plagiarized, nor substantially AI generated."},
+      "flags": ["No explicit no-fee clause located in the inspected terms; free-entry cell blank.", "Rules require original work and assign all submission IP to sponsor; do not use an agent to generate the substantive entry.", "Past 2025 edition must not be advertised as open in 2026."]
+    },
+    {
+      "id": "crunchdao", "name": "ADIA Lab Structural Break: Real-Time Edition (2026)", "category": "Code / AI", "source": "https://hub.crunchdao.com/competitions/structural-break-real-time",
+      "free": null, "cash": null, "deadline": "2026-10-01 16:00 UTC (prize phase)", "status": "Prize phase ended; experimental submissions reopened", "ai": null, "priority": "Do not prioritize for cash; reopened submissions cannot win awards",
+      "quotes": {"deadline": "Submission Deadline: October 1st, 2026 at 4:00 p.m. UTC (Thursday)", "status": "These submissions will never be run on the Out-of-Sample data. They are only for experimental purposes."},
+      "flags": ["Official $100,000 prize pool is denominated in USDC cryptocurrency, not verified fiat cash; strict cash cell blank.", "Late submissions are experimental only, despite a reopened submit interface.", "Official page lists a question about AI assistants but the inspected extraction does not give an answer; AI-permission cell blank.", "No explicit free-entry statement located on inspected page; free-entry cell blank."]
+    },
+    {
+      "id": "indycar-fantasy", "name": "INDYCAR Fantasy Challenge (2025 rules)", "category": "Sports", "source": "https://www.indycar.com/fantasychallenge/indycar/fullrules",
+      "free": "No entry fee (2025)", "cash": null, "deadline": "2025-08-31 23:59 ET", "status": "Closed — 2025 rules", "ai": "Robotic, automatic, macro or programmed methods prohibited", "priority": "Exclude from free-cash shortlist",
+      "quotes": {"free": "THERE IS NO ENTRY FEE TO PARTICIPATE.", "deadline": "ends at 11:59:59 PM ET on August 31, 2025", "ai": "The use of robotic, automatic, macro, programmed or like methods", "cash": "2026 VIP Experience at Indianapolis 500 for winner and one (1) guest, $250 Firestone Gift Card and Firestone Gift Package"},
+      "flags": ["Prize table is travel, gift cards and merchandise, not a verified cash prize; cash cell blank.", "Only US residents (including DC) eligible for prizes under the 2025 rules.", "Official linked rules identify 2025; a 2026 edition has not been established from this URL.", "Do not automate entries: rules prohibit robotic and programmed methods."]
+    },
+    {
+      "id": "swagbucks-trivia", "name": "Swagbucks Daily Trivia", "category": "Trivia", "source": "https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia",
+      "free": null, "cash": null, "deadline": null, "status": "Current prize terms unverified", "ai": null, "priority": "Check event-specific rules before investing time",
+      "quotes": {"status": "Daily Trivia Live, a real-time trivia game with a host played Monday through Thursday with big cash prizes, bonus SB", "cash": "You earn SB based on the number of questions you get right."},
+      "flags": ["Help page distinguishes Live's unspecified cash prizes from hostless Challenge's SB rewards; cannot treat SB as cash.", "No event-specific cash amount, free-entry clause, eligibility, withdrawal or AI policy confirmed from this help page; operational cells blank."]
+    }
+  ]
+}
