@@ -10,15 +10,16 @@
 |---|---|---|---|
 | 1 | CBS Pro Football Pick'em 2026 | 93 | Free ("The Challenge is FREE to play"), 18 × $1,000 weekly + $5,000 season + $100,000 contingency; open to 2027-01-10 ([rules](https://www.cbssports.com/fantasy/football/games/pickem/rules)) |
 | 2 | ESPN NFL Pick'em 2026 | 87 | Free ("FREE to play. Create up to 10 entries"), $102,000 across 58 prizes + $1,500/week; to 2027-01-10 ([game page](https://fantasy.espn.com/games/nfl-pickem-2026/picks)) |
-| 2 | ESPN College Pick'em 2026 | 87 | Free ("FREE to play"), $86,000 across 46 prizes; Week 10 locks 2026-11-07 ([game page](https://fantasy.espn.com/games/college-football-pickem-2026/picks)) |
-| 4 | Devpost (platform) | 83 | 14,228 hackathons; open cash events to $1,000,000 (Meta VR Start) ([directory](https://devpost.com/hackathons)) |
-| 5 | NFL Big Data Bowl 2027 (Kaggle) | 80 | "NO PURCHASE NECESSARY TO ENTER OR WIN", $100,000 ($45K + $45K + $10K), closes 2027-01-06 ([rules](https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules)) |
-| 5 | Sony World Photography Awards — Single Image | 80 | "1.2.1 The Competition is free to enter", $5,000 + equipment, deadline 2027-01-05 ([page](https://www.worldphoto.org/sony-world-photography-awards/single-image)) |
-| 7 | Checkmate Gaming free tournaments | 79 | "Totally free to enter with real cash prizes. New tournaments posted daily"; $40–$120 events listed for 2026-11-02 ([page](https://www.checkmategaming.com/free-tournaments)) |
-| 7 | Metaculus tournaments | 79 | "participate for free and win cash prizes"; 19 live tournaments, pools up to $50,000 ([page](https://www.metaculus.com/tournaments/)) |
-| 9 | Wergle Flomp Humor Poetry Contest | 78 | "No fee to enter", $5,100, window 2026-08-15 → 2027-04-01 ([page](https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free)) |
-| 10 | PayPal AI Hackathon | 74 | "NO PURCHASE OR PAYMENT NECESSARY", $67,500 cash (site also says $69,750 — conflict), closes 2026-11-12 ([rules](https://paypalaihackathon.devpost.com/rules)) |
-| 11 | ARC Prize 2026 | 73 | $2M / 3 tracks; **final submissions due today (2026-11-02)**, papers due 2026-11-08 ([overview](https://arcprize.org/competitions/2026)) |
+| 3 | Devpost (platform) | 83 | 14,228 hackathons; open cash events to $1,000,000 (Meta VR Start) ([directory](https://devpost.com/hackathons)) |
+| 4 | ESPN College Pick'em 2026 | 83 | Free ("FREE to play"), $86,000 across 46 prizes; Week 10 locks 2026-11-07 ([game page](https://fantasy.espn.com/games/college-football-pickem-2026/picks)) |
+| 5 | Kaggle (platform) | 80 | Featured hackathons with cash pools, incl. NFL BDB 2027 ("NO PURCHASE NECESSARY", $100,000, closes 2027-01-06) and ARC Paper Track ($450,000, ~7 days) ([index](https://www.kaggle.com/competitions), [BDB rules](https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules)) |
+| 6 | NFL Big Data Bowl 2027 (Kaggle) | 80 | "NO PURCHASE NECESSARY TO ENTER OR WIN", $100,000 ($45K + $45K + $10K), closes 2027-01-06 ([rules](https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules)) |
+| 7 | Sony World Photography Awards — Single Image | 80 | "1.2.1 The Competition is free to enter", $5,000 + equipment, deadline 2027-01-05 ([page](https://www.worldphoto.org/sony-world-photography-awards/single-image)) |
+| 8 | Checkmate Gaming free tournaments | 79 | "Totally free to enter with real cash prizes. New tournaments posted daily"; $40–$120 events listed for 2026-11-02 ([page](https://www.checkmategaming.com/free-tournaments)) |
+| 9 | Metaculus tournaments | 79 | "participate for free and win cash prizes"; 19 live tournaments, pools up to $50,000 ([page](https://www.metaculus.com/tournaments/)) |
+| 10 | Wergle Flomp Humor Poetry Contest | 78 | "No fee to enter", $5,100, window 2026-08-15 → 2027-04-01 ([page](https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free)) |
+| 12 | PayPal AI Hackathon | 74 | "NO PURCHASE OR PAYMENT NECESSARY", $67,500 cash (site also says $69,750 — conflict), closes 2026-11-12 ([rules](https://paypalaihackathon.devpost.com/rules)) |
+| 13 | ARC Prize 2026 | 73 | $2M / 3 tracks; **final submissions due today (2026-11-02)**, papers due 2026-11-08 ([overview](https://arcprize.org/competitions/2026)) |
 
 ## Tier B — promising, evidence incomplete (do not treat as confirmed)
 
