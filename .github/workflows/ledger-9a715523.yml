@@ -15,11 +15,14 @@ jobs:
         with: {python-version: '3.11'}
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
-      - name: Build and validate isolated site
+      - name: Build isolated site
+        run: python3 ledger-9a715523/tools/build.py
+      - name: Validate evidence, coverage and determinism
+        run: python3 ledger-9a715523/tools/test.py
+      - name: Check committed generated artifacts
         run: |
-          python3 ledger-9a715523/tools/build.py
-          python3 ledger-9a715523/tools/test.py
-          git diff --exit-code -- ledger-9a715523
+          git diff --name-only -- ledger-9a715523 | tee generated-diff.txt
+          if [ -s generated-diff.txt ]; then git diff --stat -- ledger-9a715523; exit 1; fi
       - name: Show generated diff on failure
         if: failure()
         run: |
