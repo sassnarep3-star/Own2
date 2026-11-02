@@ -1,0 +1,63 @@
+name: PrizeLens site and source audit
+on:
+  push:
+    branches: [arena/9a715523-own2]
+    paths: ['ledger-9a715523/**', '.github/workflows/ledger-9a715523.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Build isolated site
+        run: python3 ledger-9a715523/tools/build.py
+      - name: Validate evidence, coverage and determinism
+        run: python3 ledger-9a715523/tools/test.py
+      - name: Check committed generated artifacts
+        run: |
+          git diff --name-only -- ledger-9a715523 | tee generated-diff.txt
+          if [ -s generated-diff.txt ]; then git diff --stat -- ledger-9a715523; exit 1; fi
+      - name: Show generated diff on failure
+        if: failure()
+        run: |
+          git status --short
+          git diff --stat -- ledger-9a715523
+          git diff -- ledger-9a715523 | head -200
+      - name: Install browser test dependencies
+        run: npm ci
+      - name: Browser, responsive and accessibility checks
+        run: node ledger-9a715523/tools/browser.cjs
+  source-audit:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Check every official source pointer (reachability only)
+        run: python3 ledger-9a715523/tools/audit_links.py --output source-report/link-audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: prizelens-source-audit
+          path: source-report/link-audit.json
+          retention-days: 30
+      - name: Persist dated report in claimed namespace
+        run: |
+          cp source-report/link-audit.json ledger-9a715523/research/link-audit.json
+          python3 ledger-9a715523/tools/build.py
+          python3 ledger-9a715523/tools/test.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add ledger-9a715523
+          git diff --cached --quiet || git commit -m 'audit: refresh PrizeLens source reachability [skip ci]'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"

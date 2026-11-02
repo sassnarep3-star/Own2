@@ -1,0 +1,1355 @@
+{
+  "audit_date": "2026-11-02",
+  "method": "Field values are supported by quoted official sources retrieved on the audit date. Open means the published window includes the audit date, not that a login/submission form was tested. Shortlist means free-entry and cash evidence plus a published open window; it does not mean personally eligible or zero practical cost.",
+  "records": [
+    {
+      "id": "event-kiroween",
+      "name": "Kiroween 2026",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://kiroween.devpost.com/rules",
+      "source_name": "AWS / Devpost official rules",
+      "fields": {
+        "free": "No purchase or payment necessary",
+        "prize": "$30,000 first prize; additional cash awards in §8",
+        "deadline": "4 Dec 2026, 2:00 pm Pacific Time",
+        "eligibility": "Age of majority; teams up to 3; organizations; listed country exclusions apply",
+        "agent": "Kiro required; documented agent/spec/hook workflows are evaluated",
+        "requirements": "Working app, public YouTube demo, public open-source GitHub repo with /.kiro directory",
+        "payout": "Bank transfer or mailed monetary prize after required forms; delivery within 60 days of completed forms"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "1st Place | $30,000 USD | 1 | All Eligible Submissions",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§8 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Submission Period: October 30, 2026 (9:00 am Pacific Time) – December 4, 2026 (2:00 pm Pacific Time)",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§1 Dates and Timing",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Teams of Eligible Individuals, maximum 3 participants per team",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Entrants must build a working software application using Kiro (IDE, CLI, Web, and/or Kiro Crew)",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§4 Project Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "The repository must be public and open source by including an open source license file.",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§4 Submission Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Prizes will be delivered within 60 days of the Administrator’s receipt of the completed Required Forms.",
+          "url": "https://kiroween.devpost.com/rules",
+          "locator": "§8 Prize Delivery",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "explicit",
+      "shortlist": true,
+      "top_cash_usd": 30000,
+      "pool_usd": null,
+      "flags": [
+        "Public open-source repository required; do not use private code.",
+        "Kiro credits are limited and regional feature availability varies.",
+        "Country exclusions include Australia, Indonesia, Italy, Philippines and Argentina; read the full list.",
+        "Cash awards and Kiro credits/subscriptions are different prize types."
+      ],
+      "requirements": "Build with Kiro; publish a demo and open-source GitHub repository; document Kiro usage.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://kiroween.devpost.com/rules"
+    },
+    {
+      "id": "event-paypal",
+      "name": "PayPal AI Hackathon",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://paypalaihackathon.devpost.com/rules",
+      "source_name": "PayPal / Devpost official rules",
+      "fields": {
+        "free": "No purchase or payment necessary; free Devpost and PayPal sandbox accounts",
+        "prize": "$12,000 first prize; additional cash awards in §8",
+        "deadline": "12 Nov 2026, 12:00 pm Pacific Time",
+        "eligibility": "Age of majority; individuals, teams and organizations; listed exclusions apply",
+        "agent": "AI integration required; coding-agent authorship permission not separately established",
+        "requirements": "Working PayPal-integrated app, functional demo, description and video",
+        "payout": "Bank transfer or mailed monetary prize after required forms; delivery within 60 days of completed forms"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "1st Place | $12,000 USD | 1 | All Eligible Submissions",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§8 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Submission Period: Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time)",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§1 Dates and Timing",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Individuals who are at least the age of majority where they reside as of the time of entry",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Entrants must build or update an application that integrates the PayPal developer platform (using the free sandbox environment) along with an AI tool, model, or platform of their choice",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§4 Project Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Include a text description that should explain the features and functionality of your Project.",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§4 Submission Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms.",
+          "url": "https://paypalaihackathon.devpost.com/rules",
+          "locator": "§8 Prize Delivery",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "unclear",
+      "shortlist": true,
+      "top_cash_usd": 12000,
+      "pool_usd": null,
+      "flags": [
+        "Page header says 3:00pm EST; controlling rule text says 12:00pm Pacific Time. Rules say they prevail over conflicting materials.",
+        "AI in the product is not permission for an outside agent to author the entry.",
+        "Render credits are not cash.",
+        "Winner identity, qualifications and role are verified."
+      ],
+      "requirements": "Build or significantly update a PayPal-integrated AI application; provide a working demo and pitch.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://paypalaihackathon.devpost.com/rules"
+    },
+    {
+      "id": "event-codegeist",
+      "name": "Codegeist 2026",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://codegeist2026.devpost.com/rules",
+      "source_name": "Atlassian / Devpost official rules",
+      "fields": {
+        "free": "No purchase or payment necessary; free cloud developer license",
+        "prize": "$15,000 per category first place; additional cash and bonus awards",
+        "deadline": "22 Dec 2026, 12:00 pm Pacific Time",
+        "eligibility": "Age of majority; individuals, teams and organizations; listed exclusions apply",
+        "agent": "Agent/MCP bonus categories; outside coding-agent authorship needs clarification",
+        "requirements": "Forge app integrating an Atlassian product, installation link, instructions and public YouTube video",
+        "payout": "Bank transfer or mailed monetary prize after required forms; delivery within 60 days of completed forms"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "$15,000 USD",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§8 prize table, category first-place amount",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Submission Period: Tuesday, October 27, 2026 (9:00 am Pacific Time) – Tuesday, December 22, 2026 (12:00 pm Pacific Time)",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§1 Dates and Timing",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Individuals who are at least the age of majority where they reside as of the time of entry",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "An Entrant may contract with a third party for technical assistance to create the Submission provided the Submission components are solely the Entrant’s work product and the result of the Entrant’s ideas and creativity, and the Entrant owns all rights to them.",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§4 Intellectual Property",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Entrants must build an app using Atlassian’s Forge platform and integrate with at least one Atlassian product or platform capability",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§4 Project Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms.",
+          "url": "https://codegeist2026.devpost.com/rules",
+          "locator": "§8 Prize Delivery",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "unclear",
+      "shortlist": true,
+      "top_cash_usd": 15000,
+      "pool_usd": null,
+      "flags": [
+        "The old codegeist.devpost.com rules URL serves 2024 rules; this record uses codegeist2026.devpost.com.",
+        "Technical assistance clause does not explicitly approve autonomous coding-agent authorship.",
+        "Travel is not included with Team 2027 tickets.",
+        "Originality, ownership and judge testing access are required."
+      ],
+      "requirements": "Build a Forge app; supply a judge-accessible installation link, setup instructions and demo video.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://codegeist2026.devpost.com/rules"
+    },
+    {
+      "id": "event-ugreen",
+      "name": "UGREEN AI NAS Hackathon 2026",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://ugreenhackathon.devpost.com/rules",
+      "source_name": "UGREEN official rules on Devpost",
+      "fields": {
+        "free": "No purchase or payment necessary; no NAS purchase required",
+        "prize": "$20,000 Gold Award; $10,000 Silver; $6,000 Bronze; two $5,000 creative awards",
+        "deadline": "Round 1: 15 Nov 2026, 11:45 pm Pacific Time",
+        "eligibility": "Age of majority; teams up to 3; Singapore explicitly listed; other restrictions apply",
+        "agent": "Expert-agent orchestration is part of the skill; outside-person development is barred",
+        "requirements": "Round 1: PDF plus initial SKILL.md ZIP; no demo or NAS runtime required",
+        "payout": "Bank transfer or mailed monetary prize after required forms; delivery within 60 days of completed forms"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "Gold Award | $20,000 USD in cash | 1 | All eligible Round 2 Submissions.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§8 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Round 1 Submission Period: October 22, 2026 (9:00 am Pacific Time) – November 15, 2026 (11:45 pm Pacific Time)",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§1 Dates and Timing",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Taiwan, Hong Kong SAR, Macao SAR, Indonesia, Malaysia, Thailand, Singapore, South Korea, Japan, Australia, New Zealand, Sri Lanka, Nepal, Philippines, Cambodia, Pakistan, Maldives, Laos, and Mongolia.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§3 Asia-Pacific eligible locations",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Properly licensed third-party components and general technical guidance through the UGREEN Community are permitted; a person outside the team may not develop the Project or create its submission materials for the Entrant.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§4 Intellectual Property",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Round 1 does not require a separate code repository link, or a demo link/video.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§4 Round 1 Submission Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Prizes will be delivered within 60 days of the Sponsor or Devpost’s receipt of the completed Required Forms.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§8 Prize Delivery",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "free",
+          "quote": "No NAS purchase, separate access application, payment, or credit redemption is required.",
+          "url": "https://ugreenhackathon.devpost.com/rules",
+          "locator": "§4 Special Notes",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "restricted",
+      "shortlist": true,
+      "top_cash_usd": 20000,
+      "pool_usd": null,
+      "flags": [
+        "Only up to 30 finalists receive one day of free remote NAS access.",
+        "Finalists must test and record a working skill in Round 2.",
+        "Do not assume an outside coding agent satisfies the entrant-authored-work rule.",
+        "Round 1 substantive PDF responses are limited to 500 English words; ZIP at most 10 MB."
+      ],
+      "requirements": "Submit a concise proposal and initial skill package. Finalists receive remote hardware access for validation.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://ugreenhackathon.devpost.com/rules"
+    },
+    {
+      "id": "event-codex",
+      "name": "Codex x TwitchCon Hackathon",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://twitchcon-codex.devpost.com/rules",
+      "source_name": "Amazon Advertising / Devpost official rules",
+      "fields": {
+        "free": "No purchase or payment necessary",
+        "prize": "$10,000 first prize",
+        "deadline": "2 Nov 2026, 2:00 pm Pacific Time",
+        "eligibility": "18+ or older age of majority; individuals and teams; organizations excluded",
+        "agent": "OpenAI Codex required; AI coding assistants explicitly permitted",
+        "requirements": "New Twitch-connected experience, code repo, Codex session ID and public YouTube demo"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE OR PAYMENT NECESSARY TO ENTER OR WIN.",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "1st Place | $10,000 USD and stage time at TwitchCon",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "§8 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Submission Period: October 23, 2026 (10:00 am Pacific Time) – November 2, 2026 (2:00 pm Pacific Time)",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "§1 Dates and Timing",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Individuals who are at least eighteen (18) years old or the age of majority where they reside as of the time of entry, whichever is older",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Participants may use standard development tools, including frameworks, libraries, starter templates, and AI coding assistants.",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "§4 Project Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Provide the Codex session ID for the Codex thread where the Project was built.",
+          "url": "https://twitchcon-codex.devpost.com/rules",
+          "locator": "§4 Submission Requirements",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "closing",
+      "agent_policy": "explicit",
+      "shortlist": true,
+      "top_cash_usd": 10000,
+      "pool_usd": null,
+      "flags": [
+        "Closes on the audit date; verify the live submission form before starting.",
+        "Project must be newly created during the submission period.",
+        "Do not start a new multi-day build against this deadline."
+      ],
+      "requirements": "Build a Twitch experience with Codex and document the session.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://twitchcon-codex.devpost.com/rules"
+    },
+    {
+      "id": "event-meta-start",
+      "name": "Meta VR Start Developer Competition 2026",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://start-developer-competition-26.devpost.com/rules",
+      "source_name": "Meta official rules on Devpost",
+      "fields": {
+        "free": "No purchase necessary, but Start membership and developer access are required",
+        "prize": "$100,000 track winner award; see official prize table for other awards",
+        "deadline": "18 Nov 2026, 12:00 pm PT",
+        "eligibility": "18+ and age of majority; active Meta developer access; submitting representative must be a Start member",
+        "agent": "Agentic Interaction award; coding-agent authorship permission not established",
+        "requirements": "Meta VR experience, functional access and public demo video; emulator may be used for video"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE NECESSARY. A PURCHASE WILL NOT INCREASE YOUR CHANCES OF WINNING.",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "Opening clauses",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "$100,000",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "§7 prize table, Entertainment/Gaming winner amounts",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Entry period: | September 24, 2026 at 10:00:00 AM PT | November 18, 2026 at 12:00:00 PM PT",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "Important Dates",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Representative or person submitting an Entry must be a member of the Meta VR Start Program by the time of submission.",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "§2 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Best Agentic Interaction | Apps where AI is a core part of the experience—spatial agents, voice-first AI interaction, procedural content, context-aware assistance.",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "§7 Special Awards",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Projects must be made available free of charge and with sufficient access until the Winner Announcement to enable viewing, evaluation, use, and testing by Sponsor and Judges.",
+          "url": "https://start-developer-competition-26.devpost.com/rules",
+          "locator": "§4 Entry Requirements",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "unclear",
+      "shortlist": false,
+      "top_cash_usd": 100000,
+      "pool_usd": null,
+      "flags": [
+        "Start membership cost and practical development costs were not confirmed; excluded from zero-cost shortlist.",
+        "Membership is a gate even though the rules say no purchase necessary.",
+        "One entry per individual; original work and third-party rights required.",
+        "AI judging assistance is not permission to use AI to author an entry."
+      ],
+      "requirements": "Existing Start members can build a new or substantially updated VR experience.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://start-developer-competition-26.devpost.com/rules"
+    },
+    {
+      "id": "event-nfl-bdb",
+      "name": "NFL Big Data Bowl 2027",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+      "source_name": "NFL / Kaggle official rules",
+      "fields": {
+        "free": "No purchase necessary",
+        "prize": "$100,000 total: Open $45,000; University $45,000; invited-finalist grand prize $10,000",
+        "deadline": "6 Jan 2027, 11:59 pm UTC",
+        "eligibility": "Registered Kaggle users; 18+ or age of majority; sanctions exclusions; University track requires undergraduates",
+        "agent": "Automated ML tools allowed; external LLM/tool costs subject to reasonableness",
+        "requirements": "Public Kaggle notebook and writeup using player-tracking data; at most 2,000 words and fewer than 10 tables/figures"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+          "locator": "General Rules §4 Competition Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "5. TOTAL PRIZES AVAILABLE: $100,000",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+          "locator": "Competition-specific terms §5",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "January 6, 2027 - Final Submission Deadline.",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview",
+          "locator": "Overview Timeline",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Competitions are open to residents of the United States and worldwide",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+          "locator": "General Rules §1 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Individual Participants and Teams may use automated machine learning tool(s) (“AMLT”) (e.g., Google toML, H2O Driverless AI, etc.) to create a Submission",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules",
+          "locator": "Competition-specific rules §6 External Data and Tools",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Submissions should contain no more than 2,000 words and fewer than 10 tables or figures.",
+          "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview",
+          "locator": "Overview Submission Requirements",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "conditional",
+      "shortlist": true,
+      "top_cash_usd": 10000,
+      "pool_usd": 100000,
+      "flags": [
+        "AMLT permission is not blanket permission for every paid coding agent or proprietary model.",
+        "Competition data is non-commercial and must not be redistributed to non-participants.",
+        "Winning code must be open source and reproducible.",
+        "Grand prize is only for invited finalists; do not add it to an individual track award."
+      ],
+      "requirements": "Analyze Combine-to-NFL performance linkages in a public notebook and concise writeup.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules"
+    },
+    {
+      "id": "event-arc-paper",
+      "name": "ARC Prize 2026 — Paper Track",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
+      "source_name": "ARC Prize / Kaggle official rules",
+      "fields": {
+        "prize": "$75,000 guaranteed: $50,000 / $20,000 / $5,000; conditional bonus excluded",
+        "eligibility": "Must document a submission to ARC-AGI-2 or ARC-AGI-3; team must match",
+        "requirements": "Kaggle writeup, media gallery and public notebook; writeup at most 1,500 words",
+        "free": "No purchase necessary"
+      },
+      "evidence": [
+        {
+          "field": "prize",
+          "quote": "5. TOTAL PRIZES AVAILABLE: $75,000",
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
+          "locator": "Competition-specific terms §5",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Team must match the team making a submission to either ARC-AGI-2 or ARC-AGI-3.",
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
+          "locator": "Competition-specific rules §1 Team Limits",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Your Writeup should not exceed 1,500 words.",
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/overview",
+          "locator": "Overview Submission Requirements",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "free",
+          "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules",
+          "locator": "General Rules §4 Competition Entry",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "conditional",
+      "agent_policy": "conditional",
+      "shortlist": false,
+      "top_cash_usd": 50000,
+      "pool_usd": 75000,
+      "flags": [
+        "Official deadline conflict: ARC overview says papers due 8 Nov 2026; Kaggle Paper Track says 9 Nov 2026 at 23:59 UTC. Combined deadline left blank.",
+        "Not a standalone new-entry opportunity: a prior ARC-AGI-2 or ARC-AGI-3 submission is required.",
+        "Optional $375,000 bonus is conditional and shared; excluded from guaranteed pool.",
+        "Public notebook and winner licensing obligations apply."
+      ],
+      "requirements": "Only for teams with a qualifying ARC benchmark submission.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track/rules"
+    },
+    {
+      "id": "event-gems",
+      "name": "GEMS Prize Challenge",
+      "category": "tech",
+      "kind": "event",
+      "official_url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+      "source_name": "U.S. DOE challenge on DrivenData",
+      "fields": {
+        "prize": "$300,000 total; $100,000 top final-round award",
+        "deadline": "3 Dec 2026, 11:59 pm UTC",
+        "requirements": "Train a model and submit predictions; external data must be licensed and shareable with organizers"
+      },
+      "evidence": [
+        {
+          "field": "prize",
+          "quote": "Total Prize Pool: $300,000",
+          "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+          "locator": "Overview prize table",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Dec. 3, 2026, 11:59 p.m. UTC",
+          "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+          "locator": "Competition End Date",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "The use of external data is encouraged in this competition, provided you or your team possess the necessary licenses to use the data for this challenge.",
+          "url": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+          "locator": "Use of external data",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "unreviewed",
+      "shortlist": false,
+      "top_cash_usd": 100000,
+      "pool_usd": 300000,
+      "flags": [
+        "Explicit free-entry clause not confirmed in the official pages read; free field blank.",
+        "Official HeroX rules gateway links to a government PDF that failed retrieval in this pass.",
+        "Eligibility, AI policy and payout details are not promoted from earlier summaries without re-reading the official PDF."
+      ],
+      "requirements": "Geologic fault prediction challenge; confirm full government rules before entry.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
+    },
+    {
+      "id": "event-sony-single",
+      "name": "Sony World Photography Awards — Single Image",
+      "category": "creative",
+      "kind": "event",
+      "official_url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+      "source_name": "World Photography Organisation official rules",
+      "fields": {
+        "free": "Up to three images free",
+        "prize": "$5,000 overall winner",
+        "deadline": "5 Jan 2027, 16:00 GMT",
+        "eligibility": "Open to the public; single images taken in 2026",
+        "agent": "Entry must originate from a photograph; computer-generated origin prohibited",
+        "requirements": "Up to three JPEG images, 1–5 MB, sRGB; describe manipulation"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "Enter up to three single images for free",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Overview",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "Win $5,000 (USD)",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Prizes table",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Deadline is 5 January, 2027 at 16.00 GMT",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Overview / rule 1.3",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "The Single Image competition is open to all members of the public.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Rule 1.2.2",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Computer generated content cannot be the origin of the Entry.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Rule 4",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Images should be no smaller than 1MB and no larger than 5MB. Images should be JPEG files. All images must be saved in the sRGB colour model.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/single-image",
+          "locator": "Rule 2.2",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "restricted",
+      "shortlist": true,
+      "top_cash_usd": 5000,
+      "pool_usd": null,
+      "flags": [
+        "AI-generated images cannot be the origin of an entry.",
+        "Extra image bundles are paid; only the stated free allowance is included.",
+        "Original photograph and ownership may need to be verified."
+      ],
+      "requirements": "Submit your own 2026 photograph; human photographic origin is essential.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.worldphoto.org/sony-world-photography-awards/single-image"
+    },
+    {
+      "id": "event-sony-series",
+      "name": "Sony World Photography Awards — Series",
+      "category": "creative",
+      "kind": "event",
+      "official_url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+      "source_name": "World Photography Organisation official rules",
+      "fields": {
+        "free": "Free to enter",
+        "prize": "$25,000 overall winner",
+        "deadline": "12 Jan 2027, 16:00 GMT",
+        "eligibility": "Over 18; photographers entering a body of work",
+        "agent": "Entry must originate from a photograph; computer-generated origin prohibited",
+        "requirements": "5–10 images per category with series description; JPEG, 1–5 MB, sRGB, EXIF retained"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "1.2.1 The Competition is free to enter.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Rule 1.2.1",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "Win $25,000 (USD)",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Prizes table",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "1.5 Entries must be submitted by 12 January, 2027 at 16.00 GMT",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Rule 1.5",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "1.3 All Entrants must be over 18.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Rule 1.3",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Computer generated content cannot be the origin of the Entry.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Rule 4",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Photographers must submit a minimum of five (5) and a maximum of ten (10) images and all submissions must be accompanied by a series description.",
+          "url": "https://www.worldphoto.org/sony-world-photography-awards/series",
+          "locator": "Overview rules",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "restricted",
+      "shortlist": true,
+      "top_cash_usd": 25000,
+      "pool_usd": null,
+      "flags": [
+        "AI-generated images cannot be the origin of an entry.",
+        "Publication-date conditions apply; read rule 2.1 before selecting a series.",
+        "Single Image and Series entries must come from different bodies of work."
+      ],
+      "requirements": "Submit a coherent photographic series with a description.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.worldphoto.org/sony-world-photography-awards/series"
+    },
+    {
+      "id": "event-wergle",
+      "name": "Wergle Flomp Humor Poetry Contest 2026–27",
+      "category": "creative",
+      "kind": "event",
+      "official_url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+      "source_name": "Winning Writers official contest rules",
+      "fields": {
+        "free": "No fee to enter",
+        "prize": "$5,100 cash total: $2,000 / $750 / $350 and ten $200 awards",
+        "deadline": "1 Apr 2027; time not stated on page",
+        "eligibility": "All ages; all countries except Iran, North Korea, Crimea, Russia and Belarus",
+        "agent": "No AI-generated text; AI may identify errors but may not rewrite",
+        "requirements": "One original English humor poem, at most 250 lines; anonymous judging"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "No fee to enter. Submit published or unpublished work. $5,100 in prizes.",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Overview",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "First Prize: $2,000",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "August 15, 2026-April 1, 2027",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Submission window",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Authors from all countries eligible except Iran, North Korea, Crimea, Russia, and Belarus",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Entry rules",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Any writing that you submit to a Winning Writers contest must be composed using your own words, and may not contain any AI-generated text.",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Use of AI",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "One poem only, please. Length limit: 250 lines maximum.",
+          "url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+          "locator": "Entry rules",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "restricted",
+      "shortlist": true,
+      "top_cash_usd": 2000,
+      "pool_usd": 5100,
+      "flags": [
+        "An AI agent must not write or rewrite the poem.",
+        "Any AI use must be described at submission.",
+        "Cash-winning entries are published online; nonexclusive publication license applies."
+      ],
+      "requirements": "Human-written humor poem; agent use limited to error spotting under the stated policy.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free"
+    },
+    {
+      "id": "event-espn-nfl",
+      "name": "ESPN NFL Pick’em 2026",
+      "category": "sports",
+      "kind": "event",
+      "official_url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+      "source_name": "ESPN / Disney official game rules",
+      "fields": {
+        "free": "Free to play",
+        "prize": "$102,000 total; $20,000 mode grand prizes; $500 weekly prizes",
+        "deadline": "Season ends 10 Jan 2027; picks lock at each game kickoff",
+        "eligibility": "18+ or older age of majority; US/DC, Canada except Quebec, UK and Australia",
+        "agent": "Automated entry devices/programs and third-party entries prohibited",
+        "requirements": "Weekly picks across four modes; up to ten entries per person",
+        "payout": "Check or direct deposit in US funds; allow 8–10 weeks after claim procedure"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "There is no entry fee required to participate in the Promotion.",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "The total value of all prizes in this Promotion is US $102,000.00.",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§9 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "ends on Sunday, January 10, 2027 at 11:59 pm ET (or upon the completion of the last game from that day, whichever is later)",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§4 Promotion Schedule",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "NFL Pick'em (the \"Promotion\") is open to legal residents of the fifty (50) United States and the District of Columbia (excluding Puerto Rico, other United States territories, and foreign territories) and Canada (excluding Quebec) (\"North America\"), The United Kingdom (\"U.K.\"), and Australia (\"AUZ\")",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Entries must be manually key-stroked by the entrant; use of automated entry devices or programs, or entries by third parties are prohibited.",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Limit of ten (10) entries per person/Member during the Promotion Period",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Prize will be awarded in the form of a check or direct deposit (with form of prize award being determined by Sponsor in its sole discretion).",
+          "url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay",
+          "locator": "§9 Prize Restrictions",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "prohibited",
+      "shortlist": true,
+      "top_cash_usd": 20000,
+      "pool_usd": 102000,
+      "flags": [
+        "Not available for prize eligibility to Singapore residents under the listed-country rule.",
+        "No automated entries; an agent cannot submit picks for you.",
+        "FAQ still says five entries in one answer while the rules and game page say ten; rules limit retained.",
+        "The $5,000 full-season participation prize is a random drawing, not a skill award.",
+        "Official schedule contains an apparent 20 Jan 2027 tiebreaker reference after the season; per-game locks govern."
+      ],
+      "requirements": "Manual weekly picks; eligible residents only.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://fantasy.espn.com/games/nfl-pickem-2026/howtoplay"
+    },
+    {
+      "id": "event-espn-cfb",
+      "name": "ESPN College Pick’em 2026",
+      "category": "sports",
+      "kind": "event",
+      "official_url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+      "source_name": "ESPN / Disney official game rules",
+      "fields": {
+        "free": "Free to play; no entry fee",
+        "prize": "$86,000 total; three $20,000 grand prizes; $500 weekly prizes",
+        "deadline": "5 Dec 2026; picks lock per game",
+        "eligibility": "18+ or older age of majority; US/DC and Canada except Quebec",
+        "agent": "Automated entry devices/programs and third-party entries prohibited",
+        "requirements": "Weekly picks in three modes; up to five entries per person",
+        "payout": "Check or direct deposit in US funds; allow 8–10 weeks after claim procedure"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "There is no entry fee required to participate in the Promotion.",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "The total value of all prizes in this Promotion is $86,000.00.",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§9 Prizes",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "ends on Saturday, December 5, 2026 at 11:59 pm ET (or upon the completion of the last game from that day, whichever is later)",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§4 Promotion Schedule",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "College Pick'em (the \"Promotion\") is open to legal residents of the 50 United States and the District of Columbia (excluding Puerto Rico, other United States territories, and foreign territories) and Canada (excluding Quebec)",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§3 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "Entries must be manually key-stroked by the entrant; use of automated entry devices or programs, or entries by third parties are prohibited.",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Limit of five (5) entries per person/Member during the Promotion Period",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§5 Promotion Registration/Entry",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "prize will be awarded in the form of a check or direct deposit (with form of prize award being determined by Sponsor in its sole discretion)",
+          "url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay",
+          "locator": "§9 Prizes",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "prohibited",
+      "shortlist": true,
+      "top_cash_usd": 20000,
+      "pool_usd": 86000,
+      "flags": [
+        "Singapore residents are not prize-eligible under the listed-country rule.",
+        "No automated entries.",
+        "The $5,000 full-season participation prize is a random drawing.",
+        "Earlier weeks are already completed; season-long standing is not a fresh start."
+      ],
+      "requirements": "Manual weekly college-football picks; eligible residents only.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://fantasy.espn.com/games/college-football-pickem-2026/howtoplay"
+    },
+    {
+      "id": "event-cbs",
+      "name": "CBS Pro Football Pick’em 2026",
+      "category": "sports",
+      "kind": "event",
+      "official_url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+      "source_name": "CBS Sports official contest rules",
+      "fields": {
+        "free": "Free to play; no purchase or entry fee",
+        "prize": "$1,000 weekly; $5,000 season; conditional $100,000 perfect-week prize",
+        "deadline": "10 Jan 2027; weekly period ends Monday 11:59 pm ET or last game",
+        "eligibility": "US/DC residents, 18+ or older age of majority; territories excluded",
+        "agent": "Automated scripts/programming techniques to accumulate points prohibited",
+        "requirements": "Weekly against-margin picks and saved tiebreakers; one entry per person",
+        "payout": "Check or sponsor-selected alternative; winner documents and government ID required"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "The Challenge is FREE to play. No purchase, wireless device or entry fee necessary to enter or win.",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§1 No Cost",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "Each Weekly Prize consists of One Thousand Dollars (US$1,000.00)",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§3 Weekly Prize",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "The Challenge commences on September 9, 2026 and is scheduled to end on January 10, 2027",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§1 Introduction",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "legal residents of one of the fifty (50) United States",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§1 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "accumulating points through methods such as automated computer scripts or other programming techniques",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§4 General Conditions",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "Limit one (1) entry per Registered User and per person.",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§1 Signing Up",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "payout",
+          "quote": "Such Winner Documentation must be received by CBSI with copies of the potential winner’s current and valid Gov. ID (passports are not acceptable) within fourteen (14) days of initial notification.",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§3 Prize Notification",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "The Season Long Prize consists of Five Thousand Dollars (US$5,000.00)",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§3 Season Long Prize",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "equally share the contingency prize, which consists of One Hundred Thousand Dollars (US$100,000.00)",
+          "url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+          "locator": "§3 Contingency Prize",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "prohibited",
+      "shortlist": true,
+      "top_cash_usd": 5000,
+      "pool_usd": null,
+      "flags": [
+        "US/DC only; not prize-eligible for Singapore residents.",
+        "No automated point accumulation or scripts.",
+        "The $100,000 contingency prize requires every pick and four exact tiebreaker scores; may be shared and is capped at two awards.",
+        "Maximum $223,000 includes conditional contingency awards; it is not a guaranteed payout."
+      ],
+      "requirements": "Manual weekly picks and tiebreakers; identity verification for winners.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.cbssports.com/fantasy/football/games/pickem/rules"
+    },
+    {
+      "id": "event-futureeval",
+      "name": "Metaculus Fall 2026 FutureEval Bot Tournament",
+      "category": "forecasting",
+      "kind": "event",
+      "official_url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+      "source_name": "Metaculus official event and tournament rules",
+      "fields": {
+        "free": "No purchase or entry fee; free account",
+        "deadline": "6 Jan 2027; time not stated on event page",
+        "eligibility": "Generally worldwide, 13+, subject to sanctions and event-specific rules",
+        "agent": "Bot-only tournament",
+        "requirements": "Build and register a forecasting bot; consult the tournament resource page"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "No purchase or entry fee is necessary to enter a Metaculus competition.",
+          "url": "https://www.metaculus.com/tournament-rules/",
+          "locator": "Entry Into a Competition",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Jan 06 2027",
+          "url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+          "locator": "Event header",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "Competitions on Metaculus are generally open to participants worldwide, ages 13 or older",
+          "url": "https://www.metaculus.com/tournament-rules/",
+          "locator": "Entry Into a Competition",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "agent",
+          "quote": "This is a bot-only competition where bot-makers attempt to push AI to its limits in predicting future events.",
+          "url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+          "locator": "Event introduction",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "The project ID is 33121 (or \"fall-futureeval-2026\")",
+          "url": "https://www.metaculus.com/tournament/fall-futureeval-2026/",
+          "locator": "Event introduction",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "open",
+      "agent_policy": "explicit",
+      "shortlist": false,
+      "top_cash_usd": null,
+      "pool_usd": null,
+      "flags": [
+        "$50,000 advertised prize pool is not confirmed as withdrawable cash: general rules allow cash or cash equivalents at Metaculus discretion.",
+        "Cash prize field intentionally blank; excluded from strict cash shortlist.",
+        "General bot prohibition has an exception for specifically permitted competitions; this event is explicitly bot-only.",
+        "Compute/API costs and Singapore-specific prize delivery were not confirmed."
+      ],
+      "requirements": "Automated forecasting benchmark; payment form must be checked before treating it as cash.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.metaculus.com/tournament/fall-futureeval-2026/"
+    },
+    {
+      "id": "event-cmg",
+      "name": "CheckMate Gaming free 4v4 tournament",
+      "category": "skill",
+      "kind": "event",
+      "official_url": "https://www.checkmategaming.com/free-tournaments",
+      "source_name": "CheckMate Gaming official directory and event rules",
+      "fields": {
+        "free": "Free tournament entry",
+        "prize": "Observed event: $40 advertised; $32 first / $8 second, adjusted by eligible teams",
+        "deadline": "Rolling events; observed event 2 Nov 2026, 1:30 pm EST",
+        "requirements": "Registered participants; 4v4; one entry per person per tournament",
+        "eligibility": "US residents unless otherwise stated; event region label conflicts; 18+"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "Totally free to enter with real cash prizes. New tournaments posted daily.",
+          "url": "https://www.checkmategaming.com/free-tournaments",
+          "locator": "Free tournaments directory",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "IMPORTANT: Final prize will be adjusted based on the total number of eligible teams seeded into the bracket.",
+          "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
+          "locator": "Observed event prize note",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "Nov 2nd 1:30 PM EST",
+          "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
+          "locator": "Observed event start time",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "TEAM SIZE4 vs 4",
+          "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
+          "locator": "Observed event header",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "$32",
+          "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
+          "locator": "Observed event first-place prize",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "All participants must be legal residents of the United States of America, unless otherwise stated.",
+          "url": "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-4/free-entry-4v4-snd-best-of-1-267054",
+          "locator": "General Online Tournament Rules / Eligibility & Limitations",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "rolling",
+      "agent_policy": "unreviewed",
+      "shortlist": false,
+      "top_cash_usd": 32,
+      "pool_usd": null,
+      "flags": [
+        "Event page says NA + EU, but general rules default to US residents unless otherwise stated; eligibility is disputed; read both before entering.",
+        "Prize exclusions: AZ, HI, IA, MS, MT, NV and SD.",
+        "Claim window conflicts: 24 hours in event note versus seven days in general rules.",
+        "Owning/running the game and console/network costs were not verified; not a zero-cost shortlist item.",
+        "Prize and start time are a dated observation, not a standing offer."
+      ],
+      "requirements": "Team game participation; verify event-specific region, costs and claim window.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.checkmategaming.com/free-tournaments"
+    },
+    {
+      "id": "event-mlb-bts",
+      "name": "MLB Beat the Streak 2026",
+      "category": "sports",
+      "kind": "event",
+      "official_url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+      "source_name": "MLB Advanced Media official rules",
+      "fields": {
+        "free": "No purchase necessary",
+        "prize": "$5,600,000 grand prize only for a 57-game streak",
+        "deadline": "Ends with final game of 2026 MLB regular season; exact date not stated",
+        "eligibility": "US and Canada except Quebec; 21+ and age of majority",
+        "requirements": "Daily player-hit picks; locks five minutes before scheduled game start"
+      },
+      "evidence": [
+        {
+          "field": "free",
+          "quote": "NO PURCHASE NECESSARY TO ENTER OR WIN.",
+          "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "prize",
+          "quote": "The Grand Prize will be awarded only if an eligible entrant achieves a Streak of fifty-seven (57).",
+          "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+          "locator": "Opening clause",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "deadline",
+          "quote": "end upon the conclusion of the final game of the 2026 MLB regular season",
+          "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+          "locator": "§3 Entry Period and Lock Time",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "eligibility",
+          "quote": "at least twenty-one (21) years old",
+          "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+          "locator": "§2 Eligibility",
+          "checked": "2026-11-02"
+        },
+        {
+          "field": "requirements",
+          "quote": "“Lock Time” means five (5) minutes prior to the scheduled start of the MLB game",
+          "url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+          "locator": "§3 Entry Period and Lock Time",
+          "checked": "2026-11-02"
+        }
+      ],
+      "window": "seasonal",
+      "agent_policy": "unreviewed",
+      "shortlist": false,
+      "top_cash_usd": null,
+      "pool_usd": null,
+      "flags": [
+        "Regular-season contest is not treated as open for a new season-long run on 2 Nov; exact end date left blank.",
+        "Headline prize is conditional; homepage says it is not awarded without a 57-game streak.",
+        "Homepage describes a 30-year annuity or estimated present-value lump sum; not an unconditional $5.6M cash payment.",
+        "Singapore residents are not eligible under the listed-country rule."
+      ],
+      "requirements": "Watch for the next official season; do not treat the headline jackpot as likely earnings.",
+      "checked": "2026-11-02",
+      "provenance_url": "https://www.mlb.com/apps/beat-the-streak/official-rules"
+    }
+  ]
+}

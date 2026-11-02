@@ -1,0 +1,4960 @@
+{
+  "source_repository": "https://github.com/karagemop466-tech/FreeMoneyApps",
+  "source_commit": "466f7c1e7a14b52b4a0d36beb84a00d68fd409b7",
+  "source_reviewed": "2026-08-19",
+  "audit_date": "2026-11-02",
+  "scope": "All 206 inherited identities retained. Only separately quoted official evidence populates operational fields. Inherited source pointers are not proof of current contest terms.",
+  "historical_exclusion_count": 45,
+  "rows": [
+    {
+      "id": "solitaire-cash",
+      "name": "Solitaire Cash (Papaya)",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.papaya.com/faq",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#solitaire-cash",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "bingo-cash",
+      "name": "Bingo Cash (Papaya)",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.papaya.com/faq",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#bingo-cash",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "skillz",
+      "name": "Skillz / Blackout Bingo / Skillz Arena",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.skillz.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#skillz",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pocket7",
+      "name": "Pocket7Games",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.pocket7games.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pocket7",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "givling",
+      "name": "Givling",
+      "category": "trivia",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.givling.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#givling",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "vocal",
+      "name": "Vocal Challenges",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://vocal.media/resources/challenges-frequently-asked-questions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#vocal",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle Competitions",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.kaggle.com/competitions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#kaggle",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "devpost",
+      "name": "Devpost Hackathons",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://devpost.com/hackathons",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#devpost",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "arcprize",
+      "name": "ARC Prize (via Kaggle)",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://arcprize.org/competitions/2026",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#arcprize",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "reedsy-dir",
+      "name": "Reedsy Writing Contest List",
+      "category": "directory",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://reedsy.com/resources/writing-contests",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#reedsy-dir",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "drivendata",
+      "name": "DrivenData",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.drivendata.org/competitions/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#drivendata",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "herox",
+      "name": "HeroX / Challenge.gov",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.challenge.gov/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#herox",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "xprize",
+      "name": "XPRIZE",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.xprize.org/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#xprize",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "topcoder",
+      "name": "Topcoder",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.topcoder.com/challenges",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#topcoder",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-pickem",
+      "name": "ESPN NFL Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nfl-pickem-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-survivor",
+      "name": "ESPN NFL Survivor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nfl-survivor-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-survivor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-wintotals",
+      "name": "ESPN NFL Win Totals",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nfl-win-totals-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-wintotals",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-playoff",
+      "name": "ESPN NFL Playoff Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nfl-playoff-predictor-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-playoff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-pigskin",
+      "name": "ESPN Pigskin Bracket Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nfl-playoff-football-challenge-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-pigskin",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-cfb",
+      "name": "ESPN College Football Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/college-football-pickem-2026/make-picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-cfb",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "cbs-pro-pickem",
+      "name": "CBS Sports Pro Football Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.cbssports.com/fantasy/football/games/pickem/rules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#cbs-pro-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "cbs-cfb-pickem",
+      "name": "CBS Sports College Football Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.cbssports.com/fantasy/college-football/games/pickem/rules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#cbs-cfb-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fox-super6",
+      "name": "FOX Super 6",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.foxsports.com/fox-super-6",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fox-super6",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fanatics-survivor",
+      "name": "Fanatics NFL Survivor League",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://betfanatics.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fanatics-survivor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "yahoo-survival",
+      "name": "Yahoo Survival Football",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://football.fantasysports.yahoo.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#yahoo-survival",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pickwatch",
+      "name": "NFL Pickwatch Contest",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://nflpickwatch.com/contest/nfl/2026",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pickwatch",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "beat-the-geek",
+      "name": "Beat The Geek",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thesportsgeek.com/contests/beat-the-geek/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#beat-the-geek",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tsg-playoff",
+      "name": "TheSportsGeek NFL Playoff Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thesportsgeek.com/contests/nfl-playoff-pickem/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tsg-playoff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "favorites-pickem",
+      "name": "The Favorites Podcast Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://favorites.actionnetwork.com/games/the-favorites",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#favorites-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "thelines-survivor",
+      "name": "TheLines Free NFL Survivor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thelines.com/betting/free-games/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#thelines-survivor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Operator games page retrieved; it advertises gift-card prizes and survivor pools. Current survivor cash form and eligibility unverified."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "rams-pickem",
+      "name": "LA Rams Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.therams.com/news/rams-pick-em-launching-2026-season-season-tickets-player-signed-merchandise-more-prizes-for-predictions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#rams-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "draft-pro",
+      "name": "The Draft Pro — Perfect Draft Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thedraftpro.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#draft-pro",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "splash-mock",
+      "name": "Splash Sports NFL Mock Draft",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://nflmockdraft.app.splashsports.com/nfl-mock-draft/my-entry",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#splash-mock",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fftoday-draft",
+      "name": "FFToday NFL Draft Contest",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.fftoday.com/contests/draftcontest.php?o=3",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fftoday-draft",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "rotoballer",
+      "name": "RotoBaller Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.rotoballer.com/free-fantasy-football-tournament-rotoballer-challenge-2026/1900460",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#rotoballer",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "apex-fantasy",
+      "name": "Apex Fantasy Free League Entry",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://apexfantasyleagues.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#apex-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fpl-official",
+      "name": "Official FPL (Premier League)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.premierleague.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fpl-official",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fpl-second-chance",
+      "name": "FPL Second Chance League",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.premierleague.com/en/news/4220308/the-second-chance-league-is-live-in-fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fpl-second-chance",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fpl-draft",
+      "name": "FPL Draft",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://draft.premierleague.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fpl-draft",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fantasy-efl",
+      "name": "Fantasy EFL",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.efl.com/prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fantasy-efl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "telegraph-ff",
+      "name": "Telegraph Fantasy Football",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasyfootball.telegraph.co.uk/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#telegraph-ff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ucl-fantasy",
+      "name": "UCL Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://gaming.uefa.com/en/uclfantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ucl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pl-predictor",
+      "name": "Premier League Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://premierleaguepredictor.co.uk/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pl-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pooltracker-epl",
+      "name": "Pooltracker EPL Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.pooltracker.com/game_info/english-premier-league-predictor.asp",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pooltracker-epl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ffs-fpl",
+      "name": "Fantasy Football Scout FPL league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.fantasyfootballscout.co.uk/2026/08/14/win-5000-worth-of-prizes-with-fantasy-football-scout-in-2026-27",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ffs-fpl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ffs-ucl",
+      "name": "FFScout UCL Fantasy league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.fantasyfootballscout.co.uk/mini-leagues",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ffs-ucl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ffs-efl",
+      "name": "FFScout Fantasy EFL league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.fantasyfootballscout.co.uk/mini-leagues",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ffs-efl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ffs-tattico",
+      "name": "FFScout Tattico Serie A league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasyfootballscout.co.uk/2026/08/15/join-our-tattico-fantasy-serie-a-league-win-750-in-prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ffs-tattico",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "football-mad",
+      "name": "Football Mad FPL league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.footballmad.co.uk/think-youre-a-fantasy-football-genius-prove-it-5-000-in-cash-prizes-up-for-grabs/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#football-mad",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fantasy-arena",
+      "name": "Fantasy Arena FPL league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fantasy-arena",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "lazyfpl",
+      "name": "LazyFPL league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.lazyfpl.com/readers-mini-league",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#lazyfpl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fplhub",
+      "name": "FPL Hub league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fplhub",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "bona-fide",
+      "name": "Bona Fide Sports league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#bona-fide",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "olka",
+      "name": "OLKA Express league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#olka",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fplmanager-india",
+      "name": "FPLManagerIndia league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fplmanager-india",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fplstore",
+      "name": "fplStore_ league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fplstore",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pitchbooking",
+      "name": "Pitchbooking.com league",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pitchbooking",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "dirty-dozen",
+      "name": "Dirty Dozen (Gambling.com)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.gambling.com/games/dirty-dozen",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#dirty-dozen",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "the-special-one",
+      "name": "The Special One",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://thespecialone.co.uk/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#the-special-one",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "andys-predictor",
+      "name": "Andy's Bet Club £1M Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://andysbetclub.co.uk/predictor-game/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#andys-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pickem-sports",
+      "name": "Pick 'Em Sports (iOS)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://apps.apple.com/us/app/pick-em-sports-nfl-cfb/id6737177213",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pickem-sports",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "sports-predictor",
+      "name": "Sports Predictor (iOS)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://apps.apple.com/us/app/sports-predictor-fantasy-game/id1445043792",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#sports-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "goaloracle",
+      "name": "GoalOracle",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://goaloracle.io/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#goaloracle",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "oddspedia",
+      "name": "Oddspedia Handicapping Contests",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://oddspedia.com/us/picks/capper-contests/wc2026-competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#oddspedia",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "streak-for-cash",
+      "name": "Streak for the Cash",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.streakforthecash.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#streak-for-cash",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "gamersaloon",
+      "name": "GamerSaloon 1-Rounders",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.gamersaloon.com/promos/1rounder/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#gamersaloon",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "playerslounge",
+      "name": "Players' Lounge Free Tournaments",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.playerslounge.com/madden",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#playerslounge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "officepoolstop",
+      "name": "OfficePoolStop",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://officepoolstop.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#officepoolstop",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "funofficepools",
+      "name": "FunOfficePools",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.funofficepools.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#funofficepools",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "mysurvivorpool",
+      "name": "MySurvivorPool",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://mysurvivorpool.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#mysurvivorpool",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "gridirongames",
+      "name": "Gridiron Games",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://gridirongames.com/football-pools/nfl-survivor/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#gridirongames",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "squarespool",
+      "name": "SquaresPool.com",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.squarespool.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#squarespool",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "HTTPS operator page replaces inherited HTTP pointer; pool tool is not evidence of an operator-funded cash prize."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "myfantasyleague",
+      "name": "MyFantasyLeague",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://home.myfantasyleague.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#myfantasyleague",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "trofeo",
+      "name": "Trofeo.live",
+      "category": "pools",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://trofeo.live/nfl-confidence-pool",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#trofeo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "mlb-beat-the-streak",
+      "name": "MLB Beat the Streak",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.mlb.com/apps/beat-the-streak/official-rules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#mlb-beat-the-streak",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "metaculus",
+      "name": "Metaculus Tournaments",
+      "category": "forecasting",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.metaculus.com/tournaments/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#metaculus",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "aicrowd",
+      "name": "AIcrowd Challenges",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.aicrowd.com/challenges",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#aicrowd",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "zindi",
+      "name": "Zindi",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://zindi.world/competitions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#zindi",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "codabench",
+      "name": "Codabench / CodaLab",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.codabench.org/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#codabench",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "grand-challenge",
+      "name": "Grand Challenge (medical imaging)",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://grand-challenge.org/challenges/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#grand-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "crunchdao",
+      "name": "CrunchDAO / ADIA Lab Challenges",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://hub.crunchdao.com/competitions/structural-break-real-time",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#crunchdao",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "mlcontests",
+      "name": "ML Contests",
+      "category": "directory",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://mlcontests.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#mlcontests",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-tourney-challenge",
+      "name": "ESPN Men’s Tournament Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/bracket",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-tourney-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-tc-eliminator",
+      "name": "ESPN Tournament Challenge Eliminator",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/mens-tournament-challenge-eliminator-2026/howtoplay",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-tc-eliminator",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "nascar-fantasy-live",
+      "name": "NASCAR Fantasy Live",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasygames.nascar.com/live/page/rules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#nascar-fantasy-live",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pga-fantasy-golf",
+      "name": "PGA TOUR Fantasy Golf",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasygolf.pgatour.com/prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pga-fantasy-golf",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "nhl-bracket-challenge",
+      "name": "NHL Stanley Cup Playoffs Bracket Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://bracketchallenge.nhl.com/en/how-to-play",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#nhl-bracket-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-nba-playoff",
+      "name": "ESPN NBA Playoff Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nba-playoff-challenge-2026/howtoplay",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-nba-playoff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "nba-pickem",
+      "name": "NBA Pick'Em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.nba.com/news/2026-nba-pick-em-bracket-challenge-is-now-live",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#nba-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "bundesliga-fantasy",
+      "name": "Bundesliga Fantasy Manager",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.bundesliga.com/en/bundesliga/news/official-fantasy-manager-season-2026-27-new-features-38255",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#bundesliga-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "laliga-fantasy",
+      "name": "La Liga Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.laliga.com/en-GB/legal/condiciones-de-uso-fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#laliga-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "swagbucks-trivia",
+      "name": "Swagbucks Daily Trivia",
+      "category": "trivia",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://help.swagbucks.com/hc/en-us/articles/15374709231764-What-is-Swagbucks-Daily-Trivia",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#swagbucks-trivia",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "99designs",
+      "name": "99designs Design Contests",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#99designs",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "freelancer-contests",
+      "name": "Freelancer.com Contests",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.freelancer.com/faq/topic.php?id=33",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#freelancer-contests",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "battlefy",
+      "name": "Battlefy Esports Tournaments",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://help.battlefy.com/en/articles/3940531-where-is-my-prize",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#battlefy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "challengermode",
+      "name": "Challengermode",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://support.challengermode.com/en/start-here/how-to-get-started-with-challengermode",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#challengermode",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "atp-fantasy",
+      "name": "ATP Fantasy (Official ATP Tour)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.atptour.com/en/news/atp-launches-official-fantasy-game-2026",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#atp-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "f1-fantasy",
+      "name": "F1 Fantasy (Official Formula 1)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.formula1.com/en/latest/article/boost-the-fun-with-friends-and-family-this-season-f1-fantasy-is-back.2xVBBN90riZiaYXeYhOe0Z",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#f1-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ewc-play",
+      "name": "Esports World Cup (EWC) Play — Fantasy & Pick'em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://esportsworldcup.com/en/play/fantasy/league-of-legends",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ewc-play",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-hockey-playoff",
+      "name": "ESPN Playoff Hockey Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/nhl-playoff-hockey-challenge-2026/group",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-hockey-playoff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-cfp-bracket",
+      "name": "ESPN College Football Playoff Bracket Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/college-football-playoff-challenge-2025/mostpickedchampions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-cfp-bracket",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-knockout-bracket",
+      "name": "ESPN Knockout Bracket Challenge (World Cup)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/mens-knockout-bracket-challenge-2026/howtoplay",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-knockout-bracket",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "mlb-hr-derby-pickem",
+      "name": "MLB Home Run Derby Pick'Em (T-Mobile)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.mlb.com/sponsorship/home-run-derby-pick-em/official-rules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#mlb-hr-derby-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tradingview-leap",
+      "name": "TradingView — The Leap",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.tradingview.com/the-leap/tradestation-july-2026/rules/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tradingview-leap",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "wall-street-survivor",
+      "name": "Wall Street Survivor Trading Contests",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.wallstreetsurvivor.com/contest-valentines-2026/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#wall-street-survivor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "start-gg",
+      "name": "Start.gg (formerly smash.gg)",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://start.gg/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#start-gg",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "chesscom-tournaments",
+      "name": "Chess.com Prize Tournaments",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.chess.com/announcements/view/chess-com-community-events",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#chesscom-tournaments",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "play-pokemon",
+      "name": "Play! Pokémon Championship Series",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.pokemon.com/us/play-pokemon",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#play-pokemon",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "designcrowd",
+      "name": "DesignCrowd Design Contests",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.designcrowd.com/help/article/what-are-community-contests-and-how-do-i-start-participating",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#designcrowd",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "crowdspring",
+      "name": "CrowdSpring Design Contests",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.crowdspring.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#crowdspring",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-womens-tourney",
+      "name": "ESPN Women's Tournament Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/tournament-challenge-bracket-women-2026/leaderboard",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-womens-tourney",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "yahoo-bracket-mayhem",
+      "name": "Yahoo Fantasy Bracket Mayhem",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://sports.yahoo.com/fantasy/article/yahoo-fantasy-bracket-mayhem-is-back-the-best-bracket-in-both-the-mens-and-womens-college-basketball-contests-will-win-25k-each-225407876.html",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#yahoo-bracket-mayhem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "bullrush",
+      "name": "BullRush Trading Competitions",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://bullrush.com/competition-types/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#bullrush",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "signate",
+      "name": "Signate (Japan) Data Competitions",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://signate.jp/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#signate",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tianchi",
+      "name": "Tianchi (Alibaba Cloud)",
+      "category": "tech",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://tianchi.aliyun.com/competition/entrance/532277?lang=en-us",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tianchi",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "hypermind",
+      "name": "Hypermind Forecasting Contests",
+      "category": "forecasting",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://dash.hypermind.com/hypermind/app.html",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#hypermind",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "moomoo-paper-trading",
+      "name": "moomoo Paper Trading Competition",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.nasdaq.com/press-release/moomoos-second-global-paper-trading-competition-powered-nasdaq-totalview-hits-150000",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#moomoo-paper-trading",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "superbru",
+      "name": "Superbru",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.superbru.com/worldcup/prizes.php",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#superbru",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "afl-fantasy",
+      "name": "AFL Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.afl.com.au/fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#afl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "nrl-fantasy",
+      "name": "NRL Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://nrlfantasy.zendesk.com/hc/en-us/articles/15492067192861-Prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#nrl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "espn-bowl-mania",
+      "name": "ESPN Capital One Bowl Mania",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.espn.com/games/college-football-bowl-mania-2025/picks",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#espn-bowl-mania",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ligue1-fantasy",
+      "name": "Ligue 1 Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://ligue1.com/en/fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ligue1-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "lol-pickem",
+      "name": "LoL Esports Pick'Em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#lol-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "six-nations-fantasy",
+      "name": "Six Nations Fantasy Rugby",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.sixnationsrugby.com/m6n/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#six-nations-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tattico-serie-a",
+      "name": "Tattico Fantasy Serie A",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://tattico.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tattico-serie-a",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "supercoach-bbl",
+      "name": "KFC SuperCoach BBL",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://supercoach.news.com.au/bbl/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#supercoach-bbl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fundednext",
+      "name": "FundedNext Monthly Trading Competition",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://help.fundednext.com/en/articles/11982105-how-to-win-fundednext-monthly-competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fundednext",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "for-traders",
+      "name": "For Traders Tournaments",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fortraders.com/tournaments",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#for-traders",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ninjatrader-arena",
+      "name": "NinjaTrader Arena",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://ninjatrader.com/ninjatrader-arena/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ninjatrader-arena",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "yahoo-daily-draw",
+      "name": "Yahoo Daily Draw",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://help.yahoo.com/kb/SLN36907.html",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#yahoo-daily-draw",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "dp-world-tour-fantasy",
+      "name": "Fantasy DP World Tour",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.europeantour.com/dpworld-tour/news/articles/detail/fantasy-dp-world-tour-is-back/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#dp-world-tour-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "the-open-fantasy",
+      "name": "The Open Championship Fantasy (Match Ups)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.theopen.com/fantasy/prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#the-open-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "sun-dream-team",
+      "name": "The Sun Dream Team",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.dreamteamfc.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#sun-dream-team",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "sky-sports-ff",
+      "name": "Sky Sports Fantasy Football",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.skysports.com/football/news/11095/12359927/sky-sports-fantasy-football-is-live-create-your-team-for-free-and-win-lb50-000",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#sky-sports-ff",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "cricket-draft",
+      "name": "The Cricket Draft",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thecricketdraft.com/prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#cricket-draft",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "icc-t20-fantasy",
+      "name": "ICC T20 World Cup Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://play.google.com/store/apps/editorial?id=mc_apps_edit_icc_fantasy_fcp&gl=GB&hl=en",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#icc-t20-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tim-hortons-hockey",
+      "name": "Tim Hortons NHL Hockey Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.timhortons.ca/tims-nhl-hockey-challenge",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tim-hortons-hockey",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "darts-corner-predictor",
+      "name": "Darts Corner Premier League Darts Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.dartscorner.co.uk/pages/premier-league-darts-predictor",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#darts-corner-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "spfl-fantasy",
+      "name": "William Hill Premiership (SPFL) Fantasy Football",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.football.scot/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#spfl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "euroleague-fantasy",
+      "name": "EuroLeague Fantasy Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.euroleaguebasketball.net/euroleague/fantasy/prizes-and-rules/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#euroleague-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "valorant-pickem",
+      "name": "Valorant Champions Pick'Em",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://x.com/ValorantEsports/status/1963633815282405466",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#valorant-pickem",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "eredivisie-fantasy",
+      "name": "ESPN Fantasy Voetbal (Eredivisie)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://eredivisie.com/news/this-is-espn-fantasy-voetbal-the-official-game-of-the-vriendenloterij-eredivisie/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#eredivisie-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "deriv-tournaments",
+      "name": "Deriv Trading Tournaments",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://deriv.com/newsroom/updates/free-trading-tournaments-virtual-funds-cash-prizes",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#deriv-tournaments",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "multibank-demo",
+      "name": "MultiBank Group Demo Trading Competition",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://tradfi.multibankgroup.com/en/lp-n/demo-competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#multibank-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "xm-demo",
+      "name": "XM Demo Competition (Demo Weekly)",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.myfxbook.com/press-release/xmrsquos-anniversary-demo-competitions-now-live-ndash-join-the-celebration-with-a-100000-prize-pool-/33454",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#xm-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "headway-demo",
+      "name": "Headway No Limits Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.myfxbook.com/press-release/headway-launches-no-limits-demo/41776",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#headway-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "hfm-demo",
+      "name": "HFM Virtual to Real Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.hfm.com/int/en/promotions/demo-contest",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#hfm-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "litefinance-best",
+      "name": "LiteFinance Best of the Best Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.litefinance.org/contests/demo/best/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#litefinance-best",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tradingcom-paper",
+      "name": "Trading.com Paper Trading Competition",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.trading.com/us/forex-trading-competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tradingcom-paper",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tickmill-nfp",
+      "name": "Tickmill NFP Machine",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.tickmill.com/promotions/nfp-machine",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tickmill-nfp",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "roboforex-demo",
+      "name": "RoboForex Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://roboforex.com/forex-trading/trading/trading-accounts/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#roboforex-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official contest path redirects to trading accounts; historical 2011 contest article is not a current offer. Current contest terms unverified."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fbs-pro-demo",
+      "name": "FBS Pro Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fbs.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fbs-pro-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official operator homepage retrieved; historical contest news URL returns a branded 404. Current contest terms unverified."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "npbfx-demo",
+      "name": "NPBFX Trading Battle Demo Contest",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.nmarkets.org/fr/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#npbfx-demo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official NPBFX demo-account URL redirects to nmarkets.org; no current Trading Battle terms confirmed."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "cev-volley-fantasy",
+      "name": "CEV Champions League Volley Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://cevmatchpredictor.zendesk.com/hc/en-us/articles/12463995830941-CEV-Champions-League-Fantasy-Terms-Conditions",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#cev-volley-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "vnl-fantasy",
+      "name": "VNL Fantasy (Volleyball Nations League)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/news/vnl-fantasy-unveiling-the-new-fantasy-experience",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#vnl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "cev-predictor",
+      "name": "CEV Champions League Predictor Game",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/win-fantastic-prizes-with-the-clvolleyw-predictor-game/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#cev-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "super-league-fantasy",
+      "name": "Betfred Super League Fantasy (Rugby League)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasy.superleague.co.uk/prizes-winners",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#super-league-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "super-league-predictor",
+      "name": "Betfred Super League Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.superleague.co.uk/article/5728/play-super-league-predictor-in-2026",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#super-league-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "motogp-fantasy",
+      "name": "MotoGP Fantasy (Official)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.motogp.com/en/news/2026/02/18/motogp-fantasy-play-smart-and-win-big/874823",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#motogp-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "the-hundred-fantasy",
+      "name": "The Hundred Fantasy (ECB)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.thehundred.com/terms/fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#the-hundred-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "indycar-fantasy",
+      "name": "INDYCAR Fantasy Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.indycar.com/fantasychallenge/indycar/fullrules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#indycar-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "super-rugby-fantasy",
+      "name": "Fantasy Super Rugby Pacific",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://playfantasyrugby.com/rugby-championship/help/game-guidelines",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#super-rugby-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fantasy-gaa",
+      "name": "Fantasy Gaelic Football (GAA)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasygaelicfootball.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fantasy-gaa",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "film-prize",
+      "name": "Louisiana Film Prize (Prize Fest)",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.prizefest.com/film/rules/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#film-prize",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "pensacola-songwriting",
+      "name": "Pensacola Beach Songwriters Festival Competition",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://pensacolabeachsongwritersfestival.com/2026-songwriting-competition/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#pensacola-songwriting",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "young-lions",
+      "name": "Young Lions Fiction Award (NYPL)",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.nypl.org/about/awards/young-lions-fiction-award/submission-form",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#young-lions",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "afl-tipping",
+      "name": "AFL Tipping",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.afl.com.au/news/1469992/play-afl-tipping-25k-up-for-grabs-new-game-launched",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#afl-tipping",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "aflw-tipping",
+      "name": "AFLW Tipping",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.afl.com.au/aflw/news/1555826/aflw-tipping-is-back-for-2026-with-new-games-and-huge-prizes-to-be-won",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#aflw-tipping",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "supercoach-afl",
+      "name": "KFC SuperCoach AFL",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.codesports.com.au/afl/supercoach-news/supercoach-afl-returns-for-2026-heres-everything-you-need-to-know/news-story/a5da766fdefa2f0cd3e31252a4848ef8",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#supercoach-afl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "supercoach-nrl",
+      "name": "KFC SuperCoach NRL",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://supercoach.com.au/nrl",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#supercoach-nrl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "supercoach-nbl",
+      "name": "SuperCoach NBL",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.nbl.com.au/news/supercoach-nbl-start-picking-your-team-now",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#supercoach-nbl",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "wsl-fantasy",
+      "name": "WSL Fantasy (Barclays Women's Super League)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.tottenhamhotspur.com/news/1086226/women-everything-you-need-to-know-about-the-wsls-new-fantasy-game",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#wsl-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ti-compendium",
+      "name": "The International (Dota 2) Compendium Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.dota2.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ti-compendium",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ibu-ecup",
+      "name": "IBU eCup (Winter Sports Mania)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.biathlonworld.com/inside-ibu/marketing/ibu-biathlon-ecup",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ibu-ecup",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tom-howard-poetry",
+      "name": "Tom Howard/Margaret Reid Poetry Contest",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://winningwriters.com/our-contests/tom-howard-margaret-reid-poetry-contest",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tom-howard-poetry",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "wergle-flomp",
+      "name": "Wergle Flomp Humor Poetry Contest",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://winningwriters.com/our-contests/wergle-flomp-humor-poetry-contest-free",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#wergle-flomp",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "aflw-fantasy",
+      "name": "AFLW Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.afl.com.au/aflw/news/1550791/win-a-37k-toyota-huge-prizes-on-offer-in-aflw-fantasy",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#aflw-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "tff-fantezi-lig",
+      "name": "TFF Fantezi Lig (Turkish Süper Lig)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://tfffantezilig.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#tff-fantezi-lig",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit.",
+        "Official game site is linked by TFF; inherited fantazilig.tff.org hostname was reported dead. Current cash-prize terms unverified."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "mxa-fantasy",
+      "name": "MXA Fantasy League (Supercross/Motocross)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://motocrossactionmag.com/fantasy-mx-sx/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#mxa-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "kinolime",
+      "name": "Kinolime Script-to-Screen Competition",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.kinolime.com/competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#kinolime",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "bridgewater-forecast",
+      "name": "Bridgewater Forecasting the Future Challenge",
+      "category": "forecasting",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.bridgewater.com/forecasting-the-future-a-modern-economics-challenge",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#bridgewater-forecast",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "streak-contest",
+      "name": "Streak Contest (MobLab)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://apps.apple.com/us/app/streak-contest/id1623816920",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#streak-contest",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "premiership-rugby-fantasy",
+      "name": "Fantasy Premiership Rugby",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.leicestertigers.com/news/fantasy-premiership-2223-launch",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#premiership-rugby-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "aleague-fantasy",
+      "name": "A-Leagues Fantasy",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://aleagues.com.au/news/official-a-leagues-fantasy-the-handbook/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#aleague-fantasy",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "agentmma",
+      "name": "AgentMMA UFC Fantasy Contest",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://agentmma.com/contests/next",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#agentmma",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "formula-e-predictor",
+      "name": "Formula E Predictor",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.fiaformulae.com/en/news/9291",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#formula-e-predictor",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "telegraph-fantasy-racing",
+      "name": "Telegraph Fantasy Racing",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fantasyracing.telegraph.co.uk/cheltenham/how-to-play",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#telegraph-fantasy-racing",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "stable-stars",
+      "name": "Stable Stars (Cheltenham Festival)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://cheltenhamfestival.fans/stable-stars/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#stable-stars",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "stablestakes",
+      "name": "StableStakes (Fantasy Horse Racing)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://stablestakes.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#stablestakes",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ohha-harness",
+      "name": "OHHA Harness Racing Fantasy League",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://ustrottingnews.com/ohhas-fantasy-league-returns-with-more-ways-to-win/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ohha-harness",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "running-aces-harness",
+      "name": "Running Aces Fantasy Horse Racing League",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://runaces.com/racing/live-racing/fantasy-horse-racing-league/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#running-aces-harness",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ultimate-fantasy-tennis",
+      "name": "Ultimate Fantasy Tennis",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://ultimatefantasytennis.com/blog/what-is-fantasy-tennis",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ultimate-fantasy-tennis",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "ncga-majors-challenge",
+      "name": "NCGA Majors Challenge",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://ncga.org/majorschallenge",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#ncga-majors-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "majors-challenge",
+      "name": "Majors Challenge Perfect Team Contest",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://thegolfwire.com/majors-challenge-perfect-team-contest-masters/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#majors-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "teepster",
+      "name": "Teepster Fantasy Golf",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.teepster.com/the-open-championship/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#teepster",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fantasy-golf-challenge",
+      "name": "Fantasy Golf Challenge (GolfBalls.com)",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://golfgamecentral.com/fantasy-challenge.php",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fantasy-golf-challenge",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "checkmate-gaming",
+      "name": "Checkmate Gaming (CMG) Free Tournaments",
+      "category": "skill",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.checkmategaming.com/free-tournaments",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#checkmate-gaming",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "buzz-fantasy-golf",
+      "name": "Buzz Fantasy Golf",
+      "category": "sports",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://buzzfantasygolf.com/services/FreeGameRules",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#buzz-fantasy-golf",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "fundedfast-open",
+      "name": "FundedFast Open",
+      "category": "market",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://fundedfast.com/trading-competition",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#fundedfast-open",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "hipa",
+      "name": "Hamdan International Photography Award (HIPA)",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.hipa.ae/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#hipa",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "sony-world-photo",
+      "name": "Sony World Photography Awards",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.worldphoto.org/sony-world-photography-awards",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#sony-world-photo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "world-press-photo",
+      "name": "World Press Photo Contest",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.worldpressphoto.org/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#world-press-photo",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "weather-potw",
+      "name": "Weather Photographer of the Year",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://www.rmets.org/weather-photographer-of-the-year",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#weather-potw",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "epoty",
+      "name": "Environmental Photographer of the Year (EPOTY)",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://epoty.org/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#epoty",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "spie-light",
+      "name": "SPIE International Day of Light Photo Contest",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://spie.org/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#spie-light",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    },
+    {
+      "id": "istanbul-photo-awards",
+      "name": "Istanbul Photo Awards",
+      "category": "creative",
+      "kind": "inherited",
+      "status": "needs-review",
+      "official_url": "https://istanbulphotoawards.com/",
+      "provenance_url": "https://karagemop466-tech.github.io/FreeMoneyApps/#istanbul-photo-awards",
+      "fields": {
+        "free": "",
+        "prize": "",
+        "deadline": "",
+        "eligibility": "",
+        "agent": "",
+        "requirements": "",
+        "payout": ""
+      },
+      "flags": [
+        "Inherited listing: current prize, free entry, deadline, eligibility, payout and AI rules have not been confirmed by an official source in this audit."
+      ],
+      "evidence": [],
+      "agent_policy": "unreviewed",
+      "window": "unknown"
+    }
+  ]
+}
