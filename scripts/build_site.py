@@ -247,7 +247,13 @@ def controls(show_cat=True):
 <button class="reset" type="button" id="reset">Reset</button>
 </div><p class="count" id="count" role="status"></p>'''
 
-NAV = [("index.html", "Overview"), ("contests.html", "All competitions"), ("summary.html", "Executive summary"), ("review.html", "Flagged for review")]
+NAV = [
+    ("index.html", "Overview"),
+    ("contests.html", "All competitions"),
+    ("summary.html", "Executive summary"),
+    ("review.html", "Flagged for review"),
+    ("audits/index.html", "Research audits"),
+]
 
 def layout(file, title, subtitle, body, active="", cat_active=""):
     nav = "".join(f'<a href="{u}" class="{"active" if active == u else ""}">{esc(t)}</a>' for u, t in NAV)
@@ -357,6 +363,7 @@ body = f'''
   </dl>
   <p>An independent second audit of 13 of these leads, run in parallel on the same day, is preserved at
   <a href="audits/2026-11-01/index.html">audits/2026-11-01</a>; its findings are folded into the evidence panels here.</p>
+  <p>Independent audits use separate, limited scopes and do not re-verify the entire ledger. Browse the <a href="audits/index.html">research audit index</a> for the dated reports and each report's Flagged for Review page.</p>
   <p>Values that could not be confirmed are left blank. The ledger's original wording is shown only inside a row's evidence panel, explicitly labelled as a claim that was <em>not</em> adopted. Full method and limitations are on the <a href="summary.html">executive summary</a>; every unresolved item is on <a href="review.html">Flagged for review</a>.</p>
 </section>
 '''
