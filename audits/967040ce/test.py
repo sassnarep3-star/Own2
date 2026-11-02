@@ -50,5 +50,5 @@ for name in ('index.html', 'flagged.html'):
     for row in rows:
         assert row['source'] in links.sources
         assert row['name'].replace('&', '&amp;') in page
-assert len(re.findall('<tr>', before['index.html'])) == 4
+assert len(re.findall('<tr>', before['index.html'])) == 5
 print('OK: four distinct legacy IDs, source and quote coverage, blank policy, reproducibility, mobile metadata, internal links')
